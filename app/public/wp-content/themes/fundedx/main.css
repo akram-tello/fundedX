@@ -841,6 +841,9 @@ video {
 .pb-10 {
 	padding-bottom: 2.5rem;
 }
+.pt-20 {
+	padding-top: 5rem;
+}
 .pt-80px {
 	padding-top: 80px;
 }
@@ -1388,47 +1391,56 @@ img.absolute {
 	}
 }
 .module--faq {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
 }
 @media (min-width: 768px) {
 
 	.module--faq {
-		padding-top: 80px;
-		padding-bottom: 80px;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
 	}
 }
+.faq-list {
+        margin-bottom: 5rem;
+    }
 .faq-group__item {
-	margin-bottom: 50px;
+	margin-bottom: 3rem;
 }
 .faq-list__item {
-	margin-bottom: 20px;
+	margin-bottom: 1.25rem;
+	border-bottom-width: 1px;
 }
 .faq-list__item.active .faq-answer {
 	display: block;
 }
-.faq-list__item.active .faq-question::after {
-                    content: '-';
-                }
+.faq-list__item.active .faq-icon {
+	--tw-rotate: 180deg;
+	transform: var(--tw-transform);
+}
 .faq-question {
 	display: flex;
 	cursor: pointer;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	border-width: 1px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
 }
-.faq-question::after {
-        content: '+';
-
-    }
 .faq-answer {
 	display: none;
-	padding: 30px;
+	padding: 2rem;
+}
+.faq-icon {
+	transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+	transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+	transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 150ms;
+	transition-duration: 300ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .module--text-with-media {
 	padding-top: 40px;

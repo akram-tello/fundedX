@@ -1,37 +1,34 @@
 .module--faq {
-    @apply py-40px md:py-80px;
-}
-
-.faq-group {
-    &__item {
-        @apply mb-50px;
-    }
+    @apply py-10 md:py-20;
 }
 
 .faq {
     &-list {
-        &__item {
-            @apply mb-20px;
+        margin-bottom: 5rem;
+    }
+}
+
+.faq-group__item {
+    @apply mb-12;
+}
+
+.faq-list__item {
+    @apply mb-5 border-b;
             
-            &.active {
-                .faq-answer { @apply block; }
-                .faq-question::after {
-                    content: '-';
-                }
-            }
-        }
+    &.active {
+        .faq-answer { @apply block; }
+        .faq-icon { @apply rotate-180; } 
     }
+}
 
-    &-question {
-        @apply py-10px px-20px border flex flex-wrap justify-between items-center cursor-pointer;
-    }
+.faq-question {
+    @apply py-2 px-5 flex flex-wrap justify-between items-center cursor-pointer;
+}
 
-    &-question::after {
-        content: '+';
+.faq-answer {
+    @apply hidden p-8;
+}
 
-    }
-
-    &-answer {
-        @apply hidden p-30px;
-    }
+.faq-icon {
+    @apply transition ease-in-out duration-300;
 }
