@@ -19,8 +19,11 @@
                 <?php endif; ?>
                 <h2 class="module--title banner-title"><?= $heading ?></h2>
             </div>
+
             <?php if( !empty( $sub_text ) ): ?>
-                <p><?= $sub_text ?></p>
+                <div class="module--banner-content flex items-start lg:col-span-6 lg:w-1/2 w-full">
+                    <p><?= $sub_text ?></p>
+                </div>
             <?php endif; ?>
         </div>
     </div>
