@@ -1,0 +1,55 @@
+.module--how-it-works {
+    &:before {
+        content: '';
+        background-image: url('img/home-bg-min.png');
+        background-size: cover;
+        background-position: top;
+        position: absolute;
+        height: 3300px;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+}
+.box-list {
+    flex: 0 0 33%;
+
+    &:nth-child(2) {
+        svg {
+            g#Box-7 {
+                stroke: #858585;
+            }
+        }
+        h2 {
+            @apply text-[#646464];
+        }
+    }
+
+    &:last-child {
+        svg {
+            g#Box-7 {
+                stroke: #cacaca;
+            }
+        }
+        h2 {
+            @apply text-[#CACACA];
+        }
+    }
+}
+
+.box-content {
+    @apply text-right top-1/2 -translate-y-1/2 h-auto max-w-180px;
+    left: initial;
+    right: 26%;
+
+    h2 {
+        @apply text-54px;
+    }
+    h4 {
+        @apply text-25px font-medium;
+    }
+    p {
+        @apply text-14px;
+    }
+}

@@ -1,0 +1,69 @@
+.module--hero {}
+
+.hero {
+    &-item {
+        @apply relative;
+
+        .bg {
+            @apply w-full;
+        }
+    }
+
+    &-content {
+        @apply absolute top-0 left-0 w-full h-full flex;
+
+        .wrapper {
+            @apply py-30px;
+        }
+
+        &.mobile-top {
+            @apply items-start;
+        }
+
+        &.mobile-middle {
+            @apply items-center;
+        }
+
+        &.mobile-bottom {
+            @apply items-end;
+        }
+
+
+        &.mobile-left .wrapper {
+            @apply text-left;
+        }
+
+        &.mobile-right .wrapper {
+            @apply text-right;
+        }
+
+        &.mobile-center .wrapper{
+            @apply text-center;
+        }
+
+        &.desktop-top {
+            @apply lg:items-start;
+        }
+
+        &.desktop-middle {
+            @apply lg:items-center;
+        }
+
+        &.desktop-bottom {
+            @apply lg:items-end;
+        }
+
+
+        &.desktop-left .wrapper {
+            @apply lg:text-left;
+        }
+
+        &.desktop-right .wrapper {
+            @apply lg:text-right;
+        }
+
+        &.desktop-center .wrapper{
+            @apply lg:text-center;
+        }
+    }
+}

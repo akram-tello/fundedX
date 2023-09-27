@@ -1,0 +1,37 @@
+.footer-content {
+    @apply flex justify-between;
+}
+
+.footer-logo {
+    img {
+        @apply max-w-200px;
+    }
+}
+
+.disclaimer{
+    p{
+        font-size: 10px; font-weight: 200;
+    }
+}
+
+.footer-navigation {
+    ul {
+        li {
+            font-weight: 500;
+        }
+    }
+    .mail{
+        font-weight: 200;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .top-footer{
+        @apply p-8;
+    }
+}
+
+.border-top-line{
+    border-top: 1px solid rgb(139, 163, 191);
+}

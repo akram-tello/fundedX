@@ -1,0 +1,18 @@
+.module--text-with-media {
+    @apply py-40px md:py-80px;
+}
+
+.text {
+    &-with-media {
+        @apply md:flex md:justify-between;
+
+        &.align-right {
+            @apply md:flex md:flex-row-reverse;
+        }
+    }
+
+    &-media,
+    &-content {
+        @apply md:flex-half;
+    }
+}

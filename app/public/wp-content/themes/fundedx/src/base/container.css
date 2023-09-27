@@ -1,0 +1,3 @@
+.wrapper {
+    @apply max-w-max-95 md:max-w-wrap px-30px mx-auto w-full;
+}

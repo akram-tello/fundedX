@@ -1,0 +1,71 @@
+.module-broker-title {
+    max-width: 230px;
+
+    img {
+        max-width: 218px;
+        margin: 15px 0;
+    }
+
+    p {
+        color: #141414;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 600;
+
+        &.small {
+            font-weight: normal;
+            font-size: 13px;
+            color: #212930;
+        }
+    }
+}
+
+.partner-logo {
+    a {
+        max-width: 133px;
+        display: block;
+        margin-bottom: 10px;
+        transition: all .3s ease-in-out;
+        transform: scale(1);
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+.module-broker-title {
+    max-width: 230px;
+
+    img {
+        max-width: 218px;
+        margin: 15px 0;
+    }
+
+    p {
+        color: #141414;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 600;
+
+        &.small {
+            font-weight: normal;
+            font-size: 13px;
+            color: #212930;
+        }
+    }
+}
+
+.partner-logo {
+    a {
+        max-width: 133px;
+        display: block;
+        margin-bottom: 10px;
+        transition: all .3s ease-in-out;
+        transform: scale(1);
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

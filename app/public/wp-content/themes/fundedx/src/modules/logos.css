@@ -1,0 +1,14 @@
+.module--logo-carousel {
+    @apply py-25px;
+
+    h2 {
+        @apply mb-0 uppercase font-semibold text-white text-14px;
+        letter-spacing: 0.35px;
+    }
+}
+.logo-carousel {
+    @apply max-w-900px m-auto;
+}
+.logo-item {
+    @apply max-w-130px;
+}

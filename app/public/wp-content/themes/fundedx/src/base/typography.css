@@ -1,0 +1,56 @@
+body {
+    @apply font-maven text-16px text-primary;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    &:hover {
+        @apply text-gray;
+    }
+}
+p {
+    @apply mb-15px;
+
+    &:last-child {
+        @apply mb-0;
+    }
+}
+h1,h2,h3,h4,h5 {
+    @apply font-bold text-primary mb-5px;
+}
+.text-light {
+    h1,h2,h3,h4,h5,p,a {
+        @apply text-white;
+    }
+
+    a {
+        &:hover {
+            @apply text-gray;
+        }
+
+        &.btn--light {
+            @apply text-primary;
+
+            &:hover {
+                @apply text-white;
+            }
+        }
+    }
+}
+
+h1 {
+    @apply text-54px;
+}
+
+h2 {
+    @apply text-35px;
+
+    &.module-title {
+        @apply capitalize;
+    }
+}
+
+.module-title-holder {
+    p {
+        @apply opacity-[.87];
+    }
+}

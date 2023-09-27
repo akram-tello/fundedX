@@ -1,0 +1,13 @@
+
+.bg-primary {
+    @apply bg-primary;
+}
+.bg-gray {
+    @apply bg-gray;
+}
+.mw-511 {
+    @apply max-w-511px;
+}
+.module {
+    @apply relative;
+}

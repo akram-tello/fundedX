@@ -1,0 +1,18 @@
+.module--testimonial {
+    @apply py-40px py-80px;
+
+
+    .testimonials {
+        @apply flex justify-between;
+
+        &--item {
+            @apply flex-third text-center;
+        }
+
+        img {
+            @apply w-100px h-100px rounded-full block mx-auto;
+        }
+
+
+    }
+}

@@ -1,0 +1,2 @@
+2023/09/27 18:56:00 [error] 6125#0: *553 directory index of "/Users/akramtello/Local Sites/fundedn/app/public/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:10023", referrer: "http://localhost:10023/about-us/"
+2023/09/27 18:58:17 [error] 6125#0: *560 directory index of "/Users/akramtello/Local Sites/fundedn/app/public/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:10023"

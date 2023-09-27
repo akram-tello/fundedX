@@ -1,0 +1,105 @@
+.card {
+    &-holder {
+        @apply mx-20px bg-white rounded-bl-10px rounded-br-10px mb-30px opacity-30;
+        box-shadow: 0px 3px 12px #00000029;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        -o-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        margin-top: 40px;
+        margin-bottom: 70px;
+        transition: all .5s ease-in-out;
+
+        &.slick-current {
+            @apply opacity-100;
+        }
+    }
+
+    &-header {
+        @apply py-20px px-30px bg-[#646464] text-white flex justify-between rounded-10px;
+        box-shadow: 0px 3px 12px #00000029;
+    
+        h3 {
+            @apply text-[#FFFEFC] capitalize text-35px;
+            letter-spacing: 0.54px;
+    
+        }
+    }
+
+    &-price {
+        p, h4 {
+            @apply mb-0;
+        }
+    }
+
+    &-body {
+        @apply py-20px px-30px;
+    
+        &-list {
+            @apply mb-10px pb-10px;
+            border-bottom: 1px solid #eaedeb;
+
+            p {
+                @apply mb-0 text-14px;
+            }
+            .body-title {
+                @apply font-semibold;
+            }
+
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+    }
+
+    &-btn {
+        @apply pb-20px px-30px;
+
+        .btn {
+            @apply text-14px font-semibold py-10px;
+        }
+        
+    }
+
+    &-img {
+        box-shadow: 0px 3px 26px #00000029;
+
+        img {
+            border-radius: 10px;
+        }
+    }
+}
+
+.slick-prev,
+.slick-next {
+    &:before {
+        @apply absolute w-40px h-40px -left-10px;
+        content: '';
+        background-image: url('img/icon-left.svg');
+    }
+}
+
+.slick-next {
+    &:before {
+        background-image: url('img/icon-right.svg');
+    }
+}
+
+.slick-active {
+    &.card--next {
+        transform: perspective(1500px) rotateY(-40deg);
+        transform-origin: 5% 25%;
+    }
+
+    &.card--prev {
+        transform: perspective(1500px) rotateY(40deg);
+        transform-origin: 100% 25%;
+    }
+}
+
+.module--video-carousel {
+    .slick-dots {
+        @apply hidden !important;
+    }
+}

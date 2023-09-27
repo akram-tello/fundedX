@@ -1,0 +1,56 @@
+.module--article {
+    @apply py-40px md:py-80px relative;
+
+    .bg {
+        @apply absolute top-0 left-0 w-full h-full object-cover opacity-[0.5];
+    }
+
+    .wrapper {
+        @apply relative z-[1];
+    }
+
+    .article-card {
+        @apply bg-white p-[3rem] rounded-[10px];
+        padding-inline: 6rem;
+    }
+
+    .module--title {
+        @apply text-center text-[48px] leading-none tracking-[2.4px] capitalize;
+    }
+
+    .article-list {
+        .article-list__item {
+            @apply list-decimal list-inside;
+            margin-block: 1.5rem;
+            padding: 0 2rem;
+            /* text-align: justify; */
+
+            .article-text {
+                @apply text-[14px] leading-none tracking-[0px] text-left;
+                padding-inline-start: 2.5rem;
+            }
+        }
+    }
+
+    .additional-text-before{
+        padding-top: 3rem;
+    }
+
+    .additional-text-after{
+        padding-bottom: 1rem;
+    }
+
+    @media (max-width: 767px) {
+        .article-card {
+            padding: 0;
+            padding-inline: 0;
+        }
+        .additional-text-after, .additional-text-before {
+            padding-inline: 2rem;
+        }
+    }
+}
+
+.akram{
+    color: red;
+}

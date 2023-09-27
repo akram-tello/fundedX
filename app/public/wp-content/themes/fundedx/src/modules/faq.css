@@ -1,0 +1,37 @@
+.module--faq {
+    @apply py-40px md:py-80px;
+}
+
+.faq-group {
+    &__item {
+        @apply mb-50px;
+    }
+}
+
+.faq {
+    &-list {
+        &__item {
+            @apply mb-20px;
+            
+            &.active {
+                .faq-answer { @apply block; }
+                .faq-question::after {
+                    content: '-';
+                }
+            }
+        }
+    }
+
+    &-question {
+        @apply py-10px px-20px border flex flex-wrap justify-between items-center cursor-pointer;
+    }
+
+    &-question::after {
+        content: '+';
+
+    }
+
+    &-answer {
+        @apply hidden p-30px;
+    }
+}

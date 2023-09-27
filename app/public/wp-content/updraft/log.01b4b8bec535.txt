@@ -1,0 +1,203 @@
+0000.002 () Opened log file at time: Mon, 25 Sep 2023 07:51:55 +0000 on http://localhost:10023
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.10 WP: 6.3.1 PHP: 8.1.23 (fpm-fcgi, Darwin akrams-MacBook-Air.local 22.6.0 Darwin Kernel Version 22.6.0: Wed Jul  5 22:22:52 PDT 2023; root:xnu-8796.141.3~6/RELEASE_ARM64_T8103 arm64) MySQL: 8.0.16 (max packet size=33554432) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.8M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 49414.8 MB
+0000.015 () Restore setup, now closing connection and starting restore over AJAX.
+0000.001 () Opened log file at time: Mon, 25 Sep 2023 07:51:55 +0000 on http://localhost:10023
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.10 WP: 6.3.1 PHP: 8.1.23 (fpm-fcgi, Darwin akrams-MacBook-Air.local 22.6.0 Darwin Kernel Version 22.6.0: Wed Jul  5 22:22:52 PDT 2023; root:xnu-8796.141.3~6/RELEASE_ARM64_T8103 arm64) MySQL: 8.0.16 (max packet size=33554432) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.4M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 49414.1 MB
+0000.002 () Ensuring WP_Filesystem is setup for a restore
+0000.002 () WP_Filesystem is setup and ready for a restore
+0000.005 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_g5t6zg_options","wp_g5t6zg_users","wp_g5t6zg_usermeta","wp_g5t6zg_commentmeta","wp_g5t6zg_comments","wp_g5t6zg_links","wp_g5t6zg_postmeta","wp_g5t6zg_posts","wp_g5t6zg_term_relationships","wp_g5t6zg_term_taxonomy","wp_g5t6zg_termmeta","wp_g5t6zg_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.006 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.007 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.008 () Entity: db
+0000.008 () restore_backup(backup_file=backup_2023-09-25-0645_FundedX_f27c7715533e-db.gz, type=db, info=a:0:{}, last_one=)
+0000.008 () Unpacking backup... (backup_2023-09-25-0645_FundedX_f27c7715533e-db.gz, 0.3 Mb)
+0000.008 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.009 () Database successfully unpacked
+0000.009 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.009 () Using direct MySQL access; value of use_mysqli is: 1
+0000.010 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.052 () Max packet size: 32 MB
+0000.052 () Entering maintenance mode
+0000.052 () Enabling Maintenance mode&#8230;
+0000.060 () Backup of: https://funadm.dreamhosters.com
+0000.063 () Content URL: https://funadm.dreamhosters.com/wp-content
+0000.063 () Uploads URL: https://funadm.dreamhosters.com/wp-content/uploads
+0000.063 () Old table prefix: wp_g5t6zg_
+0000.064 () Old ABSPATH: /home/dh_mbjqsu/funadm.dreamhosters.com/
+0000.064 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.064 () Site information: multisite=0
+0000.064 () Site information: sql_mode=NO_ENGINE_SUBSTITUTION
+0000.064 () New table prefix: bl_
+0000.065 () Processing table (InnoDB): wp_g5t6zg_options - will restore as: bl_options
+0000.123 () Atomic restore: dropping original table (wp_options)
+0000.127 () Atomic restore: renaming new table (bl_options) to final table name (wp_options)
+0000.129 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0000.156 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.156 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.156 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.156 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.156 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.156 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.161 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.164 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.164 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.173 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, wp-content/plugins/updraftplus/options.php)
+0000.173 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, wp-content/plugins/updraftplus/options.php)
+0000.206 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.207 () Options table fields changed OK
+0000.216 () Search and replacing table: wp_options: rows: 313
+0000.220 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0000.231 () Processing table (InnoDB): wp_g5t6zg_users - will restore as: bl_users
+0000.243 () Atomic restore: dropping original table (wp_users)
+0000.249 () Atomic restore: renaming new table (bl_users) to final table name (wp_users)
+0000.260 () Search and replacing table: wp_users: rows: 2
+0000.260 () Processing table (InnoDB): wp_g5t6zg_usermeta - will restore as: bl_usermeta
+0000.267 () Atomic restore: dropping original table (wp_usermeta)
+0000.269 () Atomic restore: renaming new table (bl_usermeta) to final table name (wp_usermeta)
+0000.272 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.273 () Usermeta table fields changed OK
+0000.274 () Search and replacing table: wp_usermeta: rows: 55
+0000.275 () Processing table (InnoDB): wp_g5t6zg_commentmeta - will restore as: bl_commentmeta
+0000.280 () Atomic restore: dropping original table (wp_commentmeta)
+0000.282 () Atomic restore: renaming new table (bl_commentmeta) to final table name (wp_commentmeta)
+0000.287 () Search and replacing table: wp_commentmeta: rows: 0
+0000.287 () Processing table (InnoDB): wp_g5t6zg_comments - will restore as: bl_comments
+0000.297 () Atomic restore: dropping original table (wp_comments)
+0000.300 () Atomic restore: renaming new table (bl_comments) to final table name (wp_comments)
+0000.305 () Search and replacing table: wp_comments: rows: 1
+0000.305 () Processing table (InnoDB): wp_g5t6zg_links - will restore as: bl_links
+0000.311 () Atomic restore: dropping original table (wp_links)
+0000.315 () Atomic restore: renaming new table (bl_links) to final table name (wp_links)
+0000.321 () Search and replacing table: wp_links: rows: 0
+0000.321 () Processing table (InnoDB): wp_g5t6zg_postmeta - will restore as: bl_postmeta
+0000.328 () Atomic restore: dropping original table (wp_postmeta)
+0000.330 () Atomic restore: renaming new table (bl_postmeta) to final table name (wp_postmeta)
+0000.333 () Search and replacing table: wp_postmeta: rows: 0
+0000.333 () Processing table (InnoDB): wp_g5t6zg_posts - will restore as: bl_posts
+0000.374 () Atomic restore: dropping original table (wp_posts)
+0000.377 () Atomic restore: renaming new table (bl_posts) to final table name (wp_posts)
+0000.381 () Skipping search/replace on GUID column in posts table
+0000.382 () Search and replacing table: wp_posts: rows: 220
+0000.423 () Processing table (InnoDB): wp_g5t6zg_term_relationships - will restore as: bl_term_relationships
+0000.428 () Atomic restore: dropping original table (wp_term_relationships)
+0000.430 () Atomic restore: renaming new table (bl_term_relationships) to final table name (wp_term_relationships)
+0000.433 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0000.433 () Processing table (InnoDB): wp_g5t6zg_term_taxonomy - will restore as: bl_term_taxonomy
+0000.438 () Atomic restore: dropping original table (wp_term_taxonomy)
+0000.440 () Atomic restore: renaming new table (bl_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.445 () Search and replacing table: wp_term_taxonomy: rows: 3
+0000.445 () Processing table (InnoDB): wp_g5t6zg_termmeta - will restore as: bl_termmeta
+0000.449 () Atomic restore: dropping original table (wp_termmeta)
+0000.451 () Atomic restore: renaming new table (bl_termmeta) to final table name (wp_termmeta)
+0000.457 () Search and replacing table: wp_termmeta: rows: 0
+0000.457 () Processing table (InnoDB): wp_g5t6zg_terms - will restore as: bl_terms
+0000.462 () Unlocking database and leaving maintenance mode
+0000.462 () Disabling Maintenance mode&#8230;
+0000.462 () Atomic restore: dropping original table (wp_terms)
+0000.466 () Atomic restore: renaming new table (bl_terms) to final table name (wp_terms)
+0000.470 () Search and replacing table: wp_terms: rows: 3
+0000.470 () Finished: lines processed: 43 in 0.46 seconds
+0000.470 () Cleaning up rubbish...
+0000.470 () Begin search and replace (updraftplus_restored_db)
+0000.470 () [Database-replace-site-url] Database: search and replace site URL
+0000.470 () Database search and replace: replace https://funadm.dreamhosters.com in backup dump with http://localhost:10023
+0000.470 () Database search and replace: replace http://www.funadm.dreamhosters.com in backup dump with http://localhost:10023
+0000.470 () Database search and replace: replace http://funadm.dreamhosters.com in backup dump with http://localhost:10023
+0000.470 () Database search and replace: replace https://www.funadm.dreamhosters.com in backup dump with http://localhost:10023
+0000.470 () Database search and replace: replace /home/dh_mbjqsu/funadm.dreamhosters.com in backup dump with /Users/akramtello/Local Sites/fundedn/app/public
+0000.471 () Search and replacing table: wp_commentmeta: already done
+0000.471 () Search and replacing table: wp_comments: already done
+0000.471 () Search and replacing table: wp_links: already done
+0000.471 () Search and replacing table: wp_options: already done
+0000.471 () Search and replacing table: wp_postmeta: already done
+0000.471 () Search and replacing table: wp_posts: already done
+0000.471 () Search and replacing table: wp_term_relationships: already done
+0000.471 () Search and replacing table: wp_term_taxonomy: already done
+0000.471 () Search and replacing table: wp_termmeta: already done
+0000.471 () Search and replacing table: wp_terms: already done
+0000.471 () Search and replacing table: wp_usermeta: already done
+0000.471 () Search and replacing table: wp_users: already done
+0000.473 () Entity: plugins
+0000.473 () restore_backup(backup_file=backup_2023-09-25-0645_FundedX_f27c7715533e-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:67:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0000.473 () Unpacking backup... (backup_2023-09-25-0645_FundedX_f27c7715533e-plugins.zip, 14.9 MB)
+0000.474 () Unzipping backup_2023-09-25-0645_FundedX_f27c7715533e-plugins.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/fedb211a/ using UpdraftPlus_ZipArchive, starting index 0
+0000.855 () Unzip progress: 1002 out of 2561 files (20.7 MB, plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-date-time.png)
+0001.008 () Unzip progress: 2003 out of 2561 files (47.5 MB, plugins/svg-support/admin/svgs-settings-page.php)
+0001.068 () Unzip progress: 2561 out of 2561 files (52.9 MB, plugins/updraftplus/vendor/guzzlehttp/guzzle/Dockerfile)
+0001.070 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.070 () Moving old data: can potentially use wp_filesystem method / -old
+0001.070 () Moving old data out of the way...
+0001.224 () Top-level entities being moved: index.php, updraftplus
+0001.225 () Moving unpacked backup into place...
+0001.532 () Top-level entities being moved: show-current-template, index.php, akismet, auto-hide-admin-bar, advanced-custom-fields-pro, updraftplus, hello.php, bulk-image-alt-text-with-yoast, svg-support
+0001.533 () Cleaning up rubbish...
+0001.534 () Entity: themes
+0001.534 () restore_backup(backup_file=backup_2023-09-25-0645_FundedX_f27c7715533e-themes.zip, type=themes, info=a:3:{s:4:"path";s:66:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0001.534 () Unpacking backup... (backup_2023-09-25-0645_FundedX_f27c7715533e-themes.zip, 12.8 MB)
+0001.534 () Unzipping backup_2023-09-25-0645_FundedX_f27c7715533e-themes.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/ab5308c3/ using UpdraftPlus_ZipArchive, starting index 0
+0002.562 () Unzip progress: 5362 out of 7249 files (4.3 KB, themes/fundedx/node_modules/@types/react/package.json)
+0002.703 () Unzip progress: 6363 out of 7249 files (12.3 MB, themes/fundedx/node_modules/@wordpress/scripts/node_modules/prettier/esm/parser-typescript.mjs)
+0002.838 () Unzip progress: 7249 out of 7249 files (35.8 MB, themes/fundedx/node_modules/@types/react/README.md)
+0002.843 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.843 () Moving old data: can potentially use wp_filesystem method / -old
+0002.843 () Moving old data out of the way...
+0002.910 () Top-level entities being moved: index.php, twentytwentyone, twentytwentytwo, twentytwentythree
+0002.910 () Moving unpacked backup into place...
+0003.758 () Top-level entities being moved: twentytwentythree, fundedx
+0003.759 () Cleaning up rubbish...
+0003.760 () restore_backup(backup_file=backup_2023-09-25-0645_FundedX_f27c7715533e-themes2.zip, type=themes, info=a:3:{s:4:"path";s:66:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0003.760 () Unpacking backup... (backup_2023-09-25-0645_FundedX_f27c7715533e-themes2.zip, 25 MB)
+0003.760 () Unzipping backup_2023-09-25-0645_FundedX_f27c7715533e-themes2.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/028f918c/ using UpdraftPlus_ZipArchive, starting index 0
+0005.692 () Unzip progress: 1002 out of 18492 files (20.9 MB, themes/fundedx/node_modules/caniuse-lite/data/regions/SO.js)
+0005.783 () Unzip progress: 2003 out of 18492 files (25.3 MB, themes/fundedx/node_modules/core-js/actual/typed-array/find.js)
+0005.869 () Unzip progress: 3004 out of 18492 files (27.7 MB, themes/fundedx/node_modules/core-js/features/weak-set/index.js)
+0005.943 () Unzip progress: 4005 out of 18492 files (27.8 MB, themes/fundedx/node_modules/core-js/modules/es.error.cause.js)
+0006.051 () Unzip progress: 5006 out of 18492 files (28.2 MB, themes/fundedx/node_modules/core-js-pure/actual/instance/some.js)
+0006.135 () Unzip progress: 6007 out of 18492 files (29.3 MB, themes/fundedx/node_modules/core-js-pure/features/object/get-own-property-descriptors.js)
+0006.218 () Unzip progress: 7008 out of 18492 files (29.4 MB, themes/fundedx/node_modules/core-js-pure/internals/to-set-like.js)
+0006.301 () Unzip progress: 8009 out of 18492 files (29.6 MB, themes/fundedx/node_modules/core-js-pure/stable/typed-array/entries.js)
+0006.384 () Unzip progress: 9010 out of 18492 files (30.2 MB, themes/fundedx/node_modules/duplexify/node_modules/readable-stream/README.md)
+0006.508 () Unzip progress: 10011 out of 18492 files (36.4 MB, themes/fundedx/node_modules/es-abstract/2019/AdvanceStringIndex.js)
+0006.601 () Unzip progress: 11012 out of 18492 files (39.7 MB, themes/fundedx/node_modules/eslint-plugin-jest/lib/rules/prefer-expect-assertions.js)
+0006.690 () Unzip progress: 12013 out of 18492 files (41 MB, themes/fundedx/node_modules/function.prototype.name/LICENSE)
+0006.789 () Unzip progress: 13014 out of 18492 files (46.9 MB, themes/fundedx/node_modules/jest-matcher-utils/node_modules/chalk/index.d.ts)
+0006.900 () Unzip progress: 14015 out of 18492 files (51.4 MB, themes/fundedx/node_modules/lodash/_createHybrid.js)
+0006.992 () Unzip progress: 15016 out of 18492 files (54.8 MB, themes/fundedx/node_modules/node-libs-browser/node_modules/buffer/test/is-buffer.js)
+0007.081 () Unzip progress: 16017 out of 18492 files (58.1 MB, themes/fundedx/node_modules/postcss-html/node_modules/dom-serializer/node_modules/domelementtype/package.json)
+0007.194 () Unzip progress: 17018 out of 18492 files (69.3 MB, themes/fundedx/node_modules/regenerate-unicode-properties/Script/Hangul.js)
+0007.290 () Unzip progress: 18019 out of 18492 files (74.8 MB, themes/fundedx/node_modules/resolve-dir/package.json)
+0007.330 () Unzip progress: 18492 out of 18492 files (75.8 MB, themes/fundedx/node_modules/regenerate-unicode-properties/Script/Old_Permic.js)
+0007.343 () Moving unpacked backup into place...
+0009.558 () Top-level entities being moved: fundedx
+0010.741 () Cleaning up rubbish...
+0010.743 () restore_backup(backup_file=backup_2023-09-25-0645_FundedX_f27c7715533e-themes3.zip, type=themes, info=a:3:{s:4:"path";s:66:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0010.743 () Unpacking backup... (backup_2023-09-25-0645_FundedX_f27c7715533e-themes3.zip, 9.5 MB)
+0010.743 () Unzipping backup_2023-09-25-0645_FundedX_f27c7715533e-themes3.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/5425ada5/ using UpdraftPlus_ZipArchive, starting index 0
+0011.175 () Unzip progress: 1002 out of 2766 files (12 MB, themes/fundedx/node_modules/tailwindcss/peers/index.js)
+0011.299 () Unzip progress: 2003 out of 2766 files (38.3 MB, themes/fundedx/node_modules/util/node_modules/inherits/inherits.js)
+0011.374 () Unzip progress: 2766 out of 2766 files (44 MB, themes/fundedx/node_modules/websocket-driver/lib/websocket/driver/client.js)
+0011.377 () Moving unpacked backup into place...
+0011.754 () Top-level entities being moved: .DS_Store, index.php, twentytwentythree, fundedx
+0011.938 () Cleaning up rubbish...
+0011.940 () Entity: uploads
+0011.940 () restore_backup(backup_file=backup_2023-09-25-0645_FundedX_f27c7715533e-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:67:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0011.940 () Unpacking backup... (backup_2023-09-25-0645_FundedX_f27c7715533e-uploads.zip, 3.8 MB)
+0011.940 () Unzipping backup_2023-09-25-0645_FundedX_f27c7715533e-uploads.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/db1f8fb0/ using UpdraftPlus_ZipArchive, starting index 0
+0011.962 () Unzip progress: 60 out of 60 files (3.8 MB, uploads/2023/01/portrait.jpeg)
+0011.963 () Moving old data: filesystem method / updraft_dir is potentially possible
+0011.963 () Moving old data: can potentially use wp_filesystem method / -old
+0011.963 () Moving old data out of the way...
+0011.964 () Moving unpacked backup into place...
+0011.976 () Cleaning up rubbish...
+0011.978 () Entity: others
+0011.978 () restore_backup(backup_file=backup_2023-09-25-0645_FundedX_f27c7715533e-others.zip, type=others, info=a:2:{s:4:"path";s:59:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0011.978 () Unpacking backup... (backup_2023-09-25-0645_FundedX_f27c7715533e-others.zip, 3 MB)
+0011.978 () Unzipping backup_2023-09-25-0645_FundedX_f27c7715533e-others.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/c2f566f0/ using UpdraftPlus_ZipArchive, starting index 0
+0012.058 () Unzip progress: 244 out of 244 files (10.5 MB, languages/fr_FR-1d17475f620f63a92e2c5d2681c51ee8.json)
+0012.061 () Cleaning up rubbish...
+0012.061 () PHP event: code E_WARNING: rmdir(/Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/c2f566f0): Directory not empty (line 386, wp-admin/includes/class-wp-filesystem-direct.php)
+0012.061 () Error: Failed to delete working directory after restoring. (/Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/c2f566f0)
+0012.077 () Restore successful!
+0012.077 () Restore successful
