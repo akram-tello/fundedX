@@ -98,9 +98,9 @@
             <div class="flex justify-between mb-4">
                 <nav class="footer-navigation w-1/2">
                     <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Evaluation</a></li>
-                        <li><a href="<?php echo get__link('affiliate'); ?>">Affiliate Program</a></li>
+                        <li><a href="about-us">About</a></li>
+                        <li><a href="/evaluation">Evaluation</a></li>
+                        <li><a href="/affiliate-program">Affiliate Program</a></li>
                     </ul>
                 </nav>
                 <nav class="footer-navigation w-1/2">

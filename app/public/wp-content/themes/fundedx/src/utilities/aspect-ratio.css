@@ -1,6 +1,6 @@
 .aspect {
     img {
-        @apply w-full h-full object-cover;
+        @apply w-auto h-auto object-cover;
     }
 }
 
