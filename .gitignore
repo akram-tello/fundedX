@@ -14,6 +14,7 @@
 /app/public/wp-admin/
 /app/public/wp-content/index.php
 /app/public/wp-content/languages
+/app/public/wp-content/plugins/
 /app/public/wp-content/plugins/index.php
 /app/public/wp-content/themes/index.php
 /app/public/wp-includes/
