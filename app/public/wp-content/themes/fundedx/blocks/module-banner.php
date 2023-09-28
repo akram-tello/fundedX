@@ -14,17 +14,20 @@
     <div class="page-header align-middle">
         <div class="wrapper">
             <div class="module--banner-content flex items-start lg:col-span-6 lg:w-1/2 lg:py-12 w-full">
+
                 <?php if( !empty( $icon_image ) ): ?>
-                    <img style="margin-right: 1rem" data-src="<?= $icon_image['url']; ?>" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="<?= $icon_image['alt']; ?>">
+                    <img style="margin-right: 1rem" data-src="<?= $icon_image['url']; ?>" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="<?= $icon_image['alt']; ?>" width="70" >
                 <?php endif; ?>
-                <h2 class="module--title banner-title"><?= $heading ?></h2>
+
+                <div>
+                    <h2 class="module--title banner-title"><?= $heading ?></h2>
+                    <?php if( !empty( $sub_text ) ): ?>
+                    <p><?= $sub_text ?></p>
+                     <?php endif; ?>
+                </div>
+                
             </div>
 
-            <?php if( !empty( $sub_text ) ): ?>
-                <div class="module--banner-content flex items-start lg:col-span-6 lg:w-1/2 w-full">
-                    <p><?= $sub_text ?></p>
-                </div>
-            <?php endif; ?>
         </div>
     </div>
 </section>
