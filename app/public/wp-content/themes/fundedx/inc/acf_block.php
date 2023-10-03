@@ -172,5 +172,16 @@ function my_acf_init() {
             'icon'              => 'format-image',
             'keywords'          => array( 'banner', 'image', 'title' ),
         ));
+
+        //CTA 
+        acf_register_block(array(
+            'name'              => 'cta',
+            'title'             => __('CTA'),
+            'description'       => __('A custom CTA block.'),
+            'render_callback'   => 'impremis_block_callback',
+            'category'          => 'impremis',
+            'icon'              =>'format-image',
+            'keywords'          => array( 'cta', 'image', 'title' ),
+        ));
     }
 }

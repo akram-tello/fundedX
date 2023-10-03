@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="188" height="35.25" viewBox="0 0 188 35.25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Trustpilot_Logo__2022_.svg" data-name="Trustpilot_Logo_(2022).svg" width="188" height="35.25" transform="translate(93 3922.656)" fill="#cacaca"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_102" data-name="Mask Group 102" transform="translate(-93 -3922.656)" clip-path="url(#clip-path)">
+    <g id="stars-5-1" transform="translate(93 3922.656)">
+      <g id="Group_6844" data-name="Group 6844">
+        <path id="Path_28776" data-name="Path 28776" d="M0,0H35.25V35.25H0ZM38.188,0h35.25V35.25H38.188ZM76.375,0h35.25V35.25H76.375Zm38.188,0h35.25V35.25h-35.25ZM152.75,0H188V35.25H152.75Z" fill="#212930"/>
+      </g>
+      <path id="Path_28777" data-name="Path 28777" d="M19.791,26.193l5.361-1.359,2.24,6.9Zm12.338-8.923H22.691l-2.9-8.886-2.9,8.886H7.453l7.637,5.508-2.9,8.886,7.638-5.508,4.7-3.378Zm25.85,8.923,5.361-1.359,2.24,6.9Zm12.337-8.923H60.879l-2.9-8.886-2.9,8.886H45.641l7.638,5.508-2.9,8.886,7.638-5.508,4.7-3.378Zm25.85,8.923,5.361-1.359,2.24,6.9ZM108.5,17.271H99.066l-2.9-8.886-2.9,8.886H83.828l7.637,5.508-2.9,8.886L96.2,26.157l4.7-3.378Zm25.85,8.923,5.361-1.359,2.24,6.9Zm12.338-8.923h-9.437l-2.9-8.886-2.9,8.886h-9.437l7.637,5.508-2.9,8.886,7.637-5.508,4.7-3.378Zm25.85,8.923,5.361-1.359,2.24,6.9Zm12.337-8.923h-9.437l-2.9-8.886-2.9,8.886H160.2l7.637,5.508-2.9,8.886,7.637-5.508,4.7-3.378Z" transform="translate(-2.166 -2.436)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

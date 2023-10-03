@@ -655,6 +655,9 @@ video {
 .z-10 {
 	z-index: 10;
 }
+.m-auto {
+	margin: auto;
+}
 .mx-auto {
 	margin-left: auto;
 	margin-right: auto;
@@ -691,6 +694,15 @@ video {
 }
 .mr-0 {
 	margin-right: 0px;
+}
+.mb-0 {
+	margin-bottom: 0px;
+}
+.mt-3 {
+	margin-top: 0.75rem;
+}
+.mt-10 {
+	margin-top: 2.5rem;
 }
 .mb-1 {
 	margin-bottom: 0.25rem;
@@ -745,6 +757,9 @@ video {
 }
 .transform {
 	transform: var(--tw-transform);
+}
+.resize {
+	resize: both;
 }
 .grid-cols-1 {
 	grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -813,6 +828,9 @@ video {
 .object-cover {
 	-o-object-fit: cover;
 	   object-fit: cover;
+}
+.p-0 {
+	padding: 0px;
 }
 .px-3 {
 	padding-left: 0.75rem;
@@ -1039,6 +1057,7 @@ h2.module-title {
     }
 .footer-navigation ul li {
             font-weight: 500;
+            padding-bottom: 20px;
         }
 .footer-navigation .mail{
         font-weight: 200;
@@ -1585,27 +1604,83 @@ img.absolute {
 .logo-item {
 	max-width: 130px;
 }
-.module--testimonial {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	padding-top: 80px;
-	padding-bottom: 80px;
+.client-feedback-area {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
-.module--testimonial .testimonials {
-	display: flex;
-	justify-content: space-between;
+.client-feedback-area .owl-stage-outer {
+    right: -50px;
 }
-.module--testimonial .testimonials--item {
-	flex: 0 0 32%;
-	text-align: center;
+@media only screen and (max-width: 767px) {
+    .client-feedback-area .owl-stage-outer {
+        right: 0;
+    }
 }
-.module--testimonial .testimonials img {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	height: 100px;
-	width: 100px;
-	border-radius: 9999px;
+.client-feedback-area .client-shape {
+    position: absolute !important;
+    top: -1px;
+    left: -1px;
+    z-index: -1;
+}
+.client-feedback-heading {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+    flex: 0 0 30%;
+    max-width: 30%;
+    width: 30%;
+    padding-right: 50px;
+}
+@media only screen and (max-width: 767px) {
+    .client-feedback-heading {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+.client-feedback-heading .pandai-usp {
+    max-width: 400px;
+    margin-left: auto;
+}
+.client-feedback-content {
+    position: relative;
+    z-index: 1;
+    flex: 0 0 70%;
+    max-width: 70%;
+    width: 70%;
+}
+@media only screen and (max-width: 767px) {
+    .client-feedback-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+.feedback-card {
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    border: 1px solid #cacaca !important;
+    box-shadow: none !important;
+}
+.p-0{
+    padding: 0 !important;
+}
+.feedback-card p {
+    font-size: 18px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .feedback-card p {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .feedback-card p {
+        font-size: 16px;
+    }
 }
 .module--newsletter {
 	position: relative;
@@ -1940,6 +2015,69 @@ img.absolute {
     letter-spacing: 2.4px;
     text-transform: capitalize;
     line-height: 1.4;
+}
+.module--cta {}
+.cta-item {
+	position: relative;
+}
+.cta-item .bg {
+	width: 100%;
+}
+.cta-content {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+.cta-content .wrapper {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.cta-content.mobile-top {
+	align-items: flex-start;
+}
+.cta-content.mobile-middle {
+	align-items: center;
+}
+.cta-content.mobile-bottom {
+	align-items: flex-end;
+}
+.cta-content.mobile-left .wrapper {
+	text-align: left;
+}
+.cta-content.mobile-right .wrapper {
+	text-align: right;
+}
+.cta-content.mobile-center .wrapper {
+	text-align: center;
+}
+@media (min-width: 1024px) {
+
+	.cta-content.desktop-top {
+		align-items: flex-start;
+	}
+
+	.cta-content.desktop-middle {
+		align-items: center;
+	}
+
+	.cta-content.desktop-bottom {
+		align-items: flex-end;
+	}
+
+	.cta-content.desktop-left .wrapper {
+		text-align: left;
+	}
+
+	.cta-content.desktop-right .wrapper {
+		text-align: right;
+	}
+
+	.cta-content.desktop-center .wrapper {
+		text-align: center;
+	}
 }
 @media (min-width: 640px) {
 

@@ -162,7 +162,7 @@ function get_disclaimer_text() {
     
     if ($disclaimer_texts) {
         foreach ($disclaimer_texts as $text) {
-            $output .= '<p class="mb-1">' . $text['single_text'] . '</p>';
+            $output .= '<p class="mb-1" style="margin-bottom: 0 !important;">' . $text['single_text'] . '</p>';
         }
     } else {
         $output = '<p class="mb-1">Default Disclaimer Text</p>';

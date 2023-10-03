@@ -84,7 +84,7 @@
             </a>
             <!-- Button -->
             <?php $challenge_button = get_challenge_button(); ?>
-            <div class="w-full mb-4 lg:max-w-sm">
+            <div class="w-full mb-4 lg:max-w-sm" style="margin-bottom: 2rem">
                 <a href="<?= esc_url($challenge_button['url']); ?>" class="flex items-center justify-center font-medium text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 secondary-btn">
                 <?= esc_html($challenge_button['title']); ?>
                     <!-- Arrow Icon -->

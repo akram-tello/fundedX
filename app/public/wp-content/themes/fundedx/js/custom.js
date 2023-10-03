@@ -35,6 +35,36 @@
         }
     });
 
+    if ($.fn.owlCarousel) {
+        var testimonialSlider = $('.client-feedback-slides');
+        testimonialSlider.owlCarousel({
+            items: 3,
+            margin: 40,
+            loop: true,
+            autoplay: true,
+            smartSpeed: 800,
+            autoplayTimeout: 5000,
+            dots: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    margin: 0
+                },
+                480: {
+                    items: 1,
+                    margin: 15,
+                },
+                768: {
+                    items: 3,
+                },
+                1024: {
+                    items: 3,
+                }
+            }
+        })
+    }
+
     // Mobile Menu
     const _mobileMenu = jQuery('.mobile-navigation');
     jQuery('.js-mobile-open').click(function(){
