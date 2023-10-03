@@ -60,3 +60,32 @@
         @apply text-42px font-medium;
     }
 }
+
+ @media (max-width: 639px) {
+
+    .module-page-content {
+        h1 {
+            @apply text-center;
+            font-size: 34px;
+            line-height: 38px;
+        }
+        p {
+            @apply text-center;
+        }
+    }
+    .stats-holder{
+        margin-top: 40px !important;
+    }
+    .stats-list h3{
+        color: black;
+        font-size: 24px;
+    }
+    .stats-list p{
+        color: black;
+        font-size: 14px;
+    }
+    .cta-center{
+        margin: auto;
+        text-align: center;
+    }
+}

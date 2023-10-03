@@ -807,6 +807,11 @@ video {
 	margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
 	margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+	--tw-space-x-reverse: 0;
+	margin-right: calc(1rem * var(--tw-space-x-reverse));
+	margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
 .rounded {
 	border-radius: 0.25rem;
 }
@@ -1557,6 +1562,33 @@ img.absolute {
         line-height: 50px;
         font-weight: 500;
     }
+@media (max-width: 639px) {
+        .module-page-content h1 {
+		text-align: center;
+	}
+        .module-page-content h1 {
+            font-size: 34px;
+            line-height: 38px;
+        }
+        .module-page-content p {
+		text-align: center;
+	}
+    .stats-holder{
+        margin-top: 40px !important;
+    }
+    .stats-list h3{
+        color: black;
+        font-size: 24px;
+    }
+    .stats-list p{
+        color: black;
+        font-size: 14px;
+    }
+    .cta-center{
+        margin: auto;
+        text-align: center;
+    }
+}
 .module--rte {
 	position: relative;
 	padding-top: 40px;
@@ -2131,8 +2163,18 @@ img.absolute {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 
+	.md\:flex-wrap {
+		flex-wrap: wrap;
+	}
+
 	.md\:gap-8 {
 		gap: 2rem;
+	}
+
+	.md\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-x-reverse: 0;
+		margin-right: calc(0px * var(--tw-space-x-reverse));
+		margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
 	}
 
 	.md\:px-24 {
