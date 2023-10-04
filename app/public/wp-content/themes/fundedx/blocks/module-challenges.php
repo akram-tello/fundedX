@@ -4,7 +4,7 @@
     $content = get_field('content');
 ?>
 
-<section class="module module--challenges py-80px <?= $className ?>">
+<section class="module module--challenges py-80px <?= $className ?>" style="margin-bottom: 12rem">
     <div class="wrapper">
         <div class="module-title-holder text-center">
             <h2 class="module--title"><?= $heading ?></h2>
