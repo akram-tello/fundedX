@@ -6,12 +6,13 @@
     $google_play_link = get_field('google_play_link');
     $app_store_link = get_field('app_store_link');
     $windows_store_link = get_field('windows_store_link');
-    $broker_background_image = get_field('broker_background_image');
+    $background     = get_field('background');
 ?>
 
 <section class="module module--broker <?= $className ?>">
-    <img data-src="<?= $broker_background_image['url']; ?>" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="<?= $broker_background_image['alt']; ?>">
-    
+    <?php if( !empty( $background['mobile'] ) && !empty( $background['desktop'] ) ): ?>
+        <?= responsive_image( $background['mobile'], $background['desktop'], 'bg' )?>
+    <?php endif ?>    
     <div class="page-header align-middle">
         <div class="wrapper">
             <div class="module--broker-content flex items-center justify-end">

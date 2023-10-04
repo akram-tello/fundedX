@@ -837,9 +837,6 @@ video {
 .rounded-full {
 	border-radius: 9999px;
 }
-.border {
-	border-width: 1px;
-}
 .bg-black {
 	--tw-bg-opacity: 1;
 	background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
@@ -2023,6 +2020,63 @@ img.absolute {
 .partner-logo a:hover {
             transform: scale(1.05);
         }
+@media (max-width: 640px) {
+
+    .module--broker-content {
+        flex-direction: column;
+        margin-top: 24rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bracket-center {
+        display: none;
+    }
+
+    .module-broker-title {
+        max-width: 100%;
+    }
+
+        .module-broker-title h2{
+            font-size: 28px;
+        }
+
+        .module-broker-title img {
+            margin: auto;
+            margin-bottom: 2rem;
+        }
+
+        .module-broker-title p {
+            text-align: center;
+        }
+
+            .module-broker-title p.small {
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+
+    .partner-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .partner-logo a {
+            margin-bottom: 10px !important;
+            margin-bottom: 0;
+            max-width: 100%;
+        }
+}
+@media (min-width: 641px) {
+    .module--broker-content {
+        flex-direction: row;
+    }
+
+    .partner-logo a {
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+}
 .module--article {
 	position: relative;
 	padding-top: 40px;
