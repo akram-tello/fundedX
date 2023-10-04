@@ -98,15 +98,15 @@
             <div class="flex justify-between mb-4">
                 <nav class="footer-navigation w-1/2">
                     <ul>
-                        <li><a href="about-us">About</a></li>
+                        <li><a href="/about-us">About</a></li>
                         <li><a href="/evaluation">Evaluation</a></li>
                         <li><a href="/affiliate-program">Affiliate Program</a></li>
                     </ul>
                 </nav>
                 <nav class="footer-navigation w-1/2">
                     <ul>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="/faqs">FAQs</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
                         <li><?php echo get_email(); ?></li>
                     </ul>
                 </nav>
@@ -150,13 +150,13 @@
         </p>
         <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
-                <a href="/faq" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500">F.A.Q</a>
+                <a href="/refund-policy" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500">REFUND POLICY</a>
             </li>
             <li>
-                <a href="/" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500">Privacy Policy</a>
+                <a href="/privacy-policy" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500">PRIVACY POLICY</a>
             </li>
             <li>
-                <a href="/" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500">Terms & Conditions</a>
+                <a href="/terms-conditions" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500">TERMS & CONDITIONS</a>
             </li>
         </ul>
     </div>
