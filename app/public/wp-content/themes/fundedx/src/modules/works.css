@@ -53,3 +53,23 @@
         @apply text-14px;
     }
 }
+
+.module--how-it-works .slick-prev:before,
+.module--how-it-works .slick-next:before {
+    display: none !important;
+}
+
+.slick-dots li button:before {
+    font-size: 18px; 
+    border: 2px solid #ddd; 
+    border-radius: 50%; 
+    padding-inline: 5px; 
+    opacity: 1; 
+    color: transparent; 
+}
+
+.slick-dots li.slick-active button:before {
+    color: #000;
+    line-height: 18px;
+    padding: 0px;
+}

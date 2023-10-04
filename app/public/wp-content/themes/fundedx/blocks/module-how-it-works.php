@@ -12,7 +12,7 @@
             <p><?= $content ?></p>
         </div>
 
-        <div class="module-works-list flex flex-wrap mt-30px">
+        <div class="module-works-list flex flex-wrap mt-30px md:space-x-0">
             <?php if( have_rows('cards') ): ?>
                 <?php while( have_rows('cards') ): the_row(); ?>
                     <div class="box-list relative">
@@ -32,3 +32,18 @@
         </div>
     </div>
 </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+
+        if (window.matchMedia("(max-width: 767px)").matches) {
+            $('.module-works-list').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                dots: true,
+            });
+        }
+    });
+</script>

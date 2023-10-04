@@ -47,7 +47,7 @@
 
 
 <script>
-const mediaQuery = window.matchMedia('(max-width: 639px)');
+const mediaQuery = window.matchMedia('(max-width: 767px)');
 
 const toggleVisibility = (e) => {
     const imagePhone = document.getElementById('image-phone');

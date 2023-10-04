@@ -837,6 +837,9 @@ video {
 .rounded-full {
 	border-radius: 9999px;
 }
+.border {
+	border-width: 1px;
+}
 .bg-black {
 	--tw-bg-opacity: 1;
 	background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
@@ -1588,7 +1591,7 @@ img.absolute {
         line-height: 50px;
         font-weight: 500;
     }
-@media (max-width: 639px) {
+@media (max-width: 767px) {
         .module-page-content h1 {
 		text-align: center;
 	}
@@ -1661,6 +1664,11 @@ img.absolute {
 }
 .logo-item {
 	max-width: 130px;
+}
+@media (max-width: 767px) {
+    .module--logo-carousel {
+        padding-block: 0px;
+    }
 }
 .client-feedback-area {
     position: relative;
@@ -1836,6 +1844,23 @@ img.absolute {
 .box-content p {
 	font-size: 14px;
 	line-height: normal;
+}
+.module--how-it-works .slick-prev:before,
+.module--how-it-works .slick-next:before {
+    display: none !important;
+}
+.slick-dots li button:before {
+    font-size: 18px; 
+    border: 2px solid #ddd; 
+    border-radius: 50%; 
+    padding-inline: 5px; 
+    opacity: 1; 
+    color: transparent; 
+}
+.slick-dots li.slick-active button:before {
+    color: #000;
+    line-height: 18px;
+    padding: 0px;
 }
 .card-holder {
 	margin-left: 20px;
@@ -2209,16 +2234,16 @@ img.absolute {
 		gap: 1rem;
 	}
 
-	.md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
-		--tw-space-y-reverse: 0;
-		margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-		margin-bottom: calc(0px * var(--tw-space-y-reverse));
-	}
-
 	.md\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
 		--tw-space-x-reverse: 0;
 		margin-right: calc(0px * var(--tw-space-x-reverse));
 		margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
+	}
+
+	.md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-y-reverse: 0;
+		margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+		margin-bottom: calc(0px * var(--tw-space-y-reverse));
 	}
 
 	.md\:overflow-x-auto {

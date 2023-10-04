@@ -12,3 +12,9 @@
 .logo-item {
     @apply max-w-130px;
 }
+
+@media (max-width: 767px) {
+    .module--logo-carousel {
+        padding-block: 0px;
+    }
+}
