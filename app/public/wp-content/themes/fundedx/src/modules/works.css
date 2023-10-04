@@ -73,3 +73,17 @@
     line-height: 18px;
     padding: 0px;
 }
+
+@media (max-width: 767px) {
+    .module--title {
+        font-size: 28px;
+    }
+    
+    .box-content {
+
+        h4 {
+            @apply text-20px;
+        }
+    }
+}
+

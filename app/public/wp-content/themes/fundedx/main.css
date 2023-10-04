@@ -1859,6 +1859,16 @@ img.absolute {
     line-height: 18px;
     padding: 0px;
 }
+@media (max-width: 767px) {
+    .module--title {
+        font-size: 28px;
+    }
+
+        .box-content h4 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
 .card-holder {
 	margin-left: 20px;
 	margin-right: 20px;
@@ -2020,7 +2030,7 @@ img.absolute {
 .partner-logo a:hover {
             transform: scale(1.05);
         }
-@media (max-width: 640px) {
+@media (max-width: 767px) {
 
     .module--broker-content {
         flex-direction: column;
