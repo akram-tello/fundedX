@@ -1,11 +1,10 @@
 <?php 
     $className = !empty($block['className']) ? $block['className'] : null;
-    $faq_background_image = get_field('faq_background_image');
 ?>
 
 <?php if(is_page('home')) : ?>
 
-    <section class="module module--faq-homepage py-80px <?= $className ?>" <?php if( !empty( $faq_background_image ) ): ?>style="background-image: url('<?= $faq_background_image['url']; ?>');  background-size: cover; background-position: top;"<?php endif; ?>>
+    <section class="module module--faq-homepage py-80px <?= $className ?>" style="background-image: url('<?= get_template_directory_uri() . '/img/faq-bg.png' ?>');  background-size: cover; background-position: top;">
         
         <div class="module-title-holder text-center mb-10">
             <h2 class="module--title faq-title text-white">Frequently Asked Questions</h2>
@@ -52,7 +51,7 @@
 <?php else : ?>
 
 
-<section class="module module--faq pt-20 <?= $className ?>" <?php if( !empty( $faq_background_image ) ): ?>style="background-image: url('<?= $faq_background_image['url']; ?>');  background-size: cover; background-position: top;"<?php endif; ?>>
+<section class="module module--faq pt-20 <?= $className ?>" style="background-image: url('<?= get_template_directory_uri() . '/img/bg-gray.png' ?>');  background-size: cover; background-position: top;">
     <div class="wrapper">
         <?php if( have_rows('faq_groups') ): ?>
             <?php while( have_rows('faq_groups') ): the_row(); ?>
