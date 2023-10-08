@@ -1550,6 +1550,11 @@ img.absolute {
     line-height: 4px !important;
     border: 1px solid #fff !important;
 }
+@media (max-width: 767px){
+    .faq-title{
+        padding-inline: 1.6rem;
+    }
+}
 .module--text-with-media {
 	padding-top: 40px;
 	padding-bottom: 40px;

@@ -39,3 +39,9 @@
     line-height: 4px !important;
     border: 1px solid #fff !important;
 }
+
+@media (max-width: 767px){
+    .faq-title{
+        padding-inline: 1.6rem;
+    }
+}
