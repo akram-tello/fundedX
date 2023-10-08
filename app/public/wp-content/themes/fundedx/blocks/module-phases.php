@@ -15,38 +15,21 @@
 
 ?>
 
-<style>
-    .black-part{
-        max-width: 330px;
-        border-radius: 10px 0px 0px 10px;
-    }
-
-    .white-part{
-        border: 10px solid #858585;
-        border-radius: 0px 10px 10px 0px;
-        border-left: 0px;
-    }
-    .text-sm{
-        font-size: 14px;
-    }
-
-
-</style>
 <section class="module module--phases pt-20 <?= $className ?>">
     <div class="mx-auto px-4" style="max-width:900px">
     <div class="wrapper module-title-holder text-center">
     <div class="grid grid-cols-3 text-xs sm:text-sm md:text-base lg:text-lg" style="margin-bottom: 3rem">
         <div style="text-align: start; display: grid;"> 
-            <span>phase 1:</span>
-            <span><?= $phase1_heading ?></span>
+            <p style="font-size: 16px; margin-bottom: 10px;">phase 1:</p>
+            <p class="phase-heading"><?= $phase1_heading ?></p>
         </div>
         <div style="text-align: center; display: grid;"> 
-            <span>phase 2:</span>
-            <span><?= $phase2_heading ?></span>
+        <p style="font-size: 16px; margin-bottom: 10px;">phase 2:</p>
+            <p class="phase-heading"><?= $phase2_heading ?></p>
         </div>
         <div style="text-align: end; display: grid;"> 
-            <span>phase 3:</span>
-            <span><?= $phase3_heading ?></span>
+        <p style="font-size: 16px; margin-bottom: 10px;">phase 3:</p>
+            <p class="phase-heading"><?= $phase3_heading ?></p>
         </div>
     </div>
     
@@ -79,7 +62,7 @@
                             <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" 
                                 src="<?= get_template_directory_uri() ?>/img/placeholder.png" 
                                 alt="Icon" 
-                                class="list-icon w-8 mr-4" width="30"> 
+                                class="list-icon w-8 mr-4" width="30" style="filter: grayscale(1);"> 
 
                             <div>
                                 <h4 class="font-semibold text-white"><?= $list_title ?></h4>
@@ -106,7 +89,7 @@
                             <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" 
                                 src="<?= get_template_directory_uri() ?>/img/placeholder.png" 
                                 alt="Icon" 
-                                class="list-icon w-8 mr-4" width="30"> 
+                                class="list-icon w-8 mr-4" width="30" style="filter: grayscale(1);"> 
 
                             <div>
                                 <h4 class="font-semibold text-white"><?= $list_title ?></h4>
@@ -124,7 +107,7 @@
             <div class="white-part bg-white flex-1 md:w-2/3 w-full p-4">
 
                 <div class="flex items-start mb-4">
-                    <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" width="30"> 
+                    <img data-src="<?= get_template_directory_uri(); ?>/img/capital-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" width="30"> 
                     <div class="mw-511">
                         <h4 class="font-semibold">5% Drawdown</h4>
                         <p class="text-sm">
@@ -132,11 +115,11 @@
                         </p>
                         <ul class="custom-list list-inside list-decimal">
                         <li class="flex items-start mb-2">
-                            <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" style="width: 18px;"> 
+                            <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" style="width: 18px; filter: grayscale(1);"> 
                             The permitted daily loss is 5% of the balance or equity from the previous day's ending. This is recalculated at 5:00 pm ET daily.
                         </li>
                         <li class="flex items-start mb-2">
-                            <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" style="width: 18px;"> 
+                            <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" style="width: 18px; filter: grayscale(1);"> 
                             For instance, starting with a $100,000 account, the max daily loss is $5,000, unaffected by profits made during the day.
                         </li>
 
@@ -145,7 +128,7 @@
                 </div>
 
                 <div class="flex items-start mb-4">
-                    <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" width="30"> 
+                    <img data-src="<?= get_template_directory_uri(); ?>/img/capital-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" width="30"> 
                     <div class="mw-511">
                         <h4 class="font-semibold">10% Drawdown</h4>
                         <p class="text-sm">
@@ -153,11 +136,11 @@
                         </p>
                         <ul class="custom-list list-inside list-decimal">
                         <li class="flex items-start mb-2">
-                            <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" style="width: 18px;"> 
+                            <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" style="width: 18px; filter: grayscale(1);"> 
                             The overall allowed loss is 10% of the initial account balance, including floating losses and profits.
                         </li>
                         <li class="flex items-start mb-2">
-                            <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" style="width: 18px;"> 
+                            <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" style="width: 18px; filter: grayscale(1);"> 
                             If you start with a $100,000 account, the max loss is $10,000, meaning equity must never drop below $90,000.
                         </li>
 
@@ -166,7 +149,7 @@
                 </div>
 
                 <div style="text-align: end">
-                    <a href="#" class="btn btn--primary text-white rounded" style="padding-block: 10px">Get started!</a>
+                    <a href="<?php echo get_site_url(); ?>#take-the-challenge" class="btn btn--primary text-white rounded" style="padding-block: 10px">TAKE THE CHALLENGE <?= get_template_part('img/arrow-up.svg'); ?></a>
                 </div>
 
             </div>

@@ -238,5 +238,16 @@ function my_acf_init() {
             'icon'              =>'editor-paragraph',
             'keywords'          => array( 'payouts', 'image', 'title' ),
         ));
+
+        // PARTNERS
+        acf_register_block(array(
+            'name'              => 'partners',
+            'title'             => __('Partners'),
+            'description'       => __('A custom Partners block.'),
+            'render_callback'   => 'impremis_block_callback',
+            'category'          => 'impremis',
+            'icon'              =>'editor-paragraph',
+            'keywords'          => array( 'partners', 'image', 'title' ),
+        ));
     }
 }

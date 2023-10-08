@@ -22,7 +22,7 @@
                 <div>
                     <h2 class="module--title banner-title"><?= $heading ?></h2>
                     <?php if( !empty( $sub_text ) ): ?>
-                    <p><?= $sub_text ?></p>
+                    <p class="sub-text-banner"><?= $sub_text ?></p>
                      <?php endif; ?>
                 </div>
                 

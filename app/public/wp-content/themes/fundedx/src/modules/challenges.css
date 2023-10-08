@@ -153,6 +153,9 @@
     .module-challenge-text{
         margin-bottom: 10rem;
     }
+    .custom-tooltip-bar{
+        margin-top: -4rem;
+    }
 }
 
 

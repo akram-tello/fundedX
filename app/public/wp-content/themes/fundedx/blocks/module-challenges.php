@@ -77,7 +77,7 @@
 <?php else : ?>
 
 
-    <section class="module module--challenges py-40px <?= $className ?>">
+    <section class="module module--challenges py-40px <?= $className ?>" id="take-the-challenge-table">
 
         <div class="wrapper">
 

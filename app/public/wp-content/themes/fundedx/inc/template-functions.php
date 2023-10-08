@@ -69,12 +69,17 @@ function get_phone() {
 
 /** GET EMAIL **/
 function get_email() {
-	return get_field('email', 'option') ? '<a class="mail" href="mailto:' . get_field('email', 'option') . '">' . get_field('email', 'option') . '</aclass=href=>' : null;
+	return get_field('email', 'option') ? '<a class="mail" href="mailto:' . get_field('email', 'option') . '">' . get_field('email', 'option') . '</a>' : null;
 }
 
 /** GET ADDRESS **/
 function get_address() {
 	return get_field('address', 'option') ? get_field('address', 'option') : null;
+}
+
+/** GET BUSINESS HOURS **/
+function get_business_hours() {
+    return get_field('business_hours', 'option') ? get_field('business_hours', 'option') : null;
 }
 
 /** GET FOOTER LOGO **/

@@ -30,3 +30,38 @@
   .end-dot {
     left: 100%;
   }
+
+  .black-part{
+    max-width: 330px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.white-part{
+    border: 10px solid #858585;
+    border-radius: 0px 10px 10px 0px;
+    border-left: 0px;
+}
+.text-sm{
+    font-size: 14px;
+}
+
+.phase-heading{
+  font-size: 24px; font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .black-part{
+        max-width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .white-part{
+        border: 10px solid #858585;
+        border-radius: 0px 0px 10px 10px;
+        border-top: 0px;
+    }
+
+    .phase-heading{
+        font-size: 16px; font-weight: 500;
+    }
+}

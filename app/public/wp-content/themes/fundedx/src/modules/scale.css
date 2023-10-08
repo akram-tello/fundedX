@@ -1,0 +1,15 @@
+.module-scale{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .module-scale{
+        display: block;
+    }
+    .module--scale-block{
+        display: none;
+    }
+    .text-content{
+        font-size: 14px
+    }
+}

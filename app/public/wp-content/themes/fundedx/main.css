@@ -689,6 +689,12 @@ video {
 .mt-40px {
 	margin-top: 40px;
 }
+.mt-5 {
+	margin-top: 1.25rem;
+}
+.mt-8 {
+	margin-top: 2rem;
+}
 .mb-10 {
 	margin-bottom: 2.5rem;
 }
@@ -713,9 +719,6 @@ video {
 .mb-24 {
 	margin-bottom: 6rem;
 }
-.mb-12 {
-	margin-bottom: 3rem;
-}
 .mt-3 {
 	margin-top: 0.75rem;
 }
@@ -724,9 +727,6 @@ video {
 }
 .mt-10 {
 	margin-top: 2.5rem;
-}
-.mt-5 {
-	margin-top: 1.25rem;
 }
 .mb-1 {
 	margin-bottom: 0.25rem;
@@ -775,6 +775,9 @@ video {
 }
 .w-1\/2 {
 	width: 50%;
+}
+.w-10 {
+	width: 2.5rem;
 }
 .w-24 {
 	width: 6rem;
@@ -881,9 +884,6 @@ video {
 }
 .rounded-full {
 	border-radius: 9999px;
-}
-.border {
-	border-width: 1px;
 }
 .border-b {
 	border-bottom-width: 1px;
@@ -2117,6 +2117,9 @@ img.absolute {
     .module-challenge-text{
         margin-bottom: 10rem;
     }
+    .custom-tooltip-bar{
+        margin-top: -4rem;
+    }
 }
 .table-container {
     overflow-x: auto;
@@ -2442,6 +2445,14 @@ color: white;
     text-transform: capitalize;
     line-height: 1.4;
 }
+@media (max-width: 768px) {
+    .banner-title{
+        font-size: 24px;
+    }
+    .sub-text-banner{
+        font-size: 14px;
+    }
+}
 .module--cta {}
 .cta-item {
 	position: relative;
@@ -2543,6 +2554,37 @@ color: white;
 .end-dot {
     left: 100%;
   }
+.black-part{
+    max-width: 330px;
+    border-radius: 10px 0px 0px 10px;
+}
+.white-part{
+    border: 10px solid #858585;
+    border-radius: 0px 10px 10px 0px;
+    border-left: 0px;
+}
+.text-sm{
+    font-size: 14px;
+}
+.phase-heading{
+  font-size: 24px; font-weight: 500;
+}
+@media (max-width: 767px) {
+    .black-part{
+        max-width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .white-part{
+        border: 10px solid #858585;
+        border-radius: 0px 0px 10px 10px;
+        border-top: 0px;
+    }
+
+    .phase-heading{
+        font-size: 16px; font-weight: 500;
+    }
+}
 .module--trader{}
 @media (max-width: 767px) {
     .module--trader {
@@ -2560,6 +2602,21 @@ color: white;
         margin-top: 1rem;
     }
 }
+.module-scale{
+    display: none;
+}
+@media (max-width: 768px) {
+    .module-scale{
+        display: block;
+    }
+    .module--scale-block{
+        display: none;
+    }
+    .text-content{
+        font-size: 14px
+    }
+}
+.module--partners{}
 @media (min-width: 640px) {
 
 	.sm\:col-span-1 {

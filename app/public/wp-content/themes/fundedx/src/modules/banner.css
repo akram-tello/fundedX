@@ -5,3 +5,12 @@
     text-transform: capitalize;
     line-height: 1.4;
 }
+
+@media (max-width: 768px) {
+    .banner-title{
+        font-size: 24px;
+    }
+    .sub-text-banner{
+        font-size: 14px;
+    }
+}
