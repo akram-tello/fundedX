@@ -671,6 +671,9 @@ video {
 .mr-2 {
 	margin-right: 0.5rem;
 }
+.mb-5 {
+	margin-bottom: 1.25rem;
+}
 .ml-2 {
 	margin-left: 0.5rem;
 }
@@ -685,6 +688,9 @@ video {
 }
 .mt-40px {
 	margin-top: 40px;
+}
+.mb-10 {
+	margin-bottom: 2.5rem;
 }
 .mt-30px {
 	margin-top: 30px;
@@ -701,14 +707,17 @@ video {
 .mr-0 {
 	margin-right: 0px;
 }
-.mb-0 {
-	margin-bottom: 0px;
-}
 .mt-3 {
 	margin-top: 0.75rem;
 }
+.mb-0 {
+	margin-bottom: 0px;
+}
 .mt-10 {
 	margin-top: 2.5rem;
+}
+.mt-5 {
+	margin-top: 1.25rem;
 }
 .mb-1 {
 	margin-bottom: 0.25rem;
@@ -725,8 +734,8 @@ video {
 .flex {
 	display: flex;
 }
-.inline-flex {
-	display: inline-flex;
+.table {
+	display: table;
 }
 .grid {
 	display: grid;
@@ -764,8 +773,14 @@ video {
 .max-w-screen-xl {
 	max-width: 1280px;
 }
+.max-w-xl {
+	max-width: 36rem;
+}
 .max-w-7xl {
 	max-width: 80rem;
+}
+.max-w-2xl {
+	max-width: 42rem;
 }
 .transform {
 	transform: var(--tw-transform);
@@ -775,6 +790,9 @@ video {
 }
 .grid-cols-1 {
 	grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-2 {
+	grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .flex-col {
 	flex-direction: column;
@@ -837,6 +855,9 @@ video {
 .rounded-full {
 	border-radius: 9999px;
 }
+.border-b {
+	border-bottom-width: 1px;
+}
 .bg-black {
 	--tw-bg-opacity: 1;
 	background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
@@ -879,6 +900,10 @@ video {
 .py-80px {
 	padding-top: 80px;
 	padding-bottom: 80px;
+}
+.py-30px {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .py-6 {
 	padding-top: 1.5rem;
@@ -927,6 +952,10 @@ video {
 }
 .blur {
 	--tw-blur: blur(8px);
+	filter: var(--tw-filter);
+}
+.grayscale {
+	--tw-grayscale: grayscale(100%);
 	filter: var(--tw-filter);
 }
 .filter {
@@ -1097,6 +1126,27 @@ h2.module-title {
     .top-footer {
 		padding: 2rem;
 	}
+    .dot-footer{
+        display: none;
+    }
+    .footer-logo{
+        max-width: 60% !important;
+        margin: auto;
+    }
+    .cta-footer-btn{
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .social-links-footer{
+        display: flex;
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+
+    .social-links{
+        display: none;
+    }
 }
 .border-top-line{
     border-top: 1px solid rgb(139, 163, 191);
@@ -1126,10 +1176,12 @@ h2.module-title {
 }
 .main-navigation ul {
 	display: flex;
+        font-weight: 500;
 }
 .main-navigation ul li {
 	margin-left: 30px;
             letter-spacing: 1.3px;
+            text-transform: uppercase;
 }
 .mobile-menu {
 	position: relative;
@@ -1465,7 +1517,6 @@ img.absolute {
 }
 .faq-list__item {
 	margin-bottom: 1.25rem;
-	border-bottom-width: 1px;
 }
 .faq-list__item.active .faq-answer {
 	display: block;
@@ -1477,13 +1528,13 @@ img.absolute {
 .faq-question {
 	display: flex;
 	cursor: pointer;
-	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 	padding-left: 1.25rem;
 	padding-right: 1.25rem;
+    flex-wrap: nowrap;
 }
 .faq-answer {
 	display: none;
@@ -1695,6 +1746,7 @@ img.absolute {
     max-width: 30%;
     width: 30%;
     padding-right: 50px;
+    align-items: center;
 }
 @media only screen and (max-width: 767px) {
     .client-feedback-heading {
@@ -1801,6 +1853,7 @@ img.absolute {
         left: 0;
         top: 0;
         z-index: -1;
+        filter: grayscale(100%);
     }
 .box-list {
     flex: 0 0 33%;
@@ -1974,6 +2027,135 @@ img.absolute {
 .module--video-carousel .slick-dots {
 	display: none !important;
 }
+.progress-bar {
+	height: 1rem;
+	width: 100%;
+    background-color: #CACACA;
+}
+.progress-bar-fill {
+	height: 100%;
+    background-color: #141414;
+    margin-top: -2rem;
+}
+.custom-tooltip-bar {
+    display: inline-block !important;
+    right: -10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 4px 8px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 14px;
+    padding: 1rem 2rem;
+    margin-top: 5rem;
+}
+.custom-tooltip-bar::after {
+    content: "";
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+}
+#slider-progress {
+    position: relative;
+}
+.module-challenge-text{
+    margin-bottom: -5rem;
+}
+@media (max-width: 767px) {
+    .module-challenge-text{
+        margin-bottom: 0;
+    }
+}
+.table-container {
+    overflow-x: auto;
+    max-width: calc(100% - 20px); 
+    margin: 0 0 0 30px; 
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+.flex-table-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+@media (min-width: 768px) {
+    .table-container {
+    max-width: 80%;
+    margin: 0;
+    text-align: center;
+    }
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+th, td {
+text-align: left;
+padding: 0 8px;
+min-width: 200px;
+}
+th:first-child, td:first-child {
+position: sticky;
+left: 0;
+z-index: 1;
+background-color: #fff;
+}
+th:last-child, td:last-child {
+    padding: 0;
+    background-clip: content-box;
+}
+th:nth-last-child(2), td:nth-last-child(2) {
+    padding: 0;
+    border-right: 10px solid transparent;
+    background-clip: content-box;
+}
+.table-label{
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    background-color: #141414;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.table-content{
+    font-size: 14px; font-weight: 400; color: #858585;
+    padding-bottom: 10px; 
+    border-bottom: 1px solid #ddd;
+}
+.table-sidebar{
+    font-size: 14px; font-weight: 500;
+    border-bottom: 1px solid #ddd;
+}
+.bg-black-table {
+background-color: black;
+color: white; 
+}
+.bg-gray-table{
+    background-color: #858585;
+    color: #fff; 
+}
+.flex-table-container:hover .table-container {
+  scrollbar-color: #888 #f1f1f1; /* This makes scrollbar visible on hover */
+}
+/* For Webkit browsers like Chrome/Safari */
+.table-container::-webkit-scrollbar {
+    height: 5px;
+    width: 12px;
+}
+.table-container::-webkit-scrollbar-thumb {
+    background-color: transparent; /* This makes scrollbar thumb invisible initially */
+}
+.flex-table-container:hover .table-container::-webkit-scrollbar-thumb {
+    background-color: #888; /* This makes scrollbar thumb visible on hover */
+}
+.table-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
 .module-broker-title {
     max-width: 230px;
 }
@@ -2073,7 +2255,6 @@ img.absolute {
 
         .partner-logo a {
             margin-bottom: 10px !important;
-            margin-bottom: 0;
             max-width: 100%;
         }
 }
@@ -2084,7 +2265,7 @@ img.absolute {
 
     .partner-logo a {
         margin-right: 10px;
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
 }
 .module--article {
@@ -2128,18 +2309,16 @@ img.absolute {
 	letter-spacing: 2.4px;
 }
 .module--article .article-list .article-list__item {
-	list-style-position: inside;
+	list-style-position: outside;
 	list-style-type: decimal;
             margin-block: 1.5rem;
-            padding: 0 2rem;
+            padding: 0 1rem;
 }
-/* text-align: justify; */
 .module--article .article-list .article-list__item .article-text {
 	text-align: left;
 	font-size: 14px;
 	line-height: 1;
 	letter-spacing: 0px;
-                padding-inline-start: 2.5rem;
 }
 .module--article .additional-text-before{
         padding-top: 3rem;
@@ -2225,6 +2404,42 @@ img.absolute {
 	.cta-content.desktop-center .wrapper {
 		text-align: center;
 	}
+}
+.cta-title {
+        padding-bottom: 10px;
+    }
+.cta-text{
+        padding-bottom: 20px;
+    }
+.module--rules{}
+.module--phases:before {
+        content: '';
+        background-image: url('img/payout-bg.png');
+        background-size: cover;
+        background-position: top;
+        position: absolute;
+        height: 3300px;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+.module--trader{}
+@media (max-width: 767px) {
+    .module--trader {
+        padding-bottom: 0;
+    }
+}
+.module--payouts{
+}
+@media (max-width: 767px) {
+    .payout-btn{
+        margin: auto;
+        text-align: center;
+    }
+    .payout-btn a{
+        margin-top: 1rem;
+    }
 }
 @media (min-width: 640px) {
 
@@ -2348,6 +2563,14 @@ img.absolute {
 
 	.lg\:flex {
 		display: flex;
+	}
+
+	.lg\:grid {
+		display: grid;
+	}
+
+	.lg\:hidden {
+		display: none;
 	}
 
 	.lg\:w-1\/2 {

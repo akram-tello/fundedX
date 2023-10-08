@@ -79,7 +79,7 @@ function get_address() {
 
 /** GET FOOTER LOGO **/
 function get_footer_logo() {
-	return get_field('footer_logo', 'option') ? '<img src="' . get_template_directory_uri() . '/img/placeholder.png" data-src="' . get_field('footer_logo', 'option')['url'] . '" alt="Logo of ' . get_bloginfo('name') . '">' : null;
+	return get_field('footer_logo', 'option') ? '<img class="footer-logo" src="' . get_template_directory_uri() . '/img/placeholder.png" data-src="' . get_field('footer_logo', 'option')['url'] . '" alt="Logo of ' . get_bloginfo('name') . '">' : null;
 }
 
 
@@ -169,4 +169,9 @@ function get_disclaimer_text() {
     }
 
     return $output;
+}
+
+// WRAP WYSIWYG Editor TEXT
+function wrap_WYSIWYG_text($text, $color_class) {
+    return '<span class="' . $color_class . '">' . $text . '</span>';
 }

@@ -1,0 +1,12 @@
+.module--payouts{
+}
+
+@media (max-width: 767px) {
+    .payout-btn{
+        margin: auto;
+        text-align: center;
+    }
+    .payout-btn a{
+        margin-top: 1rem;
+    }
+}

@@ -94,7 +94,7 @@
 
                     <!-- Button -->    
                     <?php $challenge_button = get_challenge_button(); ?>
-                    <a href="<?= esc_url($challenge_button['url']); ?>" class="flex items-center font-medium text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 main-btn">
+                    <a href="<?php echo get_site_url(); ?>#take-the-challenge" class="flex items-center font-medium text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 main-btn">
                         <?= esc_html($challenge_button['title']); ?>
                          <!-- Arrow Icon -->
                          <svg class="ml-2 w-3 h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.074 11.073" fill="currentColor" aria-hidden="true">

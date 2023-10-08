@@ -20,14 +20,12 @@
 
     .article-list {
         .article-list__item {
-            @apply list-decimal list-inside;
+            @apply list-decimal list-outside;
             margin-block: 1.5rem;
-            padding: 0 2rem;
-            /* text-align: justify; */
+            padding: 0 1rem;
 
             .article-text {
                 @apply text-[14px] leading-none tracking-[0px] text-left;
-                padding-inline-start: 2.5rem;
             }
         }
     }

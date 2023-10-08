@@ -183,5 +183,60 @@ function my_acf_init() {
             'icon'              =>'format-image',
             'keywords'          => array( 'cta', 'image', 'title' ),
         ));
+
+        // rules and targets
+        acf_register_block(array(
+            'name'              => 'rules-and-targets',
+            'title'             => __('Rules and Targets'),
+            'description'       => __('A custom Rules and Targets block.'),
+            'render_callback'   => 'impremis_block_callback',
+            'category'          => 'impremis',
+            'icon'              =>'editor-paragraph',
+            'keywords'          => array( 'rules-and-targets', 'image', 'title' ),
+        ));
+
+        // PHASES
+        acf_register_block(array(
+            'name'              => 'phases',
+            'title'             => __('Phases'),
+            'description'       => __('A custom Phases block.'),
+            'render_callback'   => 'impremis_block_callback',
+            'category'          => 'impremis',
+            'icon'              =>'editor-paragraph',
+            'keywords'          => array( 'phases', 'image', 'title' ),
+        ));
+
+        // TRADER RULES
+        acf_register_block(array(
+            'name'              => 'trader-rules',
+            'title'             => __('Trader Rules'),
+            'description'       => __('A custom Trader Rules block.'),
+            'render_callback'   => 'impremis_block_callback',
+            'category'          => 'impremis',
+            'icon'              =>'editor-paragraph',
+            'keywords'          => array( 'trader-rules', 'image', 'title' ),
+        ));
+
+        // SCALING PLAN
+        acf_register_block(array(
+            'name'              => 'scaling-plan',
+            'title'             => __('Scaling Plan'),
+            'description'       => __('A custom Scaling Plan block.'),
+            'render_callback'   => 'impremis_block_callback',
+            'category'          => 'impremis',
+            'icon'              =>'editor-paragraph',
+            'keywords'          => array( 'scaling-plan', 'image', 'title' ),
+        ));
+
+        // PAYOUTS
+        acf_register_block(array(
+            'name'              => 'payouts',
+            'title'             => __('Payouts'),
+            'description'       => __('A custom Payouts block.'),
+            'render_callback'   => 'impremis_block_callback',
+            'category'          => 'impremis',
+            'icon'              =>'editor-paragraph',
+            'keywords'          => array( 'payouts', 'image', 'title' ),
+        ));
     }
 }

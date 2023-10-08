@@ -125,7 +125,7 @@
 // SLICK SLIDER FOR CHALLENGES
 $('.card--carousel')
 .on('afterChange init', function(event, slick, direction){
-    console.log('afterChange/init', event, slick, slick.$slides);
+    console.log('afterChange/init', event);
     // remove all prev/next
     slick.$slides.removeClass('card--prev').removeClass('card--next');
 
@@ -181,5 +181,45 @@ $('.card--carousel')
             }
         ]
     });
+ 
+// update progress bar
+$('.card--carousel').on('afterChange', (event, slick, currentSlide) => {
+    updateProgressBar(slick, currentSlide);
+});
+const updateProgressBar = (slick, currentSlide) => {
+    console.log('updateProgressBar called', currentSlide);  // Debugging line
+
+    let progress;
+    let tooltipText;
+    switch (currentSlide) {
+        case 1:
+            console.log('case 1');
+            progress = (1 / 3) * 100;
+            tooltipText = '<p style="font-size: 16px;font-weight: 500;}">Trading Period <br> $10,000.00</p>Unlimited Days';
+            break;
+        case 2:
+            console.log('case 2');
+            progress = (2 / 3) * 100;
+            tooltipText = '<p style="font-size: 16px;font-weight: 500;}">Trading Period <br> $25,000.00</p>Unlimited Days';
+            break;
+        case 3:
+            console.log('case 3');
+            progress = (3 / 3) * 100;
+            tooltipText = '<p style="font-size: 16px;font-weight: 500;}">Trading Period <br> $5,000.00</p>Unlimited Days';
+            break;
+        default:
+            console.error('Unexpected slide index:', currentSlide);
+            return;
+    }
+
+    const progressBarFill = document.getElementById('slider-progress-fill');
+    const tooltip = document.getElementById('tooltip_bar');
+    const progressBarWidth = document.getElementById('slider-progress').offsetWidth;
+
+    progressBarFill.style.width = `${progress}%`;
+    $(tooltip).html(tooltipText);
+};
+
+updateProgressBar($('.card--carousel').slick('getSlick'), $('.card--carousel').slick('slickCurrentSlide'));
 })();
 

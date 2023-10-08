@@ -1,0 +1,7 @@
+.module--trader{}
+
+@media (max-width: 767px) {
+    .module--trader {
+        padding-bottom: 0;
+    }
+}

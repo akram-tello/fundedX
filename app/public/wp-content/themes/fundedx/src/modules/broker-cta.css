@@ -112,7 +112,6 @@
 
         a {
             margin-bottom: 10px !important;
-            margin-bottom: 0;
             max-width: 100%;
         }
     }
@@ -125,6 +124,6 @@
 
     .partner-logo a {
         margin-right: 10px;
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
 }

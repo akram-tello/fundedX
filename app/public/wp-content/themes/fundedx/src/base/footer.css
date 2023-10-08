@@ -31,6 +31,27 @@
     .top-footer{
         @apply p-8;
     }
+    .dot-footer{
+        display: none;
+    }
+    .footer-logo{
+        max-width: 60% !important;
+        margin: auto;
+    }
+    .cta-footer-btn{
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .social-links-footer{
+        display: flex;
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+
+    .social-links{
+        display: none;
+    }
 }
 
 .border-top-line{

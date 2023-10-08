@@ -13,7 +13,7 @@
 }
 
 .faq-list__item {
-    @apply mb-5 border-b;
+    @apply mb-5;
             
     &.active {
         .faq-answer { @apply block; }
@@ -22,7 +22,8 @@
 }
 
 .faq-question {
-    @apply py-2 px-5 flex flex-wrap justify-between items-center cursor-pointer;
+    @apply py-2 px-5 flex justify-between items-center cursor-pointer;
+    flex-wrap: nowrap;
 }
 
 .faq-answer {

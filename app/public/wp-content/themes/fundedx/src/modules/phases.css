@@ -1,0 +1,14 @@
+.module--phases{
+    &:before {
+        content: '';
+        background-image: url('img/payout-bg.png');
+        background-size: cover;
+        background-position: top;
+        position: absolute;
+        height: 3300px;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+}
