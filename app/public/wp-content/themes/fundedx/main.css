@@ -2295,6 +2295,7 @@ color: white;
 	-o-object-fit: cover;
 	   object-fit: cover;
 	opacity: 0.5;
+        filter: grayscale(100%);
 }
 .module--article .wrapper {
 	position: relative;
@@ -2315,10 +2316,10 @@ color: white;
 	letter-spacing: 2.4px;
 }
 .module--article .article-list .article-list__item {
-	list-style-position: outside;
+	list-style-position: inside;
 	list-style-type: decimal;
             margin-block: 1.5rem;
-            padding: 0 1rem;
+            padding: 0 2rem;
 }
 .module--article .article-list .article-list__item .article-text {
 	text-align: left;
@@ -2328,17 +2329,38 @@ color: white;
 }
 .module--article .additional-text-before{
         padding-top: 3rem;
+        text-align: justify;
     }
 .module--article .additional-text-after{
+        padding-top: 1rem;
         padding-bottom: 1rem;
+        text-align: justify;
+    }
+.module--article .text-article-content p {
+        margin-inline: 3rem;
+        text-align: justify;
+    }
+.module--article .text-article-content ol li {
+        list-style: decimal;   
+        padding-inline: 0;
     }
 @media (max-width: 767px) {
+
+        .module--article .article-card {
+            padding-top: 1rem !important;
+        }
+
         .module--article .article-card {
             padding: 0;
             padding-inline: 0;
         }
         .module--article .additional-text-after, .module--article .additional-text-before {
+            padding-top:1rem;
             padding-inline: 2rem;
+        }
+
+        .module--article .text-article-content p {
+            text-align: left
         }
     }
 .banner-title{

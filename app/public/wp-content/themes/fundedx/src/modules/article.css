@@ -3,6 +3,7 @@
 
     .bg {
         @apply absolute top-0 left-0 w-full h-full object-cover opacity-[0.5];
+        filter: grayscale(100%);
     }
 
     .wrapper {
@@ -20,9 +21,9 @@
 
     .article-list {
         .article-list__item {
-            @apply list-decimal list-outside;
+            @apply list-decimal list-inside;
             margin-block: 1.5rem;
-            padding: 0 1rem;
+            padding: 0 2rem;
 
             .article-text {
                 @apply text-[14px] leading-none tracking-[0px] text-left;
@@ -32,19 +33,41 @@
 
     .additional-text-before{
         padding-top: 3rem;
+        text-align: justify;
     }
 
     .additional-text-after{
+        padding-top: 1rem;
         padding-bottom: 1rem;
+        text-align: justify;
+    }
+
+    .text-article-content p {
+        margin-inline: 3rem;
+        text-align: justify;
+    }
+    .text-article-content ol li {
+        list-style: decimal;   
+        padding-inline: 0;
     }
 
     @media (max-width: 767px) {
+
+        .article-card {
+            padding-top: 1rem !important;
+        }
+
         .article-card {
             padding: 0;
             padding-inline: 0;
         }
         .additional-text-after, .additional-text-before {
+            padding-top:1rem;
             padding-inline: 2rem;
+        }
+
+        .text-article-content p {
+            text-align: left
         }
     }
 }

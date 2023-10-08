@@ -3,6 +3,7 @@
     $articleTitle = get_field('article_title');
     $additionalTextPosition = get_field('additional_text_position');
     $background   = get_field('background');
+    $content   = get_field('content');
 ?>
 
 <section class="module module--article <?= $className ?>">
@@ -10,24 +11,13 @@
     <?= responsive_image( $background['mobile'], $background['desktop'], 'bg' )?>
     <?php endif ?>
     <div class="wrapper article-card">
-        <h2 class="module--title"><?= $articleTitle ?></h2>
+        <h2 class="module--title <?= $additionalTextPosition === 'After' ? 'mb-5' : '' ?>"><?= $articleTitle ?></h2>
         
         <?php if( $additionalTextPosition === 'Before' ): ?>
             <?php include_additional_texts(get_field('additional_texts'), $additionalTextPosition); ?>
         <?php endif; ?>
 
-        <ol class="article-list">
-            <?php while( have_rows('repeated_text_field') ): the_row(); ?>
-                <?php 
-                    $list = get_sub_field('list');
-                ?>
-                <li class="article-list__item">
-                    <span class="article-text">
-                        <?= $list ?>
-                    </span>
-                </li>
-            <?php endwhile; ?>
-        </ol>
+        <?= wrap_WYSIWYG_text($content,'text-article-content') ?>
 
         <?php if( $additionalTextPosition === 'After' ): ?>
             <?php include_additional_texts(get_field('additional_texts'), $additionalTextPosition); ?>
@@ -43,7 +33,7 @@ function include_additional_texts($additional_texts, $position) {
     foreach( $additional_texts as $additionalTextArray ) {
         $additionalText = $additionalTextArray['text'];
         if( !empty($additionalText) ): ?>
-            <p class="additional-text <?= $paddingClass ?>"><?= esc_html($additionalText) ?></p>
+            <span class="additional-text<?= $paddingClass ?>"><?= wrap_WYSIWYG_text($additionalText,'') ?></span>
         <?php endif;
     }
 }
