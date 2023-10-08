@@ -12,3 +12,21 @@
         z-index: -1;
     }
 }
+
+.dot {
+    @apply absolute w-5 h-5 rounded-full bg-black;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .start-dot {
+    left: 0;
+  }
+  
+  .middle-dot {
+    left: 50%;
+  }
+  
+  .end-dot {
+    left: 100%;
+  }

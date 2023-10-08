@@ -77,7 +77,7 @@
 <?php else : ?>
 
 
-    <section class="module module--challenges py-80px <?= $className ?>">
+    <section class="module module--challenges py-40px <?= $className ?>">
 
         <div class="wrapper">
 
@@ -149,7 +149,7 @@
 
     </section>
 
-    <div class="wrapper">
+    <div class="wrapper" style="margin-top: 3rem">
         
         <div class="module-title-holder text-center mw-511 m-auto module-challenge-text">
             <p>FundedX Traders Challenge allows participants in both Stage 1 and Stage 2 to complete their trading without any time constraints.</p>
