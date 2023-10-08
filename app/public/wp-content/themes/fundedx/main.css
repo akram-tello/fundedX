@@ -901,10 +901,6 @@ video {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
-.py-30px {
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
 .py-6 {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
@@ -1548,6 +1544,11 @@ img.absolute {
 	transition-duration: 150ms;
 	transition-duration: 300ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-faqs{
+    background: transparent;
+    line-height: 4px !important;
+    border: 1px solid #fff !important;
 }
 .module--text-with-media {
 	padding-top: 40px;

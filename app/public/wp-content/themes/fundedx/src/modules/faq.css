@@ -33,3 +33,9 @@
 .faq-icon {
     @apply transition ease-in-out duration-300;
 }
+
+.btn-faqs{
+    background: transparent;
+    line-height: 4px !important;
+    border: 1px solid #fff !important;
+}

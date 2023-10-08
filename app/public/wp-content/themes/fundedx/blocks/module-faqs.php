@@ -5,7 +5,7 @@
 
 <?php if(is_page('home')) : ?>
 
-    <section class="module module--faq-homepage py-30px <?= $className ?>" <?php if( !empty( $faq_background_image ) ): ?>style="background-image: url('<?= $faq_background_image['url']; ?>');  background-size: cover; background-position: top;"<?php endif; ?>>
+    <section class="module module--faq-homepage py-80px <?= $className ?>" <?php if( !empty( $faq_background_image ) ): ?>style="background-image: url('<?= $faq_background_image['url']; ?>');  background-size: cover; background-position: top;"<?php endif; ?>>
         
         <div class="module-title-holder text-center mb-10">
             <h2 class="module--title text-white">Frequently Asked Questions</h2>
@@ -44,7 +44,7 @@
         </div>
 
         <div class="text-center m-auto">
-            <a href="/faqs" class="btn btn--primary">VIEW ALL FAQS</a>
+            <a href="/faqs" class="btn btn--primary btn-faqs">VIEW ALL FAQS</a>
         </div>
 
     </section>
