@@ -7,6 +7,10 @@
     $table_prices = get_field('table_prices');
     $table_rows = get_field('table_rows');
 ?>
+
+<style>
+  
+</style>
 <?php if(is_page('home')) : ?>
 
 <section class="module module--challenges py-80px <?= $className ?>" id="take-the-challenge">
@@ -151,9 +155,15 @@
             <p>FundedX Traders Challenge allows participants in both Stage 1 and Stage 2 to complete their trading without any time constraints.</p>
         </div>
 
-        <div id="slider-container"  style="margin-top: 6rem">
-            <input type="range" min="0" max="100" value="0" id="slider-table" class="w-full" />
-            <div id="slider-tooltip-table"></div>
+        <div id="slider-container" style="margin-top: 6rem">
+
+            <div id="slider-table" class="w-full relative cursor-pointer" style="height: 10px; background-color: #CACACA;">
+                <div id="slider-fill" class="progress-bar-fill" style="height: 100%; background-color: #141414;"></div>
+                <div id="slider-thumb" class="absolute" style="width: 20px; height: 20px; background-color: black; top: 50%; transform: translateY(-50%); border-radius: 50%;"></div>
+            </div>
+
+            <div id="slider-tooltip-table" class="tooltip-table-bar"></div>
+
         </div>
 
         <div class="btn-holder text-center mt-40px">
@@ -164,21 +174,56 @@
 
 <?php endif; ?>
 
+
 <script type="text/javascript">
+ document.addEventListener("DOMContentLoaded", function() {
+  
   const labels = <?php echo json_encode($table_labels); ?>;
+  const slider = document.getElementById('slider-table');
+  const tooltip = document.getElementById('slider-tooltip-table');
+  const fill = document.getElementById("slider-fill");
+  const thumb = document.getElementById("slider-thumb");
 
-  document.addEventListener("DOMContentLoaded", function() {
-    const slider = document.getElementById("slider-table");
-    const tooltip = document.getElementById("slider-tooltip-table");
+  let isDragging = false;
 
-    slider.max = labels.length - 1;
+  // Initialize tooltip with the first label
+  tooltip.innerHTML = `<p style="font-size: 16px;font-weight: 500;}">Trading Period <br> ${labels[0].col_label}</p>Unlimited Days`;
 
-    slider.addEventListener("input", function() {
-      const index = parseInt(this.value, 10);
-      tooltip.innerHTML = `${labels[index].col_label}`;
+  function updateSlider(event) {
+    const rect = slider.getBoundingClientRect();
+    let x = event.clientX - rect.left;
+    x = Math.min(Math.max(0, x), rect.width);
 
-      // Log to console
-      console.log(`Selected Label: ${labels[index]}, Selected Price: ${prices[index]}`);
-    });
+    const index = Math.round((x / rect.width) * (labels.length - 1));
+    const snappedX = (index / (labels.length - 1)) * rect.width;
+
+    fill.style.width = `${(snappedX / rect.width) * 100}%`;
+    thumb.style.left = `${snappedX}px`;
+
+    // Update the position and text of the tooltip
+    tooltip.style.left = `${snappedX}px`;
+    tooltip.innerHTML = `<p style="font-size: 16px;font-weight: 500;}">Trading Period <br> ${labels[index].col_label}</p>Unlimited Days`;
+
+    // Log to console
+    console.log(`Selected Label: ${labels[index].col_label}`);
+  }
+
+  slider.addEventListener("mousedown", function(event) {
+    isDragging = true;
+    updateSlider(event);
   });
+
+  window.addEventListener("mousemove", function(event) {
+    if (isDragging) {
+      updateSlider(event);
+    }
+  });
+
+  window.addEventListener("mouseup", function() {
+    isDragging = false;
+  });
+});
+
 </script>
+
+

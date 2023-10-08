@@ -1,7 +1,7 @@
 .module--phases{
     &:before {
         content: '';
-        background-image: url('img/payout-bg.png');
+        background-image: url('img/bg-gray.png');
         background-size: cover;
         background-position: top;
         position: absolute;

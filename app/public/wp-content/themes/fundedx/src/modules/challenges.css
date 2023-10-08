@@ -151,7 +151,7 @@
 
 @media (max-width: 767px) {
     .module-challenge-text{
-        margin-bottom: 0;
+        margin-bottom: 10rem;
     }
 }
 
@@ -257,3 +257,38 @@ color: white;
 .table-container::-webkit-scrollbar-track {
     background-color: #f1f1f1;
 }
+
+
+#slider-fill {
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+  
+  #slider-thumb {
+    transition: left 0.3s ease;
+  }
+  
+
+  #slider-container {
+    @apply relative;
+  }
+  
+  .tooltip-table-bar {
+    @apply absolute p-2 text-white bg-black z-50;
+    bottom: 100%;
+    transform: translateY(-20px);
+    width: 160px;
+  }
+  
+  .tooltip-table-bar::after {
+    content: "";
+    position: absolute;
+    top: 75px;
+    left: 6%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+  }
+  
+  
