@@ -175,13 +175,13 @@
         </p>
         <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
-                <a href="/refund-policy" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500">REFUND POLICY <span class="dot-footer">&nbsp; •</span></a>
+                <a href="/refund-policy" class="text-sm text-gray-600 transition-colors duration-300" style="font-size: 10px">REFUND POLICY <span class="dot-footer">&nbsp; •</span></a>
             </li>
             <li>
-                <a href="/privacy-policy" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500">PRIVACY POLICY<span class="dot-footer"> &nbsp; •</span></a>
+                <a href="/privacy-policy" class="text-sm text-gray-600 transition-colors duration-300" style="font-size: 10px">PRIVACY POLICY<span class="dot-footer"> &nbsp; •</span></a>
             </li>
             <li>
-                <a href="/terms-conditions" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500">TERMS & CONDITIONS</a>
+                <a href="/terms-conditions" class="text-sm text-gray-600 transition-colors duration-300" style="font-size: 10px">TERMS & CONDITIONS</a>
             </li>
         </ul>
     </div>
