@@ -1,5 +1,17 @@
 <?php 
     $className = !empty($block['className']) ? $block['className'] : null;
+    
+    $phase1_heading = get_field('phase1_heading');
+    $phase2_heading = get_field('phase2_heading');
+    $phase3_heading = get_field('phase3_heading');
+
+    $phase1_list_title = get_field('phase1_list_title');
+    $phase1_list_text = get_field('phase2_list_text');
+    $phase2_list_title = get_field('phase2_list_title');
+    $phase2_list_text = get_field('phase2_list_text');
+
+    $common_list_title = get_field('common_list_title');
+    $common_list_text = get_field('common_list_text');
 
 ?>
 
@@ -26,15 +38,15 @@
     <div class="grid grid-cols-3 text-xs sm:text-sm md:text-base lg:text-lg" style="margin-bottom: 3rem">
         <div style="text-align: start; display: grid;"> 
             <span>phase 1:</span>
-            <span>Evaluation</span>
+            <span><?= $phase1_heading ?></span>
         </div>
         <div style="text-align: center; display: grid;"> 
             <span>phase 2:</span>
-            <span>Verification</span>
+            <span><?= $phase2_heading ?></span>
         </div>
         <div style="text-align: end; display: grid;"> 
             <span>phase 3:</span>
-            <span>Challenges</span>
+            <span><?= $phase3_heading ?></span>
         </div>
     </div>
     
@@ -50,42 +62,65 @@
 
 
         <div class="phases--box flex md:flex-row flex-col">
-            <!-- Black part must be dynamically change between 2 phases -->
+
             <div class="black-part bg-black text-white flex-1 w-full p-4">
-                
-                <div class="flex items-start" style="margin-block: 3rem">
-                    <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" width="30"> 
-                    <div>
-                        <h4 class="font-semibold text-white">Prove Your Trading Skills</h4>
-                        <p class="text-sm">
-                        The first stage of the Evaluation Process requires successful completion to move to Stage 2. Showcase your trading acumen and commitment to the Trading Objectives.
-                        </p>
-                    </div>
-                </div>
 
-                <div class="flex items-start" style="margin-block: 3rem">
-                    <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" width="30"> 
-                    <div>
-                        <h4 class="font-semibold text-white">Prove Your Trading Skills</h4>
-                        <p class="text-sm">
-                        Meet the profit target without drawdown violations. FundedX have unlimited time to complete this stage.
-                        </p>
-                    </div>
-                </div>
+                <span id="phase1">
+                    <?php if( have_rows('phase1') ): ?>
 
-                <div class="flex items-start" style="margin-block: 3rem">
-                    <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" width="30"> 
-                    <div>
-                        <h4 class="font-semibold text-white">Prove Your Trading Skills</h4>
-                        <p class="text-sm">
-                        A minimum of three trading days is mandatory for success in this phase.
-                        </p>
-                    </div>
-                </div>
+                    <?php while( have_rows('phase1') ): the_row(); 
+
+                        $list_title = get_sub_field('list_title');
+                        $list_text = get_sub_field('list_text');
+
+                        ?>
+                        
+                        <div class="flex items-start" style="margin-top: 1rem"> 
+                            <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" 
+                                src="<?= get_template_directory_uri() ?>/img/placeholder.png" 
+                                alt="Icon" 
+                                class="list-icon w-8 mr-4" width="30"> 
+
+                            <div>
+                                <h4 class="font-semibold text-white"><?= $list_title ?></h4>
+                                <p class="text-sm"><?= $list_text ?></p>
+                            </div>
+                        </div>
+
+                    <?php endwhile; ?>
+
+                    <?php endif; ?>
+                </span>
+
+                <span id="phase2" style="display: none">
+                    <?php if( have_rows('phase2') ): ?>
+
+                    <?php while( have_rows('phase2') ): the_row(); 
+
+                        $list_title = get_sub_field('list_title');
+                        $list_text = get_sub_field('list_text');
+
+                        ?>
+                        
+                        <div class="flex items-start" style="margin-top: 1rem"> 
+                            <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" 
+                                src="<?= get_template_directory_uri() ?>/img/placeholder.png" 
+                                alt="Icon" 
+                                class="list-icon w-8 mr-4" width="30"> 
+
+                            <div>
+                                <h4 class="font-semibold text-white"><?= $list_title ?></h4>
+                                <p class="text-sm"><?= $list_text ?></p>
+                            </div>
+                        </div>
+
+                    <?php endwhile; ?>
+
+                    <?php endif; ?>
+                </span>
 
             </div>
 
-            <!-- White part this part is common between 2 phases -->
             <div class="white-part bg-white flex-1 md:w-2/3 w-full p-4">
 
                 <div class="flex items-start mb-4">
@@ -125,7 +160,7 @@
                             <img data-src="<?= get_template_directory_uri(); ?>/img/item-list-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-8 mr-4" style="width: 18px;"> 
                             If you start with a $100,000 account, the max loss is $10,000, meaning equity must never drop below $90,000.
                         </li>
-                        <!-- You can repeat the above li for the remaining items -->
+
                     </ul>
                     </div>
                 </div>
@@ -145,6 +180,8 @@
   const newSlider = document.getElementById("new-slider-table");
   const newFill = document.getElementById("new-slider-fill");
   const dots = Array.from(document.querySelectorAll('.dot'));
+  const phase1 = document.getElementById("phase1");
+  const phase2 = document.getElementById("phase2");
 
   let isDragging = false;
 
@@ -161,14 +198,20 @@
       dots.forEach((dot, index) => {
         dot.style.backgroundColor = index === 0 ? '#212930' : '#cacaca';
       });
+        phase1.style.display = "block";
+        phase2.style.display = "none";
     } else if (x < 2 * rect.width / 3) {
       fillRatio = 2 / 3;
       dots.forEach((dot, index) => {
         dot.style.backgroundColor = index <= 1 ? '#212930' : '#cacaca';
       });
+        phase1.style.display = "none";
+        phase2.style.display = "block";
     } else {
       fillRatio = 1;
       dots.forEach(dot => dot.style.backgroundColor = '#212930');
+      phase1.style.display = "none";
+        phase2.style.display = "block";
     }
 
     newFill.style.width = `${fillRatio * 100}%`;
