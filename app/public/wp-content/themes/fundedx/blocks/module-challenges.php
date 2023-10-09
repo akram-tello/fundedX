@@ -9,7 +9,19 @@
 ?>
 
 <style>
-  
+.centered-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.1;
+}
 </style>
 <?php if(is_page('home')) : ?>
 
@@ -120,20 +132,26 @@
                         endforeach;
                     endif;
                     ?>
-                    <td rowspan="50" class="bg-gray-table text-center vertical-align-middle"><span class="text-center">For Access to $500,000 <a href="#" style="color: #fff; text-decoration: underline;">Contact Us</a></span></td>
-                    <td rowspan="50" class="bg-black-table text-center vertical-align-middle"><span class="text-center">For Access to $1,000,000 <a href="#" style="color: #fff; text-decoration: underline;">Contact Us</a></span></td>
+                    <td rowspan="50" class="bg-gray-table text-center vertical-align-middle"><span class="text-center">For Access to $500,000 <a href="<?php echo get_site_url(); ?>/contact/" style="color: #fff; text-decoration: underline;">Contact Us</a></span></td>
+                    <td rowspan="50" class="bg-black-table text-center vertical-align-middle"><span class="text-center">For Access to $1,000,000 <a href="<?php echo get_site_url(); ?>/contact/" style="color: #fff; text-decoration: underline;">Contact Us</a></span></td>
                 </tr>
 
                 <!-- Table Rows Content -->
                 <?php if ($table_rows):
                     foreach ($table_rows as $row):?>
-                    <tr>
-                        <th style="font-size: 14px; font-weight: 400;"><?php echo $row['row_name']; ?></th>
+                    <tr class="relative" data-row-id="<?php echo $row['row_name']; ?>">
+                        <th style="font-size: 14px; font-weight: 400; display: flex; align-items: center;">
+                            <span class="collapsible-icon" data-id="<?php echo $row['row_name']; ?>">
+                            <img data-src="<?php echo get_template_directory_uri(); ?>/img/arrow-icon.svg" alt="pie-icon" style="max-width: 16px; margin-right: 10px;" />
+                        </span>
+
+                            <?php echo $row['row_name']; ?>
+                        </th>
                         <?php
                         if ($row['col_values']):
-                        foreach ($row['col_values'] as $col):
+                            foreach ($row['col_values'] as $col):
                         ?>
-                        <td class="table-content"><?php echo $col['col_value']; ?></td>
+                        <td class="table-content"><span><?php echo $col['col_value']; ?></span></td>
                         <?php
                         endforeach;
                         endif;
@@ -141,6 +159,7 @@
                     </tr>
                     <?php endforeach;
                 endif;?>
+
 
             </table>
         <?php endif; ?>
@@ -167,7 +186,7 @@
         </div>
 
         <div class="btn-holder text-center mt-40px">
-            <a href="<?= $cta['url'] ?>" class="btn btn--primary"><?= $cta['title'] ?> <?= get_template_part('img/arrow-up.svg'); ?></a>
+            <a href="<?php echo get_site_url(); ?>#take-the-challenge" class="btn btn--primary">TAKE THE CHALLENGE<?= get_template_part('img/arrow-up.svg'); ?></a>
         </div>
 
     </div>
@@ -222,6 +241,37 @@
   window.addEventListener("mouseup", function() {
     isDragging = false;
   });
+
+const collapsibleIcons = document.querySelectorAll('.collapsible-icon');
+
+collapsibleIcons.forEach(icon => {
+    // let the collapisble icon text show only for first 2 rows
+  icon.addEventListener('click', function() {
+    const rowId = this.getAttribute('data-id');
+    const row = document.querySelector(`[data-row-id="${rowId}"]`);
+    const existingText = row.querySelector('.centered-text');
+
+    if (existingText) {
+      existingText.remove();
+      row.style.height = 'auto'; 
+    } else {
+      
+      const centeredText = document.createElement('div');
+      centeredText.innerHTML = 'FundedX Traders Challenges allows participants in both Stage 1 and Stage 2 to complete their trading without any time constraints.';
+      centeredText.className = 'centered-text mw-511';
+
+      row.appendChild(centeredText);
+
+      row.style.height = 'auto';
+      const rowHeight = row.offsetHeight;
+      const newRowHeight = rowHeight + 50;
+      row.style.height = `${newRowHeight}px`;
+    }
+  });
+});
+
+
+
 });
 
 </script>

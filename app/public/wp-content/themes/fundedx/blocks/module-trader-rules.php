@@ -26,12 +26,12 @@
             <p class="max-w-2xl m-auto mt-3"><?= $content ?></p>
         </div>
 
-        <div class="flex flex-wrap m-auto justify-center module-works-list mt-5">
+        <div class="flex flex-wrap m-auto justify-center module-works-list mt-5 relative">
 
             <?php if( have_rows('cards') ): ?>
                 <?php while( have_rows('cards') ): the_row(); ?>
                     <div class="box-list relative w-full">
-                        <?= get_template_part('img/box.svg'); ?>
+                        <img data-src="<?= get_template_directory_uri(); ?>/img/box-border.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Box" class="box-icon">
                         <div class="box-content absolute">
                             <h2><?php the_sub_field('card_order'); ?></h2>
                             <h4><?php the_sub_field('card_title'); ?></h4>
@@ -40,6 +40,8 @@
                     </div>
                 <?php endwhile; ?>
             <?php endif; ?>
+
+            <img data-src="<?= get_template_directory_uri(); ?>/img/slash.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="phase1" class="slash-img" style=" position: absolute; width: 15%; top: 8px; left: 13px;">
 
         </div>
 

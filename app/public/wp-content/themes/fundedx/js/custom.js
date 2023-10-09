@@ -41,9 +41,9 @@
             items: 3,
             margin: 40,
             loop: true,
-            autoplay: true,
+            // autoplay: true,
             smartSpeed: 800,
-            autoplayTimeout: 5000,
+            // autoplayTimeout: 5000,
             dots: true,
             nav: false,
             responsive: {

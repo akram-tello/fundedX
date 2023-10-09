@@ -104,6 +104,39 @@
     }
 }
 
+.card-video {
+    @apply relative;
+    /* padding-top: 56.25%; */
+    padding-top: 80%; /* 16:9 Aspect Ratio */
+    iframe {
+      @apply absolute top-0 left-0 w-full h-full;
+    }
+  }
+  
+  .arrow-button {
+    @apply bg-transparent text-transparent py-2 px-4 rounded;
+}
+
+#prev-arrow {
+    background-image: url('img/icon-left.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
+
+#next-arrow {
+    background-image: url('img/icon-right.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
+
+
+
 .progress-bar {
     @apply w-full h-4;
     background-color: #CACACA;
@@ -195,7 +228,11 @@ th:first-child, td:first-child {
 position: sticky;
 left: 0;
 z-index: 1;
-background-color: #fff;
+background-color: #f5f5f5;
+}
+
+.collapsible-content span {
+    @apply text-center w-full;
 }
 
 th:last-child, td:last-child {
@@ -220,7 +257,6 @@ th:nth-last-child(2), td:nth-last-child(2) {
 
 .table-content{
     font-size: 14px; font-weight: 400; color: #858585;
-    padding-bottom: 10px; 
     border-bottom: 1px solid #ddd;
 }
 

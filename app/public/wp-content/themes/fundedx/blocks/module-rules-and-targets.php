@@ -51,7 +51,7 @@
                 </ul>
 
                 <?php if( !empty( $cta ) ): ?>
-                    <a href="<?= $cta['url'] ?>" class="mt-30px mb-3 btn btn--primary" ><?= $cta['title'] ?><?= get_template_part('img/arrow-up.svg'); ?></a>
+                    <a href="<?php echo get_site_url(); ?>#take-the-challenge" class="mt-30px mb-3 btn btn--primary" ><?= $cta['title'] ?><?= get_template_part('img/arrow-up.svg'); ?></a>
                 <?php endif ?>
 
             </div>

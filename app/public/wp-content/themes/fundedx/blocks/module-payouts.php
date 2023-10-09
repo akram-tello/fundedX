@@ -25,7 +25,7 @@
 
             <?php if( !empty( $cta ) ): ?>
                 <div class="payout-btn">
-                    <a href="<?= $cta['url'] ?>" class="mt-40px btn btn--primary"> <?= $cta['title'] ?>
+                    <a href="<?php echo get_site_url(); ?>#take-the-challenge" class="mt-40px btn btn--primary"> <?= $cta['title'] ?>
                         <?= get_template_part('img/arrow-up.svg'); ?>
                 </a>
                 </div>

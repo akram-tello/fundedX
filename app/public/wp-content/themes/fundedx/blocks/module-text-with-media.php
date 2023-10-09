@@ -14,12 +14,26 @@
     $bg_desktop_url = isset($background_images['bg_desktop']['url']) ? $background_images['bg_desktop']['url'] : null;
     $bg_mobile_url = isset($background_images['bg_mobile']['url']) ? $background_images['bg_mobile']['url'] : null;
     $white_text          = get_field('white_text_color_toggle');
-    
+    $black_btn           = get_field('black_btn');
+    $fundedx_logo      = get_field('fundedx_logo');
 ?>
 
 <style>
+    .fundedx--m{
+        display: none;
+    }
     .video-media{
         border-radius: 15px;
+    }
+    @media screen and (max-width: 767px) {
+        .center-btn{
+            text-align: center;
+            margin: auto;
+        }
+        .fundedx--m{
+            display: block;
+        }
+        
     }
 
     .<?= $unique_class ?> {
@@ -59,9 +73,15 @@
                     <?= do_shortcode( $code ) ?>
                 <?php endif ?>
                 <span class="<?= $white_text ? 'text-white' : '' ?>"><?= $content ?></span>
-            <?php if( !empty( $cta ) ): ?>
-                <a href="<?= $cta['url'] ?>" class="mt-30px mb-3 btn btn--primary <?= $background_images? 'secondary-btn' : '' ?>" ><?= $cta['title'] ?><?= get_template_part('img/arrow-up.svg'); ?></a>
+                <?php if( !empty( $fundedx_logo ) ): ?>
+                    <img class="m-auto fundedx--m" style="margin-bottom: 1rem" data-src="<?= $fundedx_logo['url']; ?>" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="<?= $fundedx_logo['alt']; ?>" width="400" >
+                <?php endif; ?>
+                <div class="center-btn">
+                <?php if( !empty( $cta ) ): ?>
+                <a href="<?php echo get_site_url(); ?>#take-the-challenge" class="mt-30px mb-3 btn btn--primary <?= $background_images && $black_btn? '' : 'secondary-btn' ?>" ><?= $cta['title'] ?><?= get_template_part('img/arrow-up.svg'); ?></a>
             <?php endif ?>
+                </div>
+            
             </div>
 
             </div>

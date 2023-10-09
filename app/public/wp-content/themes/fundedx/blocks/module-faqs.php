@@ -42,7 +42,7 @@
 
         </div>
 
-        <div class="text-center m-auto">
+        <div class="text-center m-auto" style="margin-bottom: 2rem;">
             <a href="/faqs" class="btn btn--primary btn-faqs">VIEW ALL FAQS</a>
         </div>
 

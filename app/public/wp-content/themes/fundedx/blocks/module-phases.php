@@ -20,15 +20,15 @@
     <div class="wrapper module-title-holder text-center">
     <div class="grid grid-cols-3 text-xs sm:text-sm md:text-base lg:text-lg" style="margin-bottom: 3rem">
         <div style="text-align: start; display: grid;"> 
-            <p style="font-size: 16px; margin-bottom: 10px;">phase 1:</p>
+            <p style="font-size: 16px; margin-bottom: 10px;">Phase 1:</p>
             <p class="phase-heading"><?= $phase1_heading ?></p>
         </div>
         <div style="text-align: center; display: grid;"> 
-        <p style="font-size: 16px; margin-bottom: 10px;">phase 2:</p>
+        <p style="font-size: 16px; margin-bottom: 10px;">Phase 2:</p>
             <p class="phase-heading"><?= $phase2_heading ?></p>
         </div>
         <div style="text-align: end; display: grid;"> 
-        <p style="font-size: 16px; margin-bottom: 10px;">phase 3:</p>
+        <p style="font-size: 16px; margin-bottom: 10px;">Phase 3:</p>
             <p class="phase-heading"><?= $phase3_heading ?></p>
         </div>
     </div>
@@ -46,7 +46,7 @@
 
         <div class="phases--box flex md:flex-row flex-col">
 
-            <div class="black-part bg-black text-white flex-1 w-full p-4">
+            <div class="black-part bg-black text-white flex-1 w-full p-4 relative">
 
                 <span id="phase1">
                     <?php if( have_rows('phase1') ): ?>
@@ -102,6 +102,8 @@
                     <?php endif; ?>
                 </span>
 
+                <img data-src="<?= get_template_directory_uri(); ?>/img/slash-down.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="phase1" class="slash-img" style=" position: absolute; bottom: -50px; right: 200px; width: 50%;">
+
             </div>
 
             <div class="white-part bg-white flex-1 md:w-2/3 w-full p-4">
@@ -149,7 +151,7 @@
                 </div>
 
                 <div style="text-align: end">
-                    <a href="<?php echo get_site_url(); ?>#take-the-challenge" class="btn btn--primary text-white rounded" style="padding-block: 10px">TAKE THE CHALLENGE <?= get_template_part('img/arrow-up.svg'); ?></a>
+                    <a href="<?php echo get_site_url(); ?>#take-the-challenge" class="btn btn--primary text-white rounded" style="padding-block: 10px">GET VERIFIED <?= get_template_part('img/arrow-up.svg'); ?></a>
                 </div>
 
             </div>
