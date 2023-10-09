@@ -7,7 +7,7 @@
     $text_3 = get_field('text_3');
 ?>
 
-<section class="module module--scale py-80px <?= $className ?>" style="background-image: url('<?= get_template_directory_uri() . '/img/scale-BG.png' ?>'); background-size: cover; background-position: top;">
+<section class="module module--scale py-80px <?= $className ?>" style="background-image: url('<?= get_template_directory_uri() . '/img/scale-bg.png' ?>'); background-size: cover; background-position: top;">
     <div class="wrapper">
         <div class="module-title-holder text-center">
             <h2 class="module--title text-white"><?= $heading ?></h2>
