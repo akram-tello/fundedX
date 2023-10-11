@@ -2248,6 +2248,9 @@ img.absolute {
         min-width: 248px !important;
         background: transparent !important;
         }
+        th:first-child, td:first-child {
+        position: relative !important;
+        }
           
     .pt-40-mob{
         padding-top: 40px !important;
