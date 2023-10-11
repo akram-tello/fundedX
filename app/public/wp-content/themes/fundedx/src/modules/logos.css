@@ -16,5 +16,9 @@
 @media (max-width: 767px) {
     .module--logo-carousel {
         padding-block: 0px;
+        margin-block: 80px;
+    }
+    .featured-logos{
+        max-width: 5rem;
     }
 }

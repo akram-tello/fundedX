@@ -28,7 +28,7 @@
 
         <div class="cta-content desktop-<?= $desktop_alignment['horizontal'] ?> desktop-<?= $desktop_alignment['vertical'] ?> mobile-<?= $mobile_alignment['horizontal'] ?> mobile-<?= $mobile_alignment['vertical'] ?>">
             <div class="wrapper max-w-xl" <?php echo $cta_gray ? 'style="max-width: 38rem !important"' : ''; ?>>
-                <h2 class="cta-title <?= $white_text ? 'text-white' : '' ?>"><?= esc_html( $heading ) ?></h2>
+                <h2 class="cta-title <?= $white_text ? 'text-white h2-30px' : '' ?>"><?= esc_html( $heading ) ?></h2>
                 <?php if( !empty( $acdemeyX_logo ) && !empty( $white_text ) ): ?>
                     <img class="m-auto" style="margin-bottom: 1rem" data-src="<?= $acdemeyX_logo['url']; ?>" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="<?= $acdemeyX_logo['alt']; ?>" width="400" >
                 <?php endif; ?>

@@ -25,12 +25,12 @@
         max-width: 133px;
         display: block;
         margin-bottom: 10px;
-        transition: all .3s ease-in-out;
-        transform: scale(1);
+        /* transition: all .3s ease-in-out; */
+        /* transform: scale(1); */
 
-        &:hover {
+        /* &:hover {
             transform: scale(1.05);
-        }
+        } */
     }
 }
 
@@ -61,12 +61,12 @@
         max-width: 133px;
         display: block;
         margin-bottom: 10px;
-        transition: all .3s ease-in-out;
-        transform: scale(1);
+        /* transition: all .3s ease-in-out; */
+        /* transform: scale(1); */
 
-        &:hover {
+        /* &:hover {
             transform: scale(1.05);
-        }
+        } */
     }
 }
 

@@ -14,7 +14,7 @@
         <?= responsive_image( $background['mobile'], $background['desktop'], 'bg' )?>
     <?php endif ?>    
     <div class="page-header align-middle">
-        <div class="wrapper">
+        <div class="wrapper mt-0">
             <div class="module--broker-content flex items-center justify-end">
                 <div class="module-broker-title">
                     <h2><?= $heading ?></h2>
@@ -28,13 +28,14 @@
                 </div>
 
                 <div class="partner-logo">
-                    <a href="<?= $google_play_link ?>" target="_blank">
+                    <!-- <a href="<?= $google_play_link ?>" target="_blank" style="curser: none" > -->
+                    <a style="curser: none" >
                         <img data-src="<?= get_template_directory_uri(); ?>/img/google-play.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="">
                     </a>
-                    <a href="<?= $app_store_link ?>" target="_blank">
+                    <a  style="curser: none" >
                         <img data-src="<?= get_template_directory_uri(); ?>/img/app-store.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="">
                     </a>
-                    <a href="<?= $windows_store_link ?>" target="_blank">
+                    <a  style="curser: none" >
                         <img data-src="<?= get_template_directory_uri(); ?>/img/windows-store.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="">
                     </a>
                 </div>

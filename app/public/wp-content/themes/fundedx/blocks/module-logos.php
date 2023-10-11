@@ -3,9 +3,9 @@
     $heading   = get_field('heading');
 ?>
 <section class="module module--logo-carousel bg-gray <?= $className ?>">
-    <div class="wrapper px-4 py-6 mx-auto max-w-7xl">
+    <div class="wrapper px-4 md:pb-6 pt-6 mx-auto max-w-7xl">
         <h2 class="module--title text-center mb-6 text-xl font-bold"><?= $heading ?></h2>
-        <div class="logos flex flex-wrap justify-center items-center gap-y-2 gap-x-4 md:gap-4 md:space-y-0 md:flex-nowrap md:overflow-x-auto">
+        <div class="logos flex flex-wrap justify-center items-center md:gap-y-2 gap-x-4 md:gap-4 md:space-y-0 md:flex-nowrap md:overflow-x-auto">
             <?php while( have_rows('logo') ): the_row(); ?>
                 <div class="logo-item flex flex-col items-center mb-4 md:mb-0">
                     <?php 
@@ -17,7 +17,7 @@
                     <?php if( !empty( $link ) ): ?>
                         <a href="<?= $link ?>" target="_blank" class="flex flex-col items-center">
                     <?php endif ?>
-                        <img data-src="<?= $logo['url'] ?>" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="<?= $logo['alt'] ?>" class="w-24">
+                        <img data-src="<?= $logo['url'] ?>" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="<?= $logo['alt'] ?>" class="w-24 featured-logos">
 
                         <?php if( !empty( $title ) ): ?>
                             <p class="mt-2 text-sm"><?= $title ?></p>

@@ -4,4 +4,10 @@
     .module--trader {
         padding-bottom: 0;
     }
+    .slash-img {
+        display: none !important;
+    }
+    .evaluation-content{
+        right: 20% !important;
+    }
 }

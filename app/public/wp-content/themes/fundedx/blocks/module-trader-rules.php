@@ -32,7 +32,7 @@
                 <?php while( have_rows('cards') ): the_row(); ?>
                     <div class="box-list relative w-full">
                         <img data-src="<?= get_template_directory_uri(); ?>/img/box-border.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Box" class="box-icon">
-                        <div class="box-content absolute">
+                        <div class="box-content evaluation-content absolute">
                             <h2><?php the_sub_field('card_order'); ?></h2>
                             <h4><?php the_sub_field('card_title'); ?></h4>
                             <p><?php the_sub_field('card_content'); ?></p>
@@ -41,7 +41,7 @@
                 <?php endwhile; ?>
             <?php endif; ?>
 
-            <img data-src="<?= get_template_directory_uri(); ?>/img/slash.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="phase1" class="slash-img" style=" position: absolute; width: 15%; top: 8px; left: 13px;">
+            <img data-src="<?= get_template_directory_uri(); ?>/img/Slash.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="phase1" class="slash-img" style=" position: absolute;top: -8px; left: 64px; width: 15%;">
 
         </div>
 
@@ -58,8 +58,10 @@
                 slidesToScroll: 1,
                 autoplay: true,
                 autoplaySpeed: 3000,
-                dots: true,
+                dots: false,
+                arrows: false, 
             });
         }
     });
+
 </script>

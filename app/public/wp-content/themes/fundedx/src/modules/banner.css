@@ -1,10 +1,23 @@
 .banner-title{
     color: #d3d3d3;
-    font-size: 48px;
+    font-size: 35px;
     letter-spacing: 2.4px;
     text-transform: capitalize;
     line-height: 1.4;
 }
+
+.banner--mobile{
+    display: none;
+}
+
+.banner--web{
+    display: block;
+}
+
+.banner-top{
+    margin-top: 0rem !important;
+}
+
 
 @media (max-width: 768px) {
     .banner-title{
@@ -12,5 +25,19 @@
     }
     .sub-text-banner{
         font-size: 14px;
+    }
+
+    .banner--web{
+        display: none;
+    }
+    
+    .banner--mobile{
+        display: block;
+    }
+    .banner-top{
+        margin-top: 1rem !important;
+    }
+    .banner-icon{
+        width: 20%;
     }
 }

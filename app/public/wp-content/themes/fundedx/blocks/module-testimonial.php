@@ -40,8 +40,8 @@
         <div class="section-heading mb-0 text-end">
           <h2 class="text-center"><?= $heading ?></h2>
           <img class="trustpilot-stars m-auto" data-src="<?= get_template_directory_uri(); ?>/img/trustpilot-starts.svg" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="" style="width: 200%">
-          <h6 class="text-center mt-3">Based on <span style="font-weight: 500; cursor: pointer; text-decoration: underline;"><a href="<?= $trustpilot_link['url'] ?>" ><?= $subheading ?> reviews</span></a> </h6>
-          <img class="m-auto" data-src="<?= get_template_directory_uri(); ?>/img/trustpilot_logo.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="" style="width: 50%">
+          <h6 class="text-center mt-3">Based on <span style="font-weight: 500; cursor: pointer; text-decoration: underline;"><a href="<?= $trustpilot_link['url'] ?>" target="_blank" ><?= $subheading ?> reviews</span></a> </h6>
+          <img class="m-auto" data-src="<?= get_template_directory_uri(); ?>/img/Trustpilot_logo.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="" style="width: 50%">
           <div class="testimonial-arrows text-left mt-4" style="margin-top: 2rem">
             <button id="prev-arrow" class="arrow-button mx-2"></button>
             <button id="next-arrow" class="arrow-button mx-2"></button>

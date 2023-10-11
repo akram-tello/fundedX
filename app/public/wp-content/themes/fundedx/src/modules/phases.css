@@ -1,11 +1,10 @@
 .module--phases{
     &:before {
         content: '';
-        background-image: url('img/bg-gray.png');
         background-size: cover;
         background-position: top;
         position: absolute;
-        height: 3800px;
+        height: 4200px;
         width: 100%;
         left: 0;
         top: 0;
@@ -49,9 +48,14 @@
   font-size: 24px; font-weight: 500;
 }
 
+.get-verified-btn{
+  text-align: right;
+}
+
 @media (max-width: 767px) {
 
   .module--phases{
+    padding-bottom: 0rem !important;
     &:before {
         height: 4600px;
 }
@@ -74,5 +78,17 @@
 
     .slash-img{
         display: none;
+    }
+
+    .nav-phase{
+      padding-top: 2rem !important;
+    }
+
+    .phases--box{
+       margin-top: -3rem !important;
+    }
+
+    .get-verified-btn{
+      text-align: center !important;
     }
 }

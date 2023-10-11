@@ -15,7 +15,7 @@
 
 ?>
 
-<section class="module module--phases pt-20 <?= $className ?>">
+<section class="module module--phases pt-20 nav-phase <?= $className ?>" style="padding-bottom: 5rem;">
     <div class="mx-auto px-4" style="max-width:900px">
     <div class="wrapper module-title-holder text-center">
     <div class="grid grid-cols-3 text-xs sm:text-sm md:text-base lg:text-lg" style="margin-bottom: 3rem">
@@ -150,7 +150,7 @@
                     </div>
                 </div>
 
-                <div style="text-align: end">
+                <div class="get-verified-btn">
                     <a href="<?php echo get_site_url(); ?>#take-the-challenge" class="btn btn--primary text-white rounded" style="padding-block: 10px">GET VERIFIED <?= get_template_part('img/arrow-up.svg'); ?></a>
                 </div>
 

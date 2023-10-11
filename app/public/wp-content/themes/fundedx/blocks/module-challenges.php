@@ -13,26 +13,27 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-65%, -10%);
     z-index: 1000;
     margin-top: 1rem;
     padding-top: 1rem;
     padding-bottom: 6px;
     font-size: 12px;
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 1.6;
+    z-index: 0;
 }
 </style>
 <?php if(is_page('home')) : ?>
 
-<section class="module module--challenges py-80px <?= $className ?>" id="take-the-challenge">
+<section class="module module--challenges pt-40-mob py-80px <?= $className ?>" id="take-the-challenge">
     <div class="wrapper">
         <div class="module-title-holder text-center">
             <h2 class="module--title"><?= $heading ?></h2>
             <p><?= $content ?></p>
         </div>
 
-        <div class="card--carousel mt-40px">
+        <div class="card--carousel mt-40px mt-0-mob">
             <?php if( have_rows('cards') ): // Outer loop for Cards ?>
                 <?php while( have_rows('cards') ): the_row(); ?>
 
@@ -64,7 +65,6 @@
                 <?php endwhile; ?>
             <?php endif; ?>
         </div>
-        
 
     </div>
         
@@ -85,6 +85,7 @@
         </div>
 
 </section>
+
 
 <?php else : ?>
 
@@ -116,33 +117,33 @@
                         endforeach;
                     endif;
                     ?>
-                    <th><div class="bg-gray-table table-label">$500</div></th>
-                    <th><div class="bg-black-table table-label">$1M+</div></th>
+                    <th><div class="bg-black-table table-label">500K</div></th>
+                    <th><div class="bg-gray-table  table-label">$1M+</div></th>
                 </tr>
 
                 <!-- Prices Row -->
                 <tr>
-                    <th>PRICE</th>
+                    <th style="border-bottom: 1px solid #ddd;">PRICE</th>
                     <?php
                     if ($table_prices):
                         foreach ($table_prices as $price):
                     ?>
-                        <td class="text-center"><?php echo $price['col_price']; ?></td>
+                        <td class="text-center" style="font-weight: bold; border-bottom: 1px solid #ddd; padding-block: 0.5rem;"><?php echo $price['col_price']; ?></td>
                     <?php
                         endforeach;
                     endif;
                     ?>
-                    <td rowspan="50" class="bg-gray-table text-center vertical-align-middle"><span class="text-center">For Access to $500,000 <a href="<?php echo get_site_url(); ?>/contact/" style="color: #fff; text-decoration: underline;">Contact Us</a></span></td>
-                    <td rowspan="50" class="bg-black-table text-center vertical-align-middle"><span class="text-center">For Access to $1,000,000 <a href="<?php echo get_site_url(); ?>/contact/" style="color: #fff; text-decoration: underline;">Contact Us</a></span></td>
+                    <td rowspan="50" class="bg-black-table text-center vertical-align-middle"><span class="text-center">For Access to $500,000<br> <br><a href="<?php echo get_site_url(); ?>/contact/" style="color: #fff; text-decoration: underline; font-weight: bold">CONTACT US</a></span></td>
+                    <td rowspan="50" class="bg-gray-table text-center vertical-align-middle"><span class="text-center">For Access to $1,000,000 <br><br><a href="<?php echo get_site_url(); ?>/contact/" style="color: #fff; text-decoration: underline; font-weight: bold">CONTACT US</a></span></td>
                 </tr>
 
                 <!-- Table Rows Content -->
                 <?php if ($table_rows):
                     foreach ($table_rows as $row):?>
                     <tr class="relative" data-row-id="<?php echo $row['row_name']; ?>">
-                        <th style="font-size: 14px; font-weight: 400; display: flex; align-items: center;">
+                        <th style="font-size: 14px;font-weight: 600; display: flex;line-height: 2; align-items: center; border-bottom: 1px solid #ddd; padding-block: 0.7rem;">
                             <span class="collapsible-icon" data-id="<?php echo $row['row_name']; ?>">
-                            <img data-src="<?php echo get_template_directory_uri(); ?>/img/arrow-icon.svg" alt="pie-icon" style="max-width: 16px; margin-right: 10px;" />
+                            <img data-src="<?php echo get_template_directory_uri(); ?>/img/table-arrow.svg" alt="pie-icon" style="max-width: 16px; margin-right: 10px;" />
                         </span>
 
                             <?php echo $row['row_name']; ?>
@@ -174,16 +175,32 @@
             <p>FundedX Traders Challenge allows participants in both Stage 1 and Stage 2 to complete their trading without any time constraints.</p>
         </div>
 
-        <div id="slider-container" style="margin-top: 6rem">
+        <?php if (is_page('evaluation')) : ?>
+            <div id="slider-container" style="margin-top: 10rem">
 
-            <div id="slider-table" class="w-full relative cursor-pointer" style="height: 10px; background-color: #CACACA;">
-                <div id="slider-fill" class="progress-bar-fill" style="height: 100%; background-color: #141414;"></div>
-                <div id="slider-thumb" class="absolute" style="width: 20px; height: 20px; background-color: black; top: 50%; transform: translateY(-50%); border-radius: 50%;"></div>
+                <div id="slider-table" class="w-full relative cursor-pointer" style="height: 10px; background-color: #CACACA;">
+                    <div id="slider-fill" class="progress-bar-fill" style="height: 100%; background-color: #141414;"></div>
+                    <div id="slider-thumb" class="absolute" style="width: 20px; height: 20px; background-color: black; top: 50%; transform: translateY(-50%); border-radius: 50%;"></div>
+                </div>
+
+                <div id="slider-tooltip-table" class="tooltip-table-bar"></div>
+
             </div>
+            
+            <?php else : ?>
+                <div id="slider-container" style="margin-top: 6rem">
 
-            <div id="slider-tooltip-table" class="tooltip-table-bar"></div>
+                    <div id="slider-table" class="w-full relative cursor-pointer" style="height: 10px; background-color: #CACACA;">
+                        <div id="slider-fill" class="progress-bar-fill" style="height: 100%; background-color: #141414;"></div>
+                        <div id="slider-thumb" class="absolute" style="width: 20px; height: 20px; background-color: black; top: 50%; transform: translateY(-50%); border-radius: 50%;"></div>
+                    </div>
 
-        </div>
+                    <div id="slider-tooltip-table" class="tooltip-table-bar"></div>
+
+                </div>
+            <?php endif; ?>
+
+
 
         <div class="btn-holder text-center mt-40px">
             <a href="<?php echo get_site_url(); ?>#take-the-challenge" class="btn btn--primary">TAKE THE CHALLENGE<?= get_template_part('img/arrow-up.svg'); ?></a>
@@ -264,12 +281,11 @@ collapsibleIcons.forEach(icon => {
 
       row.style.height = 'auto';
       const rowHeight = row.offsetHeight;
-      const newRowHeight = rowHeight + 50;
+      const newRowHeight = rowHeight + 110;
       row.style.height = `${newRowHeight}px`;
     }
   });
 });
-
 
 
 });

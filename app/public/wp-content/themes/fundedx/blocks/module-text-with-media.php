@@ -33,6 +33,9 @@
         .fundedx--m{
             display: block;
         }
+        .join-affiliate-program{
+           display: none;
+        }
         
     }
 
@@ -76,10 +79,11 @@
                 <?php if( !empty( $fundedx_logo ) ): ?>
                     <img class="m-auto fundedx--m" style="margin-bottom: 1rem" data-src="<?= $fundedx_logo['url']; ?>" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="<?= $fundedx_logo['alt']; ?>" width="400" >
                 <?php endif; ?>
-                <div class="center-btn">
-                <?php if( !empty( $cta ) ): ?>
-                <a href="<?php echo get_site_url(); ?>#take-the-challenge" class="mt-30px mb-3 btn btn--primary <?= $background_images && $black_btn? '' : 'secondary-btn' ?>" ><?= $cta['title'] ?><?= get_template_part('img/arrow-up.svg'); ?></a>
-            <?php endif ?>
+
+                <div class="center-btn ">
+                    <?php if( !empty( $cta ) ): ?>
+                        <a href="<?php echo get_site_url(); ?>#take-the-challenge" class="mt-30px mb-3 btn btn--primary <?= $background_images && $black_btn? '' : 'secondary-btn' ?>" ><?= $cta['title'] ?><?= get_template_part('img/arrow-up.svg'); ?></a>
+                    <?php endif ?>
                 </div>
             
             </div>
@@ -95,7 +99,11 @@
                             Your browser does not support the video tag.
                         </video>
                     <?php elseif( $media['type'] == 'image' ): ?>
-                        <?= image( $media['ID'], 'a4x3' ) ?>
+                        <?php if(is_page('affiliate-program')) : ?>
+                        <?= image( $media['ID'], 'a4x3 join-affiliate-program' ) ?>
+                        <?php else : ?>
+                        <?= image( $media['ID'], 'a4x3 ' ) ?>
+                        <?php endif ?>
                     <?php endif ?>
                 <?php endif ?>
             </div>

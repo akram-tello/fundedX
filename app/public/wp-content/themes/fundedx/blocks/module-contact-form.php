@@ -40,12 +40,12 @@
         <p class="mt-8"><?= wrap_WYSIWYG_text(get_field('text'), 'mt-5') ?></p>
 
         <div class="flex space-x-8 social-links">
-                <a href="<?php echo get__link('facebook'); ?>">
+                <!-- <a href="<?php echo get__link('facebook'); ?>">
                     <svg xmlns="http://www.w3.org/2000/svg" width="33.891" height="33.893" viewBox="0 0 33.891 33.893">
                         <path id="Facebook_Hover_" data-name="Facebook [Hover]" d="M16.445,32.893A16.446,16.446,0,0,1,4.816,4.818,16.446,16.446,0,1,1,28.073,28.076,16.335,16.335,0,0,1,16.445,32.893ZM13.2,17.091V27.842h4.446V17.091h2.934l.389-3.776H17.644V11.093a.909.909,0,0,1,.944-1.029h2.388V6.394L17.684,6.38A4.171,4.171,0,0,0,13.2,10.867v2.444H11.083v3.78Z" transform="translate(0.5 0.5)" fill="#141414" stroke="rgba(0,0,0,0)" stroke-width="1"/>
                     </svg>
-                </a>
-                <a href="<?php echo get__link('discord'); ?>">
+                </a> -->
+                <a href="<?php echo get__link('youtube'); ?>">
                     <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
                         <path id="Social_Media_Small_Dark_Youtube" data-name="Social Media / Small / Dark / Youtube" d="M16.5,33A16.5,16.5,0,0,1,4.833,4.833,16.5,16.5,0,0,1,28.168,28.168,16.393,16.393,0,0,1,16.5,33ZM16.424,8.543a45.2,45.2,0,0,0-8.006.6,2.763,2.763,0,0,0-2.238,2.139,33.067,33.067,0,0,0-.4,5.222,26.96,26.96,0,0,0,.446,5.223,2.817,2.817,0,0,0,2.238,2.138,46.128,46.128,0,0,0,8.008.6,46.144,46.144,0,0,0,8.008-.6,2.763,2.763,0,0,0,2.237-2.138,38.258,38.258,0,0,0,.5-5.223,34.922,34.922,0,0,0-.6-5.222,2.815,2.815,0,0,0-2.238-2.139A44.79,44.79,0,0,0,16.424,8.543ZM13.739,19.982V13.019L19.806,16.5,13.74,19.981Z" transform="translate(0 0)" fill="#141414"/>
                     </svg>

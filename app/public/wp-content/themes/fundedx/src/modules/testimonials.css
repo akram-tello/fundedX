@@ -39,6 +39,11 @@
         max-width: 100%;
         width: 100%;
         margin-bottom: 50px;
+        padding: 0;
+        justify-content: center;
+    }
+    .testimonial-arrows{
+        text-align: center !important;
     }
 }
 .client-feedback-heading .pandai-usp {

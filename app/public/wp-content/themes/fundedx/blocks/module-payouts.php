@@ -34,7 +34,7 @@
         </div>
 
         <div class="lg:block hidden">
-            <img data-src="<?= get_template_directory_uri(); ?>/img/payouts.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Group-4" width="100%" height="100%" style="margin-right: 10px; top: -94px; position: absolute; width: 45%; right: 0px;" class=" size-full" />
+            <img data-src="<?= get_template_directory_uri(); ?>/img/payouts.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Group-4" width="100%" height="100%" style="margin-right: 0px; top: 0px; position: absolute; width: 45%; right: 0px;" class=" size-full" />
         </div>
         
         

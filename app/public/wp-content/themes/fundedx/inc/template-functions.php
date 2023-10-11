@@ -92,11 +92,12 @@ function get_footer_logo() {
 function get_footer_background() {
 
     $background_id = get_field('footer_background_image', 'option');
+    $mobile_background_id = get_field('footer_background_image_mobile', 'option');
 
     if (empty($background_id)) {
         return '';
     }
-
+    
     $background_url = wp_get_attachment_image_url($background_id, 'full');
 
     return 'style="background-image: url(' . esc_url($background_url) . '); background-repeat: no-repeat;
@@ -105,7 +106,7 @@ function get_footer_background() {
 
 /** GET HEADER LOGO **/
 function get_header_logo() {
-	return get_field('site_logo', 'option') ? '<a href="/home" ><img src="' . get_template_directory_uri() . '/img/placeholder.png" data-src="' . get_field('site_logo', 'option')['url'] . '" alt="Logo of ' . get_bloginfo('name') . '"></a>' : the_custom_logo();
+	return get_field('site_logo', 'option') ? '<a href="/home" ><img style="max-width: 150px" src="' . get_template_directory_uri() . '/img/placeholder.png" data-src="' . get_field('site_logo', 'option')['url'] . '" alt="Logo of ' . get_bloginfo('name') . '"></a>' : the_custom_logo();
 }
 
 /** GET NEWS TAB TEXT **/

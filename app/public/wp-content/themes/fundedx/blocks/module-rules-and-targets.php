@@ -23,6 +23,13 @@
         color: #868686;
         font-weight: 500;
     }
+    @media screen and (max-width: 767px) {
+        .center-btn{
+            text-align: center;
+            margin: auto;
+        }
+        
+    }
 </style>
 <!-- style="background-image: url('<?= get_template_directory_uri() . '/img/bg.svg' ?>'); background-size: cover; background-position: top;" -->
 <section class="module module--text-with-media <?= $className ?>">
@@ -51,7 +58,9 @@
                 </ul>
 
                 <?php if( !empty( $cta ) ): ?>
+                    <div class="center-btn ">
                     <a href="<?php echo get_site_url(); ?>#take-the-challenge" class="mt-30px mb-3 btn btn--primary" ><?= $cta['title'] ?><?= get_template_part('img/arrow-up.svg'); ?></a>
+                    </div>
                 <?php endif ?>
 
             </div>

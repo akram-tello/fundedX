@@ -12,10 +12,12 @@
             <p><?= $content ?></p>
         </div>
 
-        <div class="module-works-list flex flex-wrap mt-30px md:space-x-0">
+        <div class="module-works-list flex flex-wrap mt-30px md:space-x-0" style="
+    justify-content: center;
+">
             <?php if( have_rows('cards') ): ?>
                 <?php while( have_rows('cards') ): the_row(); ?>
-                    <div class="box-list relative">
+                    <div class="box-list relative w-full">
                         <?= get_template_part('img/box.svg'); ?>
                         <div class="box-content absolute">
                             <h2><?php the_sub_field('card_order'); ?></h2>

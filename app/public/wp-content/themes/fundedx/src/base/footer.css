@@ -26,10 +26,15 @@
     }
 }
 
+.discord-logo{
+    width: 5rem;
+    height: 5rem;
+}
 
 @media (max-width: 767px) {
     .top-footer{
         @apply p-8;
+        padding-inline: 0px !important;
     }
     .dot-footer{
         display: none;
@@ -51,6 +56,25 @@
 
     .social-links{
         display: none;
+    }
+
+    .line-footer{
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .discord-logo{
+        width: 40px;
+        margin-right: 20px;
+    }
+    .dd{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .title-top-footer{
+        font-size: 28px !important;
+        font-weight: 700;
     }
 }
 

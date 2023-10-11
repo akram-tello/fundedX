@@ -12,7 +12,7 @@
 
 <style>
     .title-top-footer{
-        font-size: 1.5rem;
+        font-size: 35px;
         font-weight: 700;
     }
 </style>
@@ -22,8 +22,7 @@
 
   if ($hide_top_footer !== true):
 ?>
-
-<section id="top-footer" class="footer footer--top" <?= get_footer_background(); ?>>
+<section id="top-footer" class="footer footer--top">
   
   <div class="wrapper">
     
@@ -31,17 +30,22 @@
       
       <div class="flex flex-col items-start lg:col-span-6 lg:w-1/2 lg:py-12 lg:block lg:flex-col lg:items-start w-full">
         
-        <!-- Discord Logo -->
-        <img 
-          data-src="<?php echo get_template_directory_uri(); ?>/img/discord-logo.svg" 
-          src="<?php echo get_template_directory_uri(); ?>/img/placeholder.png" 
-          alt="Logo of Discord" 
-          width="50px">
-        
-        <!-- top Footer Title -->
-        <h2 class="title-top-footer font-extrabold mb-4">
-            <?php echo get_top_footer_title(); ?>
-        </h2>
+        <!-- Discord Logo and Title Container -->
+        <div class="logo-title-container flex flex-col items-start sm:flex-row sm:items-center lg:flex-col lg:items-start dd">
+          
+          <!-- Discord Logo -->
+          <img 
+            data-src="<?php echo get_template_directory_uri(); ?>/img/discord-logo.svg" 
+            src="<?php echo get_template_directory_uri(); ?>/img/placeholder.png" 
+            alt="Logo of Discord" 
+            class="sm:mr-4 lg:mr-0 discord-logo">
+          
+          <!-- top Footer Title -->
+          <h2 class="title-top-footer lg:mb-4" style="line-height: 33px;">
+              <?php echo get_top_footer_title(); ?>
+          </h2>
+          
+        </div>
         
         <!-- top Footer Description -->
         <p class="text-lg mb-8">
@@ -50,9 +54,8 @@
         
         <!-- Discord Link Button -->
         <a 
-        href="<?php echo get__link('discord'); ?>" 
-          class="main-btn rounded flex items-center justify-center h-10 text-white bg-black px-3 w-full lg:w-1/2 mx-auto lg:mx-0"
-          >
+          href="<?php echo get__link('discord'); ?>" 
+          class="main-btn rounded flex items-center justify-center h-10 text-white bg-black px-3 w-full lg:w-1/2 mx-auto lg:mx-0 cta-footer-btn">
           <img 
             data-src="<?php echo get_template_directory_uri(); ?>/img/discord-logo-white.svg" 
             src="<?php echo get_template_directory_uri(); ?>/img/placeholder.png" 
@@ -68,6 +71,7 @@
   </div>
 
 </section>
+
 
 <?php endif; ?>
 
@@ -95,11 +99,11 @@
             </div>
 
             <div class="flex space-x-8 social-links-footer lg:hidden">
-                <a href="<?php echo get__link('facebook'); ?>">
+                <!-- <a href="<?php echo get__link('facebook'); ?>">
                     <svg xmlns="http://www.w3.org/2000/svg" width="33.891" height="33.893" viewBox="0 0 33.891 33.893">
                         <path id="Facebook_Hover_" data-name="Facebook [Hover]" d="M16.445,32.893A16.446,16.446,0,0,1,4.816,4.818,16.446,16.446,0,1,1,28.073,28.076,16.335,16.335,0,0,1,16.445,32.893ZM13.2,17.091V27.842h4.446V17.091h2.934l.389-3.776H17.644V11.093a.909.909,0,0,1,.944-1.029h2.388V6.394L17.684,6.38A4.171,4.171,0,0,0,13.2,10.867v2.444H11.083v3.78Z" transform="translate(0.5 0.5)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
                     </svg>
-                </a>
+                </a> -->
                 <a href="<?php echo get__link('discord'); ?>">
                     <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
                         <path id="Social_Media_Small_Dark_Youtube" data-name="Social Media / Small / Dark / Youtube" d="M16.5,33A16.5,16.5,0,0,1,4.833,4.833,16.5,16.5,0,0,1,28.168,28.168,16.393,16.393,0,0,1,16.5,33ZM16.424,8.543a45.2,45.2,0,0,0-8.006.6,2.763,2.763,0,0,0-2.238,2.139,33.067,33.067,0,0,0-.4,5.222,26.96,26.96,0,0,0,.446,5.223,2.817,2.817,0,0,0,2.238,2.138,46.128,46.128,0,0,0,8.008.6,46.144,46.144,0,0,0,8.008-.6,2.763,2.763,0,0,0,2.237-2.138,38.258,38.258,0,0,0,.5-5.223,34.922,34.922,0,0,0-.6-5.222,2.815,2.815,0,0,0-2.238-2.139A44.79,44.79,0,0,0,16.424,8.543ZM13.739,19.982V13.019L19.806,16.5,13.74,19.981Z" transform="translate(0 0)" fill="#fff"/>
@@ -138,11 +142,11 @@
             </div>
             <!-- Social Media Icons -->
             <div class="flex space-x-8 social-links">
-                <a href="<?php echo get__link('facebook'); ?>">
+                <!-- <a href="<?php echo get__link('facebook'); ?>">
                     <svg xmlns="http://www.w3.org/2000/svg" width="33.891" height="33.893" viewBox="0 0 33.891 33.893">
                         <path id="Facebook_Hover_" data-name="Facebook [Hover]" d="M16.445,32.893A16.446,16.446,0,0,1,4.816,4.818,16.446,16.446,0,1,1,28.073,28.076,16.335,16.335,0,0,1,16.445,32.893ZM13.2,17.091V27.842h4.446V17.091h2.934l.389-3.776H17.644V11.093a.909.909,0,0,1,.944-1.029h2.388V6.394L17.684,6.38A4.171,4.171,0,0,0,13.2,10.867v2.444H11.083v3.78Z" transform="translate(0.5 0.5)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
                     </svg>
-                </a>
+                </a> -->
                 <a href="<?php echo get__link('discord'); ?>">
                     <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
                         <path id="Social_Media_Small_Dark_Youtube" data-name="Social Media / Small / Dark / Youtube" d="M16.5,33A16.5,16.5,0,0,1,4.833,4.833,16.5,16.5,0,0,1,28.168,28.168,16.393,16.393,0,0,1,16.5,33ZM16.424,8.543a45.2,45.2,0,0,0-8.006.6,2.763,2.763,0,0,0-2.238,2.139,33.067,33.067,0,0,0-.4,5.222,26.96,26.96,0,0,0,.446,5.223,2.817,2.817,0,0,0,2.238,2.138,46.128,46.128,0,0,0,8.008.6,46.144,46.144,0,0,0,8.008-.6,2.763,2.763,0,0,0,2.237-2.138,38.258,38.258,0,0,0,.5-5.223,34.922,34.922,0,0,0-.6-5.222,2.815,2.815,0,0,0-2.238-2.139A44.79,44.79,0,0,0,16.424,8.543ZM13.739,19.982V13.019L19.806,16.5,13.74,19.981Z" transform="translate(0 0)" fill="#fff"/>
@@ -169,16 +173,16 @@
         </div>
     </div>
     <!-- Footer Bottom -->
-    <div class="flex flex-col-reverse justify-between pt-5 pb-10 border-top-line lg:flex-row">
-        <p class="text-sm text-gray-600">
+    <div class="lg:flex justify-between pt-5 pb-10 border-top-line">
+        <p class="text-sm text-gray-600 text-center mb-0">
             © Copyright <?= date('Y') ?> <?= get_bloginfo('name'); ?>. All rights reserved.
         </p>
-        <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+        <ul class="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row justify-between line-footer">
             <li>
-                <a href="/refund-policy" class="text-sm text-gray-600 transition-colors duration-300" style="font-size: 10px">REFUND POLICY <span class="dot-footer">&nbsp; •</span></a>
+                <a href="/refund-policy" class="text-sm text-gray-600 transition-colors duration-300" style="font-size: 10px">REFUND POLICY <span> &nbsp;&nbsp;&nbsp; &nbsp; •</span></a>
             </li>
             <li>
-                <a href="/privacy-policy" class="text-sm text-gray-600 transition-colors duration-300" style="font-size: 10px">PRIVACY POLICY<span class="dot-footer"> &nbsp; •</span></a>
+                <a href="/privacy-policy" class="text-sm text-gray-600 transition-colors duration-300" style="font-size: 10px">PRIVACY POLICY<span> &nbsp;&nbsp; &nbsp; &nbsp; •</span></a>
             </li>
             <li>
                 <a href="/terms-conditions" class="text-sm text-gray-600 transition-colors duration-300" style="font-size: 10px">TERMS & CONDITIONS</a>
@@ -186,6 +190,28 @@
         </ul>
     </div>
 </div>
+
+<script>
+ document.addEventListener('DOMContentLoaded', () => {
+  const handleResize = () => {
+    const section = document.getElementById('top-footer');
+    
+    if (window.innerWidth <= 768) {
+      section.style.backgroundImage = "url('<?= get_template_directory_uri() . '/img/top-footer-mob.svg' ?>')";
+      section.style.backgroundSize = 'cover';
+      section.style.backgroundPosition = 'center';
+    } else {
+      section.style.backgroundImage = "url('<?= get_template_directory_uri() . '/img/top-footer-web.png' ?>')";
+      section.style.backgroundSize = 'cover';
+      section.style.backgroundPosition = 'center';
+    }
+  };
+
+  window.addEventListener('resize', handleResize);
+  handleResize();
+});
+
+</script>
 
 <?php wp_footer(); ?>
 
