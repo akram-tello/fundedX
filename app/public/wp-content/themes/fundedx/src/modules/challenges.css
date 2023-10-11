@@ -194,6 +194,7 @@
     th:first-child, td:first-child {
         background-color: #fff !important;
         min-width: 248px !important;
+        background: transparent !important;
         }
           
     .pt-40-mob{

@@ -1878,6 +1878,9 @@ img.absolute {
         max-width: 100%;
         width: 100%;
     }
+    .owl-carousel .owl-item{
+        padding: 8px !important; 
+    }
 }
 .feedback-card {
     position: relative;
@@ -1885,6 +1888,7 @@ img.absolute {
     background-color: #ffffff;
     border: 1px solid #cacaca !important;
     box-shadow: none !important;
+    height: 275px !important;
 }
 .p-0{
     padding: 0 !important;
@@ -2242,6 +2246,7 @@ img.absolute {
     th:first-child, td:first-child {
         background-color: #fff !important;
         min-width: 248px !important;
+        background: transparent !important;
         }
           
     .pt-40-mob{

@@ -23,6 +23,7 @@
     line-height: 1.6;
     z-index: 0;
 }
+
 </style>
 <?php if(is_page('home')) : ?>
 
@@ -35,9 +36,10 @@
 
         <div class="card--carousel mt-40px mt-0-mob">
             <?php if( have_rows('cards') ): // Outer loop for Cards ?>
+                <?php $counter = 1; // Initialize a counter ?>
                 <?php while( have_rows('cards') ): the_row(); ?>
 
-                    <div class="card-holder">
+                    <div class="card-holder" data-id="fuck-<?php echo $counter; ?>">
                         <div class="card-header text-light">
                             <h3><?php the_sub_field('card_title'); ?></h3>
                             <div class="card-price">
@@ -61,6 +63,7 @@
                             <a href="<?php the_sub_field('buy_now_url'); ?>" class="btn btn--primary w-full">Buy Now</a>
                         </div>
                     </div>
+                    <?php $counter ++; ?>
 
                 <?php endwhile; ?>
             <?php endif; ?>
@@ -262,7 +265,7 @@
 const collapsibleIcons = document.querySelectorAll('.collapsible-icon');
 
 collapsibleIcons.forEach(icon => {
-    // let the collapisble icon text show only for first 2 rows
+   
   icon.addEventListener('click', function() {
     const rowId = this.getAttribute('data-id');
     const row = document.querySelector(`[data-row-id="${rowId}"]`);
