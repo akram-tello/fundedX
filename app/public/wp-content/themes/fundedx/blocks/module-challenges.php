@@ -39,7 +39,7 @@
                 <?php $counter = 1; // Initialize a counter ?>
                 <?php while( have_rows('cards') ): the_row(); ?>
 
-                    <div class="card-holder" data-id="fuck-<?php echo $counter; ?>">
+                    <div class="card-holder" data-id="card-<?php echo $counter; ?>">
                         <div class="card-header text-light">
                             <h3><?php the_sub_field('card_title'); ?></h3>
                             <div class="card-price">
