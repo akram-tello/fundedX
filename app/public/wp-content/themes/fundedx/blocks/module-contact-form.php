@@ -19,19 +19,19 @@
             <?= do_shortcode( $code ) ?>
         </div>
         
-        <div class="card">
+        <div class="card card-info-width">
         <ul class="custom-list list-inside list-decimal" style="padding-bottom: 20px; border-bottom: 1px solid rgb(139, 163, 191);">
             <li class="flex items-start mb-2 mt-5">
                 <img data-src="<?= get_template_directory_uri(); ?>/img/mail-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-10 mr-4">
                 <div>
-                    <h3 class="text-white" style="font-size: 20px; font-weight: 500; color:#141414;">Email us:</h3>
+                    <h3 class="text-white" style="font-size: 20px; font-weight: 500; color:#141414; padding-top: 0.5rem;">Email us:</h3>
                     <p> <span><?= get_email(); ?></span> </p>
                 </div>
             </li>
             <li class="flex items-start mb-2 mt-5">
                 <img data-src="<?= get_template_directory_uri(); ?>/img/hours-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-10 mr-4">
                 <div>
-                    <h3 class="text-white" style="font-size: 20px; font-weight: 500; color:#141414;">Business Hours:</h3>
+                    <h3 class="text-white" style="font-size: 20px; font-weight: 500; color:#141414; padding-top: 0.5rem;">Business Hours:</h3>
                     <p style="max-width: 250px; font-size: 16px; line-height: 20px; letter-spacing: 1px;"> <?= get_business_hours(); ?> </p>
                 </div>
             </li>

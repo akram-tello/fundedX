@@ -960,6 +960,12 @@ video {
 .pt-6 {
 	padding-top: 1.5rem;
 }
+.pt-20px {
+	padding-top: 20px;
+}
+.pb-80px {
+	padding-bottom: 80px;
+}
 .text-left {
 	text-align: left;
 }
@@ -1109,6 +1115,7 @@ h2.module-title {
 	left: 0px;
 	z-index: 50;
 	width: 100%;
+    transition: all 0.4s ease-in-out;
 }
 .custom-tooltip {
 	top: 3.2em;
@@ -1585,10 +1592,24 @@ img.absolute {
 }
 .faq-list__item.active .faq-answer {
 	display: block;
+            animation: fadeIn 0.5s ease-in-out;
 }
 .faq-list__item.active .faq-icon {
 	--tw-rotate: 180deg;
 	transform: var(--tw-transform);
+            /* transition: transform 0.6s ease-in-out; */
+            max-height: 100%;
+            transform: rotate(180deg);
+            transition: transform 0.6s ease-in-out;
+            max-height: 100%;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 .faq-question {
 	display: flex;
@@ -1602,11 +1623,18 @@ img.absolute {
     flex-wrap: nowrap;
 }
 .faq-answer {
+	overflow: hidden;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 150ms;
+	transition-duration: 300ms;
 	display: none;
     padding: 2rem;
     padding-top: 1rem;
     padding-inline-start: 1rem;
     max-width: 31rem;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 .faq-icon {
 	transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
@@ -1614,8 +1642,9 @@ img.absolute {
 	transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	transition-duration: 150ms;
-	transition-duration: 300ms;
+	transition-duration: 500ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.6s ease-in-out;
 }
 .btn-faqs{
     background: transparent;
@@ -1630,6 +1659,14 @@ img.absolute {
     .module--faq-homepage{
         padding-top: 50px !important;
         padding-bottom: 30px !important;
+    }
+
+    .faq-question{
+        padding-left: 0;
+    }
+    
+    .faq-answer{
+        padding-left: 0;
     }
 }
 .module--text-with-media {
@@ -1665,6 +1702,7 @@ img.absolute {
 }
 .module--page-header {
 	position: relative;
+    transition: width 4s;
 }
 .module--page-header .bg {
 	width: 100%;
@@ -1950,6 +1988,14 @@ img.absolute {
     background: #fff;
     height: -moz-fit-content;
     height: fit-content;
+}
+.card-info-width{
+    max-width: 25rem;
+}
+@media (max-width: 767px){
+    .card-info-width{
+        max-width: 100%;
+    }
 }
 .module--how-it-works:before {
         content: '';
@@ -2391,24 +2437,6 @@ color: white;
     border-style: solid;
     border-color: #000 transparent transparent transparent;
   }
-.module-broker-title {
-    max-width: 230px;
-}
-.module-broker-title img {
-        max-width: 218px;
-        margin: 15px 0;
-    }
-.module-broker-title p {
-        color: #141414;
-        margin-bottom: 0;
-        font-size: 14px;
-        font-weight: 600;
-    }
-.module-broker-title p.small {
-            font-weight: normal;
-            font-size: 13px;
-            color: #212930;
-        }
 .partner-logo a {
         max-width: 133px;
         display: block;
@@ -2421,27 +2449,32 @@ color: white;
         } */
     }
 .module-broker-title {
-    max-width: 230px;
+    max-width: 14.375rem;
+    padding-left: 1rem;
 }
 .module-broker-title img {
         max-width: 218px;
         margin: 15px 0;
     }
+.module-broker-title h2{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
 .module-broker-title p {
         color: #141414;
         margin-bottom: 0;
-        font-size: 14px;
+        font-size: 1rem;
         font-weight: 600;
     }
 .module-broker-title p.small {
             font-weight: normal;
-            font-size: 13px;
+            font-size: 1rem;
             color: #212930;
         }
 .partner-logo a {
-        max-width: 133px;
+        max-width: 8.3125rem;
         display: block;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
         /* transition: all .3s ease-in-out; */
         /* transform: scale(1); */
 
@@ -2464,6 +2497,7 @@ color: white;
 
     .module-broker-title {
         max-width: 100%;
+        padding-left: 0rem;
     }
 
         .module-broker-title h2{
@@ -2525,7 +2559,6 @@ color: white;
 	width: 100%;
 	-o-object-fit: cover;
 	   object-fit: cover;
-	opacity: 0.5;
         filter: grayscale(100%);
 }
 .module--article .wrapper {
@@ -2534,10 +2567,9 @@ color: white;
 }
 .module--article .article-card {
 	border-radius: 10px;
-	--tw-bg-opacity: 1;
-	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 	padding: 3rem;
         padding-inline: 6rem;
+        background-color: #ffffff59;
 }
 .module--article .module--title {
 	text-align: center;
@@ -2596,10 +2628,12 @@ color: white;
     }
 .banner-title{
     color: #d3d3d3;
-    font-size: 35px;
-    letter-spacing: 2.4px;
+    font-size: 2.1875rem;
+    letter-spacing: 0.15rem;
     text-transform: capitalize;
     line-height: 1.4;
+    font-size: 3rem;
+    padding-bottom: 28px;
 }
 .banner--mobile{
     display: none;
@@ -2612,10 +2646,10 @@ color: white;
 }
 @media (max-width: 768px) {
     .banner-title{
-        font-size: 24px;
+        font-size: 1.5rem;
     }
     .sub-text-banner{
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .banner--web{
@@ -2729,13 +2763,13 @@ color: white;
     transform: translateY(-50%);
 }
 .start-dot {
-    left: 0;
+    left: -1%;
   }
 .middle-dot {
     left: 50%;
   }
 .end-dot {
-    left: 100%;
+    left: 99%;
   }
 .black-part{
     max-width: 330px;
@@ -2981,6 +3015,10 @@ color: white;
 		margin-bottom: 0px;
 	}
 
+	.lg\:mt-12 {
+		margin-top: 3rem;
+	}
+
 	.lg\:block {
 		display: block;
 	}
@@ -3049,5 +3087,9 @@ color: white;
 	.lg\:px-6 {
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
+	}
+
+	.lg\:text-center {
+		text-align: center;
 	}
 }

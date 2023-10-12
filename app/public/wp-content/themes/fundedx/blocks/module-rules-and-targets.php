@@ -19,7 +19,7 @@
         display: flex;
         align-items: center;
         padding-bottom: 3px;
-        font-size: 14px;
+        font-size: 1rem;
         color: #868686;
         font-weight: 500;
     }

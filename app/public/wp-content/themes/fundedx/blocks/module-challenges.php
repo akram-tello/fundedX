@@ -72,7 +72,7 @@
     </div>
         
         <div class="wrapper" style="margin-top: 5rem">
-            <div class="module-title-holder text-center mw-511 m-auto module-challenge-text">
+            <div class="module-title-holder lg:text-center mw-511 m-auto module-challenge-text">
                 <p>FundedX Traders Challenge allows participants in both Stage 1 and Stage 2 to complete their trading without any time constraints.</p>
             </div>
             <span id="tooltip_bar" class="tooltip-bar custom-tooltip-bar"></span>
@@ -172,9 +172,9 @@
 
     </section>
 
-    <div class="wrapper" style="margin-top: 3rem">
+    <div class="wrapper lg:mt-12">
         
-        <div class="module-title-holder text-center mw-511 m-auto module-challenge-text">
+        <div class="module-title-holder lg:text-center mw-511 m-auto module-challenge-text">
             <p>FundedX Traders Challenge allows participants in both Stage 1 and Stage 2 to complete their trading without any time constraints.</p>
         </div>
 

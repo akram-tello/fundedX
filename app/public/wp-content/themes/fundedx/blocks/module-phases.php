@@ -40,6 +40,10 @@
             <div class="dot middle-dot" id="middle-dot"></div>
             <div class="dot end-dot" id="end-dot"></div>
         </div>
+        <div class="testimonial-arrows text-left mt-4" style="margin-top: 1rem">
+            <button id="prev-arrow" class="arrow-button mr-2"></button>
+            <button id="next-arrow" class="arrow-button mx-2"></button>
+        </div>
     </div>
 </div>
 
@@ -102,7 +106,7 @@
                     <?php endif; ?>
                 </span>
 
-                <img data-src="<?= get_template_directory_uri(); ?>/img/slash-down.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="phase1" class="slash-img" style=" position: absolute; bottom: -50px; right: 200px; width: 50%;">
+                <img data-src="<?= get_template_directory_uri(); ?>/img/slash-down.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="phase1" class="slash-img" style=" position: absolute; bottom: -70px; right: 200px; width: 50%;">
 
             </div>
 
@@ -161,72 +165,101 @@
 
 
 <script>
- document.addEventListener("DOMContentLoaded", function() {
+ document.addEventListener("DOMContentLoaded", function () {
   const newSlider = document.getElementById("new-slider-table");
   const newFill = document.getElementById("new-slider-fill");
   const dots = Array.from(document.querySelectorAll('.dot'));
   const phase1 = document.getElementById("phase1");
   const phase2 = document.getElementById("phase2");
+  const prevArrow = document.getElementById("prev-arrow");
+  const nextArrow = document.getElementById("next-arrow");
 
   let isDragging = false;
+  let currentPhase = 1; // Initialize to the first phase
 
-  function updateNewSlider(event) {
-    const rect = newSlider.getBoundingClientRect();
-    let x = event.clientX - rect.left;
-    x = Math.min(Math.max(0, x), rect.width);
-
-    let fillRatio;
-
-    // Snap to one of the three points
-    if (x < rect.width / 3) {
+  function updateNewSlider() {
+    if (currentPhase === 1) {
       fillRatio = 1 / 3;
-      dots.forEach((dot, index) => {
-        dot.style.backgroundColor = index === 0 ? '#212930' : '#cacaca';
-      });
-        phase1.style.display = "block";
-        phase2.style.display = "none";
-    } else if (x < 2 * rect.width / 3) {
-      fillRatio = 2 / 3;
-      dots.forEach((dot, index) => {
-        dot.style.backgroundColor = index <= 1 ? '#212930' : '#cacaca';
-      });
-        phase1.style.display = "none";
-        phase2.style.display = "block";
+      phase1.style.display = "block";
+      phase2.style.display = "none";
+    } else if (currentPhase === 2) {
+      fillRatio = 0.75;
+      phase1.style.display = "none";
+      phase2.style.display = "block";
     } else {
       fillRatio = 1;
-      dots.forEach(dot => dot.style.backgroundColor = '#212930');
       phase1.style.display = "none";
-        phase2.style.display = "block";
+      phase2.style.display = "block";
     }
+    
+    dots.forEach((dot, index) => {
+      dot.style.backgroundColor = index < currentPhase ? '#212930' : '#cacaca';
+    });
 
     newFill.style.width = `${fillRatio * 100}%`;
   }
 
-  // Set initial fill to 1/3
+  // Initialize the phase bar with 1/3
   function setInitialValue() {
-    const rect = newSlider.getBoundingClientRect();
-    newFill.style.width = `${(1 / 3) * 100}%`;
-    dots[0].style.backgroundColor = '#212930';
-    dots.slice(1).forEach(dot => dot.style.backgroundColor = '#cacaca');
+    currentPhase = 1;
+    updateNewSlider();
   }
 
-  // Call to set initial fill and dot color
   setInitialValue();
 
-  newSlider.addEventListener("mousedown", function(event) {
-    isDragging = true;
-    updateNewSlider(event);
-  });
-
-  window.addEventListener("mousemove", function(event) {
-    if (isDragging) {
-      updateNewSlider(event);
+  prevArrow.addEventListener("click", function () {
+    if (currentPhase > 1) {
+      currentPhase--;
+      updateNewSlider();
     }
   });
 
-  window.addEventListener("mouseup", function() {
+  nextArrow.addEventListener("click", function () {
+    if (currentPhase < 3) {
+      currentPhase++;
+      updateNewSlider();
+    }
+  });
+
+  newSlider.addEventListener("mousedown", function (event) {
+    isDragging = true;
+    const rect = newSlider.getBoundingClientRect();
+    let x = event.clientX - rect.left;
+    x = Math.min(Math.max(0, x), rect.width);
+
+    if (x < rect.width / 3) {
+      currentPhase = 1;
+    } else if (x < 2 * rect.width / 3) {
+      currentPhase = 2;
+    } else {
+      currentPhase = 3;
+    }
+
+    updateNewSlider();
+  });
+
+  window.addEventListener("mousemove", function (event) {
+    if (isDragging) {
+      const rect = newSlider.getBoundingClientRect();
+      let x = event.clientX - rect.left;
+      x = Math.min(Math.max(0, x), rect.width);
+
+      if (x < rect.width / 3) {
+        currentPhase = 1;
+      } else if (x < 2 * rect.width / 3) {
+        currentPhase = 2;
+      } else {
+        currentPhase = 3;
+      }
+
+      updateNewSlider();
+    }
+  });
+
+  window.addEventListener("mouseup", function () {
     isDragging = false;
   });
 });
+
 
 </script>

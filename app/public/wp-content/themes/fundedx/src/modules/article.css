@@ -2,7 +2,7 @@
     @apply py-40px md:py-80px relative;
 
     .bg {
-        @apply absolute top-0 left-0 w-full h-full object-cover opacity-[0.5];
+        @apply absolute top-0 left-0 w-full h-full object-cover;
         filter: grayscale(100%);
     }
 
@@ -11,8 +11,9 @@
     }
 
     .article-card {
-        @apply bg-white p-[3rem] rounded-[10px];
+        @apply  p-[3rem] rounded-[10px];
         padding-inline: 6rem;
+        background-color: #ffffff59;
     }
 
     .module--title {

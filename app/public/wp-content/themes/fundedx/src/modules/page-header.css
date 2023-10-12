@@ -1,5 +1,6 @@
 .module--page-header {
     @apply relative;
+    transition: width 4s;
 
     .bg {
         @apply w-full;

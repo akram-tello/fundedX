@@ -58,7 +58,7 @@ function responsive_image( $mobile, $desktop, $class ) { ?>
 /**  @return: image tag **/
 function image( $id, $aspect ) { ?>
 	<div class="aspect <?= $aspect ?>">
-		<img data-src="<?= wp_get_attachment_image_url( $id, 'full' ) ?>" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="<?= get_post_meta( $id, '_wp_attachment_image_alt', true) ?>">
+		<img class="global-trader" data-src="<?= wp_get_attachment_image_url( $id, 'full' ) ?>" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="<?= get_post_meta( $id, '_wp_attachment_image_alt', true) ?>">
 	</div>
 <?php }
 

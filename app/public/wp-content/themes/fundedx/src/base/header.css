@@ -13,6 +13,7 @@
 
 .sticky-header {
     @apply fixed top-0 left-0 w-full z-50;
+    transition: all 0.4s ease-in-out;
 }
 
 .custom-tooltip {

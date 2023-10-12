@@ -8,3 +8,13 @@
     background: #fff;
     height: fit-content;
 }
+
+.card-info-width{
+    max-width: 25rem;
+}
+
+@media (max-width: 767px){
+    .card-info-width{
+        max-width: 100%;
+    }
+}

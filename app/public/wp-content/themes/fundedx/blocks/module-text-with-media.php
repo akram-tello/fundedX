@@ -36,7 +36,26 @@
         .join-affiliate-program{
            display: none;
         }
-        
+
+        .global-trader{
+        margin: 0rem !important;
+        }
+
+        .border-who-we-are{
+        border-radius: 0px !important;
+        border: none !important;
+        padding: 6rem !important;
+        }
+    }
+
+    .border-who-we-are{
+        border-radius: 10px;
+        border: 2px solid #cacaca;
+        padding: 10rem;
+    }
+
+    .global-trader{
+        margin: 1rem;
     }
 
     .<?= $unique_class ?> {
@@ -102,7 +121,7 @@
                         <?php if(is_page('affiliate-program')) : ?>
                         <?= image( $media['ID'], 'a4x3 join-affiliate-program' ) ?>
                         <?php else : ?>
-                        <?= image( $media['ID'], 'a4x3 ' ) ?>
+                        <?= image( $media['ID'], 'a4x3 border-who-we-are' ) ?>
                         <?php endif ?>
                     <?php endif ?>
                 <?php endif ?>
