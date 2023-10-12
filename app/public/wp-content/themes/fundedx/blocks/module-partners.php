@@ -21,14 +21,14 @@
                     <img data-src="<?= get_template_directory_uri(); ?>/img/cash-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-10 mr-4">
                     <div>
                         <h3 class="text-white" style="font-size: 24px;max-width: 350px; line-height: 28px; color:#EAEDEB;">Be Rewarded For Each Recommendation</h3>
-                        <p>Your voice matters to us, and we believe in rewarding your trust. As a partner in our affiliate program, each referral translates into benefits.</p>
+                        <p><?= $block_1 ?></p>
                     </div>
                 </li>
                 <li class="flex items-start mb-2 mt-5 text-white">
                     <img data-src="<?= get_template_directory_uri(); ?>/img/pie-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-10 mr-4">
                     <div>
                         <h3 class="text-white" style="font-size: 24px;max-width: 200px; line-height: 28px; color:#EAEDEB;">Progressive Commissions</h3>
-                        <p>Begin your affiliate journey with a 7.5% commission, unlocking more as you grow. Reach 10% after your first 50 referrals, and escalate to an impressive 15% after 100.</p>
+                        <p><?= $block_2 ?></p>
                     </div>
                 </li>
             </ul>
@@ -39,14 +39,14 @@
                     <img data-src="<?= get_template_directory_uri(); ?>/img/cash-2-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-10 mr-4">
                     <div>
                         <h3 class="text-white" style="font-size: 24px;max-width: 200px; line-height: 28px; color:#EAEDEB;">Monthly Withdrawals</h3>
-                        <p>Convenience meets timely rewards with our automatic monthly withdrawal system. Your earnings are securely processed once a month without any hassle.</p>
+                        <p><?= $block_3 ?></p>
                     </div>
                 </li>
                 <li class="flex items-start mb-2 mt-5 text-white">
                     <img data-src="<?= get_template_directory_uri(); ?>/img/bar-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-10 mr-4">
                     <div>
                         <h3 class="text-white" style="font-size: 24px;max-width: 200px; line-height: 28px; color:#EAEDEB;">We Will Provide With Materials</h3>
-                        <p>We equip you with everything you need to succeed. Receive a unique affiliate link and visually appealing materials to catch the eye.</p>
+                        <p><?= $block_4 ?></p>
                     </div> 
                 </li>
             </ul>

@@ -1,0 +1,829 @@
+0000.000 (0) Opened log file at time: Wed, 11 Oct 2023 09:02:42 +0000 on http://localhost:10023
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.10 WP: 6.3.1 PHP: 8.1.23 (fpm-fcgi, Darwin akrams-MacBook-Air.local 23.0.0 Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:34 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T8103 arm64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.8M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 51032.4 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.006 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.009 (0) Set semaphore last lock (fd) time to 2023-10-11 09:02:42
+0000.009 (0) Semaphore lock (fd) complete
+0000.011 (0) Backup run: resumption=0, nonce=762b037bc88f, file_nonce=762b037bc88f begun at=1697014962 (0s ago), job type=backup
+0000.013 (0) Scheduling a resumption (1) after 300 seconds (1697015262) in case this run gets aborted
+0000.015 (0) Checking if we have a zip executable available
+0000.015 (0) Testing: /usr/bin/zip
+0000.027 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.028 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.029 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.029 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.030 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.037 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.038 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.040 (0) Working binary zip found: /usr/bin/zip
+0000.041 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.041 (0) Creation of backups of directories: beginning
+0000.044 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0000.134 (0) Total entities for the zip file: 652 directories, 3758 files (0 skipped as non-modified), 88.1 MB
+0000.137 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.139 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.141 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.143 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.145 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.146 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.148 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.150 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.151 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.153 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.153 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.2 MB, 3758 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.463 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: size is now: 2.80 MB
+0000.465 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 1100 files added (on-disk size: 2849.5 KB)
+0000.467 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 1200 files added (on-disk size: 2849.5 KB)
+0000.468 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 1300 files added (on-disk size: 2849.5 KB)
+0000.470 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 1400 files added (on-disk size: 2849.5 KB)
+0000.471 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 1500 files added (on-disk size: 2849.5 KB)
+0000.472 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 1600 files added (on-disk size: 2849.5 KB)
+0000.474 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 1700 files added (on-disk size: 2849.5 KB)
+0000.475 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 3758 files batched, 782 (1783) added so far); re-opening (prior size: 2849.5 KB)
+0000.961 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: size is now: 8.40 MB
+0000.963 (0) A useful amount of data was added after this amount of zip processing: 0.6 s (normalised: 0.6 s, rate: 42411.6 KB/s)
+0000.964 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=0.60413503646851, normalised_time=0.60360891875516, max_time=0.96362686157227, data points known=1, max_bytes=26214400)
+0000.965 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 1800 files added (on-disk size: 8611 KB)
+0000.967 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 1900 files added (on-disk size: 8611 KB)
+0000.968 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 2000 files added (on-disk size: 8611 KB)
+0000.969 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 2100 files added (on-disk size: 8611 KB)
+0000.971 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 2200 files added (on-disk size: 8611 KB)
+0000.973 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 2300 files added (on-disk size: 8611 KB)
+0000.974 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 2400 files added (on-disk size: 8611 KB)
+0000.975 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 3758 files batched, 645 (2428) added so far); re-opening (prior size: 8611 KB)
+0001.626 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: size is now: 15.60 MB
+0001.629 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 20245.6 KB/s)
+0001.629 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.2701508998871, normalised_time=1.2644731096169, max_time=1.6286959648132, data points known=1, max_bytes=26214400)
+0001.631 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 2500 files added (on-disk size: 16001.2 KB)
+0001.633 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 2600 files added (on-disk size: 16001.2 KB)
+0001.634 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 2700 files added (on-disk size: 16001.2 KB)
+0001.636 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 2800 files added (on-disk size: 16001.2 KB)
+0001.638 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 2900 files added (on-disk size: 16001.2 KB)
+0001.639 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 3000 files added (on-disk size: 16001.2 KB)
+0001.641 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 3100 files added (on-disk size: 16001.2 KB)
+0001.642 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 3200 files added (on-disk size: 16001.2 KB)
+0001.643 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 3300 files added (on-disk size: 16001.2 KB)
+0001.645 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 3400 files added (on-disk size: 16001.2 KB)
+0001.645 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18 MB, 3758 files batched, 1001 (3429) added so far); re-opening (prior size: 16001.2 KB)
+0002.209 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: size is now: 20.90 MB
+0002.213 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 3500 files added (on-disk size: 21434.6 KB)
+0002.214 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 3600 files added (on-disk size: 21434.6 KB)
+0002.216 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.tmp: 3700 files added (on-disk size: 21434.6 KB)
+0002.426 (0) Creating zip file manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.list-temp.tmp)
+0002.433 (0) Successfully created zip file manifest (size: 336311)
+0002.612 (0) Created plugins zip (0) - 22963.9 KB in 2.6 s (8949.8 KB/s) (sha1: 45e451b6d65ea9a416ea18e83e7cc296c2ab2e75, sha256: 1b3c19d20dd4906eb2f61c5013891ec6bb2a622b0cd1ceda2eec8b2dd2215725)
+0002.616 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0002.617 (0) No remote despatch: user chose no remote backup service
+0002.617 (0) Recording as successfully uploaded: backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip
+0002.618 (0) Deleting zip manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip.list.tmp)
+0002.619 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0002.621 (0) Beginning creation of dump of themes (split every: 25 MB)
+0003.482 (0) Total entities for the zip file: 5355 directories, 36968 files (0 skipped as non-modified), 246.7 MB
+0003.485 (0) File skipped due to unexpected name mismatch (locale: C): file=/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes/fundedx/node_modules/jest-runtime/bin/jest-runtime.js add_as=themes/fundedx/node_modules/.bin/jest-runtime
+0003.485 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.487 (0) File skipped due to unexpected name mismatch (locale: C): file=/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes/fundedx/node_modules/is-docker/cli.js add_as=themes/fundedx/node_modules/.bin/is-docker
+0003.488 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.489 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.490 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.491 (0) File skipped due to unexpected name mismatch (locale: C): file=/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes/fundedx/node_modules/jsesc/bin/jsesc add_as=themes/fundedx/node_modules/.bin/jsesc
+0003.492 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.493 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0003.495 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0003.497 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0003.498 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0003.499 (0) File skipped due to unexpected name mismatch (locale: C): file=/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes/fundedx/node_modules/postcss-cli/index.js add_as=themes/fundedx/node_modules/.bin/postcss
+0003.500 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0003.500 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.2 MB, 36968 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.992 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: size is now: 5.30 MB
+0003.995 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 1100 files added (on-disk size: 5450.8 KB)
+0003.997 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 1200 files added (on-disk size: 5450.8 KB)
+0003.998 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 1300 files added (on-disk size: 5450.8 KB)
+0004.000 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 1400 files added (on-disk size: 5450.8 KB)
+0004.001 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 1500 files added (on-disk size: 5450.8 KB)
+0004.003 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 1600 files added (on-disk size: 5450.8 KB)
+0004.005 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 1700 files added (on-disk size: 5450.8 KB)
+0004.006 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 1800 files added (on-disk size: 5450.8 KB)
+0004.008 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 1900 files added (on-disk size: 5450.8 KB)
+0004.009 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 2000 files added (on-disk size: 5450.8 KB)
+0004.009 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (1.3 MB, 36968 files batched, 1001 (2002) added so far); re-opening (prior size: 5450.8 KB)
+0004.207 (0) File skipped due to unexpected name mismatch (locale: C): file=/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes/fundedx/node_modules/browserslist/cli.js add_as=themes/fundedx/node_modules/.bin/browserslist
+0004.207 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 2100 files added (on-disk size: 6107.4 KB)
+0004.208 (0) File skipped due to unexpected name mismatch (locale: C): file=/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes/fundedx/node_modules/dir-archiver/cli.js add_as=themes/fundedx/node_modules/.bin/dir-archiver
+0004.209 (0) File skipped due to unexpected name mismatch (locale: C): file=/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes/fundedx/node_modules/errno/cli.js add_as=themes/fundedx/node_modules/.bin/errno
+0004.209 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 2200 files added (on-disk size: 6107.4 KB)
+0004.211 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 2300 files added (on-disk size: 6107.4 KB)
+0004.212 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 2400 files added (on-disk size: 6107.4 KB)
+0004.214 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 2500 files added (on-disk size: 6107.4 KB)
+0004.216 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 2600 files added (on-disk size: 6107.4 KB)
+0004.217 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 2700 files added (on-disk size: 6107.4 KB)
+0004.219 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 2800 files added (on-disk size: 6107.4 KB)
+0004.220 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 2900 files added (on-disk size: 6107.4 KB)
+0004.221 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 3000 files added (on-disk size: 6107.4 KB)
+0004.222 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.8 MB, 36968 files batched, 1001 (3003) added so far); re-opening (prior size: 6107.4 KB)
+0004.482 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: size is now: 7.50 MB
+0004.485 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 3100 files added (on-disk size: 7681.7 KB)
+0004.487 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 3200 files added (on-disk size: 7681.7 KB)
+0004.488 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 3300 files added (on-disk size: 7681.7 KB)
+0004.489 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 3400 files added (on-disk size: 7681.7 KB)
+0004.491 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 3500 files added (on-disk size: 7681.7 KB)
+0004.493 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 3600 files added (on-disk size: 7681.7 KB)
+0004.494 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 3700 files added (on-disk size: 7681.7 KB)
+0004.496 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 3800 files added (on-disk size: 7681.7 KB)
+0004.497 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 3900 files added (on-disk size: 7681.7 KB)
+0004.499 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 4000 files added (on-disk size: 7681.7 KB)
+0004.499 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.3 MB, 36968 files batched, 1001 (4004) added so far); re-opening (prior size: 7681.7 KB)
+0004.725 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 4100 files added (on-disk size: 8859.3 KB)
+0004.727 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 4200 files added (on-disk size: 8859.3 KB)
+0004.729 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 4300 files added (on-disk size: 8859.3 KB)
+0004.730 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 4400 files added (on-disk size: 8859.3 KB)
+0004.731 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 4500 files added (on-disk size: 8859.3 KB)
+0004.733 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 4600 files added (on-disk size: 8859.3 KB)
+0004.735 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 4700 files added (on-disk size: 8859.3 KB)
+0004.736 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 4800 files added (on-disk size: 8859.3 KB)
+0004.738 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 4900 files added (on-disk size: 8859.3 KB)
+0004.739 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 5000 files added (on-disk size: 8859.3 KB)
+0004.739 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.7 MB, 36968 files batched, 1001 (5005) added so far); re-opening (prior size: 8859.3 KB)
+0004.999 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 5100 files added (on-disk size: 10359.8 KB)
+0005.001 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 5200 files added (on-disk size: 10359.8 KB)
+0005.002 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 5300 files added (on-disk size: 10359.8 KB)
+0005.004 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 5400 files added (on-disk size: 10359.8 KB)
+0005.005 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 5500 files added (on-disk size: 10359.8 KB)
+0005.007 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 5600 files added (on-disk size: 10359.8 KB)
+0005.008 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 5700 files added (on-disk size: 10359.8 KB)
+0005.010 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 5800 files added (on-disk size: 10359.8 KB)
+0005.011 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 5900 files added (on-disk size: 10359.8 KB)
+0005.012 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 6000 files added (on-disk size: 10359.8 KB)
+0005.013 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3 MB, 36968 files batched, 1001 (6006) added so far); re-opening (prior size: 10359.8 KB)
+0005.245 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 6100 files added (on-disk size: 11481.3 KB)
+0005.246 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 6200 files added (on-disk size: 11481.3 KB)
+0005.248 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 6300 files added (on-disk size: 11481.3 KB)
+0005.249 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 6400 files added (on-disk size: 11481.3 KB)
+0005.250 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 6500 files added (on-disk size: 11481.3 KB)
+0005.252 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 6600 files added (on-disk size: 11481.3 KB)
+0005.253 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 6700 files added (on-disk size: 11481.3 KB)
+0005.255 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 6800 files added (on-disk size: 11481.3 KB)
+0005.256 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 6900 files added (on-disk size: 11481.3 KB)
+0005.258 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 7000 files added (on-disk size: 11481.3 KB)
+0005.258 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (0.1 MB, 36968 files batched, 1001 (7007) added so far); re-opening (prior size: 11481.3 KB)
+0005.421 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 7100 files added (on-disk size: 11824.4 KB)
+0005.423 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 7200 files added (on-disk size: 11824.4 KB)
+0005.425 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 7300 files added (on-disk size: 11824.4 KB)
+0005.427 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 7400 files added (on-disk size: 11824.4 KB)
+0005.429 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 7500 files added (on-disk size: 11824.4 KB)
+0005.431 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 7600 files added (on-disk size: 11824.4 KB)
+0005.432 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 7700 files added (on-disk size: 11824.4 KB)
+0005.434 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 7800 files added (on-disk size: 11824.4 KB)
+0005.435 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 7900 files added (on-disk size: 11824.4 KB)
+0005.437 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 8000 files added (on-disk size: 11824.4 KB)
+0005.437 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (0.3 MB, 36968 files batched, 1001 (8008) added so far); re-opening (prior size: 11824.4 KB)
+0005.620 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 8100 files added (on-disk size: 12232.8 KB)
+0005.622 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 8200 files added (on-disk size: 12232.8 KB)
+0005.623 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 8300 files added (on-disk size: 12232.8 KB)
+0005.625 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 8400 files added (on-disk size: 12232.8 KB)
+0005.627 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 8500 files added (on-disk size: 12232.8 KB)
+0005.629 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 8600 files added (on-disk size: 12232.8 KB)
+0005.630 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 8700 files added (on-disk size: 12232.8 KB)
+0005.632 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 8800 files added (on-disk size: 12232.8 KB)
+0005.634 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 8900 files added (on-disk size: 12232.8 KB)
+0005.635 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 9000 files added (on-disk size: 12232.8 KB)
+0005.636 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2 MB, 36968 files batched, 1001 (9009) added so far); re-opening (prior size: 12232.8 KB)
+0005.851 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 9100 files added (on-disk size: 13141.7 KB)
+0005.852 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 9200 files added (on-disk size: 13141.7 KB)
+0005.854 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 9300 files added (on-disk size: 13141.7 KB)
+0005.855 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 9400 files added (on-disk size: 13141.7 KB)
+0005.857 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 9500 files added (on-disk size: 13141.7 KB)
+0005.858 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 9600 files added (on-disk size: 13141.7 KB)
+0005.860 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 9700 files added (on-disk size: 13141.7 KB)
+0005.861 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 9800 files added (on-disk size: 13141.7 KB)
+0005.863 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 9900 files added (on-disk size: 13141.7 KB)
+0005.864 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 10000 files added (on-disk size: 13141.7 KB)
+0005.864 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.4 MB, 36968 files batched, 1001 (10010) added so far); re-opening (prior size: 13141.7 KB)
+0006.205 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 10100 files added (on-disk size: 15385.9 KB)
+0006.206 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 10200 files added (on-disk size: 15385.9 KB)
+0006.208 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 10300 files added (on-disk size: 15385.9 KB)
+0006.209 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 10400 files added (on-disk size: 15385.9 KB)
+0006.210 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 10500 files added (on-disk size: 15385.9 KB)
+0006.212 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 10600 files added (on-disk size: 15385.9 KB)
+0006.214 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 10700 files added (on-disk size: 15385.9 KB)
+0006.215 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 10800 files added (on-disk size: 15385.9 KB)
+0006.216 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 10900 files added (on-disk size: 15385.9 KB)
+0006.218 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 11000 files added (on-disk size: 15385.9 KB)
+0006.218 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.3 MB, 36968 files batched, 1001 (11011) added so far); re-opening (prior size: 15385.9 KB)
+0006.498 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 11100 files added (on-disk size: 17021.2 KB)
+0006.500 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 11200 files added (on-disk size: 17021.2 KB)
+0006.501 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 11300 files added (on-disk size: 17021.2 KB)
+0006.502 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 11400 files added (on-disk size: 17021.2 KB)
+0006.504 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 11500 files added (on-disk size: 17021.2 KB)
+0006.505 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 11600 files added (on-disk size: 17021.2 KB)
+0006.507 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 11700 files added (on-disk size: 17021.2 KB)
+0006.508 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 11800 files added (on-disk size: 17021.2 KB)
+0006.510 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 11900 files added (on-disk size: 17021.2 KB)
+0006.511 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 12000 files added (on-disk size: 17021.2 KB)
+0006.511 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (1.1 MB, 36968 files batched, 1001 (12012) added so far); re-opening (prior size: 17021.2 KB)
+0006.717 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 12100 files added (on-disk size: 17680.6 KB)
+0006.718 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 12200 files added (on-disk size: 17680.6 KB)
+0006.719 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 12300 files added (on-disk size: 17680.6 KB)
+0006.721 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 12400 files added (on-disk size: 17680.6 KB)
+0006.722 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 12500 files added (on-disk size: 17680.6 KB)
+0006.724 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 12600 files added (on-disk size: 17680.6 KB)
+0006.725 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 12700 files added (on-disk size: 17680.6 KB)
+0006.726 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 12800 files added (on-disk size: 17680.6 KB)
+0006.728 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 12900 files added (on-disk size: 17680.6 KB)
+0006.729 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 13000 files added (on-disk size: 17680.6 KB)
+0006.730 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.8 MB, 36968 files batched, 1001 (13013) added so far); re-opening (prior size: 17680.6 KB)
+0006.989 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 13100 files added (on-disk size: 18965.5 KB)
+0006.990 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 13200 files added (on-disk size: 18965.5 KB)
+0006.992 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 13300 files added (on-disk size: 18965.5 KB)
+0006.994 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 13400 files added (on-disk size: 18965.5 KB)
+0006.995 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 13500 files added (on-disk size: 18965.5 KB)
+0006.996 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 13600 files added (on-disk size: 18965.5 KB)
+0006.998 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 13700 files added (on-disk size: 18965.5 KB)
+0006.999 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 13800 files added (on-disk size: 18965.5 KB)
+0007.001 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 13900 files added (on-disk size: 18965.5 KB)
+0007.002 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 14000 files added (on-disk size: 18965.5 KB)
+0007.002 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.6 MB, 36968 files batched, 1001 (14014) added so far); re-opening (prior size: 18965.5 KB)
+0007.242 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 14100 files added (on-disk size: 20099.9 KB)
+0007.244 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 14200 files added (on-disk size: 20099.9 KB)
+0007.245 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 14300 files added (on-disk size: 20099.9 KB)
+0007.246 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 14400 files added (on-disk size: 20099.9 KB)
+0007.248 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 14500 files added (on-disk size: 20099.9 KB)
+0007.249 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 14600 files added (on-disk size: 20099.9 KB)
+0007.251 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 14700 files added (on-disk size: 20099.9 KB)
+0007.252 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 14800 files added (on-disk size: 20099.9 KB)
+0007.254 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 14900 files added (on-disk size: 20099.9 KB)
+0007.255 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 15000 files added (on-disk size: 20099.9 KB)
+0007.255 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3 MB, 36968 files batched, 1001 (15015) added so far); re-opening (prior size: 20099.9 KB)
+0007.532 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 15100 files added (on-disk size: 21281.1 KB)
+0007.536 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 15200 files added (on-disk size: 21281.1 KB)
+0007.537 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 15300 files added (on-disk size: 21281.1 KB)
+0007.539 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 15400 files added (on-disk size: 21281.1 KB)
+0007.540 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 15500 files added (on-disk size: 21281.1 KB)
+0007.542 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 15600 files added (on-disk size: 21281.1 KB)
+0007.543 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 15700 files added (on-disk size: 21281.1 KB)
+0007.544 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 15800 files added (on-disk size: 21281.1 KB)
+0007.546 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 15900 files added (on-disk size: 21281.1 KB)
+0007.547 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 16000 files added (on-disk size: 21281.1 KB)
+0007.549 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (0.1 MB, 36968 files batched, 1001 (16016) added so far); re-opening (prior size: 21281.1 KB)
+0007.753 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 16100 files added (on-disk size: 21613.7 KB)
+0007.755 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 16200 files added (on-disk size: 21613.7 KB)
+0007.756 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 16300 files added (on-disk size: 21613.7 KB)
+0007.758 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 16400 files added (on-disk size: 21613.7 KB)
+0007.759 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 16500 files added (on-disk size: 21613.7 KB)
+0007.760 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 16600 files added (on-disk size: 21613.7 KB)
+0007.762 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 16700 files added (on-disk size: 21613.7 KB)
+0007.763 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 16800 files added (on-disk size: 21613.7 KB)
+0007.765 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 16900 files added (on-disk size: 21613.7 KB)
+0007.766 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 17000 files added (on-disk size: 21613.7 KB)
+0007.766 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (0.4 MB, 36968 files batched, 1001 (17017) added so far); re-opening (prior size: 21613.7 KB)
+0007.953 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 17100 files added (on-disk size: 22027.7 KB)
+0007.955 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 17200 files added (on-disk size: 22027.7 KB)
+0007.956 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 17300 files added (on-disk size: 22027.7 KB)
+0007.958 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 17400 files added (on-disk size: 22027.7 KB)
+0007.959 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 17500 files added (on-disk size: 22027.7 KB)
+0007.961 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 17600 files added (on-disk size: 22027.7 KB)
+0007.962 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 17700 files added (on-disk size: 22027.7 KB)
+0007.964 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 17800 files added (on-disk size: 22027.7 KB)
+0007.965 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 17900 files added (on-disk size: 22027.7 KB)
+0007.966 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 18000 files added (on-disk size: 22027.7 KB)
+0007.967 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (1.7 MB, 36968 files batched, 1001 (18018) added so far); re-opening (prior size: 22027.7 KB)
+0008.187 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 18100 files added (on-disk size: 22884.4 KB)
+0008.189 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 18200 files added (on-disk size: 22884.4 KB)
+0008.190 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 18300 files added (on-disk size: 22884.4 KB)
+0008.191 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 18400 files added (on-disk size: 22884.4 KB)
+0008.193 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 18500 files added (on-disk size: 22884.4 KB)
+0008.195 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 18600 files added (on-disk size: 22884.4 KB)
+0008.196 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.tmp: 18700 files added (on-disk size: 22884.4 KB)
+0008.198 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (4.9 MB, 753 (18771) files added so far); last ratio: 0.4924; re-opening (prior size: 22884.4 KB)
+0008.470 (0) Zip size is at/near split limit (23.8 MB / 25 MB) - bumping index (from: 0)
+0008.742 (0) Creating zip file manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.list-temp.tmp)
+0008.775 (0) Successfully created zip file manifest (size: 1488562)
+0008.778 (0) Created themes zip (0) - 24339.6 KB in 5.8 s (4161.8 KB/s) (checksums: sha1: 50f07430a7a5785399068b58bb0389a9f6d2850d, sha256: d2527d28acc6b73d5a63b45b67a3d31572bd86b7df7d437f8539c0e1d43b2563)
+0008.787 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0008.787 (0) No remote despatch: user chose no remote backup service
+0008.787 (0) Recording as successfully uploaded: backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip
+0008.788 (0) Deleting zip manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip.list.tmp)
+0008.788 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0008.789 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 18800 files added (on-disk size: 0 KB)
+0008.791 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 18900 files added (on-disk size: 0 KB)
+0008.792 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 19000 files added (on-disk size: 0 KB)
+0008.794 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 19100 files added (on-disk size: 0 KB)
+0008.795 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 19200 files added (on-disk size: 0 KB)
+0008.796 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 19300 files added (on-disk size: 0 KB)
+0008.798 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 19400 files added (on-disk size: 0 KB)
+0008.799 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 19500 files added (on-disk size: 0 KB)
+0008.800 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 19600 files added (on-disk size: 0 KB)
+0008.802 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 19700 files added (on-disk size: 0 KB)
+0008.803 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.3 MB, 36968 files batched, 1001 (19772) added so far); re-opening (prior size: 0 KB)
+0009.117 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: size is now: 2.20 MB
+0009.119 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 19800 files added (on-disk size: 2261 KB)
+0009.121 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 19900 files added (on-disk size: 2261 KB)
+0009.123 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 20000 files added (on-disk size: 2261 KB)
+0009.124 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 20100 files added (on-disk size: 2261 KB)
+0009.126 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 20200 files added (on-disk size: 2261 KB)
+0009.127 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 20300 files added (on-disk size: 2261 KB)
+0009.129 (0) File skipped due to unexpected name mismatch (locale: C): file=/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes/fundedx/node_modules/regjsparser/node_modules/jsesc/bin/jsesc add_as=themes/fundedx/node_modules/regjsparser/node_modules/.bin/jsesc
+0009.129 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 20400 files added (on-disk size: 2261 KB)
+0009.130 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 20500 files added (on-disk size: 2261 KB)
+0009.132 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 20600 files added (on-disk size: 2261 KB)
+0009.133 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 20700 files added (on-disk size: 2261 KB)
+0009.134 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.7 MB, 36968 files batched, 1001 (20773) added so far); re-opening (prior size: 2261 KB)
+0009.372 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: size is now: 3.80 MB
+0009.374 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 20800 files added (on-disk size: 3915.1 KB)
+0009.375 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 20900 files added (on-disk size: 3915.1 KB)
+0009.376 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 21000 files added (on-disk size: 3915.1 KB)
+0009.378 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 21100 files added (on-disk size: 3915.1 KB)
+0009.379 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 21200 files added (on-disk size: 3915.1 KB)
+0009.381 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 21300 files added (on-disk size: 3915.1 KB)
+0009.382 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 21400 files added (on-disk size: 3915.1 KB)
+0009.384 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 21500 files added (on-disk size: 3915.1 KB)
+0009.385 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 21600 files added (on-disk size: 3915.1 KB)
+0009.386 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 21700 files added (on-disk size: 3915.1 KB)
+0009.387 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.8 MB, 36968 files batched, 1001 (21774) added so far); re-opening (prior size: 3915.1 KB)
+0009.639 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: size is now: 5.20 MB
+0009.641 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 21800 files added (on-disk size: 5322.1 KB)
+0009.642 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 21900 files added (on-disk size: 5322.1 KB)
+0009.644 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 22000 files added (on-disk size: 5322.1 KB)
+0009.645 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 22100 files added (on-disk size: 5322.1 KB)
+0009.647 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 22200 files added (on-disk size: 5322.1 KB)
+0009.648 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 22300 files added (on-disk size: 5322.1 KB)
+0009.649 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 22400 files added (on-disk size: 5322.1 KB)
+0009.651 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 22500 files added (on-disk size: 5322.1 KB)
+0009.653 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 22600 files added (on-disk size: 5322.1 KB)
+0009.654 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 22700 files added (on-disk size: 5322.1 KB)
+0009.655 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.1 MB, 36968 files batched, 1001 (22775) added so far); re-opening (prior size: 5322.1 KB)
+0009.873 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: size is now: 6.30 MB
+0009.874 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 22800 files added (on-disk size: 6428.5 KB)
+0009.876 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 22900 files added (on-disk size: 6428.5 KB)
+0009.877 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 23000 files added (on-disk size: 6428.5 KB)
+0009.879 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 23100 files added (on-disk size: 6428.5 KB)
+0009.880 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 23200 files added (on-disk size: 6428.5 KB)
+0009.882 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 23300 files added (on-disk size: 6428.5 KB)
+0009.883 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 23400 files added (on-disk size: 6428.5 KB)
+0009.885 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 23500 files added (on-disk size: 6428.5 KB)
+0009.886 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 23600 files added (on-disk size: 6428.5 KB)
+0009.888 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 23700 files added (on-disk size: 6428.5 KB)
+0009.889 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.3 MB, 36968 files batched, 1001 (23776) added so far); re-opening (prior size: 6428.5 KB)
+0010.184 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: size is now: 8.10 MB
+0010.186 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 23800 files added (on-disk size: 8249.7 KB)
+0010.188 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 23900 files added (on-disk size: 8249.7 KB)
+0010.190 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 24000 files added (on-disk size: 8249.7 KB)
+0010.191 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 24100 files added (on-disk size: 8249.7 KB)
+0010.193 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 24200 files added (on-disk size: 8249.7 KB)
+0010.194 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 24300 files added (on-disk size: 8249.7 KB)
+0010.195 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 24400 files added (on-disk size: 8249.7 KB)
+0010.197 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 24500 files added (on-disk size: 8249.7 KB)
+0010.198 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 24600 files added (on-disk size: 8249.7 KB)
+0010.200 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 24700 files added (on-disk size: 8249.7 KB)
+0010.201 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.2 MB, 36968 files batched, 1001 (24777) added so far); re-opening (prior size: 8249.7 KB)
+0010.417 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 24800 files added (on-disk size: 9552.4 KB)
+0010.418 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 24900 files added (on-disk size: 9552.4 KB)
+0010.420 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 25000 files added (on-disk size: 9552.4 KB)
+0010.421 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 25100 files added (on-disk size: 9552.4 KB)
+0010.423 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 25200 files added (on-disk size: 9552.4 KB)
+0010.424 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 25300 files added (on-disk size: 9552.4 KB)
+0010.425 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 25400 files added (on-disk size: 9552.4 KB)
+0010.427 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 25500 files added (on-disk size: 9552.4 KB)
+0010.428 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 25600 files added (on-disk size: 9552.4 KB)
+0010.430 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 25700 files added (on-disk size: 9552.4 KB)
+0010.431 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.3 MB, 36968 files batched, 1001 (25778) added so far); re-opening (prior size: 9552.4 KB)
+0010.677 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 25800 files added (on-disk size: 10760.9 KB)
+0010.678 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 25900 files added (on-disk size: 10760.9 KB)
+0010.680 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 26000 files added (on-disk size: 10760.9 KB)
+0010.681 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 26100 files added (on-disk size: 10760.9 KB)
+0010.682 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 26200 files added (on-disk size: 10760.9 KB)
+0010.684 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 26300 files added (on-disk size: 10760.9 KB)
+0010.685 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 26400 files added (on-disk size: 10760.9 KB)
+0010.687 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 26500 files added (on-disk size: 10760.9 KB)
+0010.688 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 26600 files added (on-disk size: 10760.9 KB)
+0010.690 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 26700 files added (on-disk size: 10760.9 KB)
+0010.691 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.8 MB, 36968 files batched, 1001 (26779) added so far); re-opening (prior size: 10760.9 KB)
+0010.994 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 26800 files added (on-disk size: 12729.6 KB)
+0010.996 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 26900 files added (on-disk size: 12729.6 KB)
+0010.997 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 27000 files added (on-disk size: 12729.6 KB)
+0010.999 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 27100 files added (on-disk size: 12729.6 KB)
+0011.000 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 27200 files added (on-disk size: 12729.6 KB)
+0011.002 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 27300 files added (on-disk size: 12729.6 KB)
+0011.003 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 27400 files added (on-disk size: 12729.6 KB)
+0011.004 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 27500 files added (on-disk size: 12729.6 KB)
+0011.006 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 27600 files added (on-disk size: 12729.6 KB)
+0011.007 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 27700 files added (on-disk size: 12729.6 KB)
+0011.008 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.7 MB, 36968 files batched, 1001 (27780) added so far); re-opening (prior size: 12729.6 KB)
+0011.287 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 27800 files added (on-disk size: 14449.9 KB)
+0011.289 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 27900 files added (on-disk size: 14449.9 KB)
+0011.290 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 28000 files added (on-disk size: 14449.9 KB)
+0011.292 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 28100 files added (on-disk size: 14449.9 KB)
+0011.293 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 28200 files added (on-disk size: 14449.9 KB)
+0011.294 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 28300 files added (on-disk size: 14449.9 KB)
+0011.296 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 28400 files added (on-disk size: 14449.9 KB)
+0011.297 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 28500 files added (on-disk size: 14449.9 KB)
+0011.299 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 28600 files added (on-disk size: 14449.9 KB)
+0011.300 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 28700 files added (on-disk size: 14449.9 KB)
+0011.301 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.9 MB, 36968 files batched, 1001 (28781) added so far); re-opening (prior size: 14449.9 KB)
+0011.583 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 28800 files added (on-disk size: 16090.5 KB)
+0011.584 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 28900 files added (on-disk size: 16090.5 KB)
+0011.586 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 29000 files added (on-disk size: 16090.5 KB)
+0011.588 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 29100 files added (on-disk size: 16090.5 KB)
+0011.589 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 29200 files added (on-disk size: 16090.5 KB)
+0011.590 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 29300 files added (on-disk size: 16090.5 KB)
+0011.592 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 29400 files added (on-disk size: 16090.5 KB)
+0011.593 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 29500 files added (on-disk size: 16090.5 KB)
+0011.595 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 29600 files added (on-disk size: 16090.5 KB)
+0011.596 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 29700 files added (on-disk size: 16090.5 KB)
+0011.597 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (1.2 MB, 36968 files batched, 1001 (29782) added so far); re-opening (prior size: 16090.5 KB)
+0011.789 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 29800 files added (on-disk size: 16769.7 KB)
+0011.791 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 29900 files added (on-disk size: 16769.7 KB)
+0011.792 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 30000 files added (on-disk size: 16769.7 KB)
+0011.793 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 30100 files added (on-disk size: 16769.7 KB)
+0011.795 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 30200 files added (on-disk size: 16769.7 KB)
+0011.796 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 30300 files added (on-disk size: 16769.7 KB)
+0011.798 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 30400 files added (on-disk size: 16769.7 KB)
+0011.799 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 30500 files added (on-disk size: 16769.7 KB)
+0011.801 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 30600 files added (on-disk size: 16769.7 KB)
+0011.802 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 30700 files added (on-disk size: 16769.7 KB)
+0011.803 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.3 MB, 36968 files batched, 1001 (30783) added so far); re-opening (prior size: 16769.7 KB)
+0012.088 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 30800 files added (on-disk size: 18306.6 KB)
+0012.090 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 30900 files added (on-disk size: 18306.6 KB)
+0012.091 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 31000 files added (on-disk size: 18306.6 KB)
+0012.093 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 31100 files added (on-disk size: 18306.6 KB)
+0012.094 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 31200 files added (on-disk size: 18306.6 KB)
+0012.096 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 31300 files added (on-disk size: 18306.6 KB)
+0012.097 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 31400 files added (on-disk size: 18306.6 KB)
+0012.098 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 31500 files added (on-disk size: 18306.6 KB)
+0012.100 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.tmp: 31600 files added (on-disk size: 18306.6 KB)
+0012.101 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (20.7 MB, 858 (31641) files added so far); last ratio: 0.3486; re-opening (prior size: 18306.6 KB)
+0012.594 (0) Zip size is at/near split limit (21.1 MB / 25 MB) - bumping index (from: 1)
+0012.830 (0) Creating zip file manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.list-temp.tmp)
+0012.853 (0) Successfully created zip file manifest (size: 1116644)
+0012.855 (0) Created themes zip (1) - 21633.7 KB in 3.8 s (5668.7 KB/s) (checksums: sha1: 66e4631f97c5471424bf15dfc28db07741d50cdc, sha256: 4132e35a2aa71ff08ba888f23fb501fb8519bcf181c7a1e685a4b7a81134a3a3)
+0012.862 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0012.863 (0) No remote despatch: user chose no remote backup service
+0012.863 (0) Recording as successfully uploaded: backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip
+0012.864 (0) Deleting zip manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip.list.tmp)
+0012.864 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0012.866 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 31700 files added (on-disk size: 0 KB)
+0012.867 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 31800 files added (on-disk size: 0 KB)
+0012.869 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 31900 files added (on-disk size: 0 KB)
+0012.870 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 32000 files added (on-disk size: 0 KB)
+0012.871 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 32100 files added (on-disk size: 0 KB)
+0012.873 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 32200 files added (on-disk size: 0 KB)
+0012.874 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 32300 files added (on-disk size: 0 KB)
+0012.876 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 32400 files added (on-disk size: 0 KB)
+0012.877 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 32500 files added (on-disk size: 0 KB)
+0012.878 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 32600 files added (on-disk size: 0 KB)
+0012.879 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.5 MB, 36968 files batched, 1001 (32642) added so far); re-opening (prior size: 0 KB)
+0013.344 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: size is now: 3.30 MB
+0013.346 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 32700 files added (on-disk size: 3347.2 KB)
+0013.347 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 32800 files added (on-disk size: 3347.2 KB)
+0013.349 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 32900 files added (on-disk size: 3347.2 KB)
+0013.350 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 33000 files added (on-disk size: 3347.2 KB)
+0013.351 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 33100 files added (on-disk size: 3347.2 KB)
+0013.353 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 33200 files added (on-disk size: 3347.2 KB)
+0013.354 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 33300 files added (on-disk size: 3347.2 KB)
+0013.356 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 33400 files added (on-disk size: 3347.2 KB)
+0013.357 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 33500 files added (on-disk size: 3347.2 KB)
+0013.358 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 33600 files added (on-disk size: 3347.2 KB)
+0013.359 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.6 MB, 36968 files batched, 1001 (33643) added so far); re-opening (prior size: 3347.2 KB)
+0013.564 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: size is now: 4.30 MB
+0013.568 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 33700 files added (on-disk size: 4385.8 KB)
+0013.569 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 33800 files added (on-disk size: 4385.8 KB)
+0013.571 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 33900 files added (on-disk size: 4385.8 KB)
+0013.572 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 34000 files added (on-disk size: 4385.8 KB)
+0013.574 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 34100 files added (on-disk size: 4385.8 KB)
+0013.575 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 34200 files added (on-disk size: 4385.8 KB)
+0013.577 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 34300 files added (on-disk size: 4385.8 KB)
+0013.578 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 34400 files added (on-disk size: 4385.8 KB)
+0013.580 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 34500 files added (on-disk size: 4385.8 KB)
+0013.581 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 34600 files added (on-disk size: 4385.8 KB)
+0013.582 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.5 MB, 36968 files batched, 1001 (34644) added so far); re-opening (prior size: 4385.8 KB)
+0013.950 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: size is now: 6.70 MB
+0013.952 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 34700 files added (on-disk size: 6817.7 KB)
+0013.953 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 34800 files added (on-disk size: 6817.7 KB)
+0013.954 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 34900 files added (on-disk size: 6817.7 KB)
+0013.956 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 35000 files added (on-disk size: 6817.7 KB)
+0013.957 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 35100 files added (on-disk size: 6817.7 KB)
+0013.959 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 35200 files added (on-disk size: 6817.7 KB)
+0013.960 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 35300 files added (on-disk size: 6817.7 KB)
+0013.961 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 35400 files added (on-disk size: 6817.7 KB)
+0013.963 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 35500 files added (on-disk size: 6817.7 KB)
+0013.964 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 35600 files added (on-disk size: 6817.7 KB)
+0013.965 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4 MB, 36968 files batched, 1001 (35645) added so far); re-opening (prior size: 6817.7 KB)
+0014.208 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: size is now: 8.10 MB
+0014.211 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 35700 files added (on-disk size: 8271.6 KB)
+0014.213 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 35800 files added (on-disk size: 8271.6 KB)
+0014.214 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 35900 files added (on-disk size: 8271.6 KB)
+0014.216 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 36000 files added (on-disk size: 8271.6 KB)
+0014.217 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (27.9 MB, 36968 files batched, 421 (36066) added so far); re-opening (prior size: 8271.6 KB)
+0014.918 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: size is now: 14.20 MB
+0014.919 (0) A useful amount of data was added after this amount of zip processing: 1.6 s (normalised: 1.4 s, rate: 18312.9 KB/s)
+0014.920 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.560693025589, normalised_time=1.3979179998026, max_time=14.919217824936, data points known=1, max_bytes=26214400)
+0014.921 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 36100 files added (on-disk size: 14490.8 KB)
+0014.923 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 36200 files added (on-disk size: 14490.8 KB)
+0014.924 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 36300 files added (on-disk size: 14490.8 KB)
+0014.925 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 36400 files added (on-disk size: 14490.8 KB)
+0014.927 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 36500 files added (on-disk size: 14490.8 KB)
+0014.928 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 36600 files added (on-disk size: 14490.8 KB)
+0014.929 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 36700 files added (on-disk size: 14490.8 KB)
+0014.931 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: 36800 files added (on-disk size: 14490.8 KB)
+0014.932 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.9 MB, 36968 files batched, 781 (36847) added so far); re-opening (prior size: 14490.8 KB)
+0015.524 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.tmp: size is now: 27.10 MB
+0015.526 (0) A useful amount of data was added after this amount of zip processing: 1.2 s (normalised: 1.1 s, rate: 23599.3 KB/s)
+0015.527 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.1676950454712, normalised_time=1.0847802273216, max_time=15.526230812073, data points known=1, max_bytes=26214400)
+0015.527 (0) Zip size is at/near split limit (27.1 MB / 25 MB) - bumping index (from: 2)
+0015.764 (0) Creating zip file manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.list-temp.tmp)
+0015.774 (0) Successfully created zip file manifest (size: 436056)
+0015.775 (0) Created themes zip (2) - 27775.5 KB in 2.7 s (10393.7 KB/s) (checksums: sha1: c932b7bbd6e7160ba2a3a7d1dbb3ec759bbe9dac, sha256: d7de9ccd0581aa50a1b3fb49af082dfaaa14c465029e9523d58644b11ead2b4b)
+0015.780 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0015.780 (0) No remote despatch: user chose no remote backup service
+0015.781 (0) Recording as successfully uploaded: backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip
+0015.782 (0) Deleting zip manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip.list.tmp)
+0015.782 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0015.784 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-themes4.zip.tmp: 36900 files added (on-disk size: 0 KB)
+0015.908 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes4.zip.tmp: size is now: 13.60 MB
+0015.911 (0) Creating zip file manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-themes4.zip.list-temp.tmp)
+0015.912 (0) Successfully created zip file manifest (size: 5775)
+0016.021 (0) Created themes zip (3) - 13889.5 KB in 0.2 s (56774.3 KB/s) (sha1: ed47ea37fa2996d5216d138679d466754c87a831, sha256: 0e579bd0e27d95b945be18ed4e5dd4de0882862042ea619826304b1f9b2d2832)
+0016.023 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0016.023 (0) No remote despatch: user chose no remote backup service
+0016.023 (0) Recording as successfully uploaded: backup_2023-10-11-0902_FundedX_762b037bc88f-themes4.zip
+0016.024 (0) Deleting zip manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-themes4.zip.list.tmp)
+0016.024 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0016.026 (0) Exclusion option setting (uploads): 
+0016.027 (0) Looking for candidates to backup in: /Users/akramtello/Local Sites/fundedn/app/public/wp-content/uploads
+0016.027 (0) finding files: 2023: adding to list (1)
+0016.027 (0) finding files: cache: adding to list (2)
+0016.028 (0) finding files: wpcf7_uploads: adding to list (3)
+0016.028 (0) finding files: wpforms: adding to list (4)
+0016.028 (0) finding files: forminator: adding to list (5)
+0016.028 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0016.043 (0) Total entities for the zip file: 12 directories, 223 files (0 skipped as non-modified), 41.3 MB
+0016.044 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.5 MB, 223 files batched, 100 (100) added so far); re-opening (prior size: 0 KB)
+0016.206 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-uploads.zip.tmp: size is now: 26.40 MB
+0016.209 (0) A useful amount of data was added after this amount of zip processing: 0.9 s (normalised: 0.8 s, rate: 31863.1 KB/s)
+0016.210 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=0.85052609443665, normalised_time=0.80343759713686, max_time=16.2096118927, data points known=1, max_bytes=26214400)
+0016.211 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-uploads.zip.tmp: 100 files added (on-disk size: 27032.1 KB)
+0016.212 (0) Zip size is at/near split limit (26.4 MB / 25 MB) - bumping index (from: 0)
+0016.428 (0) Creating zip file manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-uploads.zip.list-temp.tmp)
+0016.428 (0) Successfully created zip file manifest (size: 5636)
+0016.429 (0) Created uploads zip (0) - 27032.1 KB in 0.2 s (148143.8 KB/s) (checksums: sha1: 61eb9acbf285c4de880c60f3a36e8746254fa930, sha256: 29af69c8e39854e0fdcf45465506abc2846752b80cace6560701c1400584b082)
+0016.432 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0016.433 (0) No remote despatch: user chose no remote backup service
+0016.433 (0) Recording as successfully uploaded: backup_2023-10-11-0902_FundedX_762b037bc88f-uploads.zip
+0016.434 (0) Deleting zip manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-uploads.zip.list.tmp)
+0016.434 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0016.436 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-uploads2.zip.tmp: 200 files added (on-disk size: 0 KB)
+0016.544 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-uploads2.zip.tmp: size is now: 14.10 MB
+0016.547 (0) Creating zip file manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-uploads2.zip.list-temp.tmp)
+0016.548 (0) Successfully created zip file manifest (size: 6569)
+0016.662 (0) Created uploads zip (1) - 14451.5 KB in 0.2 s (62399.5 KB/s) (sha1: b810b81fe688c3179eb2f1e3c92ded2dc4f3fabc, sha256: 44928b14d38c79288c62a4f4ab4a04237142be375120b2c025603b019d0c0cd3)
+0016.664 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0016.664 (0) No remote despatch: user chose no remote backup service
+0016.664 (0) Recording as successfully uploaded: backup_2023-10-11-0902_FundedX_762b037bc88f-uploads2.zip
+0016.665 (0) Deleting zip manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-uploads2.zip.list.tmp)
+0016.665 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0016.667 (0) Beginning backup of other directories found in the content directory (index: 0)
+0016.667 (0) Exclusion option setting (others): 
+0016.668 (0) Looking for candidates to backup in: /Users/akramtello/Local Sites/fundedn/app/public/wp-content
+0016.668 (0) finding files: upgrade: adding to list (1)
+0016.668 (0) finding files: .DS_Store: adding to list (2)
+0016.668 (0) finding files: index.php: adding to list (3)
+0016.669 (0) finding files: upgrade-temp-backup: adding to list (4)
+0016.669 (0) finding files: plugins: skipping: this is the plugins directory
+0016.669 (0) finding files: uploads: skipping: this is the uploads directory
+0016.669 (0) finding files: updraft: skipping: this is the updraft directory
+0016.669 (0) finding files: languages: adding to list (5)
+0016.670 (0) finding files: themes: skipping: this is the themes directory
+0016.677 (0) Total entities for the zip file: 5 directories, 230 files (0 skipped as non-modified), 10.6 MB
+0016.679 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0016.680 (0) Zip: backup_2023-10-11-0902_FundedX_762b037bc88f-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.023 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-others.zip.tmp: size is now: 3.00 MB
+0017.025 (0) Creating zip file manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-others.zip.list-temp.tmp)
+0017.026 (0) Successfully created zip file manifest (size: 13668)
+0017.053 (0) Created others zip (0) - 3070.4 KB in 0.4 s (8052.6 KB/s) (sha1: 8903a88bf62bb9dfb5be35fdbe64219a09c085e1, sha256: e88155b562d18987883f79d36f6589b90869cfb1f8b4502735c3a8279a99b1eb)
+0017.055 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0017.055 (0) No remote despatch: user chose no remote backup service
+0017.055 (0) Recording as successfully uploaded: backup_2023-10-11-0902_FundedX_762b037bc88f-others.zip
+0017.056 (0) Deleting zip manifest (backup_2023-10-11-0902_FundedX_762b037bc88f-others.zip.list.tmp)
+0017.056 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0017.060 (0) Saving backup status to database (elements: 12)
+0017.069 (0) Beginning creation of database dump (WordPress DB)
+0017.069 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0017.093 (0) Table wp_options: Total expected rows (via COUNT): 390
+0017.093 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.107 (0) Table wp_options: Rows added in this batch (next record: 7555): 377 (uncompressed bytes in this segment=519733) in 0.02 seconds
+0017.111 (0) Table wp_options: finishing file(s) (2, 77.4 KB)
+0017.114 (0) Table wp_users: Total expected rows (via COUNT): 2
+0017.114 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.116 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1727) in 0.00 seconds
+0017.118 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0017.121 (0) Table wp_usermeta: Total expected rows (via COUNT): 66
+0017.122 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.123 (0) Table wp_usermeta: Rows added in this batch (next record: 66): 66 (uncompressed bytes in this segment=30744) in 0.00 seconds
+0017.126 (0) Table wp_usermeta: finishing file(s) (2, 5.3 KB)
+0017.132 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0017.133 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=729) in 0.00 seconds
+0017.136 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0017.139 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0017.139 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.140 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2313) in 0.00 seconds
+0017.142 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0017.146 (0) Table wp_links: Total expected rows (via COUNT): 0
+0017.147 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1508) in 0.00 seconds
+0017.149 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0017.152 (0) Table wp_postmeta: Total expected rows (via COUNT): 828
+0017.153 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.158 (0) Table wp_postmeta: Rows added in this batch (next record: 1147): 828 (uncompressed bytes in this segment=100473) in 0.01 seconds
+0017.164 (0) Table wp_postmeta: finishing file(s) (2, 14.5 KB)
+0017.656 (0) Table wp_posts: Total expected rows (approximate): 1041
+0017.745 (0) Table wp_posts: Rows added in this batch (next record: 1265): 935 (uncompressed bytes in this segment=4534253) in 0.57 seconds
+0017.749 (0) Table wp_posts: finishing file(s) (2, 199.5 KB)
+0017.755 (0) Table wp_term_relationships: Total expected rows (approximate): 37
+0017.757 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 37 (uncompressed bytes in this segment=1206) in 0.00 seconds
+0017.762 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0017.772 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 3
+0017.772 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.774 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1032) in 0.01 seconds
+0017.782 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0017.795 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0017.797 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.01 seconds
+0017.812 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0017.836 (0) Table wp_terms: Total expected rows (via COUNT): 3
+0017.846 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.851 (0) Table wp_terms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=840) in 0.03 seconds
+0017.855 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0017.898 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 12
+0017.898 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.900 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 507): 12 (uncompressed bytes in this segment=6710) in 0.04 seconds
+0017.909 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.2 KB)
+0017.914 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0017.917 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=624) in 0.01 seconds
+0017.921 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0017.931 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0017.933 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.936 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=706) in 0.01 seconds
+0017.939 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0017.944 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 31
+0017.945 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.946 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 45): 31 (uncompressed bytes in this segment=3400) in 0.01 seconds
+0017.950 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.7 KB)
+0017.953 (0) Table wp_frmt_form_entry: Total expected rows (via COUNT): 0
+0017.955 (0) Table wp_frmt_form_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=853) in 0.00 seconds
+0017.957 (0) Table wp_frmt_form_entry: finishing file(s) (2, 0.4 KB)
+0017.962 (0) Table wp_frmt_form_entry_meta: Total expected rows (via COUNT): 0
+0017.963 (0) Table wp_frmt_form_entry_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.00 seconds
+0017.967 (0) Table wp_frmt_form_entry_meta: finishing file(s) (2, 0.4 KB)
+0017.976 (0) Table wp_frmt_form_reports: Total expected rows (via COUNT): 1
+0017.976 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.979 (0) Table wp_frmt_form_reports: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1378) in 0.01 seconds
+0017.984 (0) Table wp_frmt_form_reports: finishing file(s) (2, 0.7 KB)
+0017.987 (0) Table wp_frmt_form_views: Total expected rows (via COUNT): 143
+0017.987 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.989 (0) Table wp_frmt_form_views: Rows added in this batch (next record: 143): 143 (uncompressed bytes in this segment=11344) in 0.00 seconds
+0017.991 (0) Table wp_frmt_form_views: finishing file(s) (2, 1.7 KB)
+0017.998 (0) Table wp_nf3_action_meta: Total expected rows (via COUNT): 106
+0017.998 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.000 (0) Table wp_nf3_action_meta: Rows added in this batch (next record: 184): 106 (uncompressed bytes in this segment=9507) in 0.01 seconds
+0018.003 (0) Table wp_nf3_action_meta: finishing file(s) (2, 1.7 KB)
+0018.008 (0) Table wp_nf3_actions: Total expected rows (via COUNT): 4
+0018.009 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.011 (0) Table wp_nf3_actions: Rows added in this batch (next record: 8): 4 (uncompressed bytes in this segment=1119) in 0.01 seconds
+0018.015 (0) Table wp_nf3_actions: finishing file(s) (2, 0.5 KB)
+0018.023 (0) Table wp_nf3_chunks: Total expected rows (via COUNT): 0
+0018.025 (0) Table wp_nf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=512) in 0.01 seconds
+0018.033 (0) Table wp_nf3_chunks: finishing file(s) (2, 0.3 KB)
+0018.042 (0) Table wp_nf3_field_meta: Total expected rows (via COUNT): 272
+0018.043 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.047 (0) Table wp_nf3_field_meta: Rows added in this batch (next record: 532): 272 (uncompressed bytes in this segment=18909) in 0.01 seconds
+0018.050 (0) Table wp_nf3_field_meta: finishing file(s) (2, 2.7 KB)
+0018.056 (0) Table wp_nf3_fields: Total expected rows (via COUNT): 4
+0018.056 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.058 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2790, wp-content/plugins/updraftplus/backup.php)
+0018.058 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2790, wp-content/plugins/updraftplus/backup.php)
+0018.058 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2790, wp-content/plugins/updraftplus/backup.php)
+0018.058 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2790, wp-content/plugins/updraftplus/backup.php)
+0018.058 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2790, wp-content/plugins/updraftplus/backup.php)
+0018.058 (0) Table wp_nf3_fields: Rows added in this batch (next record: 8): 4 (uncompressed bytes in this segment=1457) in 0.01 seconds
+0018.062 (0) Table wp_nf3_fields: finishing file(s) (2, 0.6 KB)
+0018.072 (0) Table wp_nf3_form_meta: Total expected rows (via COUNT): 99
+0018.072 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.073 (0) Table wp_nf3_form_meta: Rows added in this batch (next record: 197): 99 (uncompressed bytes in this segment=8921) in 0.01 seconds
+0018.077 (0) Table wp_nf3_form_meta: finishing file(s) (2, 1.6 KB)
+0018.083 (0) Table wp_nf3_forms: Total expected rows (via COUNT): 1
+0018.083 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.084 (0) Table wp_nf3_forms: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1143) in 0.00 seconds
+0018.088 (0) Table wp_nf3_forms: finishing file(s) (2, 0.5 KB)
+0018.094 (0) Table wp_nf3_object_meta: Total expected rows (via COUNT): 0
+0018.097 (0) Table wp_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=667) in 0.01 seconds
+0018.100 (0) Table wp_nf3_object_meta: finishing file(s) (2, 0.3 KB)
+0018.105 (0) Table wp_nf3_objects: Total expected rows (via COUNT): 0
+0018.106 (0) Table wp_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.00 seconds
+0018.109 (0) Table wp_nf3_objects: finishing file(s) (2, 0.4 KB)
+0018.115 (0) Table wp_nf3_relationships: Total expected rows (via COUNT): 0
+0018.116 (0) Table wp_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=712) in 0.00 seconds
+0018.122 (0) Table wp_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0018.128 (0) Table wp_nf3_upgrades: Total expected rows (via COUNT): 1
+0018.128 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.131 (0) Table wp_nf3_upgrades: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=19519) in 0.01 seconds
+0018.135 (0) Table wp_nf3_upgrades: finishing file(s) (2, 2.7 KB)
+0018.143 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0018.148 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.01 seconds
+0018.154 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0018.164 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0018.167 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1970) in 0.01 seconds
+0018.172 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0018.180 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 8
+0018.182 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.184 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 10): 8 (uncompressed bytes in this segment=1283) in 0.01 seconds
+0018.188 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0018.188 (0) PHP event: code E_WARNING: filemtime(): stat failed for /Users/akramtello/Local Sites/fundedn/app/public/wp-content/updraft/backup_2023-10-11-0902_FundedX_762b037bc88f-db.gz (line 1976, wp-content/plugins/updraftplus/backup.php)
+0018.190 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_options.table.tmpr7556.gz (1/34/fopen): adding to final database dump
+0018.193 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_options.table.gz (2/34/fopen): adding to final database dump
+0018.194 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_users.table.tmpr3.gz (3/34/fopen): adding to final database dump
+0018.194 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_users.table.gz (4/34/fopen): adding to final database dump
+0018.195 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_usermeta.table.tmpr67.gz (5/34/fopen): adding to final database dump
+0018.196 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_usermeta.table.gz (6/34/fopen): adding to final database dump
+0018.196 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_commentmeta.table.tmpr0.gz (7/34/fopen): adding to final database dump
+0018.197 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_commentmeta.table.gz (8/34/fopen): adding to final database dump
+0018.197 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_comments.table.tmpr2.gz (9/34/fopen): adding to final database dump
+0018.198 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_comments.table.gz (10/34/fopen): adding to final database dump
+0018.198 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_links.table.tmpr0.gz (11/34/fopen): adding to final database dump
+0018.199 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_links.table.gz (12/34/fopen): adding to final database dump
+0018.199 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_postmeta.table.tmpr1148.gz (13/34/fopen): adding to final database dump
+0018.200 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_postmeta.table.gz (14/34/fopen): adding to final database dump
+0018.201 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_posts.table.tmpr1266.gz (15/34/fopen): adding to final database dump
+0018.203 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_posts.table.gz (16/34/fopen): adding to final database dump
+0018.204 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_term_relationships.table.tmpr100001.gz (17/34/fopen): adding to final database dump
+0018.204 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_term_relationships.table.gz (18/34/fopen): adding to final database dump
+0018.205 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_term_taxonomy.table.tmpr4.gz (19/34/fopen): adding to final database dump
+0018.205 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_term_taxonomy.table.gz (20/34/fopen): adding to final database dump
+0018.206 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_termmeta.table.tmpr0.gz (21/34/fopen): adding to final database dump
+0018.206 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_termmeta.table.gz (22/34/fopen): adding to final database dump
+0018.207 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_terms.table.tmpr4.gz (23/34/fopen): adding to final database dump
+0018.207 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_terms.table.gz (24/34/fopen): adding to final database dump
+0018.208 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_actionscheduler_actions.table.tmpr508.gz (25/34/fopen): adding to final database dump
+0018.209 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_actionscheduler_actions.table.gz (26/34/fopen): adding to final database dump
+0018.209 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_actionscheduler_claims.table.tmpr0.gz (27/34/fopen): adding to final database dump
+0018.210 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_actionscheduler_claims.table.gz (28/34/fopen): adding to final database dump
+0018.210 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_actionscheduler_groups.table.tmpr3.gz (29/34/fopen): adding to final database dump
+0018.211 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_actionscheduler_groups.table.gz (30/34/fopen): adding to final database dump
+0018.211 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_actionscheduler_logs.table.tmpr46.gz (31/34/fopen): adding to final database dump
+0018.212 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_actionscheduler_logs.table.gz (32/34/fopen): adding to final database dump
+0018.212 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_frmt_form_entry.table.tmpr0.gz (33/34/fopen): adding to final database dump
+0018.213 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_frmt_form_entry.table.gz (34/34/fopen): adding to final database dump
+0018.213 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_frmt_form_entry_meta.table.tmpr0.gz (35/34/fopen): adding to final database dump
+0018.214 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_frmt_form_entry_meta.table.gz (36/34/fopen): adding to final database dump
+0018.214 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_frmt_form_reports.table.tmpr2.gz (37/34/fopen): adding to final database dump
+0018.215 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_frmt_form_reports.table.gz (38/34/fopen): adding to final database dump
+0018.218 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_frmt_form_views.table.tmpr144.gz (39/34/fopen): adding to final database dump
+0018.221 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_frmt_form_views.table.gz (40/34/fopen): adding to final database dump
+0018.223 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_action_meta.table.tmpr185.gz (41/34/fopen): adding to final database dump
+0018.226 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_action_meta.table.gz (42/34/fopen): adding to final database dump
+0018.227 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_actions.table.tmpr9.gz (43/34/fopen): adding to final database dump
+0018.229 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_actions.table.gz (44/34/fopen): adding to final database dump
+0018.230 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_chunks.table.tmpr0.gz (45/34/fopen): adding to final database dump
+0018.232 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_chunks.table.gz (46/34/fopen): adding to final database dump
+0018.234 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_field_meta.table.tmpr533.gz (47/34/fopen): adding to final database dump
+0018.235 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_field_meta.table.gz (48/34/fopen): adding to final database dump
+0018.236 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_fields.table.tmpr9.gz (49/34/fopen): adding to final database dump
+0018.237 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_fields.table.gz (50/34/fopen): adding to final database dump
+0018.238 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_form_meta.table.tmpr198.gz (51/34/fopen): adding to final database dump
+0018.238 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_form_meta.table.gz (52/34/fopen): adding to final database dump
+0018.240 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_forms.table.tmpr3.gz (53/34/fopen): adding to final database dump
+0018.240 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_forms.table.gz (54/34/fopen): adding to final database dump
+0018.241 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_object_meta.table.tmpr0.gz (55/34/fopen): adding to final database dump
+0018.241 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_object_meta.table.gz (56/34/fopen): adding to final database dump
+0018.242 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_objects.table.tmpr0.gz (57/34/fopen): adding to final database dump
+0018.242 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_objects.table.gz (58/34/fopen): adding to final database dump
+0018.242 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_relationships.table.tmpr0.gz (59/34/fopen): adding to final database dump
+0018.243 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_relationships.table.gz (60/34/fopen): adding to final database dump
+0018.243 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_upgrades.table.tmpr3.gz (61/34/fopen): adding to final database dump
+0018.244 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_nf3_upgrades.table.gz (62/34/fopen): adding to final database dump
+0018.244 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (63/34/fopen): adding to final database dump
+0018.244 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_wpforms_payment_meta.table.gz (64/34/fopen): adding to final database dump
+0018.245 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_wpforms_payments.table.tmpr0.gz (65/34/fopen): adding to final database dump
+0018.246 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_wpforms_payments.table.gz (66/34/fopen): adding to final database dump
+0018.246 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_wpforms_tasks_meta.table.tmpr11.gz (67/34/fopen): adding to final database dump
+0018.246 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db-table-wp_wpforms_tasks_meta.table.gz (68/34/fopen): adding to final database dump
+0018.254 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db.gz: finished writing out complete database file (319.9 KB)
+0018.266 (0) Total database tables backed up: 34 (backup_2023-10-11-0902_FundedX_762b037bc88f-db.gz, size: 327669, sha1: 0fccbc6e980398f8535a5817db43006c6b84ad37, sha256: 7c061ef97a74c26f0156c417d6a2b935b3a2d71a01aa11be263d70229912b64c)
+0018.279 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-plugins.zip: plugins: This file has already been successfully uploaded
+0018.280 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes.zip: themes: This file has already been successfully uploaded
+0018.281 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes2.zip: themes: This file has already been successfully uploaded
+0018.281 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes3.zip: themes: This file has already been successfully uploaded
+0018.281 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-themes4.zip: themes: This file has already been successfully uploaded
+0018.282 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-uploads.zip: uploads: This file has already been successfully uploaded
+0018.282 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-uploads2.zip: uploads: This file has already been successfully uploaded
+0018.283 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-others.zip: others: This file has already been successfully uploaded
+0018.283 (0) backup_2023-10-11-0902_FundedX_762b037bc88f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0018.283 (0) Saving backup history. Total backup size: 151.8 MB
+0018.289 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0018.291 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0018.292 (0) No remote despatch: user chose no remote backup service
+0018.292 (0) Recording as successfully uploaded: backup_2023-10-11-0902_FundedX_762b037bc88f-db.gz
+0018.293 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0018.294 (0) Resume backup (762b037bc88f, 0): finish run
+0018.295 (0) Decremented the semaphore (fd) by 1
+0018.295 (0) Semaphore (fd) unlocked
+0018.296 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0018.298 (0) No email will/can be sent - the user has not configured an email address.
+0018.298 (0) The backup succeeded and is now complete
