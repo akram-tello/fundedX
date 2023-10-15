@@ -7,6 +7,13 @@
     $alignment      = get_field('alignment');
 ?>
 
+<style>
+    .stats-list h3{
+        font-size: 36px !important;
+        font-weight: 600 !important;
+    }
+</style>
+
 
 <section class="module module--page-header <?= $className ?>">
     <?php if( !empty( $background['mobile'] ) && !empty( $background['desktop'] ) ): ?>

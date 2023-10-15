@@ -192,20 +192,35 @@ const updateProgressBar = (slick, currentSlide) => {
     let progress;
     let tooltipText;
     switch (currentSlide) {
+        case 0:
+            console.log('case 6');
+            progress = (6 / 6) * 100;
+            tooltipText = '<p style="font-size: 16px;font-weight: 500;}">Trading Period <br> $5,000.00</p>Unlimited Days';
+            break;
         case 1:
             console.log('case 1');
-            progress = (1 / 3) * 100;
+            progress = (1 / 6) * 100;
             tooltipText = '<p style="font-size: 16px;font-weight: 500;}">Trading Period <br> $10,000.00</p>Unlimited Days';
             break;
         case 2:
             console.log('case 2');
-            progress = (2 / 3) * 100;
+            progress = (2 / 6) * 100;
             tooltipText = '<p style="font-size: 16px;font-weight: 500;}">Trading Period <br> $25,000.00</p>Unlimited Days';
             break;
         case 3:
             console.log('case 3');
-            progress = (3 / 3) * 100;
-            tooltipText = '<p style="font-size: 16px;font-weight: 500;}">Trading Period <br> $5,000.00</p>Unlimited Days';
+            progress = (3 / 6) * 100;
+            tooltipText = '<p style="font-size: 16px;font-weight: 500;}">Trading Period <br> $50,000.00</p>Unlimited Days';
+            break;
+        case 4:
+            console.log('case 4');
+            progress = (4 / 6) * 100;
+            tooltipText = '<p style="font-size: 16px;font-weight: 500;}">Trading Period <br> $100,000.00</p>Unlimited Days';
+            break;
+        case 5:
+            console.log('case 5');
+            progress = (5 / 6) * 100;
+            tooltipText = '<p style="font-size: 16px;font-weight: 500;}">Trading Period <br> $200,000.00</p>Unlimited Days';
             break;
         default:
             console.error('Unexpected slide index:', currentSlide);

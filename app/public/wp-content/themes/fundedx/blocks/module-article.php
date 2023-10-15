@@ -6,6 +6,14 @@
     $content   = get_field('content');
 ?>
 
+<style>
+
+.module--article .text-article-content p {
+    text-align: left !important;
+}
+    
+</style>
+
 <section class="module module--article <?= $className ?>">
     <?php if( !empty( $background['mobile'] ) && !empty( $background['desktop'] ) ): ?>
     <?= responsive_image( $background['mobile'], $background['desktop'], 'bg' )?>

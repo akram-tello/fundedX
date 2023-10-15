@@ -2,6 +2,21 @@
     $className = !empty($block['className']) ? $block['className'] : null;
     $heading   = get_field('heading');
 ?>
+
+<style>
+    @media (max-width: 767px) {
+        .module--logo-carousel{
+            margin-top: 30px !important;
+        }
+        .logo-item{
+        margin-bottom: 0 !important;
+        }
+        .featured-logos {
+            max-width: 8rem !important;
+        }
+    }
+
+</style>
 <section class="module module--logo-carousel bg-gray <?= $className ?>">
     <div class="wrapper px-4 md:pb-6 pt-6 mx-auto max-w-7xl">
         <h2 class="module--title text-center mb-6 text-xl font-bold"><?= $heading ?></h2>

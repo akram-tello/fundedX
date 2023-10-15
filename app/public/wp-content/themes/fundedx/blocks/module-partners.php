@@ -16,36 +16,36 @@
 
     <div class="lg:grid grid-cols-2">
         <div>
-            <ul class="custom-list list-inside list-decimal"  style="max-width: 400px;">
+            <ul class="custom-list list-inside list-decimal"  style="max-width: 550px;">
                 <li class="flex items-start mb-2 mt-5 text-white">
                     <img data-src="<?= get_template_directory_uri(); ?>/img/cash-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-10 mr-4">
                     <div>
-                        <h3 class="text-white" style="font-size: 24px;max-width: 350px; line-height: 28px; color:#EAEDEB;">Be Rewarded For Each Recommendation</h3>
+                        <h3 class="text-white" style="font-size: 24px; line-height: 28px; color:#EAEDEB;">Be Rewarded For Each Recommendation</h3>
                         <p style="color: #EAEDEB; font-size: 18px;"><?= $block_1 ?></p>
                     </div>
                 </li>
                 <li class="flex items-start mb-2 mt-5 text-white">
                     <img data-src="<?= get_template_directory_uri(); ?>/img/pie-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-10 mr-4">
                     <div>
-                        <h3 class="text-white" style="font-size: 24px;max-width: 200px; line-height: 28px; color:#EAEDEB;">Progressive Commissions</h3>
+                        <h3 class="text-white" style="font-size: 24px; line-height: 28px; color:#EAEDEB;">Progressive Commissions</h3>
                         <p style="color: #EAEDEB; font-size: 18px;"><?= $block_2 ?></p>
                     </div>
                 </li>
             </ul>
         </div>
         <div>
-            <ul class="custom-list list-inside list-decimal"  style="max-width: 400px;">
+            <ul class="custom-list list-inside list-decimal"  style="">
                 <li class="flex items-start mb-5 mt-5 text-white" style="margin-bottom: 2rem;">
                     <img data-src="<?= get_template_directory_uri(); ?>/img/cash-2-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-10 mr-4">
                     <div>
-                        <h3 class="text-white" style="font-size: 24px;max-width: 200px; line-height: 28px; color:#EAEDEB;">Monthly Withdrawals</h3>
+                        <h3 class="text-white" style="font-size: 24px; line-height: 28px; color:#EAEDEB;">Monthly Withdrawals</h3>
                         <p style="color: #EAEDEB; font-size: 18px;"><?= $block_3 ?></p>
                     </div>
                 </li>
                 <li class="flex items-start mb-2 mt-5 text-white">
                     <img data-src="<?= get_template_directory_uri(); ?>/img/bar-icon.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Icon" class="list-icon w-10 mr-4">
                     <div>
-                        <h3 class="text-white" style="font-size: 24px;max-width: 200px; line-height: 28px; color:#EAEDEB;">We Will Provide With Materials</h3>
+                        <h3 class="text-white" style="font-size: 24px; line-height: 28px; color:#EAEDEB;">We Will Provide With Materials</h3>
                         <p style="color: #EAEDEB; font-size: 18px;"><?= $block_4 ?></p>
                     </div> 
                 </li>

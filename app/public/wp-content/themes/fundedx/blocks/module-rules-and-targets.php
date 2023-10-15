@@ -70,7 +70,7 @@
         <div class="text-media">
             <?php if( !empty( $media ) ): ?>
                 <?php if( $media['type'] == 'video' ): ?>
-                    <video id="video" width="100%" height="100%" class="video-media"playsinline  muted>
+                    <video id="video" width="100%" height="100%" class="video-media"playsinline  muted style="max-height: 28rem">
                         <source src="<?= $media['url'] ?>" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>

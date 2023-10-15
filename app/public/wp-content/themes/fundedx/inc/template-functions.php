@@ -181,3 +181,20 @@ function get_disclaimer_text() {
 function wrap_WYSIWYG_text($text, $color_class) {
     return '<span class="' . $color_class . '">' . $text . '</span>';
 }
+
+
+add_action('template_redirect', 'redirect_shop_page');
+
+function redirect_shop_page(){
+  if(is_shop()){
+    wp_redirect(home_url()); // Redirect to home page. Change the URL to redirect elsewhere.
+    exit();
+  }
+
+   // Redirect Single Product Pages
+   if (is_product()) {
+    wp_safe_redirect(home_url('/#take-the-challenge')); // Redirects to specified URL
+    exit();
+    }
+
+}

@@ -13,10 +13,10 @@
             <h2><?= esc_html( $heading ) ?></h2>
             <?= wrap_WYSIWYG_text($intro_text, $white_text ? 'text-white' : 'mw-511 cta-intro-text block') ?>
             <div class="cta-intro-text" style= "display: flex; justify-content: flex-start; justify-items: self-end; margin-top: 1rem">
-                <img data-src="<?= get_template_directory_uri(); ?>/img/payoneer.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="" width="70" height="70" style="margin-right: 10px; filter: opacity(0.3);" class=" size-full"/>
-                <img data-src="<?= get_template_directory_uri(); ?>/img/deel.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Group-2" width="70" height="70" style="margin-right: 10px; filter: opacity(0.3);" class=" size-full" />
-                <img data-src="<?= get_template_directory_uri(); ?>/img/wise.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Group-3" width="70" height="70" style="margin-right: 10px; filter: opacity(0.3);" class=" size-full"/>
-                <img data-src="<?= get_template_directory_uri(); ?>/img/revolut.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Group-4" width="70" height="70" style="margin-right: 10px; filter: opacity(0.3);" class=" size-full" />
+                <img data-src="<?= get_template_directory_uri(); ?>/img/payoneer.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="" width="70" height="50" style="margin-right: 10px; filter: opacity(0.1);" class=" size-full"/>
+                <img data-src="<?= get_template_directory_uri(); ?>/img/deel.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Group-2" width="70" height="50" style="margin-right: 10px; filter: opacity(0.1);" class=" size-full" />
+                <img data-src="<?= get_template_directory_uri(); ?>/img/wise.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Group-3" width="70" height="50" style="margin-right: 10px; filter: opacity(0.1);" class=" size-full"/>
+                <img data-src="<?= get_template_directory_uri(); ?>/img/revolut.png" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="Group-4" width="70" height="50" style="margin-right: 10px; filter: opacity(0.1);" class=" size-full" />
             </div>
 
             <div class="lg:hidden">

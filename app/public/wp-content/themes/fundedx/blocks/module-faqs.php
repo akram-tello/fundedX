@@ -68,7 +68,7 @@
                                     <?= $question ?>
                                     <img class="faq-icon" data-src="<?= get_template_directory_uri(); ?>/img/arrow-icon.svg" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="">
                                 </h3>
-                                <div class="faq-answer"><?= $answer ?></div>
+                                <div class="faq-answer" style="max-width: 100% !important;"><?= $answer ?></div>
                             </div>
                         <?php endwhile; ?>
                     <?php endif; ?>
