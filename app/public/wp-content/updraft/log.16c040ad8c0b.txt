@@ -1,0 +1,1347 @@
+0000.004 () Opened log file at time: Thu, 26 Oct 2023 10:14:26 +0000 on http://localhost:10023
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.10 WP: 6.3.2 PHP: 8.1.23 (fpm-fcgi, Darwin akrams-air 23.0.0 Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:34 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T8103 arm64) MySQL: 8.0.16 (max packet size=33554432) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.6M | 18M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 37317.6 MB
+0000.017 () Restore setup, now closing connection and starting restore over AJAX.
+0000.004 () Opened log file at time: Thu, 26 Oct 2023 10:14:27 +0000 on http://localhost:10023
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.10 WP: 6.3.2 PHP: 8.1.23 (fpm-fcgi, Darwin akrams-air 23.0.0 Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:34 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T8103 arm64) MySQL: 8.0.16 (max packet size=33554432) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.4M | 16M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 37316.9 MB
+0000.006 () Ensuring WP_Filesystem is setup for a restore
+0000.006 () WP_Filesystem is setup and ready for a restore
+0000.010 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_ezaj3h_options","wp_ezaj3h_users","wp_ezaj3h_usermeta","wp_ezaj3h_actionscheduler_actions","wp_ezaj3h_actionscheduler_claims","wp_ezaj3h_actionscheduler_groups","wp_ezaj3h_actionscheduler_logs","wp_ezaj3h_commentmeta","wp_ezaj3h_comments","wp_ezaj3h_links","wp_ezaj3h_postmeta","wp_ezaj3h_posts","wp_ezaj3h_term_relationships","wp_ezaj3h_term_taxonomy","wp_ezaj3h_termmeta","wp_ezaj3h_terms","wp_ezaj3h_wc_category_lookup","wp_ezaj3h_wc_product_meta_lookup","wp_ezaj3h_wc_reserved_stock","wp_ezaj3h_wc_tax_rate_classes","wp_ezaj3h_woocommerce_order_itemmeta","wp_ezaj3h_woocommerce_payment_tokenmeta","wp_ezaj3h_actionscheduler_actions__20231024_234729","wp_ezaj3h_actionscheduler_claims__20231024_234729","wp_ezaj3h_actionscheduler_groups__20231024_234729","wp_ezaj3h_actionscheduler_logs__20231024_234729","wp_ezaj3h_commentmeta__20231024_234729","wp_ezaj3h_comments__20231024_234729","wp_ezaj3h_frmt_form_entry","wp_ezaj3h_frmt_form_entry__20231024_234729","wp_ezaj3h_frmt_form_entry_meta","wp_ezaj3h_frmt_form_entry_meta__20231024_234729","wp_ezaj3h_frmt_form_reports","wp_ezaj3h_frmt_form_reports__20231024_234729","wp_ezaj3h_frmt_form_views","wp_ezaj3h_frmt_form_views__20231024_234729","wp_ezaj3h_gla_attribute_mapping_rules","wp_ezaj3h_gla_attribute_mapping_rules__20231024_234729","wp_ezaj3h_gla_budget_recommendations","wp_ezaj3h_gla_budget_recommendations__20231024_234729","wp_ezaj3h_gla_merchant_issues","wp_ezaj3h_gla_merchant_issues__20231024_234729","wp_ezaj3h_gla_shipping_rates","wp_ezaj3h_gla_shipping_rates__20231024_234729","wp_ezaj3h_gla_shipping_times","wp_ezaj3h_gla_shipping_times__20231024_234729","wp_ezaj3h_jetpack_sync_queue","wp_ezaj3h_jetpack_sync_queue__20231024_234729","wp_ezaj3h_links__20231024_234729","wp_ezaj3h_mailpoet_automation_run_logs","wp_ezaj3h_mailpoet_automation_run_logs__20231024_234729","wp_ezaj3h_mailpoet_automation_run_subjects","wp_ezaj3h_mailpoet_automation_run_subjects__20231024_234729","wp_ezaj3h_mailpoet_automation_runs","wp_ezaj3h_mailpoet_automation_runs__20231024_234729","wp_ezaj3h_mailpoet_automation_triggers","wp_ezaj3h_mailpoet_automation_triggers__20231024_234729","wp_ezaj3h_mailpoet_automation_versions","wp_ezaj3h_mailpoet_automation_versions__20231024_234729","wp_ezaj3h_mailpoet_automations","wp_ezaj3h_mailpoet_automations__20231024_234729","wp_ezaj3h_mailpoet_custom_fields","wp_ezaj3h_mailpoet_custom_fields__20231024_234729","wp_ezaj3h_mailpoet_dynamic_segment_filters","wp_ezaj3h_mailpoet_dynamic_segment_filters__20231024_234729","wp_ezaj3h_mailpoet_feature_flags","wp_ezaj3h_mailpoet_feature_flags__20231024_234729","wp_ezaj3h_mailpoet_forms","wp_ezaj3h_mailpoet_forms__20231024_234729","wp_ezaj3h_mailpoet_log","wp_ezaj3h_mailpoet_log__20231024_234729","wp_ezaj3h_mailpoet_migrations","wp_ezaj3h_mailpoet_migrations__20231024_234729","wp_ezaj3h_mailpoet_newsletter_links","wp_ezaj3h_mailpoet_newsletter_links__20231024_234729","wp_ezaj3h_mailpoet_newsletter_option","wp_ezaj3h_mailpoet_newsletter_option__20231024_234729","wp_ezaj3h_mailpoet_newsletter_option_fields","wp_ezaj3h_mailpoet_newsletter_option_fields__20231024_234729","wp_ezaj3h_mailpoet_newsletter_posts","wp_ezaj3h_mailpoet_newsletter_posts__20231024_234729","wp_ezaj3h_mailpoet_newsletter_segment","wp_ezaj3h_mailpoet_newsletter_segment__20231024_234729","wp_ezaj3h_mailpoet_newsletter_templates","wp_ezaj3h_mailpoet_newsletter_templates__20231024_234729","wp_ezaj3h_mailpoet_newsletters","wp_ezaj3h_mailpoet_newsletters__20231024_234729","wp_ezaj3h_mailpoet_scheduled_task_subscribers","wp_ezaj3h_mailpoet_scheduled_task_subscribers__20231024_234729","wp_ezaj3h_mailpoet_scheduled_tasks","wp_ezaj3h_mailpoet_scheduled_tasks__20231024_234729","wp_ezaj3h_mailpoet_segments","wp_ezaj3h_mailpoet_segments__20231024_234729","wp_ezaj3h_mailpoet_sending_queues","wp_ezaj3h_mailpoet_sending_queues__20231024_234729","wp_ezaj3h_mailpoet_settings","wp_ezaj3h_mailpoet_settings__20231024_234729","wp_ezaj3h_mailpoet_statistics_bounces","wp_ezaj3h_mailpoet_statistics_bounces__20231024_234729","wp_ezaj3h_mailpoet_statistics_clicks","wp_ezaj3h_mailpoet_statistics_clicks__20231024_234729","wp_ezaj3h_mailpoet_statistics_forms","wp_ezaj3h_mailpoet_statistics_forms__20231024_234729","wp_ezaj3h_mailpoet_statistics_newsletters","wp_ezaj3h_mailpoet_statistics_newsletters__20231024_234729","wp_ezaj3h_mailpoet_statistics_opens","wp_ezaj3h_mailpoet_statistics_opens__20231024_234729","wp_ezaj3h_mailpoet_statistics_unsubscribes","wp_ezaj3h_mailpoet_statistics_unsubscribes__20231024_234729","wp_ezaj3h_mailpoet_statistics_woocommerce_purch__20231024_234729","wp_ezaj3h_mailpoet_statistics_woocommerce_purchases","wp_ezaj3h_mailpoet_stats_notifications","wp_ezaj3h_mailpoet_stats_notifications__20231024_234729","wp_ezaj3h_mailpoet_subscriber_custom_field","wp_ezaj3h_mailpoet_subscriber_custom_field__20231024_234729","wp_ezaj3h_mailpoet_subscriber_ips","wp_ezaj3h_mailpoet_subscriber_ips__20231024_234729","wp_ezaj3h_mailpoet_subscriber_segment","wp_ezaj3h_mailpoet_subscriber_segment__20231024_234729","wp_ezaj3h_mailpoet_subscriber_tag","wp_ezaj3h_mailpoet_subscriber_tag__20231024_234729","wp_ezaj3h_mailpoet_subscribers","wp_ezaj3h_mailpoet_subscribers__20231024_234729","wp_ezaj3h_mailpoet_tags","wp_ezaj3h_mailpoet_tags__20231024_234729","wp_ezaj3h_mailpoet_user_agents","wp_ezaj3h_mailpoet_user_agents__20231024_234729","wp_ezaj3h_mailpoet_user_flags","wp_ezaj3h_mailpoet_user_flags__20231024_234729","wp_ezaj3h_nf3_action_meta","wp_ezaj3h_nf3_action_meta__20231024_234729","wp_ezaj3h_nf3_actions","wp_ezaj3h_nf3_actions__20231024_234729","wp_ezaj3h_nf3_chunks","wp_ezaj3h_nf3_chunks__20231024_234729","wp_ezaj3h_nf3_field_meta","wp_ezaj3h_nf3_field_meta__20231024_234729","wp_ezaj3h_nf3_fields","wp_ezaj3h_nf3_fields__20231024_234729","wp_ezaj3h_nf3_form_meta","wp_ezaj3h_nf3_form_meta__20231024_234729","wp_ezaj3h_nf3_forms","wp_ezaj3h_nf3_forms__20231024_234729","wp_ezaj3h_nf3_object_meta","wp_ezaj3h_nf3_object_meta__20231024_234729","wp_ezaj3h_nf3_objects","wp_ezaj3h_nf3_objects__20231024_234729","wp_ezaj3h_nf3_relationships","wp_ezaj3h_nf3_relationships__20231024_234729","wp_ezaj3h_nf3_upgrades","wp_ezaj3h_nf3_upgrades__20231024_234729","wp_ezaj3h_options__20231024_234729","wp_ezaj3h_postmeta__20231024_234729","wp_ezaj3h_posts__20231024_234729","wp_ezaj3h_term_relationships__20231024_234729","wp_ezaj3h_term_taxonomy__20231024_234729","wp_ezaj3h_termmeta__20231024_234729","wp_ezaj3h_terms__20231024_234729","wp_ezaj3h_usermeta__20231024_234729","wp_ezaj3h_users__20231024_234729","wp_ezaj3h_wc_admin_note_actions","wp_ezaj3h_wc_admin_note_actions__20231024_234729","wp_ezaj3h_wc_admin_notes","wp_ezaj3h_wc_admin_notes__20231024_234729","wp_ezaj3h_wc_category_lookup__20231024_234729","wp_ezaj3h_wc_customer_lookup","wp_ezaj3h_wc_customer_lookup__20231024_234729","wp_ezaj3h_wc_download_log","wp_ezaj3h_wc_download_log__20231024_234729","wp_ezaj3h_wc_order_addresses","wp_ezaj3h_wc_order_addresses__20231024_234729","wp_ezaj3h_wc_order_coupon_lookup","wp_ezaj3h_wc_order_coupon_lookup__20231024_234729","wp_ezaj3h_wc_order_operational_data","wp_ezaj3h_wc_order_operational_data__20231024_234729","wp_ezaj3h_wc_order_product_lookup","wp_ezaj3h_wc_order_product_lookup__20231024_234729","wp_ezaj3h_wc_order_stats","wp_ezaj3h_wc_order_stats__20231024_234729","wp_ezaj3h_wc_order_tax_lookup","wp_ezaj3h_wc_order_tax_lookup__20231024_234729","wp_ezaj3h_wc_orders","wp_ezaj3h_wc_orders__20231024_234729","wp_ezaj3h_wc_orders_meta","wp_ezaj3h_wc_orders_meta__20231024_234729","wp_ezaj3h_wc_product_attributes_lookup","wp_ezaj3h_wc_product_attributes_lookup__20231024_234729","wp_ezaj3h_wc_product_download_directories","wp_ezaj3h_wc_product_download_directories__20231024_234729","wp_ezaj3h_wc_product_meta_lookup__20231024_234729","wp_ezaj3h_wc_rate_limits","wp_ezaj3h_wc_rate_limits__20231024_234729","wp_ezaj3h_wc_reserved_stock__20231024_234729","wp_ezaj3h_wc_tax_rate_classes__20231024_234729","wp_ezaj3h_wc_webhooks","wp_ezaj3h_wc_webhooks__20231024_234729","wp_ezaj3h_woocommerce_api_keys","wp_ezaj3h_woocommerce_api_keys__20231024_234729","wp_ezaj3h_woocommerce_attribute_taxonomies","wp_ezaj3h_woocommerce_attribute_taxonomies__20231024_234729","wp_ezaj3h_woocommerce_downloadable_product_perm__20231024_234729","wp_ezaj3h_woocommerce_downloadable_product_permissions","wp_ezaj3h_woocommerce_log","wp_ezaj3h_woocommerce_log__20231024_234729","wp_ezaj3h_woocommerce_order_itemmeta__20231024_234729","wp_ezaj3h_woocommerce_order_items","wp_ezaj3h_woocommerce_order_items__20231024_234729","wp_ezaj3h_woocommerce_payment_tokenmeta__20231024_234729","wp_ezaj3h_woocommerce_payment_tokens","wp_ezaj3h_woocommerce_payment_tokens__20231024_234729","wp_ezaj3h_woocommerce_sessions","wp_ezaj3h_woocommerce_sessions__20231024_234729","wp_ezaj3h_woocommerce_shipping_zone_locations","wp_ezaj3h_woocommerce_shipping_zone_locations__20231024_234729","wp_ezaj3h_woocommerce_shipping_zone_methods","wp_ezaj3h_woocommerce_shipping_zone_methods__20231024_234729","wp_ezaj3h_woocommerce_shipping_zones","wp_ezaj3h_woocommerce_shipping_zones__20231024_234729","wp_ezaj3h_woocommerce_tax_rate_locations","wp_ezaj3h_woocommerce_tax_rate_locations__20231024_234729","wp_ezaj3h_woocommerce_tax_rates","wp_ezaj3h_woocommerce_tax_rates__20231024_234729","wp_ezaj3h_wpfm_backup","wp_ezaj3h_wpfm_backup__20231024_234729","wp_ezaj3h_wpforms_payment_meta","wp_ezaj3h_wpforms_payment_meta__20231024_234729","wp_ezaj3h_wpforms_payments","wp_ezaj3h_wpforms_payments__20231024_234729","wp_ezaj3h_wpforms_tasks_meta","wp_ezaj3h_wpforms_tasks_meta__20231024_234729"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.010 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.016 () Entity: db
+0000.016 () restore_backup(backup_file=backup_2023-10-26-1008_FundedX_e522bdfb8943-db.gz, type=db, info=a:0:{}, last_one=)
+0000.016 () Unpacking backup... (backup_2023-10-26-1008_FundedX_e522bdfb8943-db.gz, 1.3 Mb)
+0000.016 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.018 () Database successfully unpacked
+0000.019 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.019 () Using direct MySQL access; value of use_mysqli is: 1
+0000.019 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.069 () Max packet size: 32 MB
+0000.069 () Entering maintenance mode
+0000.069 () Enabling Maintenance mode&#8230;
+0000.093 () Backup of: https://www.fundedx.co
+0000.093 () Content URL: https://www.fundedx.co/wp-content
+0000.093 () Uploads URL: https://www.fundedx.co/wp-content/uploads
+0000.093 () Old table prefix: wp_ezaj3h_
+0000.093 () Old ABSPATH: /home/dh_mbjqsu/fundedx.co/
+0000.093 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.093 () Site information: multisite=0
+0000.093 () Site information: sql_mode=NO_ENGINE_SUBSTITUTION
+0000.094 () Skipped tables: wp_actionscheduler_actions__20231024_234729, wp_actionscheduler_claims__20231024_234729, wp_actionscheduler_groups__20231024_234729, wp_actionscheduler_logs__20231024_234729, wp_commentmeta__20231024_234729, wp_comments__20231024_234729, wp_frmt_form_entry__20231024_234729, wp_frmt_form_entry_meta__20231024_234729, wp_frmt_form_reports__20231024_234729, wp_frmt_form_views__20231024_234729, wp_gla_attribute_mapping_rules__20231024_234729, wp_gla_budget_recommendations__20231024_234729, wp_gla_merchant_issues__20231024_234729, wp_gla_shipping_rates__20231024_234729, wp_gla_shipping_times__20231024_234729, wp_links__20231024_234729, wp_mailpoet_automation_run_logs__20231024_234729, wp_mailpoet_automation_run_subjects__20231024_234729, wp_mailpoet_automation_runs__20231024_234729, wp_mailpoet_automation_triggers__20231024_234729, wp_mailpoet_automation_versions__20231024_234729, wp_mailpoet_automations__20231024_234729, wp_mailpoet_custom_fields__20231024_234729, wp_mailpoet_dynamic_segment_filters__20231024_234729, wp_mailpoet_feature_flags__20231024_234729, wp_mailpoet_forms__20231024_234729, wp_mailpoet_log__20231024_234729, wp_mailpoet_migrations__20231024_234729, wp_mailpoet_newsletter_links__20231024_234729, wp_mailpoet_newsletter_option__20231024_234729, wp_mailpoet_newsletter_option_fields__20231024_234729, wp_mailpoet_newsletter_posts__20231024_234729, wp_mailpoet_newsletter_segment__20231024_234729, wp_mailpoet_newsletter_templates__20231024_234729, wp_mailpoet_newsletters__20231024_234729, wp_mailpoet_scheduled_task_subscribers__20231024_234729, wp_mailpoet_scheduled_tasks__20231024_234729, wp_mailpoet_segments__20231024_234729, wp_mailpoet_sending_queues__20231024_234729, wp_mailpoet_settings__20231024_234729, wp_mailpoet_statistics_bounces__20231024_234729, wp_mailpoet_statistics_clicks__20231024_234729, wp_mailpoet_statistics_forms__20231024_234729, wp_mailpoet_statistics_newsletters__20231024_234729, wp_mailpoet_statistics_opens__20231024_234729, wp_mailpoet_statistics_unsubscribes__20231024_234729, wp_mailpoet_statistics_woocommerce_purchases__20231024_234729, wp_mailpoet_stats_notifications__20231024_234729, wp_mailpoet_subscriber_custom_field__20231024_234729, wp_mailpoet_subscriber_ips__20231024_234729, wp_mailpoet_subscriber_segment__20231024_234729, wp_mailpoet_subscriber_tag__20231024_234729, wp_mailpoet_subscribers__20231024_234729, wp_mailpoet_tags__20231024_234729, wp_mailpoet_user_agents__20231024_234729, wp_mailpoet_user_flags__20231024_234729, wp_nf3_action_meta__20231024_234729, wp_nf3_actions__20231024_234729, wp_nf3_chunks__20231024_234729, wp_nf3_field_meta__20231024_234729, wp_nf3_fields__20231024_234729, wp_nf3_form_meta__20231024_234729, wp_nf3_forms__20231024_234729, wp_nf3_object_meta__20231024_234729, wp_nf3_objects__20231024_234729, wp_nf3_relationships__20231024_234729, wp_nf3_upgrades__20231024_234729, wp_options__20231024_234729, wp_postmeta__20231024_234729, wp_posts__20231024_234729, wp_term_relationships__20231024_234729, wp_term_taxonomy__20231024_234729, wp_termmeta__20231024_234729, wp_terms__20231024_234729, wp_usermeta__20231024_234729, wp_users__20231024_234729, wp_wc_admin_note_actions__20231024_234729, wp_wc_admin_notes__20231024_234729, wp_wc_category_lookup__20231024_234729, wp_wc_customer_lookup__20231024_234729, wp_wc_download_log__20231024_234729, wp_wc_order_addresses__20231024_234729, wp_wc_order_coupon_lookup__20231024_234729, wp_wc_order_operational_data__20231024_234729, wp_wc_order_product_lookup__20231024_234729, wp_wc_order_stats__20231024_234729, wp_wc_order_tax_lookup__20231024_234729, wp_wc_orders__20231024_234729, wp_wc_orders_meta__20231024_234729, wp_wc_product_attributes_lookup__20231024_234729, wp_wc_product_download_directories__20231024_234729, wp_wc_product_meta_lookup__20231024_234729, wp_wc_rate_limits__20231024_234729, wp_wc_reserved_stock__20231024_234729, wp_wc_tax_rate_classes__20231024_234729, wp_wc_webhooks__20231024_234729, wp_woocommerce_api_keys__20231024_234729, wp_woocommerce_attribute_taxonomies__20231024_234729, wp_woocommerce_downloadable_product_permissions__20231024_234729, wp_woocommerce_log__20231024_234729, wp_woocommerce_order_itemmeta__20231024_234729, wp_woocommerce_order_items__20231024_234729, wp_woocommerce_payment_tokenmeta__20231024_234729, wp_woocommerce_payment_tokens__20231024_234729, wp_woocommerce_sessions__20231024_234729, wp_woocommerce_shipping_zone_locations__20231024_234729, wp_woocommerce_shipping_zone_methods__20231024_234729, wp_woocommerce_shipping_zones__20231024_234729, wp_woocommerce_tax_rate_locations__20231024_234729, wp_woocommerce_tax_rates__20231024_234729, wp_wpfm_backup__20231024_234729, wp_wpforms_payment_meta__20231024_234729, wp_wpforms_payments__20231024_234729, wp_wpforms_tasks_meta__20231024_234729
+0000.095 () New table prefix: xm_
+0000.099 () Processing table (InnoDB): wp_ezaj3h_options - will restore as: xm_options
+0000.285 () Atomic restore: dropping original table (wp_options)
+0000.297 () Atomic restore: renaming new table (xm_options) to final table name (wp_options)
+0000.301 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0000.402 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.403 () Options table fields changed OK
+0000.406 () Search and replacing table: wp_options: rows: 962
+0000.414 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0000.529 () Processing table (InnoDB): wp_ezaj3h_users - will restore as: xm_users
+0000.543 () Atomic restore: dropping original table (wp_users)
+0000.546 () Atomic restore: renaming new table (xm_users) to final table name (wp_users)
+0000.551 () Search and replacing table: wp_users: rows: 5
+0000.552 () Processing table (InnoDB): wp_ezaj3h_usermeta - will restore as: xm_usermeta
+0000.567 () Atomic restore: dropping original table (wp_usermeta)
+0000.570 () Atomic restore: renaming new table (xm_usermeta) to final table name (wp_usermeta)
+0000.573 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.575 () Usermeta table fields changed OK
+0000.576 () Search and replacing table: wp_usermeta: rows: 214
+0000.579 () Processing table (InnoDB): wp_ezaj3h_actionscheduler_actions - will restore as: xm_actionscheduler_actions
+0000.642 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0000.654 () Atomic restore: renaming new table (xm_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0000.672 () Search and replacing table: wp_actionscheduler_actions: rows: 802
+0000.695 () Processing table (InnoDB): wp_ezaj3h_actionscheduler_claims - will restore as: xm_actionscheduler_claims
+0000.705 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0000.709 () Atomic restore: renaming new table (xm_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0000.714 () Search and replacing table: wp_actionscheduler_claims: rows: 0
+0000.714 () Processing table (InnoDB): wp_ezaj3h_actionscheduler_groups - will restore as: xm_actionscheduler_groups
+0000.725 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0000.728 () Atomic restore: renaming new table (xm_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0000.733 () Search and replacing table: wp_actionscheduler_groups: rows: 10
+0000.733 () Processing table (InnoDB): wp_ezaj3h_actionscheduler_logs - will restore as: xm_actionscheduler_logs
+0000.791 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0000.796 () Atomic restore: renaming new table (xm_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0000.803 () Search and replacing table: wp_actionscheduler_logs: rows: 2400
+0000.823 () Processing table (InnoDB): wp_ezaj3h_commentmeta - will restore as: xm_commentmeta
+0000.832 () Atomic restore: dropping original table (wp_commentmeta)
+0000.835 () Atomic restore: renaming new table (xm_commentmeta) to final table name (wp_commentmeta)
+0000.840 () Search and replacing table: wp_commentmeta: rows: 0
+0000.840 () Processing table (InnoDB): wp_ezaj3h_comments - will restore as: xm_comments
+0000.856 () Atomic restore: dropping original table (wp_comments)
+0000.861 () Atomic restore: renaming new table (xm_comments) to final table name (wp_comments)
+0000.868 () Search and replacing table: wp_comments: rows: 53
+0000.869 () Processing table (InnoDB): wp_ezaj3h_links - will restore as: xm_links
+0000.879 () Atomic restore: dropping original table (wp_links)
+0000.883 () Atomic restore: renaming new table (xm_links) to final table name (wp_links)
+0000.890 () Search and replacing table: wp_links: rows: 0
+0000.890 () Processing table (InnoDB): wp_ezaj3h_postmeta - will restore as: xm_postmeta
+0000.924 () Atomic restore: dropping original table (wp_postmeta)
+0000.932 () Atomic restore: renaming new table (xm_postmeta) to final table name (wp_postmeta)
+0000.938 () Search and replacing table: wp_postmeta: rows: 1
+0000.942 () Processing table (InnoDB): wp_ezaj3h_posts - will restore as: xm_posts
+0001.073 () Atomic restore: dropping original table (wp_posts)
+0001.086 () Database queries processed: 50 in 1.06 seconds
+0001.086 () Atomic restore: renaming new table (xm_posts) to final table name (wp_posts)
+0001.092 () Skipping search/replace on GUID column in posts table
+0001.093 () Search and replacing table: wp_posts: rows: 594
+0001.195 () Processing table (InnoDB): wp_ezaj3h_term_relationships - will restore as: xm_term_relationships
+0001.209 () Atomic restore: dropping original table (wp_term_relationships)
+0001.212 () Atomic restore: renaming new table (xm_term_relationships) to final table name (wp_term_relationships)
+0001.214 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0001.214 () Processing table (InnoDB): wp_ezaj3h_term_taxonomy - will restore as: xm_term_taxonomy
+0001.223 () Atomic restore: dropping original table (wp_term_taxonomy)
+0001.226 () Atomic restore: renaming new table (xm_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.230 () Search and replacing table: wp_term_taxonomy: rows: 18
+0001.231 () Processing table (InnoDB): wp_ezaj3h_termmeta - will restore as: xm_termmeta
+0001.240 () Atomic restore: dropping original table (wp_termmeta)
+0001.243 () Atomic restore: renaming new table (xm_termmeta) to final table name (wp_termmeta)
+0001.247 () Search and replacing table: wp_termmeta: rows: 1
+0001.247 () Processing table (InnoDB): wp_ezaj3h_terms - will restore as: xm_terms
+0001.256 () Atomic restore: dropping original table (wp_terms)
+0001.259 () Atomic restore: renaming new table (xm_terms) to final table name (wp_terms)
+0001.264 () Search and replacing table: wp_terms: rows: 18
+0001.264 () Processing table (InnoDB): wp_ezaj3h_wc_category_lookup - will restore as: xm_wc_category_lookup
+0001.272 () Atomic restore: dropping original table (wp_wc_category_lookup)
+0001.275 () Atomic restore: renaming new table (xm_wc_category_lookup) to final table name (wp_wc_category_lookup)
+0001.279 () Search and replacing table: wp_wc_category_lookup: rows: 1
+0001.279 () Processing table (InnoDB): wp_ezaj3h_wc_product_meta_lookup - will restore as: xm_wc_product_meta_lookup
+0001.303 () Atomic restore: dropping original table (wp_wc_product_meta_lookup)
+0001.310 () Atomic restore: renaming new table (xm_wc_product_meta_lookup) to final table name (wp_wc_product_meta_lookup)
+0001.317 () Search and replacing table: wp_wc_product_meta_lookup: rows: 24
+0001.318 () Processing table (InnoDB): wp_ezaj3h_wc_reserved_stock - will restore as: xm_wc_reserved_stock
+0001.325 () Atomic restore: dropping original table (wp_wc_reserved_stock)
+0001.328 () Atomic restore: renaming new table (xm_wc_reserved_stock) to final table name (wp_wc_reserved_stock)
+0001.333 () Search and replacing table: wp_wc_reserved_stock: rows: 0
+0001.333 () Processing table (InnoDB): wp_ezaj3h_wc_tax_rate_classes - will restore as: xm_wc_tax_rate_classes
+0001.340 () Atomic restore: dropping original table (wp_wc_tax_rate_classes)
+0001.345 () Atomic restore: renaming new table (xm_wc_tax_rate_classes) to final table name (wp_wc_tax_rate_classes)
+0001.349 () Search and replacing table: wp_wc_tax_rate_classes: rows: 2
+0001.349 () Processing table (InnoDB): wp_ezaj3h_woocommerce_order_itemmeta - will restore as: xm_woocommerce_order_itemmeta
+0001.367 () Atomic restore: dropping original table (wp_woocommerce_order_itemmeta)
+0001.371 () Atomic restore: renaming new table (xm_woocommerce_order_itemmeta) to final table name (wp_woocommerce_order_itemmeta)
+0001.376 () Search and replacing table: wp_woocommerce_order_itemmeta: rows: 582
+0001.381 () Processing table (InnoDB): wp_ezaj3h_woocommerce_payment_tokenmeta - will restore as: xm_woocommerce_payment_tokenmeta
+0001.389 () Atomic restore: dropping original table (wp_woocommerce_payment_tokenmeta)
+0001.391 () Atomic restore: renaming new table (xm_woocommerce_payment_tokenmeta) to final table name (wp_woocommerce_payment_tokenmeta)
+0001.396 () Search and replacing table: wp_woocommerce_payment_tokenmeta: rows: 0
+0001.396 () Processing table (InnoDB): wp_ezaj3h_actionscheduler_actions__20231024_234729 - will restore as: xm_actionscheduler_actions__20231024_234729
+0001.446 () Atomic restore: dropping original table (wp_actionscheduler_actions__20231024_234729)
+0001.447 () Atomic restore: renaming new table (xm_actionscheduler_actions__20231024_234729) to final table name (wp_actionscheduler_actions__20231024_234729)
+0001.454 () Search and replacing table: wp_actionscheduler_actions__20231024_234729: rows: 633
+0001.470 () Processing table (InnoDB): wp_ezaj3h_actionscheduler_claims__20231024_234729 - will restore as: xm_actionscheduler_claims__20231024_234729
+0001.477 () Atomic restore: dropping original table (wp_actionscheduler_claims__20231024_234729)
+0001.478 () Atomic restore: renaming new table (xm_actionscheduler_claims__20231024_234729) to final table name (wp_actionscheduler_claims__20231024_234729)
+0001.483 () Search and replacing table: wp_actionscheduler_claims__20231024_234729: rows: 0
+0001.483 () Processing table (InnoDB): wp_ezaj3h_actionscheduler_groups__20231024_234729 - will restore as: xm_actionscheduler_groups__20231024_234729
+0001.490 () Atomic restore: dropping original table (wp_actionscheduler_groups__20231024_234729)
+0001.491 () Atomic restore: renaming new table (xm_actionscheduler_groups__20231024_234729) to final table name (wp_actionscheduler_groups__20231024_234729)
+0001.495 () Search and replacing table: wp_actionscheduler_groups__20231024_234729: rows: 10
+0001.495 () Processing table (InnoDB): wp_ezaj3h_actionscheduler_logs__20231024_234729 - will restore as: xm_actionscheduler_logs__20231024_234729
+0001.535 () Atomic restore: dropping original table (wp_actionscheduler_logs__20231024_234729)
+0001.535 () Atomic restore: renaming new table (xm_actionscheduler_logs__20231024_234729) to final table name (wp_actionscheduler_logs__20231024_234729)
+0001.540 () Search and replacing table: wp_actionscheduler_logs__20231024_234729: rows: 1893
+0001.557 () Processing table (InnoDB): wp_ezaj3h_commentmeta__20231024_234729 - will restore as: xm_commentmeta__20231024_234729
+0001.565 () Atomic restore: dropping original table (wp_commentmeta__20231024_234729)
+0001.565 () Atomic restore: renaming new table (xm_commentmeta__20231024_234729) to final table name (wp_commentmeta__20231024_234729)
+0001.570 () Search and replacing table: wp_commentmeta__20231024_234729: rows: 0
+0001.570 () Processing table (InnoDB): wp_ezaj3h_comments__20231024_234729 - will restore as: xm_comments__20231024_234729
+0001.583 () Atomic restore: dropping original table (wp_comments__20231024_234729)
+0001.583 () Atomic restore: renaming new table (xm_comments__20231024_234729) to final table name (wp_comments__20231024_234729)
+0001.590 () Search and replacing table: wp_comments__20231024_234729: rows: 47
+0001.591 () Processing table (InnoDB): wp_ezaj3h_frmt_form_entry - will restore as: xm_frmt_form_entry
+0001.600 () Atomic restore: dropping original table (wp_frmt_form_entry)
+0001.604 () Database queries processed: 100 in 1.58 seconds
+0001.604 () Atomic restore: renaming new table (xm_frmt_form_entry) to final table name (wp_frmt_form_entry)
+0001.609 () Search and replacing table: wp_frmt_form_entry: rows: 1
+0001.609 () Processing table (InnoDB): wp_ezaj3h_frmt_form_entry__20231024_234729 - will restore as: xm_frmt_form_entry__20231024_234729
+0001.618 () Atomic restore: dropping original table (wp_frmt_form_entry__20231024_234729)
+0001.619 () Atomic restore: renaming new table (xm_frmt_form_entry__20231024_234729) to final table name (wp_frmt_form_entry__20231024_234729)
+0001.625 () Search and replacing table: wp_frmt_form_entry__20231024_234729: rows: 0
+0001.625 () Processing table (InnoDB): wp_ezaj3h_frmt_form_entry_meta - will restore as: xm_frmt_form_entry_meta
+0001.634 () Atomic restore: dropping original table (wp_frmt_form_entry_meta)
+0001.638 () Atomic restore: renaming new table (xm_frmt_form_entry_meta) to final table name (wp_frmt_form_entry_meta)
+0001.643 () Search and replacing table: wp_frmt_form_entry_meta: rows: 7
+0001.644 () Processing table (InnoDB): wp_ezaj3h_frmt_form_entry_meta__20231024_234729 - will restore as: xm_frmt_form_entry_meta__20231024_234729
+0001.653 () Atomic restore: dropping original table (wp_frmt_form_entry_meta__20231024_234729)
+0001.654 () Atomic restore: renaming new table (xm_frmt_form_entry_meta__20231024_234729) to final table name (wp_frmt_form_entry_meta__20231024_234729)
+0001.660 () Search and replacing table: wp_frmt_form_entry_meta__20231024_234729: rows: 0
+0001.660 () Processing table (InnoDB): wp_ezaj3h_frmt_form_reports - will restore as: xm_frmt_form_reports
+0001.668 () Atomic restore: dropping original table (wp_frmt_form_reports)
+0001.671 () Atomic restore: renaming new table (xm_frmt_form_reports) to final table name (wp_frmt_form_reports)
+0001.675 () Search and replacing table: wp_frmt_form_reports: rows: 1
+0001.675 () Processing table (InnoDB): wp_ezaj3h_frmt_form_reports__20231024_234729 - will restore as: xm_frmt_form_reports__20231024_234729
+0001.683 () Atomic restore: dropping original table (wp_frmt_form_reports__20231024_234729)
+0001.683 () Atomic restore: renaming new table (xm_frmt_form_reports__20231024_234729) to final table name (wp_frmt_form_reports__20231024_234729)
+0001.689 () Search and replacing table: wp_frmt_form_reports__20231024_234729: rows: 1
+0001.689 () Processing table (InnoDB): wp_ezaj3h_frmt_form_views - will restore as: xm_frmt_form_views
+0001.702 () Atomic restore: dropping original table (wp_frmt_form_views)
+0001.705 () Atomic restore: renaming new table (xm_frmt_form_views) to final table name (wp_frmt_form_views)
+0001.710 () Search and replacing table: wp_frmt_form_views: rows: 165
+0001.712 () Processing table (InnoDB): wp_ezaj3h_frmt_form_views__20231024_234729 - will restore as: xm_frmt_form_views__20231024_234729
+0001.725 () Atomic restore: dropping original table (wp_frmt_form_views__20231024_234729)
+0001.726 () Atomic restore: renaming new table (xm_frmt_form_views__20231024_234729) to final table name (wp_frmt_form_views__20231024_234729)
+0001.731 () Search and replacing table: wp_frmt_form_views__20231024_234729: rows: 162
+0001.733 () Processing table (InnoDB): wp_ezaj3h_gla_attribute_mapping_rules - will restore as: xm_gla_attribute_mapping_rules
+0001.739 () Atomic restore: dropping original table (wp_gla_attribute_mapping_rules)
+0001.743 () Atomic restore: renaming new table (xm_gla_attribute_mapping_rules) to final table name (wp_gla_attribute_mapping_rules)
+0001.748 () Search and replacing table: wp_gla_attribute_mapping_rules: rows: 0
+0001.748 () Processing table (InnoDB): wp_ezaj3h_gla_attribute_mapping_rules__20231024_234729 - will restore as: xm_gla_attribute_mapping_rules__20231024_234729
+0001.754 () Atomic restore: dropping original table (wp_gla_attribute_mapping_rules__20231024_234729)
+0001.755 () Atomic restore: renaming new table (xm_gla_attribute_mapping_rules__20231024_234729) to final table name (wp_gla_attribute_mapping_rules__20231024_234729)
+0001.759 () Search and replacing table: wp_gla_attribute_mapping_rules__20231024_234729: rows: 0
+0001.759 () Processing table (InnoDB): wp_ezaj3h_gla_budget_recommendations - will restore as: xm_gla_budget_recommendations
+0001.820 () Atomic restore: dropping original table (wp_gla_budget_recommendations)
+0001.824 () Atomic restore: renaming new table (xm_gla_budget_recommendations) to final table name (wp_gla_budget_recommendations)
+0001.828 () Search and replacing table: wp_gla_budget_recommendations: rows: 4230
+0001.861 () Processing table (InnoDB): wp_ezaj3h_gla_budget_recommendations__20231024_234729 - will restore as: xm_gla_budget_recommendations__20231024_234729
+0001.921 () Atomic restore: dropping original table (wp_gla_budget_recommendations__20231024_234729)
+0001.922 () Atomic restore: renaming new table (xm_gla_budget_recommendations__20231024_234729) to final table name (wp_gla_budget_recommendations__20231024_234729)
+0001.926 () Search and replacing table: wp_gla_budget_recommendations__20231024_234729: rows: 4230
+0001.960 () Processing table (InnoDB): wp_ezaj3h_gla_merchant_issues - will restore as: xm_gla_merchant_issues
+0001.968 () Atomic restore: dropping original table (wp_gla_merchant_issues)
+0001.971 () Atomic restore: renaming new table (xm_gla_merchant_issues) to final table name (wp_gla_merchant_issues)
+0001.977 () Search and replacing table: wp_gla_merchant_issues: rows: 0
+0001.977 () Processing table (InnoDB): wp_ezaj3h_gla_merchant_issues__20231024_234729 - will restore as: xm_gla_merchant_issues__20231024_234729
+0001.986 () Atomic restore: dropping original table (wp_gla_merchant_issues__20231024_234729)
+0001.986 () Atomic restore: renaming new table (xm_gla_merchant_issues__20231024_234729) to final table name (wp_gla_merchant_issues__20231024_234729)
+0001.992 () Search and replacing table: wp_gla_merchant_issues__20231024_234729: rows: 0
+0001.992 () Processing table (InnoDB): wp_ezaj3h_gla_shipping_rates - will restore as: xm_gla_shipping_rates
+0001.998 () Atomic restore: dropping original table (wp_gla_shipping_rates)
+0002.002 () Atomic restore: renaming new table (xm_gla_shipping_rates) to final table name (wp_gla_shipping_rates)
+0002.007 () Search and replacing table: wp_gla_shipping_rates: rows: 0
+0002.007 () Processing table (InnoDB): wp_ezaj3h_gla_shipping_rates__20231024_234729 - will restore as: xm_gla_shipping_rates__20231024_234729
+0002.015 () Atomic restore: dropping original table (wp_gla_shipping_rates__20231024_234729)
+0002.015 () Atomic restore: renaming new table (xm_gla_shipping_rates__20231024_234729) to final table name (wp_gla_shipping_rates__20231024_234729)
+0002.020 () Search and replacing table: wp_gla_shipping_rates__20231024_234729: rows: 0
+0002.021 () Processing table (InnoDB): wp_ezaj3h_gla_shipping_times - will restore as: xm_gla_shipping_times
+0002.027 () Atomic restore: dropping original table (wp_gla_shipping_times)
+0002.029 () Atomic restore: renaming new table (xm_gla_shipping_times) to final table name (wp_gla_shipping_times)
+0002.033 () Search and replacing table: wp_gla_shipping_times: rows: 0
+0002.033 () Processing table (InnoDB): wp_ezaj3h_gla_shipping_times__20231024_234729 - will restore as: xm_gla_shipping_times__20231024_234729
+0002.039 () Atomic restore: dropping original table (wp_gla_shipping_times__20231024_234729)
+0002.040 () Atomic restore: renaming new table (xm_gla_shipping_times__20231024_234729) to final table name (wp_gla_shipping_times__20231024_234729)
+0002.044 () Search and replacing table: wp_gla_shipping_times__20231024_234729: rows: 0
+0002.044 () Processing table (InnoDB): wp_ezaj3h_jetpack_sync_queue - will restore as: xm_jetpack_sync_queue
+0002.051 () Database queries processed: 150 in 2.03 seconds
+0002.053 () Atomic restore: dropping original table (wp_jetpack_sync_queue)
+0002.054 () Atomic restore: renaming new table (xm_jetpack_sync_queue) to final table name (wp_jetpack_sync_queue)
+0002.059 () Search and replacing table: wp_jetpack_sync_queue: rows: 9
+0002.062 () Processing table (InnoDB): wp_ezaj3h_jetpack_sync_queue__20231024_234729 - will restore as: xm_jetpack_sync_queue__20231024_234729
+0002.072 () Atomic restore: dropping original table (wp_jetpack_sync_queue__20231024_234729)
+0002.073 () Atomic restore: renaming new table (xm_jetpack_sync_queue__20231024_234729) to final table name (wp_jetpack_sync_queue__20231024_234729)
+0002.078 () Search and replacing table: wp_jetpack_sync_queue__20231024_234729: rows: 9
+0002.082 () Processing table (InnoDB): wp_ezaj3h_links__20231024_234729 - will restore as: xm_links__20231024_234729
+0002.090 () Atomic restore: dropping original table (wp_links__20231024_234729)
+0002.091 () Atomic restore: renaming new table (xm_links__20231024_234729) to final table name (wp_links__20231024_234729)
+0002.096 () Search and replacing table: wp_links__20231024_234729: rows: 0
+0002.096 () Processing table (InnoDB): wp_ezaj3h_mailpoet_automation_run_logs - will restore as: xm_mailpoet_automation_run_logs
+0002.105 () Atomic restore: dropping original table (wp_mailpoet_automation_run_logs)
+0002.109 () Atomic restore: renaming new table (xm_mailpoet_automation_run_logs) to final table name (wp_mailpoet_automation_run_logs)
+0002.115 () Search and replacing table: wp_mailpoet_automation_run_logs: rows: 0
+0002.115 () Processing table (InnoDB): wp_ezaj3h_mailpoet_automation_run_logs__20231024_234729 - will restore as: xm_mailpoet_automation_run_logs__20231024_234729
+0002.123 () Atomic restore: dropping original table (wp_mailpoet_automation_run_logs__20231024_234729)
+0002.124 () Atomic restore: renaming new table (xm_mailpoet_automation_run_logs__20231024_234729) to final table name (wp_mailpoet_automation_run_logs__20231024_234729)
+0002.144 () Search and replacing table: wp_mailpoet_automation_run_logs__20231024_234729: rows: 0
+0002.144 () Processing table (InnoDB): wp_ezaj3h_mailpoet_automation_run_subjects - will restore as: xm_mailpoet_automation_run_subjects
+0002.152 () Atomic restore: dropping original table (wp_mailpoet_automation_run_subjects)
+0002.156 () Atomic restore: renaming new table (xm_mailpoet_automation_run_subjects) to final table name (wp_mailpoet_automation_run_subjects)
+0002.160 () Search and replacing table: wp_mailpoet_automation_run_subjects: rows: 0
+0002.160 () Processing table (InnoDB): wp_ezaj3h_mailpoet_automation_run_subjects__20231024_234729 - will restore as: xm_mailpoet_automation_run_subjects__20231024_234729
+0002.170 () Atomic restore: dropping original table (wp_mailpoet_automation_run_subjects__20231024_234729)
+0002.171 () Atomic restore: renaming new table (xm_mailpoet_automation_run_subjects__20231024_234729) to final table name (wp_mailpoet_automation_run_subjects__20231024_234729)
+0002.181 () Search and replacing table: wp_mailpoet_automation_run_subjects__20231024_234729: rows: 0
+0002.181 () Processing table (InnoDB): wp_ezaj3h_mailpoet_automation_runs - will restore as: xm_mailpoet_automation_runs
+0002.196 () Atomic restore: dropping original table (wp_mailpoet_automation_runs)
+0002.200 () Atomic restore: renaming new table (xm_mailpoet_automation_runs) to final table name (wp_mailpoet_automation_runs)
+0002.206 () Search and replacing table: wp_mailpoet_automation_runs: rows: 0
+0002.206 () Processing table (InnoDB): wp_ezaj3h_mailpoet_automation_runs__20231024_234729 - will restore as: xm_mailpoet_automation_runs__20231024_234729
+0002.215 () Atomic restore: dropping original table (wp_mailpoet_automation_runs__20231024_234729)
+0002.216 () Atomic restore: renaming new table (xm_mailpoet_automation_runs__20231024_234729) to final table name (wp_mailpoet_automation_runs__20231024_234729)
+0002.223 () Search and replacing table: wp_mailpoet_automation_runs__20231024_234729: rows: 0
+0002.223 () Processing table (InnoDB): wp_ezaj3h_mailpoet_automation_triggers - will restore as: xm_mailpoet_automation_triggers
+0002.229 () Atomic restore: dropping original table (wp_mailpoet_automation_triggers)
+0002.231 () Atomic restore: renaming new table (xm_mailpoet_automation_triggers) to final table name (wp_mailpoet_automation_triggers)
+0002.235 () Search and replacing table: wp_mailpoet_automation_triggers: rows: 0
+0002.235 () Processing table (InnoDB): wp_ezaj3h_mailpoet_automation_triggers__20231024_234729 - will restore as: xm_mailpoet_automation_triggers__20231024_234729
+0002.241 () Atomic restore: dropping original table (wp_mailpoet_automation_triggers__20231024_234729)
+0002.242 () Atomic restore: renaming new table (xm_mailpoet_automation_triggers__20231024_234729) to final table name (wp_mailpoet_automation_triggers__20231024_234729)
+0002.247 () Search and replacing table: wp_mailpoet_automation_triggers__20231024_234729: rows: 0
+0002.247 () Processing table (InnoDB): wp_ezaj3h_mailpoet_automation_versions - will restore as: xm_mailpoet_automation_versions
+0002.255 () Atomic restore: dropping original table (wp_mailpoet_automation_versions)
+0002.257 () Atomic restore: renaming new table (xm_mailpoet_automation_versions) to final table name (wp_mailpoet_automation_versions)
+0002.265 () Search and replacing table: wp_mailpoet_automation_versions: rows: 0
+0002.265 () Processing table (InnoDB): wp_ezaj3h_mailpoet_automation_versions__20231024_234729 - will restore as: xm_mailpoet_automation_versions__20231024_234729
+0002.272 () Atomic restore: dropping original table (wp_mailpoet_automation_versions__20231024_234729)
+0002.273 () Atomic restore: renaming new table (xm_mailpoet_automation_versions__20231024_234729) to final table name (wp_mailpoet_automation_versions__20231024_234729)
+0002.277 () Search and replacing table: wp_mailpoet_automation_versions__20231024_234729: rows: 0
+0002.277 () Processing table (InnoDB): wp_ezaj3h_mailpoet_automations - will restore as: xm_mailpoet_automations
+0002.284 () Atomic restore: dropping original table (wp_mailpoet_automations)
+0002.287 () Atomic restore: renaming new table (xm_mailpoet_automations) to final table name (wp_mailpoet_automations)
+0002.292 () Search and replacing table: wp_mailpoet_automations: rows: 0
+0002.292 () Processing table (InnoDB): wp_ezaj3h_mailpoet_automations__20231024_234729 - will restore as: xm_mailpoet_automations__20231024_234729
+0002.298 () Atomic restore: dropping original table (wp_mailpoet_automations__20231024_234729)
+0002.299 () Atomic restore: renaming new table (xm_mailpoet_automations__20231024_234729) to final table name (wp_mailpoet_automations__20231024_234729)
+0002.304 () Search and replacing table: wp_mailpoet_automations__20231024_234729: rows: 0
+0002.304 () Processing table (InnoDB): wp_ezaj3h_mailpoet_custom_fields - will restore as: xm_mailpoet_custom_fields
+0002.311 () Atomic restore: dropping original table (wp_mailpoet_custom_fields)
+0002.315 () Atomic restore: renaming new table (xm_mailpoet_custom_fields) to final table name (wp_mailpoet_custom_fields)
+0002.320 () Search and replacing table: wp_mailpoet_custom_fields: rows: 0
+0002.320 () Processing table (InnoDB): wp_ezaj3h_mailpoet_custom_fields__20231024_234729 - will restore as: xm_mailpoet_custom_fields__20231024_234729
+0002.327 () Atomic restore: dropping original table (wp_mailpoet_custom_fields__20231024_234729)
+0002.328 () Atomic restore: renaming new table (xm_mailpoet_custom_fields__20231024_234729) to final table name (wp_mailpoet_custom_fields__20231024_234729)
+0002.333 () Search and replacing table: wp_mailpoet_custom_fields__20231024_234729: rows: 0
+0002.333 () Processing table (InnoDB): wp_ezaj3h_mailpoet_dynamic_segment_filters - will restore as: xm_mailpoet_dynamic_segment_filters
+0002.339 () Atomic restore: dropping original table (wp_mailpoet_dynamic_segment_filters)
+0002.343 () Atomic restore: renaming new table (xm_mailpoet_dynamic_segment_filters) to final table name (wp_mailpoet_dynamic_segment_filters)
+0002.348 () Search and replacing table: wp_mailpoet_dynamic_segment_filters: rows: 0
+0002.348 () Processing table (InnoDB): wp_ezaj3h_mailpoet_dynamic_segment_filters__20231024_234729 - will restore as: xm_mailpoet_dynamic_segment_filters__20231024_234729
+0002.354 () Atomic restore: dropping original table (wp_mailpoet_dynamic_segment_filters__20231024_234729)
+0002.355 () Atomic restore: renaming new table (xm_mailpoet_dynamic_segment_filters__20231024_234729) to final table name (wp_mailpoet_dynamic_segment_filters__20231024_234729)
+0002.359 () Search and replacing table: wp_mailpoet_dynamic_segment_filters__20231024_234729: rows: 0
+0002.360 () Processing table (InnoDB): wp_ezaj3h_mailpoet_feature_flags - will restore as: xm_mailpoet_feature_flags
+0002.367 () Atomic restore: dropping original table (wp_mailpoet_feature_flags)
+0002.371 () Atomic restore: renaming new table (xm_mailpoet_feature_flags) to final table name (wp_mailpoet_feature_flags)
+0002.376 () Search and replacing table: wp_mailpoet_feature_flags: rows: 0
+0002.376 () Processing table (InnoDB): wp_ezaj3h_mailpoet_feature_flags__20231024_234729 - will restore as: xm_mailpoet_feature_flags__20231024_234729
+0002.384 () Atomic restore: dropping original table (wp_mailpoet_feature_flags__20231024_234729)
+0002.384 () Atomic restore: renaming new table (xm_mailpoet_feature_flags__20231024_234729) to final table name (wp_mailpoet_feature_flags__20231024_234729)
+0002.389 () Search and replacing table: wp_mailpoet_feature_flags__20231024_234729: rows: 0
+0002.389 () Processing table (InnoDB): wp_ezaj3h_mailpoet_forms - will restore as: xm_mailpoet_forms
+0002.396 () Atomic restore: dropping original table (wp_mailpoet_forms)
+0002.398 () Atomic restore: renaming new table (xm_mailpoet_forms) to final table name (wp_mailpoet_forms)
+0002.403 () Search and replacing table: wp_mailpoet_forms: rows: 0
+0002.403 () Processing table (InnoDB): wp_ezaj3h_mailpoet_forms__20231024_234729 - will restore as: xm_mailpoet_forms__20231024_234729
+0002.410 () Atomic restore: dropping original table (wp_mailpoet_forms__20231024_234729)
+0002.410 () Atomic restore: renaming new table (xm_mailpoet_forms__20231024_234729) to final table name (wp_mailpoet_forms__20231024_234729)
+0002.416 () Search and replacing table: wp_mailpoet_forms__20231024_234729: rows: 0
+0002.416 () Processing table (InnoDB): wp_ezaj3h_mailpoet_log - will restore as: xm_mailpoet_log
+0002.422 () Atomic restore: dropping original table (wp_mailpoet_log)
+0002.425 () Atomic restore: renaming new table (xm_mailpoet_log) to final table name (wp_mailpoet_log)
+0002.430 () Search and replacing table: wp_mailpoet_log: rows: 0
+0002.430 () Processing table (InnoDB): wp_ezaj3h_mailpoet_log__20231024_234729 - will restore as: xm_mailpoet_log__20231024_234729
+0002.438 () Database queries processed: 200 in 2.41 seconds
+0002.438 () Atomic restore: dropping original table (wp_mailpoet_log__20231024_234729)
+0002.438 () Atomic restore: renaming new table (xm_mailpoet_log__20231024_234729) to final table name (wp_mailpoet_log__20231024_234729)
+0002.444 () Search and replacing table: wp_mailpoet_log__20231024_234729: rows: 0
+0002.444 () Processing table (InnoDB): wp_ezaj3h_mailpoet_migrations - will restore as: xm_mailpoet_migrations
+0002.453 () Atomic restore: dropping original table (wp_mailpoet_migrations)
+0002.456 () Atomic restore: renaming new table (xm_mailpoet_migrations) to final table name (wp_mailpoet_migrations)
+0002.461 () Search and replacing table: wp_mailpoet_migrations: rows: 22
+0002.461 () Processing table (InnoDB): wp_ezaj3h_mailpoet_migrations__20231024_234729 - will restore as: xm_mailpoet_migrations__20231024_234729
+0002.470 () Atomic restore: dropping original table (wp_mailpoet_migrations__20231024_234729)
+0002.471 () Atomic restore: renaming new table (xm_mailpoet_migrations__20231024_234729) to final table name (wp_mailpoet_migrations__20231024_234729)
+0002.475 () Search and replacing table: wp_mailpoet_migrations__20231024_234729: rows: 22
+0002.475 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletter_links - will restore as: xm_mailpoet_newsletter_links
+0002.486 () Atomic restore: dropping original table (wp_mailpoet_newsletter_links)
+0002.490 () Atomic restore: renaming new table (xm_mailpoet_newsletter_links) to final table name (wp_mailpoet_newsletter_links)
+0002.496 () Search and replacing table: wp_mailpoet_newsletter_links: rows: 0
+0002.496 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletter_links__20231024_234729 - will restore as: xm_mailpoet_newsletter_links__20231024_234729
+0002.504 () Atomic restore: dropping original table (wp_mailpoet_newsletter_links__20231024_234729)
+0002.505 () Atomic restore: renaming new table (xm_mailpoet_newsletter_links__20231024_234729) to final table name (wp_mailpoet_newsletter_links__20231024_234729)
+0002.511 () Search and replacing table: wp_mailpoet_newsletter_links__20231024_234729: rows: 0
+0002.511 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletter_option - will restore as: xm_mailpoet_newsletter_option
+0002.519 () Atomic restore: dropping original table (wp_mailpoet_newsletter_option)
+0002.522 () Atomic restore: renaming new table (xm_mailpoet_newsletter_option) to final table name (wp_mailpoet_newsletter_option)
+0002.527 () Search and replacing table: wp_mailpoet_newsletter_option: rows: 0
+0002.527 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletter_option__20231024_234729 - will restore as: xm_mailpoet_newsletter_option__20231024_234729
+0002.534 () Atomic restore: dropping original table (wp_mailpoet_newsletter_option__20231024_234729)
+0002.534 () Atomic restore: renaming new table (xm_mailpoet_newsletter_option__20231024_234729) to final table name (wp_mailpoet_newsletter_option__20231024_234729)
+0002.539 () Search and replacing table: wp_mailpoet_newsletter_option__20231024_234729: rows: 0
+0002.539 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletter_option_fields - will restore as: xm_mailpoet_newsletter_option_fields
+0002.547 () Atomic restore: dropping original table (wp_mailpoet_newsletter_option_fields)
+0002.551 () Atomic restore: renaming new table (xm_mailpoet_newsletter_option_fields) to final table name (wp_mailpoet_newsletter_option_fields)
+0002.555 () Search and replacing table: wp_mailpoet_newsletter_option_fields: rows: 31
+0002.556 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletter_option_fields__20231024_234729 - will restore as: xm_mailpoet_newsletter_option_fields__20231024_234729
+0002.564 () Atomic restore: dropping original table (wp_mailpoet_newsletter_option_fields__20231024_234729)
+0002.565 () Atomic restore: renaming new table (xm_mailpoet_newsletter_option_fields__20231024_234729) to final table name (wp_mailpoet_newsletter_option_fields__20231024_234729)
+0002.570 () Search and replacing table: wp_mailpoet_newsletter_option_fields__20231024_234729: rows: 31
+0002.570 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletter_posts - will restore as: xm_mailpoet_newsletter_posts
+0002.578 () Atomic restore: dropping original table (wp_mailpoet_newsletter_posts)
+0002.582 () Atomic restore: renaming new table (xm_mailpoet_newsletter_posts) to final table name (wp_mailpoet_newsletter_posts)
+0002.587 () Search and replacing table: wp_mailpoet_newsletter_posts: rows: 0
+0002.587 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletter_posts__20231024_234729 - will restore as: xm_mailpoet_newsletter_posts__20231024_234729
+0002.594 () Atomic restore: dropping original table (wp_mailpoet_newsletter_posts__20231024_234729)
+0002.595 () Atomic restore: renaming new table (xm_mailpoet_newsletter_posts__20231024_234729) to final table name (wp_mailpoet_newsletter_posts__20231024_234729)
+0002.600 () Search and replacing table: wp_mailpoet_newsletter_posts__20231024_234729: rows: 0
+0002.600 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletter_segment - will restore as: xm_mailpoet_newsletter_segment
+0002.607 () Atomic restore: dropping original table (wp_mailpoet_newsletter_segment)
+0002.610 () Atomic restore: renaming new table (xm_mailpoet_newsletter_segment) to final table name (wp_mailpoet_newsletter_segment)
+0002.614 () Search and replacing table: wp_mailpoet_newsletter_segment: rows: 0
+0002.614 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletter_segment__20231024_234729 - will restore as: xm_mailpoet_newsletter_segment__20231024_234729
+0002.621 () Atomic restore: dropping original table (wp_mailpoet_newsletter_segment__20231024_234729)
+0002.621 () Atomic restore: renaming new table (xm_mailpoet_newsletter_segment__20231024_234729) to final table name (wp_mailpoet_newsletter_segment__20231024_234729)
+0002.626 () Search and replacing table: wp_mailpoet_newsletter_segment__20231024_234729: rows: 0
+0002.626 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletter_templates - will restore as: xm_mailpoet_newsletter_templates
+0002.700 () Atomic restore: dropping original table (wp_mailpoet_newsletter_templates)
+0002.708 () Atomic restore: renaming new table (xm_mailpoet_newsletter_templates) to final table name (wp_mailpoet_newsletter_templates)
+0002.713 () Search and replacing table: wp_mailpoet_newsletter_templates: rows: 76
+0002.863 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletter_templates__20231024_234729 - will restore as: xm_mailpoet_newsletter_templates__20231024_234729
+0002.931 () Atomic restore: dropping original table (wp_mailpoet_newsletter_templates__20231024_234729)
+0002.931 () Atomic restore: renaming new table (xm_mailpoet_newsletter_templates__20231024_234729) to final table name (wp_mailpoet_newsletter_templates__20231024_234729)
+0002.936 () Search and replacing table: wp_mailpoet_newsletter_templates__20231024_234729: rows: 76
+0003.084 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletters - will restore as: xm_mailpoet_newsletters
+0003.094 () Atomic restore: dropping original table (wp_mailpoet_newsletters)
+0003.099 () Atomic restore: renaming new table (xm_mailpoet_newsletters) to final table name (wp_mailpoet_newsletters)
+0003.106 () Search and replacing table: wp_mailpoet_newsletters: rows: 0
+0003.106 () Processing table (InnoDB): wp_ezaj3h_mailpoet_newsletters__20231024_234729 - will restore as: xm_mailpoet_newsletters__20231024_234729
+0003.122 () Atomic restore: dropping original table (wp_mailpoet_newsletters__20231024_234729)
+0003.123 () Atomic restore: renaming new table (xm_mailpoet_newsletters__20231024_234729) to final table name (wp_mailpoet_newsletters__20231024_234729)
+0003.135 () Search and replacing table: wp_mailpoet_newsletters__20231024_234729: rows: 0
+0003.135 () Processing table (InnoDB): wp_ezaj3h_mailpoet_scheduled_task_subscribers - will restore as: xm_mailpoet_scheduled_task_subscribers
+0003.151 () Atomic restore: dropping original table (wp_mailpoet_scheduled_task_subscribers)
+0003.155 () Atomic restore: renaming new table (xm_mailpoet_scheduled_task_subscribers) to final table name (wp_mailpoet_scheduled_task_subscribers)
+0003.161 () Search and replacing table: wp_mailpoet_scheduled_task_subscribers: rows: 0
+0003.161 () Processing table (InnoDB): wp_ezaj3h_mailpoet_scheduled_task_subscribers__20231024_234729 - will restore as: xm_mailpoet_scheduled_task_subscribers__20231024_234729
+0003.169 () Atomic restore: dropping original table (wp_mailpoet_scheduled_task_subscribers__20231024_234729)
+0003.169 () Atomic restore: renaming new table (xm_mailpoet_scheduled_task_subscribers__20231024_234729) to final table name (wp_mailpoet_scheduled_task_subscribers__20231024_234729)
+0003.175 () Search and replacing table: wp_mailpoet_scheduled_task_subscribers__20231024_234729: rows: 0
+0003.175 () Processing table (InnoDB): wp_ezaj3h_mailpoet_scheduled_tasks - will restore as: xm_mailpoet_scheduled_tasks
+0003.181 () Database queries processed: 250 in 3.16 seconds
+0003.184 () Atomic restore: dropping original table (wp_mailpoet_scheduled_tasks)
+0003.188 () Atomic restore: renaming new table (xm_mailpoet_scheduled_tasks) to final table name (wp_mailpoet_scheduled_tasks)
+0003.194 () Search and replacing table: wp_mailpoet_scheduled_tasks: rows: 15
+0003.194 () Processing table (InnoDB): wp_ezaj3h_mailpoet_scheduled_tasks__20231024_234729 - will restore as: xm_mailpoet_scheduled_tasks__20231024_234729
+0003.206 () Atomic restore: dropping original table (wp_mailpoet_scheduled_tasks__20231024_234729)
+0003.206 () Atomic restore: renaming new table (xm_mailpoet_scheduled_tasks__20231024_234729) to final table name (wp_mailpoet_scheduled_tasks__20231024_234729)
+0003.212 () Search and replacing table: wp_mailpoet_scheduled_tasks__20231024_234729: rows: 15
+0003.212 () Processing table (InnoDB): wp_ezaj3h_mailpoet_segments - will restore as: xm_mailpoet_segments
+0003.222 () Atomic restore: dropping original table (wp_mailpoet_segments)
+0003.225 () Atomic restore: renaming new table (xm_mailpoet_segments) to final table name (wp_mailpoet_segments)
+0003.230 () Search and replacing table: wp_mailpoet_segments: rows: 3
+0003.230 () Processing table (InnoDB): wp_ezaj3h_mailpoet_segments__20231024_234729 - will restore as: xm_mailpoet_segments__20231024_234729
+0003.239 () Atomic restore: dropping original table (wp_mailpoet_segments__20231024_234729)
+0003.239 () Atomic restore: renaming new table (xm_mailpoet_segments__20231024_234729) to final table name (wp_mailpoet_segments__20231024_234729)
+0003.245 () Search and replacing table: wp_mailpoet_segments__20231024_234729: rows: 3
+0003.245 () Processing table (InnoDB): wp_ezaj3h_mailpoet_sending_queues - will restore as: xm_mailpoet_sending_queues
+0003.254 () Atomic restore: dropping original table (wp_mailpoet_sending_queues)
+0003.258 () Atomic restore: renaming new table (xm_mailpoet_sending_queues) to final table name (wp_mailpoet_sending_queues)
+0003.263 () Search and replacing table: wp_mailpoet_sending_queues: rows: 0
+0003.263 () Processing table (InnoDB): wp_ezaj3h_mailpoet_sending_queues__20231024_234729 - will restore as: xm_mailpoet_sending_queues__20231024_234729
+0003.272 () Atomic restore: dropping original table (wp_mailpoet_sending_queues__20231024_234729)
+0003.273 () Atomic restore: renaming new table (xm_mailpoet_sending_queues__20231024_234729) to final table name (wp_mailpoet_sending_queues__20231024_234729)
+0003.279 () Search and replacing table: wp_mailpoet_sending_queues__20231024_234729: rows: 0
+0003.279 () Processing table (InnoDB): wp_ezaj3h_mailpoet_settings - will restore as: xm_mailpoet_settings
+0003.288 () Atomic restore: dropping original table (wp_mailpoet_settings)
+0003.291 () Atomic restore: renaming new table (xm_mailpoet_settings) to final table name (wp_mailpoet_settings)
+0003.295 () Search and replacing table: wp_mailpoet_settings: rows: 16
+0003.295 () Processing table (InnoDB): wp_ezaj3h_mailpoet_settings__20231024_234729 - will restore as: xm_mailpoet_settings__20231024_234729
+0003.303 () Atomic restore: dropping original table (wp_mailpoet_settings__20231024_234729)
+0003.304 () Atomic restore: renaming new table (xm_mailpoet_settings__20231024_234729) to final table name (wp_mailpoet_settings__20231024_234729)
+0003.308 () Search and replacing table: wp_mailpoet_settings__20231024_234729: rows: 16
+0003.309 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_bounces - will restore as: xm_mailpoet_statistics_bounces
+0003.315 () Atomic restore: dropping original table (wp_mailpoet_statistics_bounces)
+0003.317 () Atomic restore: renaming new table (xm_mailpoet_statistics_bounces) to final table name (wp_mailpoet_statistics_bounces)
+0003.321 () Search and replacing table: wp_mailpoet_statistics_bounces: rows: 0
+0003.321 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_bounces__20231024_234729 - will restore as: xm_mailpoet_statistics_bounces__20231024_234729
+0003.328 () Atomic restore: dropping original table (wp_mailpoet_statistics_bounces__20231024_234729)
+0003.328 () Atomic restore: renaming new table (xm_mailpoet_statistics_bounces__20231024_234729) to final table name (wp_mailpoet_statistics_bounces__20231024_234729)
+0003.333 () Search and replacing table: wp_mailpoet_statistics_bounces__20231024_234729: rows: 0
+0003.333 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_clicks - will restore as: xm_mailpoet_statistics_clicks
+0003.342 () Atomic restore: dropping original table (wp_mailpoet_statistics_clicks)
+0003.345 () Atomic restore: renaming new table (xm_mailpoet_statistics_clicks) to final table name (wp_mailpoet_statistics_clicks)
+0003.352 () Search and replacing table: wp_mailpoet_statistics_clicks: rows: 0
+0003.352 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_clicks__20231024_234729 - will restore as: xm_mailpoet_statistics_clicks__20231024_234729
+0003.360 () Atomic restore: dropping original table (wp_mailpoet_statistics_clicks__20231024_234729)
+0003.360 () Atomic restore: renaming new table (xm_mailpoet_statistics_clicks__20231024_234729) to final table name (wp_mailpoet_statistics_clicks__20231024_234729)
+0003.366 () Search and replacing table: wp_mailpoet_statistics_clicks__20231024_234729: rows: 0
+0003.366 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_forms - will restore as: xm_mailpoet_statistics_forms
+0003.372 () Atomic restore: dropping original table (wp_mailpoet_statistics_forms)
+0003.375 () Atomic restore: renaming new table (xm_mailpoet_statistics_forms) to final table name (wp_mailpoet_statistics_forms)
+0003.380 () Search and replacing table: wp_mailpoet_statistics_forms: rows: 0
+0003.380 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_forms__20231024_234729 - will restore as: xm_mailpoet_statistics_forms__20231024_234729
+0003.386 () Atomic restore: dropping original table (wp_mailpoet_statistics_forms__20231024_234729)
+0003.387 () Atomic restore: renaming new table (xm_mailpoet_statistics_forms__20231024_234729) to final table name (wp_mailpoet_statistics_forms__20231024_234729)
+0003.391 () Search and replacing table: wp_mailpoet_statistics_forms__20231024_234729: rows: 0
+0003.391 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_newsletters - will restore as: xm_mailpoet_statistics_newsletters
+0003.398 () Atomic restore: dropping original table (wp_mailpoet_statistics_newsletters)
+0003.402 () Atomic restore: renaming new table (xm_mailpoet_statistics_newsletters) to final table name (wp_mailpoet_statistics_newsletters)
+0003.407 () Search and replacing table: wp_mailpoet_statistics_newsletters: rows: 0
+0003.407 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_newsletters__20231024_234729 - will restore as: xm_mailpoet_statistics_newsletters__20231024_234729
+0003.414 () Atomic restore: dropping original table (wp_mailpoet_statistics_newsletters__20231024_234729)
+0003.415 () Atomic restore: renaming new table (xm_mailpoet_statistics_newsletters__20231024_234729) to final table name (wp_mailpoet_statistics_newsletters__20231024_234729)
+0003.420 () Search and replacing table: wp_mailpoet_statistics_newsletters__20231024_234729: rows: 0
+0003.421 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_opens - will restore as: xm_mailpoet_statistics_opens
+0003.431 () Atomic restore: dropping original table (wp_mailpoet_statistics_opens)
+0003.435 () Atomic restore: renaming new table (xm_mailpoet_statistics_opens) to final table name (wp_mailpoet_statistics_opens)
+0003.441 () Search and replacing table: wp_mailpoet_statistics_opens: rows: 0
+0003.441 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_opens__20231024_234729 - will restore as: xm_mailpoet_statistics_opens__20231024_234729
+0003.450 () Atomic restore: dropping original table (wp_mailpoet_statistics_opens__20231024_234729)
+0003.450 () Atomic restore: renaming new table (xm_mailpoet_statistics_opens__20231024_234729) to final table name (wp_mailpoet_statistics_opens__20231024_234729)
+0003.456 () Search and replacing table: wp_mailpoet_statistics_opens__20231024_234729: rows: 0
+0003.456 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_unsubscribes - will restore as: xm_mailpoet_statistics_unsubscribes
+0003.464 () Atomic restore: dropping original table (wp_mailpoet_statistics_unsubscribes)
+0003.468 () Atomic restore: renaming new table (xm_mailpoet_statistics_unsubscribes) to final table name (wp_mailpoet_statistics_unsubscribes)
+0003.474 () Search and replacing table: wp_mailpoet_statistics_unsubscribes: rows: 0
+0003.474 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_unsubscribes__20231024_234729 - will restore as: xm_mailpoet_statistics_unsubscribes__20231024_234729
+0003.482 () Atomic restore: dropping original table (wp_mailpoet_statistics_unsubscribes__20231024_234729)
+0003.483 () Atomic restore: renaming new table (xm_mailpoet_statistics_unsubscribes__20231024_234729) to final table name (wp_mailpoet_statistics_unsubscribes__20231024_234729)
+0003.493 () Search and replacing table: wp_mailpoet_statistics_unsubscribes__20231024_234729: rows: 0
+0003.493 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_woocommerce_purch__20231024_234729 - will restore as: xm_mailpoet_statistics_woocommerce_purch__20231024_234729
+0003.503 () Atomic restore: dropping original table (wp_mailpoet_statistics_woocommerce_purch__20231024_234729)
+0003.504 () Atomic restore: renaming new table (xm_mailpoet_statistics_woocommerce_purch__20231024_234729) to final table name (wp_mailpoet_statistics_woocommerce_purch__20231024_234729)
+0003.510 () Search and replacing table: wp_mailpoet_statistics_woocommerce_purch__20231024_234729: rows: 0
+0003.510 () Processing table (InnoDB): wp_ezaj3h_mailpoet_statistics_woocommerce_purchases - will restore as: xm_mailpoet_statistics_woocommerce_purchases
+0003.519 () Atomic restore: dropping original table (wp_mailpoet_statistics_woocommerce_purchases)
+0003.523 () Atomic restore: renaming new table (xm_mailpoet_statistics_woocommerce_purchases) to final table name (wp_mailpoet_statistics_woocommerce_purchases)
+0003.529 () Search and replacing table: wp_mailpoet_statistics_woocommerce_purchases: rows: 0
+0003.529 () Processing table (InnoDB): wp_ezaj3h_mailpoet_stats_notifications - will restore as: xm_mailpoet_stats_notifications
+0003.537 () Atomic restore: dropping original table (wp_mailpoet_stats_notifications)
+0003.540 () Atomic restore: renaming new table (xm_mailpoet_stats_notifications) to final table name (wp_mailpoet_stats_notifications)
+0003.545 () Search and replacing table: wp_mailpoet_stats_notifications: rows: 0
+0003.546 () Processing table (InnoDB): wp_ezaj3h_mailpoet_stats_notifications__20231024_234729 - will restore as: xm_mailpoet_stats_notifications__20231024_234729
+0003.555 () Atomic restore: dropping original table (wp_mailpoet_stats_notifications__20231024_234729)
+0003.556 () Atomic restore: renaming new table (xm_mailpoet_stats_notifications__20231024_234729) to final table name (wp_mailpoet_stats_notifications__20231024_234729)
+0003.564 () Search and replacing table: wp_mailpoet_stats_notifications__20231024_234729: rows: 0
+0003.564 () Processing table (InnoDB): wp_ezaj3h_mailpoet_subscriber_custom_field - will restore as: xm_mailpoet_subscriber_custom_field
+0003.571 () Atomic restore: dropping original table (wp_mailpoet_subscriber_custom_field)
+0003.575 () Atomic restore: renaming new table (xm_mailpoet_subscriber_custom_field) to final table name (wp_mailpoet_subscriber_custom_field)
+0003.580 () Search and replacing table: wp_mailpoet_subscriber_custom_field: rows: 0
+0003.580 () Processing table (InnoDB): wp_ezaj3h_mailpoet_subscriber_custom_field__20231024_234729 - will restore as: xm_mailpoet_subscriber_custom_field__20231024_234729
+0003.587 () Atomic restore: dropping original table (wp_mailpoet_subscriber_custom_field__20231024_234729)
+0003.588 () Atomic restore: renaming new table (xm_mailpoet_subscriber_custom_field__20231024_234729) to final table name (wp_mailpoet_subscriber_custom_field__20231024_234729)
+0003.592 () Search and replacing table: wp_mailpoet_subscriber_custom_field__20231024_234729: rows: 0
+0003.592 () Processing table (InnoDB): wp_ezaj3h_mailpoet_subscriber_ips - will restore as: xm_mailpoet_subscriber_ips
+0003.599 () Atomic restore: dropping original table (wp_mailpoet_subscriber_ips)
+0003.605 () Atomic restore: renaming new table (xm_mailpoet_subscriber_ips) to final table name (wp_mailpoet_subscriber_ips)
+0003.610 () Search and replacing table: wp_mailpoet_subscriber_ips: rows: 0
+0003.610 () Processing table (InnoDB): wp_ezaj3h_mailpoet_subscriber_ips__20231024_234729 - will restore as: xm_mailpoet_subscriber_ips__20231024_234729
+0003.617 () Atomic restore: dropping original table (wp_mailpoet_subscriber_ips__20231024_234729)
+0003.617 () Atomic restore: renaming new table (xm_mailpoet_subscriber_ips__20231024_234729) to final table name (wp_mailpoet_subscriber_ips__20231024_234729)
+0003.622 () Search and replacing table: wp_mailpoet_subscriber_ips__20231024_234729: rows: 0
+0003.622 () Processing table (InnoDB): wp_ezaj3h_mailpoet_subscriber_segment - will restore as: xm_mailpoet_subscriber_segment
+0003.630 () Atomic restore: dropping original table (wp_mailpoet_subscriber_segment)
+0003.633 () Atomic restore: renaming new table (xm_mailpoet_subscriber_segment) to final table name (wp_mailpoet_subscriber_segment)
+0003.638 () Search and replacing table: wp_mailpoet_subscriber_segment: rows: 2
+0003.638 () Processing table (InnoDB): wp_ezaj3h_mailpoet_subscriber_segment__20231024_234729 - will restore as: xm_mailpoet_subscriber_segment__20231024_234729
+0003.646 () Atomic restore: dropping original table (wp_mailpoet_subscriber_segment__20231024_234729)
+0003.647 () Atomic restore: renaming new table (xm_mailpoet_subscriber_segment__20231024_234729) to final table name (wp_mailpoet_subscriber_segment__20231024_234729)
+0003.651 () Search and replacing table: wp_mailpoet_subscriber_segment__20231024_234729: rows: 2
+0003.652 () Processing table (InnoDB): wp_ezaj3h_mailpoet_subscriber_tag - will restore as: xm_mailpoet_subscriber_tag
+0003.659 () Atomic restore: dropping original table (wp_mailpoet_subscriber_tag)
+0003.661 () Atomic restore: renaming new table (xm_mailpoet_subscriber_tag) to final table name (wp_mailpoet_subscriber_tag)
+0003.666 () Search and replacing table: wp_mailpoet_subscriber_tag: rows: 0
+0003.666 () Processing table (InnoDB): wp_ezaj3h_mailpoet_subscriber_tag__20231024_234729 - will restore as: xm_mailpoet_subscriber_tag__20231024_234729
+0003.674 () Atomic restore: dropping original table (wp_mailpoet_subscriber_tag__20231024_234729)
+0003.674 () Atomic restore: renaming new table (xm_mailpoet_subscriber_tag__20231024_234729) to final table name (wp_mailpoet_subscriber_tag__20231024_234729)
+0003.680 () Search and replacing table: wp_mailpoet_subscriber_tag__20231024_234729: rows: 0
+0003.680 () Processing table (InnoDB): wp_ezaj3h_mailpoet_subscribers - will restore as: xm_mailpoet_subscribers
+0003.699 () Atomic restore: dropping original table (wp_mailpoet_subscribers)
+0003.706 () Atomic restore: renaming new table (xm_mailpoet_subscribers) to final table name (wp_mailpoet_subscribers)
+0003.714 () Search and replacing table: wp_mailpoet_subscribers: rows: 2
+0003.714 () Processing table (InnoDB): wp_ezaj3h_mailpoet_subscribers__20231024_234729 - will restore as: xm_mailpoet_subscribers__20231024_234729
+0003.732 () Atomic restore: dropping original table (wp_mailpoet_subscribers__20231024_234729)
+0003.732 () Atomic restore: renaming new table (xm_mailpoet_subscribers__20231024_234729) to final table name (wp_mailpoet_subscribers__20231024_234729)
+0003.741 () Search and replacing table: wp_mailpoet_subscribers__20231024_234729: rows: 2
+0003.741 () Processing table (InnoDB): wp_ezaj3h_mailpoet_tags - will restore as: xm_mailpoet_tags
+0003.749 () Atomic restore: dropping original table (wp_mailpoet_tags)
+0003.752 () Atomic restore: renaming new table (xm_mailpoet_tags) to final table name (wp_mailpoet_tags)
+0003.757 () Search and replacing table: wp_mailpoet_tags: rows: 0
+0003.757 () Processing table (InnoDB): wp_ezaj3h_mailpoet_tags__20231024_234729 - will restore as: xm_mailpoet_tags__20231024_234729
+0003.765 () Atomic restore: dropping original table (wp_mailpoet_tags__20231024_234729)
+0003.765 () Atomic restore: renaming new table (xm_mailpoet_tags__20231024_234729) to final table name (wp_mailpoet_tags__20231024_234729)
+0003.770 () Search and replacing table: wp_mailpoet_tags__20231024_234729: rows: 0
+0003.770 () Processing table (InnoDB): wp_ezaj3h_mailpoet_user_agents - will restore as: xm_mailpoet_user_agents
+0003.778 () Atomic restore: dropping original table (wp_mailpoet_user_agents)
+0003.781 () Atomic restore: renaming new table (xm_mailpoet_user_agents) to final table name (wp_mailpoet_user_agents)
+0003.786 () Search and replacing table: wp_mailpoet_user_agents: rows: 0
+0003.786 () Processing table (InnoDB): wp_ezaj3h_mailpoet_user_agents__20231024_234729 - will restore as: xm_mailpoet_user_agents__20231024_234729
+0003.793 () Atomic restore: dropping original table (wp_mailpoet_user_agents__20231024_234729)
+0003.793 () Atomic restore: renaming new table (xm_mailpoet_user_agents__20231024_234729) to final table name (wp_mailpoet_user_agents__20231024_234729)
+0003.798 () Search and replacing table: wp_mailpoet_user_agents__20231024_234729: rows: 0
+0003.798 () Processing table (InnoDB): wp_ezaj3h_mailpoet_user_flags - will restore as: xm_mailpoet_user_flags
+0003.805 () Atomic restore: dropping original table (wp_mailpoet_user_flags)
+0003.808 () Atomic restore: renaming new table (xm_mailpoet_user_flags) to final table name (wp_mailpoet_user_flags)
+0003.813 () Search and replacing table: wp_mailpoet_user_flags: rows: 0
+0003.813 () Processing table (InnoDB): wp_ezaj3h_mailpoet_user_flags__20231024_234729 - will restore as: xm_mailpoet_user_flags__20231024_234729
+0003.820 () Atomic restore: dropping original table (wp_mailpoet_user_flags__20231024_234729)
+0003.821 () Atomic restore: renaming new table (xm_mailpoet_user_flags__20231024_234729) to final table name (wp_mailpoet_user_flags__20231024_234729)
+0003.826 () Search and replacing table: wp_mailpoet_user_flags__20231024_234729: rows: 0
+0003.826 () Processing table (InnoDB): wp_ezaj3h_nf3_action_meta - will restore as: xm_nf3_action_meta
+0003.835 () Atomic restore: dropping original table (wp_nf3_action_meta)
+0003.839 () Atomic restore: renaming new table (xm_nf3_action_meta) to final table name (wp_nf3_action_meta)
+0003.844 () Search and replacing table: wp_nf3_action_meta: rows: 106
+0003.845 () Processing table (InnoDB): wp_ezaj3h_nf3_action_meta__20231024_234729 - will restore as: xm_nf3_action_meta__20231024_234729
+0003.853 () Atomic restore: dropping original table (wp_nf3_action_meta__20231024_234729)
+0003.854 () Atomic restore: renaming new table (xm_nf3_action_meta__20231024_234729) to final table name (wp_nf3_action_meta__20231024_234729)
+0003.858 () Search and replacing table: wp_nf3_action_meta__20231024_234729: rows: 106
+0003.859 () Processing table (InnoDB): wp_ezaj3h_nf3_actions - will restore as: xm_nf3_actions
+0003.867 () Atomic restore: dropping original table (wp_nf3_actions)
+0003.870 () Atomic restore: renaming new table (xm_nf3_actions) to final table name (wp_nf3_actions)
+0003.875 () Search and replacing table: wp_nf3_actions: rows: 4
+0003.875 () Processing table (InnoDB): wp_ezaj3h_nf3_actions__20231024_234729 - will restore as: xm_nf3_actions__20231024_234729
+0003.883 () Atomic restore: dropping original table (wp_nf3_actions__20231024_234729)
+0003.884 () Atomic restore: renaming new table (xm_nf3_actions__20231024_234729) to final table name (wp_nf3_actions__20231024_234729)
+0003.889 () Search and replacing table: wp_nf3_actions__20231024_234729: rows: 4
+0003.889 () Processing table (InnoDB): wp_ezaj3h_nf3_chunks - will restore as: xm_nf3_chunks
+0003.895 () Atomic restore: dropping original table (wp_nf3_chunks)
+0003.898 () Atomic restore: renaming new table (xm_nf3_chunks) to final table name (wp_nf3_chunks)
+0003.903 () Search and replacing table: wp_nf3_chunks: rows: 0
+0003.903 () Processing table (InnoDB): wp_ezaj3h_nf3_chunks__20231024_234729 - will restore as: xm_nf3_chunks__20231024_234729
+0003.912 () Atomic restore: dropping original table (wp_nf3_chunks__20231024_234729)
+0003.913 () Atomic restore: renaming new table (xm_nf3_chunks__20231024_234729) to final table name (wp_nf3_chunks__20231024_234729)
+0003.917 () Search and replacing table: wp_nf3_chunks__20231024_234729: rows: 0
+0003.917 () Processing table (InnoDB): wp_ezaj3h_nf3_field_meta - will restore as: xm_nf3_field_meta
+0003.928 () Atomic restore: dropping original table (wp_nf3_field_meta)
+0003.931 () Atomic restore: renaming new table (xm_nf3_field_meta) to final table name (wp_nf3_field_meta)
+0003.935 () Search and replacing table: wp_nf3_field_meta: rows: 272
+0003.938 () Processing table (InnoDB): wp_ezaj3h_nf3_field_meta__20231024_234729 - will restore as: xm_nf3_field_meta__20231024_234729
+0003.949 () Atomic restore: dropping original table (wp_nf3_field_meta__20231024_234729)
+0003.949 () Atomic restore: renaming new table (xm_nf3_field_meta__20231024_234729) to final table name (wp_nf3_field_meta__20231024_234729)
+0003.954 () Search and replacing table: wp_nf3_field_meta__20231024_234729: rows: 272
+0003.957 () Processing table (InnoDB): wp_ezaj3h_nf3_fields - will restore as: xm_nf3_fields
+0003.967 () Atomic restore: dropping original table (wp_nf3_fields)
+0003.975 () Atomic restore: renaming new table (xm_nf3_fields) to final table name (wp_nf3_fields)
+0003.985 () Search and replacing table: wp_nf3_fields: rows: 4
+0003.986 () Processing table (InnoDB): wp_ezaj3h_nf3_fields__20231024_234729 - will restore as: xm_nf3_fields__20231024_234729
+0003.998 () Atomic restore: dropping original table (wp_nf3_fields__20231024_234729)
+0003.998 () Atomic restore: renaming new table (xm_nf3_fields__20231024_234729) to final table name (wp_nf3_fields__20231024_234729)
+0004.003 () Search and replacing table: wp_nf3_fields__20231024_234729: rows: 4
+0004.004 () Processing table (InnoDB): wp_ezaj3h_nf3_form_meta - will restore as: xm_nf3_form_meta
+0004.012 () Atomic restore: dropping original table (wp_nf3_form_meta)
+0004.015 () Atomic restore: renaming new table (xm_nf3_form_meta) to final table name (wp_nf3_form_meta)
+0004.020 () Search and replacing table: wp_nf3_form_meta: rows: 99
+0004.021 () Processing table (InnoDB): wp_ezaj3h_nf3_form_meta__20231024_234729 - will restore as: xm_nf3_form_meta__20231024_234729
+0004.029 () Atomic restore: dropping original table (wp_nf3_form_meta__20231024_234729)
+0004.030 () Atomic restore: renaming new table (xm_nf3_form_meta__20231024_234729) to final table name (wp_nf3_form_meta__20231024_234729)
+0004.035 () Search and replacing table: wp_nf3_form_meta__20231024_234729: rows: 99
+0004.036 () Processing table (InnoDB): wp_ezaj3h_nf3_forms - will restore as: xm_nf3_forms
+0004.045 () Atomic restore: dropping original table (wp_nf3_forms)
+0004.048 () Atomic restore: renaming new table (xm_nf3_forms) to final table name (wp_nf3_forms)
+0004.054 () Search and replacing table: wp_nf3_forms: rows: 1
+0004.054 () Processing table (InnoDB): wp_ezaj3h_nf3_forms__20231024_234729 - will restore as: xm_nf3_forms__20231024_234729
+0004.062 () Atomic restore: dropping original table (wp_nf3_forms__20231024_234729)
+0004.063 () Atomic restore: renaming new table (xm_nf3_forms__20231024_234729) to final table name (wp_nf3_forms__20231024_234729)
+0004.067 () Search and replacing table: wp_nf3_forms__20231024_234729: rows: 1
+0004.068 () Processing table (InnoDB): wp_ezaj3h_nf3_object_meta - will restore as: xm_nf3_object_meta
+0004.074 () Atomic restore: dropping original table (wp_nf3_object_meta)
+0004.077 () Atomic restore: renaming new table (xm_nf3_object_meta) to final table name (wp_nf3_object_meta)
+0004.081 () Search and replacing table: wp_nf3_object_meta: rows: 0
+0004.081 () Processing table (InnoDB): wp_ezaj3h_nf3_object_meta__20231024_234729 - will restore as: xm_nf3_object_meta__20231024_234729
+0004.088 () Atomic restore: dropping original table (wp_nf3_object_meta__20231024_234729)
+0004.088 () Atomic restore: renaming new table (xm_nf3_object_meta__20231024_234729) to final table name (wp_nf3_object_meta__20231024_234729)
+0004.093 () Search and replacing table: wp_nf3_object_meta__20231024_234729: rows: 0
+0004.093 () Processing table (InnoDB): wp_ezaj3h_nf3_objects - will restore as: xm_nf3_objects
+0004.099 () Atomic restore: dropping original table (wp_nf3_objects)
+0004.102 () Atomic restore: renaming new table (xm_nf3_objects) to final table name (wp_nf3_objects)
+0004.107 () Search and replacing table: wp_nf3_objects: rows: 0
+0004.107 () Processing table (InnoDB): wp_ezaj3h_nf3_objects__20231024_234729 - will restore as: xm_nf3_objects__20231024_234729
+0004.113 () Atomic restore: dropping original table (wp_nf3_objects__20231024_234729)
+0004.114 () Atomic restore: renaming new table (xm_nf3_objects__20231024_234729) to final table name (wp_nf3_objects__20231024_234729)
+0004.119 () Search and replacing table: wp_nf3_objects__20231024_234729: rows: 0
+0004.119 () Processing table (InnoDB): wp_ezaj3h_nf3_relationships - will restore as: xm_nf3_relationships
+0004.126 () Atomic restore: dropping original table (wp_nf3_relationships)
+0004.129 () Atomic restore: renaming new table (xm_nf3_relationships) to final table name (wp_nf3_relationships)
+0004.134 () Search and replacing table: wp_nf3_relationships: rows: 0
+0004.134 () Processing table (InnoDB): wp_ezaj3h_nf3_relationships__20231024_234729 - will restore as: xm_nf3_relationships__20231024_234729
+0004.142 () Atomic restore: dropping original table (wp_nf3_relationships__20231024_234729)
+0004.142 () Atomic restore: renaming new table (xm_nf3_relationships__20231024_234729) to final table name (wp_nf3_relationships__20231024_234729)
+0004.148 () Search and replacing table: wp_nf3_relationships__20231024_234729: rows: 0
+0004.148 () Processing table (InnoDB): wp_ezaj3h_nf3_upgrades - will restore as: xm_nf3_upgrades
+0004.156 () Atomic restore: dropping original table (wp_nf3_upgrades)
+0004.159 () Atomic restore: renaming new table (xm_nf3_upgrades) to final table name (wp_nf3_upgrades)
+0004.162 () Search and replacing table: wp_nf3_upgrades: rows: 1
+0004.163 () Processing table (InnoDB): wp_ezaj3h_nf3_upgrades__20231024_234729 - will restore as: xm_nf3_upgrades__20231024_234729
+0004.172 () Atomic restore: dropping original table (wp_nf3_upgrades__20231024_234729)
+0004.172 () Atomic restore: renaming new table (xm_nf3_upgrades__20231024_234729) to final table name (wp_nf3_upgrades__20231024_234729)
+0004.178 () Search and replacing table: wp_nf3_upgrades__20231024_234729: rows: 1
+0004.179 () Processing table (InnoDB): wp_ezaj3h_options__20231024_234729 - will restore as: xm_options__20231024_234729
+0004.276 () Atomic restore: dropping original table (wp_options__20231024_234729)
+0004.277 () Atomic restore: renaming new table (xm_options__20231024_234729) to final table name (wp_options__20231024_234729)
+0004.282 () Search and replacing table: wp_options__20231024_234729: rows: 278
+0004.347 () Processing table (InnoDB): wp_ezaj3h_postmeta__20231024_234729 - will restore as: xm_postmeta__20231024_234729
+0004.369 () Atomic restore: dropping original table (wp_postmeta__20231024_234729)
+0004.369 () Atomic restore: renaming new table (xm_postmeta__20231024_234729) to final table name (wp_postmeta__20231024_234729)
+0004.374 () Search and replacing table: wp_postmeta__20231024_234729: rows: 715
+0004.382 () Processing table (InnoDB): wp_ezaj3h_posts__20231024_234729 - will restore as: xm_posts__20231024_234729
+0004.449 () Atomic restore: dropping original table (wp_posts__20231024_234729)
+0004.449 () Atomic restore: renaming new table (xm_posts__20231024_234729) to final table name (wp_posts__20231024_234729)
+0004.456 () Search and replacing table: wp_posts__20231024_234729: rows: 444
+0004.533 () Processing table (InnoDB): wp_ezaj3h_term_relationships__20231024_234729 - will restore as: xm_term_relationships__20231024_234729
+0004.542 () Atomic restore: dropping original table (wp_term_relationships__20231024_234729)
+0004.543 () Atomic restore: renaming new table (xm_term_relationships__20231024_234729) to final table name (wp_term_relationships__20231024_234729)
+0004.548 () Search and replacing table: wp_term_relationships__20231024_234729: rows: 55
+0004.549 () Processing table (InnoDB): wp_ezaj3h_term_taxonomy__20231024_234729 - will restore as: xm_term_taxonomy__20231024_234729
+0004.557 () Atomic restore: dropping original table (wp_term_taxonomy__20231024_234729)
+0004.558 () Atomic restore: renaming new table (xm_term_taxonomy__20231024_234729) to final table name (wp_term_taxonomy__20231024_234729)
+0004.562 () Search and replacing table: wp_term_taxonomy__20231024_234729: rows: 18
+0004.563 () Processing table (InnoDB): wp_ezaj3h_termmeta__20231024_234729 - will restore as: xm_termmeta__20231024_234729
+0004.572 () Atomic restore: dropping original table (wp_termmeta__20231024_234729)
+0004.573 () Atomic restore: renaming new table (xm_termmeta__20231024_234729) to final table name (wp_termmeta__20231024_234729)
+0004.577 () Search and replacing table: wp_termmeta__20231024_234729: rows: 1
+0004.578 () Processing table (InnoDB): wp_ezaj3h_terms__20231024_234729 - will restore as: xm_terms__20231024_234729
+0004.586 () Atomic restore: dropping original table (wp_terms__20231024_234729)
+0004.587 () Atomic restore: renaming new table (xm_terms__20231024_234729) to final table name (wp_terms__20231024_234729)
+0004.591 () Search and replacing table: wp_terms__20231024_234729: rows: 18
+0004.591 () Processing table (InnoDB): wp_ezaj3h_usermeta__20231024_234729 - will restore as: xm_usermeta__20231024_234729
+0004.601 () Atomic restore: dropping original table (wp_usermeta__20231024_234729)
+0004.601 () Atomic restore: renaming new table (xm_usermeta__20231024_234729) to final table name (wp_usermeta__20231024_234729)
+0004.606 () Search and replacing table: wp_usermeta__20231024_234729: rows: 54
+0004.607 () Processing table (InnoDB): wp_ezaj3h_users__20231024_234729 - will restore as: xm_users__20231024_234729
+0004.619 () Atomic restore: dropping original table (wp_users__20231024_234729)
+0004.620 () Atomic restore: renaming new table (xm_users__20231024_234729) to final table name (wp_users__20231024_234729)
+0004.625 () Search and replacing table: wp_users__20231024_234729: rows: 1
+0004.626 () Processing table (InnoDB): wp_ezaj3h_wc_admin_note_actions - will restore as: xm_wc_admin_note_actions
+0004.637 () Atomic restore: dropping original table (wp_wc_admin_note_actions)
+0004.644 () Atomic restore: renaming new table (xm_wc_admin_note_actions) to final table name (wp_wc_admin_note_actions)
+0004.649 () Search and replacing table: wp_wc_admin_note_actions: rows: 106
+0004.659 () Processing table (InnoDB): wp_ezaj3h_wc_admin_note_actions__20231024_234729 - will restore as: xm_wc_admin_note_actions__20231024_234729
+0004.671 () Atomic restore: dropping original table (wp_wc_admin_note_actions__20231024_234729)
+0004.671 () Atomic restore: renaming new table (xm_wc_admin_note_actions__20231024_234729) to final table name (wp_wc_admin_note_actions__20231024_234729)
+0004.677 () Search and replacing table: wp_wc_admin_note_actions__20231024_234729: rows: 106
+0004.688 () Processing table (InnoDB): wp_ezaj3h_wc_admin_notes - will restore as: xm_wc_admin_notes
+0004.700 () Atomic restore: dropping original table (wp_wc_admin_notes)
+0004.704 () Atomic restore: renaming new table (xm_wc_admin_notes) to final table name (wp_wc_admin_notes)
+0004.709 () Search and replacing table: wp_wc_admin_notes: rows: 74
+0004.726 () Processing table (InnoDB): wp_ezaj3h_wc_admin_notes__20231024_234729 - will restore as: xm_wc_admin_notes__20231024_234729
+0004.737 () Atomic restore: dropping original table (wp_wc_admin_notes__20231024_234729)
+0004.737 () Atomic restore: renaming new table (xm_wc_admin_notes__20231024_234729) to final table name (wp_wc_admin_notes__20231024_234729)
+0004.743 () Search and replacing table: wp_wc_admin_notes__20231024_234729: rows: 74
+0004.760 () Processing table (InnoDB): wp_ezaj3h_wc_category_lookup__20231024_234729 - will restore as: xm_wc_category_lookup__20231024_234729
+0004.767 () Atomic restore: dropping original table (wp_wc_category_lookup__20231024_234729)
+0004.768 () Atomic restore: renaming new table (xm_wc_category_lookup__20231024_234729) to final table name (wp_wc_category_lookup__20231024_234729)
+0004.771 () Search and replacing table: wp_wc_category_lookup__20231024_234729: rows: 1
+0004.771 () Processing table (InnoDB): wp_ezaj3h_wc_customer_lookup - will restore as: xm_wc_customer_lookup
+0004.782 () Atomic restore: dropping original table (wp_wc_customer_lookup)
+0004.786 () Atomic restore: renaming new table (xm_wc_customer_lookup) to final table name (wp_wc_customer_lookup)
+0004.791 () Search and replacing table: wp_wc_customer_lookup: rows: 29
+0004.792 () Processing table (InnoDB): wp_ezaj3h_wc_customer_lookup__20231024_234729 - will restore as: xm_wc_customer_lookup__20231024_234729
+0004.803 () Atomic restore: dropping original table (wp_wc_customer_lookup__20231024_234729)
+0004.804 () Atomic restore: renaming new table (xm_wc_customer_lookup__20231024_234729) to final table name (wp_wc_customer_lookup__20231024_234729)
+0004.809 () Search and replacing table: wp_wc_customer_lookup__20231024_234729: rows: 24
+0004.810 () Processing table (InnoDB): wp_ezaj3h_wc_download_log - will restore as: xm_wc_download_log
+0004.818 () Atomic restore: dropping original table (wp_wc_download_log)
+0004.821 () Atomic restore: renaming new table (xm_wc_download_log) to final table name (wp_wc_download_log)
+0004.826 () Search and replacing table: wp_wc_download_log: rows: 0
+0004.826 () Processing table (InnoDB): wp_ezaj3h_wc_download_log__20231024_234729 - will restore as: xm_wc_download_log__20231024_234729
+0004.834 () Atomic restore: dropping original table (wp_wc_download_log__20231024_234729)
+0004.834 () Atomic restore: renaming new table (xm_wc_download_log__20231024_234729) to final table name (wp_wc_download_log__20231024_234729)
+0004.839 () Search and replacing table: wp_wc_download_log__20231024_234729: rows: 0
+0004.839 () Processing table (InnoDB): wp_ezaj3h_wc_order_addresses - will restore as: xm_wc_order_addresses
+0004.850 () Atomic restore: dropping original table (wp_wc_order_addresses)
+0004.853 () Atomic restore: renaming new table (xm_wc_order_addresses) to final table name (wp_wc_order_addresses)
+0004.859 () Search and replacing table: wp_wc_order_addresses: rows: 45
+0004.860 () Processing table (InnoDB): wp_ezaj3h_wc_order_addresses__20231024_234729 - will restore as: xm_wc_order_addresses__20231024_234729
+0004.872 () Atomic restore: dropping original table (wp_wc_order_addresses__20231024_234729)
+0004.872 () Atomic restore: renaming new table (xm_wc_order_addresses__20231024_234729) to final table name (wp_wc_order_addresses__20231024_234729)
+0004.878 () Search and replacing table: wp_wc_order_addresses__20231024_234729: rows: 43
+0004.879 () Processing table (InnoDB): wp_ezaj3h_wc_order_coupon_lookup - will restore as: xm_wc_order_coupon_lookup
+0004.887 () Atomic restore: dropping original table (wp_wc_order_coupon_lookup)
+0004.891 () Atomic restore: renaming new table (xm_wc_order_coupon_lookup) to final table name (wp_wc_order_coupon_lookup)
+0004.895 () Search and replacing table: wp_wc_order_coupon_lookup: rows: 0
+0004.896 () Processing table (InnoDB): wp_ezaj3h_wc_order_coupon_lookup__20231024_234729 - will restore as: xm_wc_order_coupon_lookup__20231024_234729
+0004.903 () Atomic restore: dropping original table (wp_wc_order_coupon_lookup__20231024_234729)
+0004.903 () Atomic restore: renaming new table (xm_wc_order_coupon_lookup__20231024_234729) to final table name (wp_wc_order_coupon_lookup__20231024_234729)
+0004.908 () Search and replacing table: wp_wc_order_coupon_lookup__20231024_234729: rows: 0
+0004.908 () Processing table (InnoDB): wp_ezaj3h_wc_order_operational_data - will restore as: xm_wc_order_operational_data
+0004.919 () Atomic restore: dropping original table (wp_wc_order_operational_data)
+0004.923 () Atomic restore: renaming new table (xm_wc_order_operational_data) to final table name (wp_wc_order_operational_data)
+0004.929 () Search and replacing table: wp_wc_order_operational_data: rows: 45
+0004.930 () Processing table (InnoDB): wp_ezaj3h_wc_order_operational_data__20231024_234729 - will restore as: xm_wc_order_operational_data__20231024_234729
+0004.942 () Atomic restore: dropping original table (wp_wc_order_operational_data__20231024_234729)
+0004.943 () Atomic restore: renaming new table (xm_wc_order_operational_data__20231024_234729) to final table name (wp_wc_order_operational_data__20231024_234729)
+0004.949 () Search and replacing table: wp_wc_order_operational_data__20231024_234729: rows: 43
+0004.950 () Processing table (InnoDB): wp_ezaj3h_wc_order_product_lookup - will restore as: xm_wc_order_product_lookup
+0004.963 () Atomic restore: dropping original table (wp_wc_order_product_lookup)
+0004.967 () Atomic restore: renaming new table (xm_wc_order_product_lookup) to final table name (wp_wc_order_product_lookup)
+0004.977 () Search and replacing table: wp_wc_order_product_lookup: rows: 58
+0004.979 () Processing table (InnoDB): wp_ezaj3h_wc_order_product_lookup__20231024_234729 - will restore as: xm_wc_order_product_lookup__20231024_234729
+0004.991 () Atomic restore: dropping original table (wp_wc_order_product_lookup__20231024_234729)
+0004.992 () Atomic restore: renaming new table (xm_wc_order_product_lookup__20231024_234729) to final table name (wp_wc_order_product_lookup__20231024_234729)
+0004.997 () Search and replacing table: wp_wc_order_product_lookup__20231024_234729: rows: 56
+0004.998 () Processing table (InnoDB): wp_ezaj3h_wc_order_stats - will restore as: xm_wc_order_stats
+0005.008 () Atomic restore: dropping original table (wp_wc_order_stats)
+0005.012 () Atomic restore: renaming new table (xm_wc_order_stats) to final table name (wp_wc_order_stats)
+0005.018 () Search and replacing table: wp_wc_order_stats: rows: 45
+0005.019 () Processing table (InnoDB): wp_ezaj3h_wc_order_stats__20231024_234729 - will restore as: xm_wc_order_stats__20231024_234729
+0005.032 () Atomic restore: dropping original table (wp_wc_order_stats__20231024_234729)
+0005.033 () Atomic restore: renaming new table (xm_wc_order_stats__20231024_234729) to final table name (wp_wc_order_stats__20231024_234729)
+0005.038 () Search and replacing table: wp_wc_order_stats__20231024_234729: rows: 43
+0005.039 () Processing table (InnoDB): wp_ezaj3h_wc_order_tax_lookup - will restore as: xm_wc_order_tax_lookup
+0005.048 () Atomic restore: dropping original table (wp_wc_order_tax_lookup)
+0005.051 () Atomic restore: renaming new table (xm_wc_order_tax_lookup) to final table name (wp_wc_order_tax_lookup)
+0005.057 () Search and replacing table: wp_wc_order_tax_lookup: rows: 0
+0005.057 () Processing table (InnoDB): wp_ezaj3h_wc_order_tax_lookup__20231024_234729 - will restore as: xm_wc_order_tax_lookup__20231024_234729
+0005.064 () Atomic restore: dropping original table (wp_wc_order_tax_lookup__20231024_234729)
+0005.065 () Atomic restore: renaming new table (xm_wc_order_tax_lookup__20231024_234729) to final table name (wp_wc_order_tax_lookup__20231024_234729)
+0005.070 () Search and replacing table: wp_wc_order_tax_lookup__20231024_234729: rows: 0
+0005.070 () Processing table (InnoDB): wp_ezaj3h_wc_orders - will restore as: xm_wc_orders
+0005.085 () Atomic restore: dropping original table (wp_wc_orders)
+0005.089 () Atomic restore: renaming new table (xm_wc_orders) to final table name (wp_wc_orders)
+0005.096 () Search and replacing table: wp_wc_orders: rows: 45
+0005.097 () Processing table (InnoDB): wp_ezaj3h_wc_orders__20231024_234729 - will restore as: xm_wc_orders__20231024_234729
+0005.112 () Atomic restore: dropping original table (wp_wc_orders__20231024_234729)
+0005.112 () Atomic restore: renaming new table (xm_wc_orders__20231024_234729) to final table name (wp_wc_orders__20231024_234729)
+0005.118 () Search and replacing table: wp_wc_orders__20231024_234729: rows: 43
+0005.120 () Processing table (InnoDB): wp_ezaj3h_wc_orders_meta - will restore as: xm_wc_orders_meta
+0005.131 () Atomic restore: dropping original table (wp_wc_orders_meta)
+0005.134 () Atomic restore: renaming new table (xm_wc_orders_meta) to final table name (wp_wc_orders_meta)
+0005.138 () Search and replacing table: wp_wc_orders_meta: rows: 157
+0005.140 () Processing table (InnoDB): wp_ezaj3h_wc_orders_meta__20231024_234729 - will restore as: xm_wc_orders_meta__20231024_234729
+0005.151 () Atomic restore: dropping original table (wp_wc_orders_meta__20231024_234729)
+0005.151 () Atomic restore: renaming new table (xm_wc_orders_meta__20231024_234729) to final table name (wp_wc_orders_meta__20231024_234729)
+0005.157 () Search and replacing table: wp_wc_orders_meta__20231024_234729: rows: 139
+0005.158 () Processing table (InnoDB): wp_ezaj3h_wc_product_attributes_lookup - will restore as: xm_wc_product_attributes_lookup
+0005.167 () Atomic restore: dropping original table (wp_wc_product_attributes_lookup)
+0005.170 () Atomic restore: renaming new table (xm_wc_product_attributes_lookup) to final table name (wp_wc_product_attributes_lookup)
+0005.176 () Search and replacing table: wp_wc_product_attributes_lookup: rows: 0
+0005.176 () Processing table (InnoDB): wp_ezaj3h_wc_product_attributes_lookup__20231024_234729 - will restore as: xm_wc_product_attributes_lookup__20231024_234729
+0005.188 () Database queries processed: 500 in 5.16 seconds
+0005.189 () Atomic restore: dropping original table (wp_wc_product_attributes_lookup__20231024_234729)
+0005.189 () Atomic restore: renaming new table (xm_wc_product_attributes_lookup__20231024_234729) to final table name (wp_wc_product_attributes_lookup__20231024_234729)
+0005.196 () Search and replacing table: wp_wc_product_attributes_lookup__20231024_234729: rows: 0
+0005.196 () Processing table (InnoDB): wp_ezaj3h_wc_product_download_directories - will restore as: xm_wc_product_download_directories
+0005.205 () Atomic restore: dropping original table (wp_wc_product_download_directories)
+0005.209 () Atomic restore: renaming new table (xm_wc_product_download_directories) to final table name (wp_wc_product_download_directories)
+0005.213 () Search and replacing table: wp_wc_product_download_directories: rows: 2
+0005.214 () Processing table (InnoDB): wp_ezaj3h_wc_product_download_directories__20231024_234729 - will restore as: xm_wc_product_download_directories__20231024_234729
+0005.221 () Atomic restore: dropping original table (wp_wc_product_download_directories__20231024_234729)
+0005.222 () Atomic restore: renaming new table (xm_wc_product_download_directories__20231024_234729) to final table name (wp_wc_product_download_directories__20231024_234729)
+0005.226 () Search and replacing table: wp_wc_product_download_directories__20231024_234729: rows: 2
+0005.227 () Processing table (InnoDB): wp_ezaj3h_wc_product_meta_lookup__20231024_234729 - will restore as: xm_wc_product_meta_lookup__20231024_234729
+0005.240 () Atomic restore: dropping original table (wp_wc_product_meta_lookup__20231024_234729)
+0005.241 () Atomic restore: renaming new table (xm_wc_product_meta_lookup__20231024_234729) to final table name (wp_wc_product_meta_lookup__20231024_234729)
+0005.248 () Search and replacing table: wp_wc_product_meta_lookup__20231024_234729: rows: 24
+0005.249 () Processing table (InnoDB): wp_ezaj3h_wc_rate_limits - will restore as: xm_wc_rate_limits
+0005.257 () Atomic restore: dropping original table (wp_wc_rate_limits)
+0005.260 () Atomic restore: renaming new table (xm_wc_rate_limits) to final table name (wp_wc_rate_limits)
+0005.264 () Search and replacing table: wp_wc_rate_limits: rows: 0
+0005.264 () Processing table (InnoDB): wp_ezaj3h_wc_rate_limits__20231024_234729 - will restore as: xm_wc_rate_limits__20231024_234729
+0005.272 () Atomic restore: dropping original table (wp_wc_rate_limits__20231024_234729)
+0005.272 () Atomic restore: renaming new table (xm_wc_rate_limits__20231024_234729) to final table name (wp_wc_rate_limits__20231024_234729)
+0005.277 () Search and replacing table: wp_wc_rate_limits__20231024_234729: rows: 0
+0005.277 () Processing table (InnoDB): wp_ezaj3h_wc_reserved_stock__20231024_234729 - will restore as: xm_wc_reserved_stock__20231024_234729
+0005.284 () Atomic restore: dropping original table (wp_wc_reserved_stock__20231024_234729)
+0005.284 () Atomic restore: renaming new table (xm_wc_reserved_stock__20231024_234729) to final table name (wp_wc_reserved_stock__20231024_234729)
+0005.288 () Search and replacing table: wp_wc_reserved_stock__20231024_234729: rows: 0
+0005.288 () Processing table (InnoDB): wp_ezaj3h_wc_tax_rate_classes__20231024_234729 - will restore as: xm_wc_tax_rate_classes__20231024_234729
+0005.296 () Atomic restore: dropping original table (wp_wc_tax_rate_classes__20231024_234729)
+0005.297 () Atomic restore: renaming new table (xm_wc_tax_rate_classes__20231024_234729) to final table name (wp_wc_tax_rate_classes__20231024_234729)
+0005.301 () Search and replacing table: wp_wc_tax_rate_classes__20231024_234729: rows: 2
+0005.301 () Processing table (InnoDB): wp_ezaj3h_wc_webhooks - will restore as: xm_wc_webhooks
+0005.310 () Atomic restore: dropping original table (wp_wc_webhooks)
+0005.313 () Atomic restore: renaming new table (xm_wc_webhooks) to final table name (wp_wc_webhooks)
+0005.319 () Search and replacing table: wp_wc_webhooks: rows: 1
+0005.319 () Processing table (InnoDB): wp_ezaj3h_wc_webhooks__20231024_234729 - will restore as: xm_wc_webhooks__20231024_234729
+0005.328 () Atomic restore: dropping original table (wp_wc_webhooks__20231024_234729)
+0005.329 () Atomic restore: renaming new table (xm_wc_webhooks__20231024_234729) to final table name (wp_wc_webhooks__20231024_234729)
+0005.334 () Search and replacing table: wp_wc_webhooks__20231024_234729: rows: 1
+0005.334 () Processing table (InnoDB): wp_ezaj3h_woocommerce_api_keys - will restore as: xm_woocommerce_api_keys
+0005.344 () Atomic restore: dropping original table (wp_woocommerce_api_keys)
+0005.348 () Atomic restore: renaming new table (xm_woocommerce_api_keys) to final table name (wp_woocommerce_api_keys)
+0005.353 () Search and replacing table: wp_woocommerce_api_keys: rows: 1
+0005.353 () Processing table (InnoDB): wp_ezaj3h_woocommerce_api_keys__20231024_234729 - will restore as: xm_woocommerce_api_keys__20231024_234729
+0005.361 () Atomic restore: dropping original table (wp_woocommerce_api_keys__20231024_234729)
+0005.361 () Atomic restore: renaming new table (xm_woocommerce_api_keys__20231024_234729) to final table name (wp_woocommerce_api_keys__20231024_234729)
+0005.367 () Search and replacing table: wp_woocommerce_api_keys__20231024_234729: rows: 0
+0005.367 () Processing table (InnoDB): wp_ezaj3h_woocommerce_attribute_taxonomies - will restore as: xm_woocommerce_attribute_taxonomies
+0005.375 () Atomic restore: dropping original table (wp_woocommerce_attribute_taxonomies)
+0005.378 () Atomic restore: renaming new table (xm_woocommerce_attribute_taxonomies) to final table name (wp_woocommerce_attribute_taxonomies)
+0005.383 () Search and replacing table: wp_woocommerce_attribute_taxonomies: rows: 0
+0005.383 () Processing table (InnoDB): wp_ezaj3h_woocommerce_attribute_taxonomies__20231024_234729 - will restore as: xm_woocommerce_attribute_taxonomies__20231024_234729
+0005.389 () Atomic restore: dropping original table (wp_woocommerce_attribute_taxonomies__20231024_234729)
+0005.390 () Atomic restore: renaming new table (xm_woocommerce_attribute_taxonomies__20231024_234729) to final table name (wp_woocommerce_attribute_taxonomies__20231024_234729)
+0005.395 () Search and replacing table: wp_woocommerce_attribute_taxonomies__20231024_234729: rows: 0
+0005.396 () Processing table (InnoDB): wp_ezaj3h_woocommerce_downloadable_product_perm__20231024_234729 - will restore as: xm_woocommerce_downloadable_product_perm__20231024_234729
+0005.406 () Atomic restore: dropping original table (wp_woocommerce_downloadable_product_perm__20231024_234729)
+0005.407 () Atomic restore: renaming new table (xm_woocommerce_downloadable_product_perm__20231024_234729) to final table name (wp_woocommerce_downloadable_product_perm__20231024_234729)
+0005.414 () Search and replacing table: wp_woocommerce_downloadable_product_perm__20231024_234729: rows: 0
+0005.414 () Processing table (InnoDB): wp_ezaj3h_woocommerce_downloadable_product_permissions - will restore as: xm_woocommerce_downloadable_product_permissions
+0005.423 () Atomic restore: dropping original table (wp_woocommerce_downloadable_product_permissions)
+0005.428 () Atomic restore: renaming new table (xm_woocommerce_downloadable_product_permissions) to final table name (wp_woocommerce_downloadable_product_permissions)
+0005.434 () Search and replacing table: wp_woocommerce_downloadable_product_permissions: rows: 0
+0005.435 () Processing table (InnoDB): wp_ezaj3h_woocommerce_log - will restore as: xm_woocommerce_log
+0005.441 () Atomic restore: dropping original table (wp_woocommerce_log)
+0005.444 () Atomic restore: renaming new table (xm_woocommerce_log) to final table name (wp_woocommerce_log)
+0005.449 () Search and replacing table: wp_woocommerce_log: rows: 0
+0005.449 () Processing table (InnoDB): wp_ezaj3h_woocommerce_log__20231024_234729 - will restore as: xm_woocommerce_log__20231024_234729
+0005.457 () Atomic restore: dropping original table (wp_woocommerce_log__20231024_234729)
+0005.457 () Atomic restore: renaming new table (xm_woocommerce_log__20231024_234729) to final table name (wp_woocommerce_log__20231024_234729)
+0005.462 () Search and replacing table: wp_woocommerce_log__20231024_234729: rows: 0
+0005.462 () Processing table (InnoDB): wp_ezaj3h_woocommerce_order_itemmeta__20231024_234729 - will restore as: xm_woocommerce_order_itemmeta__20231024_234729
+0005.478 () Atomic restore: dropping original table (wp_woocommerce_order_itemmeta__20231024_234729)
+0005.479 () Atomic restore: renaming new table (xm_woocommerce_order_itemmeta__20231024_234729) to final table name (wp_woocommerce_order_itemmeta__20231024_234729)
+0005.484 () Search and replacing table: wp_woocommerce_order_itemmeta__20231024_234729: rows: 562
+0005.488 () Processing table (InnoDB): wp_ezaj3h_woocommerce_order_items - will restore as: xm_woocommerce_order_items
+0005.497 () Atomic restore: dropping original table (wp_woocommerce_order_items)
+0005.500 () Atomic restore: renaming new table (xm_woocommerce_order_items) to final table name (wp_woocommerce_order_items)
+0005.503 () Skipping this table: data in this table (wp_woocommerce_order_items) should not be search/replaced
+0005.503 () Processing table (InnoDB): wp_ezaj3h_woocommerce_order_items__20231024_234729 - will restore as: xm_woocommerce_order_items__20231024_234729
+0005.512 () Atomic restore: dropping original table (wp_woocommerce_order_items__20231024_234729)
+0005.512 () Atomic restore: renaming new table (xm_woocommerce_order_items__20231024_234729) to final table name (wp_woocommerce_order_items__20231024_234729)
+0005.517 () Search and replacing table: wp_woocommerce_order_items__20231024_234729: rows: 56
+0005.517 () Processing table (InnoDB): wp_ezaj3h_woocommerce_payment_tokenmeta__20231024_234729 - will restore as: xm_woocommerce_payment_tokenmeta__20231024_234729
+0005.525 () Atomic restore: dropping original table (wp_woocommerce_payment_tokenmeta__20231024_234729)
+0005.525 () Atomic restore: renaming new table (xm_woocommerce_payment_tokenmeta__20231024_234729) to final table name (wp_woocommerce_payment_tokenmeta__20231024_234729)
+0005.530 () Search and replacing table: wp_woocommerce_payment_tokenmeta__20231024_234729: rows: 0
+0005.531 () Processing table (InnoDB): wp_ezaj3h_woocommerce_payment_tokens - will restore as: xm_woocommerce_payment_tokens
+0005.538 () Atomic restore: dropping original table (wp_woocommerce_payment_tokens)
+0005.542 () Atomic restore: renaming new table (xm_woocommerce_payment_tokens) to final table name (wp_woocommerce_payment_tokens)
+0005.547 () Search and replacing table: wp_woocommerce_payment_tokens: rows: 0
+0005.547 () Processing table (InnoDB): wp_ezaj3h_woocommerce_payment_tokens__20231024_234729 - will restore as: xm_woocommerce_payment_tokens__20231024_234729
+0005.554 () Atomic restore: dropping original table (wp_woocommerce_payment_tokens__20231024_234729)
+0005.554 () Atomic restore: renaming new table (xm_woocommerce_payment_tokens__20231024_234729) to final table name (wp_woocommerce_payment_tokens__20231024_234729)
+0005.559 () Search and replacing table: wp_woocommerce_payment_tokens__20231024_234729: rows: 0
+0005.559 () Processing table (InnoDB): wp_ezaj3h_woocommerce_sessions - will restore as: xm_woocommerce_sessions
+0005.568 () Atomic restore: dropping original table (wp_woocommerce_sessions)
+0005.571 () Atomic restore: renaming new table (xm_woocommerce_sessions) to final table name (wp_woocommerce_sessions)
+0005.574 () Skipping this table: data in this table (wp_woocommerce_sessions) should not be search/replaced
+0005.574 () Processing table (InnoDB): wp_ezaj3h_woocommerce_sessions__20231024_234729 - will restore as: xm_woocommerce_sessions__20231024_234729
+0005.583 () Atomic restore: dropping original table (wp_woocommerce_sessions__20231024_234729)
+0005.583 () Atomic restore: renaming new table (xm_woocommerce_sessions__20231024_234729) to final table name (wp_woocommerce_sessions__20231024_234729)
+0005.588 () Search and replacing table: wp_woocommerce_sessions__20231024_234729: rows: 6
+0005.589 () Processing table (InnoDB): wp_ezaj3h_woocommerce_shipping_zone_locations - will restore as: xm_woocommerce_shipping_zone_locations
+0005.597 () Atomic restore: dropping original table (wp_woocommerce_shipping_zone_locations)
+0005.601 () Atomic restore: renaming new table (xm_woocommerce_shipping_zone_locations) to final table name (wp_woocommerce_shipping_zone_locations)
+0005.606 () Search and replacing table: wp_woocommerce_shipping_zone_locations: rows: 0
+0005.606 () Processing table (InnoDB): wp_ezaj3h_woocommerce_shipping_zone_locations__20231024_234729 - will restore as: xm_woocommerce_shipping_zone_locations__20231024_234729
+0005.613 () Atomic restore: dropping original table (wp_woocommerce_shipping_zone_locations__20231024_234729)
+0005.613 () Atomic restore: renaming new table (xm_woocommerce_shipping_zone_locations__20231024_234729) to final table name (wp_woocommerce_shipping_zone_locations__20231024_234729)
+0005.619 () Search and replacing table: wp_woocommerce_shipping_zone_locations__20231024_234729: rows: 0
+0005.619 () Processing table (InnoDB): wp_ezaj3h_woocommerce_shipping_zone_methods - will restore as: xm_woocommerce_shipping_zone_methods
+0005.625 () Atomic restore: dropping original table (wp_woocommerce_shipping_zone_methods)
+0005.627 () Atomic restore: renaming new table (xm_woocommerce_shipping_zone_methods) to final table name (wp_woocommerce_shipping_zone_methods)
+0005.632 () Search and replacing table: wp_woocommerce_shipping_zone_methods: rows: 0
+0005.632 () Processing table (InnoDB): wp_ezaj3h_woocommerce_shipping_zone_methods__20231024_234729 - will restore as: xm_woocommerce_shipping_zone_methods__20231024_234729
+0005.638 () Atomic restore: dropping original table (wp_woocommerce_shipping_zone_methods__20231024_234729)
+0005.639 () Atomic restore: renaming new table (xm_woocommerce_shipping_zone_methods__20231024_234729) to final table name (wp_woocommerce_shipping_zone_methods__20231024_234729)
+0005.643 () Search and replacing table: wp_woocommerce_shipping_zone_methods__20231024_234729: rows: 0
+0005.643 () Processing table (InnoDB): wp_ezaj3h_woocommerce_shipping_zones - will restore as: xm_woocommerce_shipping_zones
+0005.650 () Atomic restore: dropping original table (wp_woocommerce_shipping_zones)
+0005.653 () Atomic restore: renaming new table (xm_woocommerce_shipping_zones) to final table name (wp_woocommerce_shipping_zones)
+0005.658 () Search and replacing table: wp_woocommerce_shipping_zones: rows: 0
+0005.658 () Processing table (InnoDB): wp_ezaj3h_woocommerce_shipping_zones__20231024_234729 - will restore as: xm_woocommerce_shipping_zones__20231024_234729
+0005.664 () Atomic restore: dropping original table (wp_woocommerce_shipping_zones__20231024_234729)
+0005.664 () Atomic restore: renaming new table (xm_woocommerce_shipping_zones__20231024_234729) to final table name (wp_woocommerce_shipping_zones__20231024_234729)
+0005.669 () Search and replacing table: wp_woocommerce_shipping_zones__20231024_234729: rows: 0
+0005.669 () Processing table (InnoDB): wp_ezaj3h_woocommerce_tax_rate_locations - will restore as: xm_woocommerce_tax_rate_locations
+0005.677 () Atomic restore: dropping original table (wp_woocommerce_tax_rate_locations)
+0005.681 () Atomic restore: renaming new table (xm_woocommerce_tax_rate_locations) to final table name (wp_woocommerce_tax_rate_locations)
+0005.686 () Search and replacing table: wp_woocommerce_tax_rate_locations: rows: 0
+0005.686 () Processing table (InnoDB): wp_ezaj3h_woocommerce_tax_rate_locations__20231024_234729 - will restore as: xm_woocommerce_tax_rate_locations__20231024_234729
+0005.695 () Atomic restore: dropping original table (wp_woocommerce_tax_rate_locations__20231024_234729)
+0005.695 () Atomic restore: renaming new table (xm_woocommerce_tax_rate_locations__20231024_234729) to final table name (wp_woocommerce_tax_rate_locations__20231024_234729)
+0005.700 () Search and replacing table: wp_woocommerce_tax_rate_locations__20231024_234729: rows: 0
+0005.700 () Processing table (InnoDB): wp_ezaj3h_woocommerce_tax_rates - will restore as: xm_woocommerce_tax_rates
+0005.709 () Atomic restore: dropping original table (wp_woocommerce_tax_rates)
+0005.714 () Atomic restore: renaming new table (xm_woocommerce_tax_rates) to final table name (wp_woocommerce_tax_rates)
+0005.720 () Search and replacing table: wp_woocommerce_tax_rates: rows: 0
+0005.720 () Processing table (InnoDB): wp_ezaj3h_woocommerce_tax_rates__20231024_234729 - will restore as: xm_woocommerce_tax_rates__20231024_234729
+0005.729 () Atomic restore: dropping original table (wp_woocommerce_tax_rates__20231024_234729)
+0005.729 () Atomic restore: renaming new table (xm_woocommerce_tax_rates__20231024_234729) to final table name (wp_woocommerce_tax_rates__20231024_234729)
+0005.735 () Search and replacing table: wp_woocommerce_tax_rates__20231024_234729: rows: 0
+0005.735 () Processing table (InnoDB): wp_ezaj3h_wpfm_backup - will restore as: xm_wpfm_backup
+0005.741 () Atomic restore: dropping original table (wp_wpfm_backup)
+0005.744 () Atomic restore: renaming new table (xm_wpfm_backup) to final table name (wp_wpfm_backup)
+0005.748 () Search and replacing table: wp_wpfm_backup: rows: 0
+0005.748 () Processing table (InnoDB): wp_ezaj3h_wpfm_backup__20231024_234729 - will restore as: xm_wpfm_backup__20231024_234729
+0005.757 () Atomic restore: dropping original table (wp_wpfm_backup__20231024_234729)
+0005.758 () Atomic restore: renaming new table (xm_wpfm_backup__20231024_234729) to final table name (wp_wpfm_backup__20231024_234729)
+0005.763 () Search and replacing table: wp_wpfm_backup__20231024_234729: rows: 0
+0005.763 () Processing table (InnoDB): wp_ezaj3h_wpforms_payment_meta - will restore as: xm_wpforms_payment_meta
+0005.774 () Atomic restore: dropping original table (wp_wpforms_payment_meta)
+0005.777 () Atomic restore: renaming new table (xm_wpforms_payment_meta) to final table name (wp_wpforms_payment_meta)
+0005.782 () Search and replacing table: wp_wpforms_payment_meta: rows: 0
+0005.783 () Processing table (InnoDB): wp_ezaj3h_wpforms_payment_meta__20231024_234729 - will restore as: xm_wpforms_payment_meta__20231024_234729
+0005.792 () Atomic restore: dropping original table (wp_wpforms_payment_meta__20231024_234729)
+0005.793 () Atomic restore: renaming new table (xm_wpforms_payment_meta__20231024_234729) to final table name (wp_wpforms_payment_meta__20231024_234729)
+0005.798 () Search and replacing table: wp_wpforms_payment_meta__20231024_234729: rows: 0
+0005.799 () Processing table (InnoDB): wp_ezaj3h_wpforms_payments - will restore as: xm_wpforms_payments
+0005.811 () Atomic restore: dropping original table (wp_wpforms_payments)
+0005.816 () Atomic restore: renaming new table (xm_wpforms_payments) to final table name (wp_wpforms_payments)
+0005.823 () Search and replacing table: wp_wpforms_payments: rows: 0
+0005.823 () Processing table (InnoDB): wp_ezaj3h_wpforms_payments__20231024_234729 - will restore as: xm_wpforms_payments__20231024_234729
+0005.835 () Atomic restore: dropping original table (wp_wpforms_payments__20231024_234729)
+0005.835 () Atomic restore: renaming new table (xm_wpforms_payments__20231024_234729) to final table name (wp_wpforms_payments__20231024_234729)
+0005.844 () Search and replacing table: wp_wpforms_payments__20231024_234729: rows: 0
+0005.844 () Processing table (InnoDB): wp_ezaj3h_wpforms_tasks_meta - will restore as: xm_wpforms_tasks_meta
+0005.852 () Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0005.854 () Atomic restore: renaming new table (xm_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0005.858 () Search and replacing table: wp_wpforms_tasks_meta: rows: 8
+0005.858 () Processing table (InnoDB): wp_ezaj3h_wpforms_tasks_meta__20231024_234729 - will restore as: xm_wpforms_tasks_meta__20231024_234729
+0005.868 () Unlocking database and leaving maintenance mode
+0005.868 () Disabling Maintenance mode&#8230;
+0005.868 () Atomic restore: dropping original table (wp_wpforms_tasks_meta__20231024_234729)
+0005.869 () Atomic restore: renaming new table (xm_wpforms_tasks_meta__20231024_234729) to final table name (wp_wpforms_tasks_meta__20231024_234729)
+0005.873 () Search and replacing table: wp_wpforms_tasks_meta__20231024_234729: rows: 8
+0005.873 () Finished: lines processed: 603 in 5.85 seconds
+0005.873 () Cleaning up rubbish...
+0005.874 () Begin search and replace (updraftplus_restored_db)
+0005.874 () [Database-replace-site-url] Database: search and replace site URL
+0005.874 () Database search and replace: replace https://www.fundedx.co in backup dump with http://localhost:10023
+0005.874 () Database search and replace: replace http://www.fundedx.co in backup dump with http://localhost:10023
+0005.874 () Database search and replace: replace http://fundedx.co in backup dump with http://localhost:10023
+0005.874 () Database search and replace: replace https://fundedx.co in backup dump with http://localhost:10023
+0005.874 () Database search and replace: replace /home/dh_mbjqsu/fundedx.co in backup dump with /Users/akramtello/Local Sites/fundedn/app/public
+0005.877 () Search and replacing table: wp_actionscheduler_actions: already done
+0005.877 () Search and replacing table: wp_actionscheduler_actions__20231024_234729: already done
+0005.877 () Search and replacing table: wp_actionscheduler_claims: already done
+0005.877 () Search and replacing table: wp_actionscheduler_claims__20231024_234729: already done
+0005.877 () Search and replacing table: wp_actionscheduler_groups: already done
+0005.877 () Search and replacing table: wp_actionscheduler_groups__20231024_234729: already done
+0005.877 () Search and replacing table: wp_actionscheduler_logs: already done
+0005.877 () Search and replacing table: wp_actionscheduler_logs__20231024_234729: already done
+0005.877 () Search and replacing table: wp_commentmeta: already done
+0005.877 () Search and replacing table: wp_commentmeta__20231024_234729: already done
+0005.877 () Search and replacing table: wp_comments: already done
+0005.877 () Search and replacing table: wp_comments__20231024_234729: already done
+0005.877 () Search and replacing table: wp_frmt_form_entry: already done
+0005.877 () Search and replacing table: wp_frmt_form_entry__20231024_234729: already done
+0005.877 () Search and replacing table: wp_frmt_form_entry_meta: already done
+0005.877 () Search and replacing table: wp_frmt_form_entry_meta__20231024_234729: already done
+0005.877 () Search and replacing table: wp_frmt_form_reports: already done
+0005.877 () Search and replacing table: wp_frmt_form_reports__20231024_234729: already done
+0005.877 () Search and replacing table: wp_frmt_form_views: already done
+0005.877 () Search and replacing table: wp_frmt_form_views__20231024_234729: already done
+0005.877 () Search and replacing table: wp_gla_attribute_mapping_rules: already done
+0005.877 () Search and replacing table: wp_gla_attribute_mapping_rules__20231024_234729: already done
+0005.878 () Search and replacing table: wp_gla_budget_recommendations: already done
+0005.878 () Search and replacing table: wp_gla_budget_recommendations__20231024_234729: already done
+0005.878 () Search and replacing table: wp_gla_merchant_issues: already done
+0005.878 () Search and replacing table: wp_gla_merchant_issues__20231024_234729: already done
+0005.878 () Search and replacing table: wp_gla_shipping_rates: already done
+0005.878 () Search and replacing table: wp_gla_shipping_rates__20231024_234729: already done
+0005.878 () Search and replacing table: wp_gla_shipping_times: already done
+0005.878 () Search and replacing table: wp_gla_shipping_times__20231024_234729: already done
+0005.878 () Search and replacing table: wp_jetpack_sync_queue: already done
+0005.878 () Search and replacing table: wp_jetpack_sync_queue__20231024_234729: already done
+0005.878 () Search and replacing table: wp_links: already done
+0005.878 () Search and replacing table: wp_links__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_automation_run_logs: already done
+0005.878 () Search and replacing table: wp_mailpoet_automation_run_logs__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_automation_run_subjects: already done
+0005.878 () Search and replacing table: wp_mailpoet_automation_run_subjects__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_automation_runs: already done
+0005.878 () Search and replacing table: wp_mailpoet_automation_runs__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_automation_triggers: already done
+0005.878 () Search and replacing table: wp_mailpoet_automation_triggers__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_automation_versions: already done
+0005.878 () Search and replacing table: wp_mailpoet_automation_versions__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_automations: already done
+0005.878 () Search and replacing table: wp_mailpoet_automations__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_custom_fields: already done
+0005.878 () Search and replacing table: wp_mailpoet_custom_fields__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_dynamic_segment_filters: already done
+0005.878 () Search and replacing table: wp_mailpoet_dynamic_segment_filters__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_feature_flags: already done
+0005.878 () Search and replacing table: wp_mailpoet_feature_flags__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_forms: already done
+0005.878 () Search and replacing table: wp_mailpoet_forms__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_log: already done
+0005.878 () Search and replacing table: wp_mailpoet_log__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_migrations: already done
+0005.878 () Search and replacing table: wp_mailpoet_migrations__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_newsletter_links: already done
+0005.878 () Search and replacing table: wp_mailpoet_newsletter_links__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_newsletter_option: already done
+0005.878 () Search and replacing table: wp_mailpoet_newsletter_option__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_newsletter_option_fields: already done
+0005.878 () Search and replacing table: wp_mailpoet_newsletter_option_fields__20231024_234729: already done
+0005.878 () Search and replacing table: wp_mailpoet_newsletter_posts: already done
+0005.879 () Search and replacing table: wp_mailpoet_newsletter_posts__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_newsletter_segment: already done
+0005.879 () Search and replacing table: wp_mailpoet_newsletter_segment__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_newsletter_templates: already done
+0005.879 () Search and replacing table: wp_mailpoet_newsletter_templates__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_newsletters: already done
+0005.879 () Search and replacing table: wp_mailpoet_newsletters__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_scheduled_task_subscribers: already done
+0005.879 () Search and replacing table: wp_mailpoet_scheduled_task_subscribers__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_scheduled_tasks: already done
+0005.879 () Search and replacing table: wp_mailpoet_scheduled_tasks__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_segments: already done
+0005.879 () Search and replacing table: wp_mailpoet_segments__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_sending_queues: already done
+0005.879 () Search and replacing table: wp_mailpoet_sending_queues__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_settings: already done
+0005.879 () Search and replacing table: wp_mailpoet_settings__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_bounces: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_bounces__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_clicks: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_clicks__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_forms: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_forms__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_newsletters: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_newsletters__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_opens: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_opens__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_unsubscribes: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_unsubscribes__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_woocommerce_purch__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_statistics_woocommerce_purchases: already done
+0005.879 () Search and replacing table: wp_mailpoet_stats_notifications: already done
+0005.879 () Search and replacing table: wp_mailpoet_stats_notifications__20231024_234729: already done
+0005.879 () Search and replacing table: wp_mailpoet_subscriber_custom_field: already done
+0005.879 () Search and replacing table: wp_mailpoet_subscriber_custom_field__20231024_234729: already done
+0005.880 () Search and replacing table: wp_mailpoet_subscriber_ips: already done
+0005.880 () Search and replacing table: wp_mailpoet_subscriber_ips__20231024_234729: already done
+0005.880 () Search and replacing table: wp_mailpoet_subscriber_segment: already done
+0005.880 () Search and replacing table: wp_mailpoet_subscriber_segment__20231024_234729: already done
+0005.880 () Search and replacing table: wp_mailpoet_subscriber_tag: already done
+0005.880 () Search and replacing table: wp_mailpoet_subscriber_tag__20231024_234729: already done
+0005.880 () Search and replacing table: wp_mailpoet_subscribers: already done
+0005.880 () Search and replacing table: wp_mailpoet_subscribers__20231024_234729: already done
+0005.880 () Search and replacing table: wp_mailpoet_tags: already done
+0005.880 () Search and replacing table: wp_mailpoet_tags__20231024_234729: already done
+0005.880 () Search and replacing table: wp_mailpoet_user_agents: already done
+0005.880 () Search and replacing table: wp_mailpoet_user_agents__20231024_234729: already done
+0005.880 () Search and replacing table: wp_mailpoet_user_flags: already done
+0005.880 () Search and replacing table: wp_mailpoet_user_flags__20231024_234729: already done
+0005.880 () Search and replacing table: wp_nf3_action_meta: already done
+0005.880 () Search and replacing table: wp_nf3_action_meta__20231024_234729: already done
+0005.880 () Search and replacing table: wp_nf3_actions: already done
+0005.880 () Search and replacing table: wp_nf3_actions__20231024_234729: already done
+0005.880 () Search and replacing table: wp_nf3_chunks: already done
+0005.880 () Search and replacing table: wp_nf3_chunks__20231024_234729: already done
+0005.880 () Search and replacing table: wp_nf3_field_meta: already done
+0005.880 () Search and replacing table: wp_nf3_field_meta__20231024_234729: already done
+0005.880 () Search and replacing table: wp_nf3_fields: already done
+0005.880 () Search and replacing table: wp_nf3_fields__20231024_234729: already done
+0005.880 () Search and replacing table: wp_nf3_form_meta: already done
+0005.880 () Search and replacing table: wp_nf3_form_meta__20231024_234729: already done
+0005.880 () Search and replacing table: wp_nf3_forms: already done
+0005.880 () Search and replacing table: wp_nf3_forms__20231024_234729: already done
+0005.880 () Search and replacing table: wp_nf3_object_meta: already done
+0005.880 () Search and replacing table: wp_nf3_object_meta__20231024_234729: already done
+0005.880 () Search and replacing table: wp_nf3_objects: already done
+0005.880 () Search and replacing table: wp_nf3_objects__20231024_234729: already done
+0005.880 () Search and replacing table: wp_nf3_relationships: already done
+0005.880 () Search and replacing table: wp_nf3_relationships__20231024_234729: already done
+0005.881 () Search and replacing table: wp_nf3_upgrades: already done
+0005.881 () Search and replacing table: wp_nf3_upgrades__20231024_234729: already done
+0005.881 () Search and replacing table: wp_options: already done
+0005.881 () Search and replacing table: wp_options__20231024_234729: already done
+0005.881 () Search and replacing table: wp_postmeta: already done
+0005.881 () Search and replacing table: wp_postmeta__20231024_234729: already done
+0005.881 () Search and replacing table: wp_posts: already done
+0005.881 () Search and replacing table: wp_posts__20231024_234729: already done
+0005.881 () Search and replacing table: wp_term_relationships: already done
+0005.881 () Search and replacing table: wp_term_relationships__20231024_234729: already done
+0005.881 () Search and replacing table: wp_term_taxonomy: already done
+0005.881 () Search and replacing table: wp_term_taxonomy__20231024_234729: already done
+0005.881 () Search and replacing table: wp_termmeta: already done
+0005.881 () Search and replacing table: wp_termmeta__20231024_234729: already done
+0005.881 () Search and replacing table: wp_terms: already done
+0005.881 () Search and replacing table: wp_terms__20231024_234729: already done
+0005.881 () Search and replacing table: wp_usermeta: already done
+0005.881 () Search and replacing table: wp_usermeta__20231024_234729: already done
+0005.881 () Search and replacing table: wp_users: already done
+0005.881 () Search and replacing table: wp_users__20231024_234729: already done
+0005.881 () Search and replacing table: wp_wc_admin_note_actions: already done
+0005.881 () Search and replacing table: wp_wc_admin_note_actions__20231024_234729: already done
+0005.881 () Search and replacing table: wp_wc_admin_notes: already done
+0005.881 () Search and replacing table: wp_wc_admin_notes__20231024_234729: already done
+0005.881 () Search and replacing table: wp_wc_category_lookup: already done
+0005.881 () Search and replacing table: wp_wc_category_lookup__20231024_234729: already done
+0005.881 () Search and replacing table: wp_wc_customer_lookup: already done
+0005.881 () Search and replacing table: wp_wc_customer_lookup__20231024_234729: already done
+0005.881 () Search and replacing table: wp_wc_download_log: already done
+0005.881 () Search and replacing table: wp_wc_download_log__20231024_234729: already done
+0005.881 () Search and replacing table: wp_wc_order_addresses: already done
+0005.881 () Search and replacing table: wp_wc_order_addresses__20231024_234729: already done
+0005.881 () Search and replacing table: wp_wc_order_coupon_lookup: already done
+0005.881 () Search and replacing table: wp_wc_order_coupon_lookup__20231024_234729: already done
+0005.881 () Search and replacing table: wp_wc_order_operational_data: already done
+0005.881 () Search and replacing table: wp_wc_order_operational_data__20231024_234729: already done
+0005.881 () Search and replacing table: wp_wc_order_product_lookup: already done
+0005.881 () Search and replacing table: wp_wc_order_product_lookup__20231024_234729: already done
+0005.882 () Search and replacing table: wp_wc_order_stats: already done
+0005.882 () Search and replacing table: wp_wc_order_stats__20231024_234729: already done
+0005.882 () Search and replacing table: wp_wc_order_tax_lookup: already done
+0005.882 () Search and replacing table: wp_wc_order_tax_lookup__20231024_234729: already done
+0005.882 () Search and replacing table: wp_wc_orders: already done
+0005.882 () Search and replacing table: wp_wc_orders__20231024_234729: already done
+0005.882 () Search and replacing table: wp_wc_orders_meta: already done
+0005.882 () Search and replacing table: wp_wc_orders_meta__20231024_234729: already done
+0005.882 () Search and replacing table: wp_wc_product_attributes_lookup: already done
+0005.882 () Search and replacing table: wp_wc_product_attributes_lookup__20231024_234729: already done
+0005.882 () Search and replacing table: wp_wc_product_download_directories: already done
+0005.882 () Search and replacing table: wp_wc_product_download_directories__20231024_234729: already done
+0005.882 () Search and replacing table: wp_wc_product_meta_lookup: already done
+0005.882 () Search and replacing table: wp_wc_product_meta_lookup__20231024_234729: already done
+0005.882 () Search and replacing table: wp_wc_rate_limits: already done
+0005.882 () Search and replacing table: wp_wc_rate_limits__20231024_234729: already done
+0005.882 () Search and replacing table: wp_wc_reserved_stock: already done
+0005.882 () Search and replacing table: wp_wc_reserved_stock__20231024_234729: already done
+0005.882 () Search and replacing table: wp_wc_tax_rate_classes: already done
+0005.882 () Search and replacing table: wp_wc_tax_rate_classes__20231024_234729: already done
+0005.882 () Search and replacing table: wp_wc_webhooks: already done
+0005.882 () Search and replacing table: wp_wc_webhooks__20231024_234729: already done
+0005.882 () Search and replacing table: wp_woocommerce_api_keys: already done
+0005.882 () Search and replacing table: wp_woocommerce_api_keys__20231024_234729: already done
+0005.882 () Search and replacing table: wp_woocommerce_attribute_taxonomies: already done
+0005.882 () Search and replacing table: wp_woocommerce_attribute_taxonomies__20231024_234729: already done
+0005.882 () Search and replacing table: wp_woocommerce_downloadable_product_perm__20231024_234729: already done
+0005.882 () Search and replacing table: wp_woocommerce_downloadable_product_permissions: already done
+0005.882 () Search and replacing table: wp_woocommerce_log: already done
+0005.882 () Search and replacing table: wp_woocommerce_log__20231024_234729: already done
+0005.882 () Search and replacing table: wp_woocommerce_order_itemmeta: already done
+0005.882 () Search and replacing table: wp_woocommerce_order_itemmeta__20231024_234729: already done
+0005.882 () Search and replacing table: wp_woocommerce_order_items: already done
+0005.882 () Search and replacing table: wp_woocommerce_order_items__20231024_234729: already done
+0005.882 () Search and replacing table: wp_woocommerce_payment_tokenmeta: already done
+0005.882 () Search and replacing table: wp_woocommerce_payment_tokenmeta__20231024_234729: already done
+0005.882 () Search and replacing table: wp_woocommerce_payment_tokens: already done
+0005.882 () Search and replacing table: wp_woocommerce_payment_tokens__20231024_234729: already done
+0005.882 () Search and replacing table: wp_woocommerce_sessions: already done
+0005.883 () Search and replacing table: wp_woocommerce_sessions__20231024_234729: already done
+0005.883 () Search and replacing table: wp_woocommerce_shipping_zone_locations: already done
+0005.883 () Search and replacing table: wp_woocommerce_shipping_zone_locations__20231024_234729: already done
+0005.883 () Search and replacing table: wp_woocommerce_shipping_zone_methods: already done
+0005.883 () Search and replacing table: wp_woocommerce_shipping_zone_methods__20231024_234729: already done
+0005.883 () Search and replacing table: wp_woocommerce_shipping_zones: already done
+0005.883 () Search and replacing table: wp_woocommerce_shipping_zones__20231024_234729: already done
+0005.883 () Search and replacing table: wp_woocommerce_tax_rate_locations: already done
+0005.883 () Search and replacing table: wp_woocommerce_tax_rate_locations__20231024_234729: already done
+0005.883 () Search and replacing table: wp_woocommerce_tax_rates: already done
+0005.883 () Search and replacing table: wp_woocommerce_tax_rates__20231024_234729: already done
+0005.883 () Search and replacing table: wp_wpfm_backup: already done
+0005.883 () Search and replacing table: wp_wpfm_backup__20231024_234729: already done
+0005.883 () Search and replacing table: wp_wpforms_payment_meta: already done
+0005.883 () Search and replacing table: wp_wpforms_payment_meta__20231024_234729: already done
+0005.883 () Search and replacing table: wp_wpforms_payments: already done
+0005.883 () Search and replacing table: wp_wpforms_payments__20231024_234729: already done
+0005.883 () Search and replacing table: wp_wpforms_tasks_meta: already done
+0005.883 () Search and replacing table: wp_wpforms_tasks_meta__20231024_234729: already done
+0005.892 () Entity: plugins
+0005.892 () restore_backup(backup_file=backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:67:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0005.892 () Unpacking backup... (backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins.zip, 25.8 MB)
+0005.895 () Unzipping backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/2a9829d4/ using UpdraftPlus_ZipArchive, starting index 0
+0007.604 () Unzip progress: 2618 out of 6816 files (92.6 KB, plugins/bulk-image-alt-text-with-yoast/vendor/freemius/languages/freemius-fr_FR.po)
+0007.796 () Unzip progress: 3619 out of 6816 files (26.6 MB, plugins/forminator/assets/images/Feature_highlight@2x.png)
+0007.955 () Unzip progress: 4620 out of 6816 files (49.2 MB, plugins/updraftplus/central/commands.php)
+0008.137 () Unzip progress: 5621 out of 6816 files (69.3 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/CreateUpdateError.php)
+0008.311 () Unzip progress: 6622 out of 6816 files (91.4 MB, plugins/wp-file-manager/lib/codemirror/mode/fcl/index.html)
+0008.345 () Unzip progress: 6816 out of 6816 files (95.4 MB, plugins/wp-file-manager/css/fm-backup.css)
+0008.353 () Moving old data: filesystem method / updraft_dir is potentially possible
+0008.353 () Moving old data: can potentially use wp_filesystem method / -old
+0008.353 () Moving old data out of the way...
+0011.463 () Top-level entities being moved: show-current-template, woocommerce, index.php, akismet, wp-file-manager, auto-hide-admin-bar, forminator, advanced-custom-fields-pro, updraftplus, woocommerce-payments, jetpack, bulk-image-alt-text-with-yoast, woocommerce-gateway-stripe, svg-support, google-listings-and-ads
+0011.474 () Moving unpacked backup into place...
+0012.394 () Top-level entities being moved: show-current-template, woocommerce, autocomplete-woocommerce-orders, akismet, wp-file-manager, auto-hide-admin-bar, forminator, advanced-custom-fields-pro, updraftplus, jetpack, bulk-image-alt-text-with-yoast, woocommerce-gateway-stripe, svg-support
+0012.396 () Cleaning up rubbish...
+0012.402 () restore_backup(backup_file=backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins2.zip, type=plugins, info=a:3:{s:4:"path";s:67:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0012.402 () Unpacking backup... (backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins2.zip, 22.8 MB)
+0012.402 () Unzipping backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins2.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/049f9bdf/ using UpdraftPlus_ZipArchive, starting index 0
+0014.017 () Unzip progress: 1002 out of 5964 files (16.9 MB, plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php)
+0014.177 () Unzip progress: 2003 out of 5964 files (29.4 MB, plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-cart-button-block/attributes.tsx)
+0014.311 () Unzip progress: 3004 out of 5964 files (31.4 MB, plugins/woocommerce/packages/woocommerce-blocks/build/mini-cart-contents.asset.php)
+0014.496 () Unzip progress: 4005 out of 5964 files (35.5 MB, plugins/woocommerce/src/Admin/API/MarketingChannels.php)
+0014.805 () Unzip progress: 5006 out of 5964 files (48.2 MB, plugins/woocommerce-gateway-stripe/includes/compat/class-wc-stripe-email-failed-renewal-authentication.php)
+0015.054 () Unzip progress: 5964 out of 5964 files (54.3 MB, plugins/woocommerce/src/Admin/API/MarketingOverview.php)
+0015.066 () Moving unpacked backup into place...
+0016.014 () Top-level entities being moved: woocommerce, index.php, wp-file-manager, woocommerce-gateway-stripe
+0016.983 () Cleaning up rubbish...
+0016.991 () restore_backup(backup_file=backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins3.zip, type=plugins, info=a:3:{s:4:"path";s:67:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0016.991 () Unpacking backup... (backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins3.zip, 24.8 MB)
+0016.991 () Unzipping backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins3.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/7d2723e1/ using UpdraftPlus_ZipArchive, starting index 0
+0017.976 () Unzip progress: 1002 out of 1884 files (25.7 MB, plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/tus/class-tus-date-utils.php)
+0018.300 () Unzip progress: 1884 out of 1884 files (40.6 MB, plugins/jetpack/images/recommendations/assistant-server-credentials.png)
+0018.306 () Moving unpacked backup into place...
+0018.748 () Top-level entities being moved: dreamhost-panel-login.php, jetpack, woocommerce-gateway-stripe
+0019.044 () Cleaning up rubbish...
+0019.055 () restore_backup(backup_file=backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins4.zip, type=plugins, info=a:3:{s:4:"path";s:67:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0019.055 () Unpacking backup... (backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins4.zip, 2.8 MB)
+0019.056 () Unzipping backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins4.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/a7e1cced/ using UpdraftPlus_ZipArchive, starting index 0
+0019.757 () Unzip progress: 1002 out of 1100 files (8.1 MB, plugins/autocomplete-woocommerce-orders/readme.txt)
+0019.779 () Unzip progress: 1100 out of 1100 files (8.6 MB, plugins/jetpack/functions.is-mobile.php)
+0019.789 () Moving unpacked backup into place...
+0020.087 () Top-level entities being moved: autocomplete-woocommerce-orders, jetpack
+0020.287 () Cleaning up rubbish...
+0020.306 () Entity: themes
+0020.306 () restore_backup(backup_file=backup_2023-10-26-1008_FundedX_e522bdfb8943-themes.zip, type=themes, info=a:3:{s:4:"path";s:66:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0020.307 () Unpacking backup... (backup_2023-10-26-1008_FundedX_e522bdfb8943-themes.zip, 26 MB)
+0020.307 () Unzipping backup_2023-10-26-1008_FundedX_e522bdfb8943-themes.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/110db7cc/ using UpdraftPlus_ZipArchive, starting index 0
+0022.817 () Unzip progress: 5367 out of 5454 files (4.9 KB, themes/fundedx/img/cash-2-icon.png)
+0022.925 () Unzip progress: 5454 out of 5454 files (25 MB, themes/fundedx/img/think-markets.png)
+0022.949 () Moving old data: filesystem method / updraft_dir is potentially possible
+0022.949 () Moving old data: can potentially use wp_filesystem method / -old
+0022.950 () Moving old data out of the way...
+0030.293 () Top-level entities being moved: .DS_Store, index.php, fundedx
+0030.300 () Moving unpacked backup into place...
+0031.291 () Top-level entities being moved: twentytwentythree, fundedx
+0031.293 () Cleaning up rubbish...
+0031.298 () restore_backup(backup_file=backup_2023-10-26-1008_FundedX_e522bdfb8943-themes2.zip, type=themes, info=a:3:{s:4:"path";s:66:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0031.298 () Unpacking backup... (backup_2023-10-26-1008_FundedX_e522bdfb8943-themes2.zip, 23 MB)
+0031.299 () Unzipping backup_2023-10-26-1008_FundedX_e522bdfb8943-themes2.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/b0316ecf/ using UpdraftPlus_ZipArchive, starting index 0
+0035.481 () Unzip progress: 1002 out of 14719 files (6 MB, themes/fundedx/node_modules/@eslint/eslintrc/node_modules/type-fest/source/package-json.d.ts)
+0035.628 () Unzip progress: 2003 out of 14719 files (10 MB, themes/fundedx/node_modules/@types/node/readline.d.ts)
+0035.763 () Unzip progress: 3004 out of 14719 files (15.5 MB, themes/fundedx/node_modules/@wordpress/postcss-themes/node_modules/postcss/lib/input.js)
+0035.945 () Unzip progress: 4005 out of 14719 files (37.9 MB, themes/fundedx/node_modules/ajv-errors/README.md)
+0036.142 () Unzip progress: 5006 out of 14719 files (65.4 MB, themes/fundedx/node_modules/autoprefixer/lib/hacks/writing-mode.js)
+0036.268 () Unzip progress: 6007 out of 14719 files (67.9 MB, themes/fundedx/node_modules/caniuse-lite/data/features/svg.js)
+0036.396 () Unzip progress: 7008 out of 14719 files (71.6 MB, themes/fundedx/node_modules/class-utils/LICENSE)
+0036.543 () Unzip progress: 8009 out of 14719 files (74.1 MB, themes/fundedx/node_modules/core-js/es/string/virtual/blink.js)
+0036.684 () Unzip progress: 9010 out of 14719 files (74.3 MB, themes/fundedx/node_modules/core-js/full/object/is-extensible.js)
+0036.820 () Unzip progress: 10011 out of 14719 files (74.4 MB, themes/fundedx/node_modules/core-js/modules/esnext.reflect.has-metadata.js)
+0036.941 () Unzip progress: 11012 out of 14719 files (75.2 MB, themes/fundedx/node_modules/core-js-pure/es/array/virtual/fill.js)
+0037.057 () Unzip progress: 12013 out of 14719 files (75.9 MB, themes/fundedx/node_modules/core-js-pure/full/array/group-to-map.js)
+0037.174 () Unzip progress: 13014 out of 14719 files (76.2 MB, themes/fundedx/node_modules/core-js-pure/modules/esnext.math.rad-per-deg.js)
+0037.301 () Unzip progress: 14015 out of 14719 files (79 MB, themes/fundedx/node_modules/css-select/lib/esm/compile.d.ts)
+0037.390 () Unzip progress: 14719 out of 14719 files (80.1 MB, themes/fundedx/node_modules/core-js-pure/proposals/decorators.js)
+0037.407 () Moving unpacked backup into place...
+0039.615 () Top-level entities being moved: fundedx
+0041.748 () Cleaning up rubbish...
+0041.756 () restore_backup(backup_file=backup_2023-10-26-1008_FundedX_e522bdfb8943-themes3.zip, type=themes, info=a:3:{s:4:"path";s:66:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0041.756 () Unpacking backup... (backup_2023-10-26-1008_FundedX_e522bdfb8943-themes3.zip, 24.4 MB)
+0041.757 () Unzipping backup_2023-10-26-1008_FundedX_e522bdfb8943-themes3.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/f4df15ac/ using UpdraftPlus_ZipArchive, starting index 0
+0045.487 () Unzip progress: 1002 out of 14343 files (4.9 MB, themes/fundedx/node_modules/es-abstract/2020/CreateDataPropertyOrThrow.js)
+0045.622 () Unzip progress: 2003 out of 14343 files (7.1 MB, themes/fundedx/node_modules/eslint/lib/rules/handle-callback-err.js)
+0045.787 () Unzip progress: 3004 out of 14343 files (9.9 MB, themes/fundedx/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver.js)
+0045.931 () Unzip progress: 4005 out of 14343 files (14.6 MB, themes/fundedx/node_modules/fs-write-stream-atomic/LICENSE)
+0046.083 () Unzip progress: 5006 out of 14343 files (21.2 MB, themes/fundedx/node_modules/is-string/.eslintrc)
+0046.220 () Unzip progress: 6007 out of 14343 files (25.3 MB, themes/fundedx/node_modules/js-yaml/lib/js-yaml/type/js/function.js)
+0046.386 () Unzip progress: 7008 out of 14343 files (27.9 MB, themes/fundedx/node_modules/lodash/fp/isLength.js)
+0046.524 () Unzip progress: 8009 out of 14343 files (33.9 MB, themes/fundedx/node_modules/lodash.isplainobject/package.json)
+0046.688 () Unzip progress: 9010 out of 14343 files (35.4 MB, themes/fundedx/node_modules/minizlib/node_modules/yallist/README.md)
+0046.909 () Unzip progress: 10011 out of 14343 files (39.8 MB, themes/fundedx/node_modules/opener/README.md)
+0047.171 () Unzip progress: 11012 out of 14343 files (49.3 MB, themes/fundedx/node_modules/postcss-loader/node_modules/parse-json/readme.md)
+0047.367 () Unzip progress: 12013 out of 14343 files (54.2 MB, themes/fundedx/node_modules/react-dom/unstable-fizz.js)
+0047.541 () Unzip progress: 13014 out of 14343 files (64.7 MB, themes/fundedx/node_modules/resolve-cwd/license)
+0047.789 () Unzip progress: 14015 out of 14343 files (68.6 MB, themes/fundedx/node_modules/rx/ts/core/disposables/compositedisposable.ts)
+0047.860 () Unzip progress: 14343 out of 14343 files (74.5 MB, themes/fundedx/node_modules/resolve-dir/package.json)
+0047.889 () Moving unpacked backup into place...
+0050.599 () Top-level entities being moved: fundedx
+0052.967 () Cleaning up rubbish...
+0052.978 () restore_backup(backup_file=backup_2023-10-26-1008_FundedX_e522bdfb8943-themes4.zip, type=themes, info=a:3:{s:4:"path";s:66:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0052.979 () Unpacking backup... (backup_2023-10-26-1008_FundedX_e522bdfb8943-themes4.zip, 17.4 MB)
+0052.979 () Unzipping backup_2023-10-26-1008_FundedX_e522bdfb8943-themes4.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/6f80c5ae/ using UpdraftPlus_ZipArchive, starting index 0
+0055.099 () Unzip progress: 1002 out of 7861 files (10.6 MB, themes/fundedx/node_modules/stylelint/lib/utils/addEmptyLineAfter.js)
+0055.230 () Unzip progress: 2003 out of 7861 files (13.1 MB, themes/fundedx/node_modules/table/node_modules/ajv/dist/compile/codegen/code.js.map)
+0055.385 () Unzip progress: 3004 out of 7861 files (22.8 MB, themes/fundedx/node_modules/tailwindcss/dist/tailwind-dark.css)
+0055.553 () Unzip progress: 4005 out of 7861 files (44.6 MB, themes/fundedx/node_modules/through/readme.markdown)
+0055.703 () Unzip progress: 5006 out of 7861 files (55.5 MB, themes/fundedx/node_modules/wait-on/node_modules/core-js/fn/object/get-own-property-descriptor.js)
+0055.865 () Unzip progress: 6007 out of 7861 files (59.8 MB, themes/fundedx/node_modules/wait-on/node_modules/core-js/modules/es6.reflect.get-own-property-descriptor.js)
+0056.078 () Unzip progress: 7008 out of 7861 files (63.1 MB, themes/fundedx/node_modules/webpack/node_modules/micromatch/CHANGELOG.md)
+0056.289 () Unzip progress: 7861 out of 7861 files (72.4 MB, themes/fundedx/node_modules/which-typed-array/README.md)
+0056.303 () Moving unpacked backup into place...
+0058.096 () Top-level entities being moved: .DS_Store, index.php, twentytwentythree, fundedx
+0059.629 () Cleaning up rubbish...
+0059.641 () Entity: uploads
+0059.641 () restore_backup(backup_file=backup_2023-10-26-1008_FundedX_e522bdfb8943-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:67:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0059.642 () Unpacking backup... (backup_2023-10-26-1008_FundedX_e522bdfb8943-uploads.zip, 25.3 MB)
+0059.642 () Unzipping backup_2023-10-26-1008_FundedX_e522bdfb8943-uploads.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/917c15be/ using UpdraftPlus_ZipArchive, starting index 0
+0059.933 () Unzip progress: 249 out of 249 files (25.3 MB, uploads/2023/01/portrait.jpeg)
+0059.940 () Moving old data: filesystem method / updraft_dir is potentially possible
+0059.940 () Moving old data: can potentially use wp_filesystem method / -old
+0059.940 () Moving old data out of the way...
+0060.107 () Moving unpacked backup into place...
+0060.191 () Cleaning up rubbish...
+0060.205 () restore_backup(backup_file=backup_2023-10-26-1008_FundedX_e522bdfb8943-uploads2.zip, type=uploads, info=a:2:{s:4:"path";s:67:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0060.206 () Unpacking backup... (backup_2023-10-26-1008_FundedX_e522bdfb8943-uploads2.zip, 2.6 MB)
+0060.206 () Unzipping backup_2023-10-26-1008_FundedX_e522bdfb8943-uploads2.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/d9b18e46/ using UpdraftPlus_ZipArchive, starting index 0
+0060.315 () Unzip progress: 81 out of 81 files (6.2 MB, uploads/2023/10/Our-Mission-BG-with-logo-mobile-1-554x1536.png)
+0060.320 () Moving unpacked backup into place...
+0060.375 () Cleaning up rubbish...
+0060.391 () Entity: others
+0060.391 () restore_backup(backup_file=backup_2023-10-26-1008_FundedX_e522bdfb8943-others.zip, type=others, info=a:2:{s:4:"path";s:59:"/Users/akramtello/Local Sites/fundedn/app/public/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0060.391 () Unpacking backup... (backup_2023-10-26-1008_FundedX_e522bdfb8943-others.zip, 8.3 MB)
+0060.391 () Unzipping backup_2023-10-26-1008_FundedX_e522bdfb8943-others.zip to /Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/329735fa/ using UpdraftPlus_ZipArchive, starting index 0
+0061.390 () Unzip progress: 1002 out of 1154 files (24.5 MB, languages/plugins/svg-support-es_ES.po)
+0061.458 () Unzip progress: 1154 out of 1154 files (28.8 MB, languages/de_DE.po)
+0061.469 () Cleaning up rubbish...
+0061.470 () PHP event: code E_WARNING: rmdir(/Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/329735fa): Directory not empty (line 386, wp-admin/includes/class-wp-filesystem-direct.php)
+0061.470 () Error: Failed to delete working directory after restoring. (/Users/akramtello/Local Sites/fundedn/app/public/wp-content/upgrade/329735fa)
+0061.578 () Restore successful!
+0061.579 () Restore successful

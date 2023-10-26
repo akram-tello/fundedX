@@ -1,0 +1,40 @@
+2023-10-17T08:17:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "redirect_shop_page" not found or invalid function name in /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/template-loader.php(13): do_action('template_redire...')
+#3 /Users/akramtello/Local Sites/fundedn/app/public/wp-blog-header.php(19): require_once('/Users/akramtel...')
+#4 /Users/akramtello/Local Sites/fundedn/app/public/index.php(17): require('/Users/akramtel...')
+#5 {main}
+  thrown in /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/class-wp-hook.php on line 310
+
+2023-10-17T08:17:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "redirect_shop_page" not found or invalid function name in /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/template-loader.php(13): do_action('template_redire...')
+#3 /Users/akramtello/Local Sites/fundedn/app/public/wp-blog-header.php(19): require_once('/Users/akramtel...')
+#4 /Users/akramtello/Local Sites/fundedn/app/public/index.php(17): require('/Users/akramtel...')
+#5 {main}
+  thrown in /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/class-wp-hook.php on line 310
+
+2023-10-17T08:18:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "redirect_shop_page" not found or invalid function name in /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/template-loader.php(13): do_action('template_redire...')
+#3 /Users/akramtello/Local Sites/fundedn/app/public/wp-blog-header.php(19): require_once('/Users/akramtel...')
+#4 /Users/akramtello/Local Sites/fundedn/app/public/index.php(17): require('/Users/akramtel...')
+#5 {main}
+  thrown in /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/class-wp-hook.php on line 310
+
+2023-10-17T08:18:18+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "redirect_shop_page" not found or invalid function name in /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/template-loader.php(13): do_action('template_redire...')
+#3 /Users/akramtello/Local Sites/fundedn/app/public/wp-blog-header.php(19): require_once('/Users/akramtel...')
+#4 /Users/akramtello/Local Sites/fundedn/app/public/index.php(17): require('/Users/akramtel...')
+#5 {main}
+  thrown in /Users/akramtello/Local Sites/fundedn/app/public/wp-includes/class-wp-hook.php on line 310
+

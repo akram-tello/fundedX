@@ -1,0 +1,111 @@
+.module--how-it-works {
+    &:before {
+        content: '';
+        background-image: url('img/home-bg-min.png');
+        background-size: cover;
+        background-position: top;
+        position: absolute;
+        height: 3300px;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        filter: grayscale(100%);
+    }
+}
+.box-list {
+    flex: 0 0 33%;
+    margin:-1.5rem;
+
+    &:nth-child(2) {
+        svg {
+            g#Box-7 {
+                stroke: #858585;
+            }
+        }
+        h2 {
+            @apply text-[#646464];
+        }
+    }
+
+    &:last-child {
+        svg {
+            g#Box-7 {
+                stroke: #cacaca;
+            }
+        }
+        h2 {
+            @apply text-[#CACACA];
+        }
+    }
+}
+
+.box-content {
+    @apply text-right top-1/2 -translate-y-1/2 h-auto max-w-180px;
+    left: initial;
+    right: 26%;
+
+    h2 {
+        @apply text-54px;
+    }
+    h4 {
+        @apply text-25px font-medium;
+    }
+    p {
+        @apply text-14px;
+    }
+}
+
+.module--how-it-works .slick-prev:before,
+.module--how-it-works .slick-next:before {
+    display: none !important;
+}
+
+.slick-dots li button:before {
+    font-size: 18px; 
+    border: 2px solid #ddd; 
+    border-radius: 50%; 
+    padding-inline: 5px; 
+    opacity: 1; 
+    color: transparent; 
+}
+
+.slick-dots li.slick-active button:before {
+    color: #000;
+    line-height: 18px;
+    padding: 0px;
+}
+
+@media (max-width: 767px) {
+    .module--title {
+        font-size: 28px;
+    }
+    
+    .box-content {
+
+        h4 {
+            @apply text-20px;
+        }
+    }
+
+    .module--how-it-works{
+        padding-top: 0px !important;
+    }
+
+    .box-list{
+        flex: 0 0 100%;
+        margin: -10px;
+    }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 300px)  {
+    .box-list{
+        flex: 0 0 100%;
+        margin: -10px;
+    }
+
+    .box-content{
+        right: 15%;
+    }
+}
+

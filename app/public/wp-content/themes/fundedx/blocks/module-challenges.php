@@ -12,11 +12,10 @@
 .centered-text {
     position: absolute;
     left: 50%;
-    top: 50%;
     transform: translate(-65%, -10%);
     z-index: 1000;
     margin-top: 1rem;
-    padding-top: 1rem;
+    padding-top: 93px;
     padding-bottom: 6px;
     font-size: 12px;
     font-weight: 500;
@@ -294,5 +293,3 @@ collapsibleIcons.forEach(icon => {
 });
 
 </script>
-
-

@@ -1,0 +1,74 @@
+.module--article {
+    @apply py-40px md:py-80px relative;
+
+    .bg {
+        @apply absolute top-0 left-0 w-full h-full object-cover;
+        filter: grayscale(100%);
+    }
+
+    .wrapper {
+        @apply relative z-[1];
+    }
+
+    .article-card {
+        @apply  p-[3rem] rounded-[10px];
+        padding-inline: 6rem;
+        background-color: #ffffff59;
+    }
+
+    .module--title {
+        @apply text-center text-[48px] leading-none tracking-[2.4px] capitalize;
+    }
+
+    .article-list {
+        .article-list__item {
+            @apply list-decimal list-inside;
+            margin-block: 1.5rem;
+            padding: 0 2rem;
+
+            .article-text {
+                @apply text-[14px] leading-none tracking-[0px] text-left;
+            }
+        }
+    }
+
+    .additional-text-before{
+        padding-top: 3rem;
+        text-align: justify;
+    }
+
+    .additional-text-after{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        text-align: justify;
+    }
+
+    .text-article-content p {
+        margin-inline: 3rem;
+        text-align: justify;
+    }
+    .text-article-content ol li {
+        list-style: decimal;   
+        padding-inline: 0;
+    }
+
+    @media (max-width: 767px) {
+
+        .article-card {
+            padding-top: 1rem !important;
+        }
+
+        .article-card {
+            padding: 0;
+            padding-inline: 0;
+        }
+        .additional-text-after, .additional-text-before {
+            padding-top:1rem;
+            padding-inline: 2rem;
+        }
+
+        .text-article-content p {
+            text-align: left
+        }
+    }
+}

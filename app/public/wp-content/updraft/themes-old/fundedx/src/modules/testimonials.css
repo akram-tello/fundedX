@@ -1,0 +1,100 @@
+.client-feedback-area {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.client-feedback-area .owl-stage-outer {
+    right: -50px;
+}
+@media only screen and (max-width: 767px) {
+    .client-feedback-area .owl-stage-outer {
+        right: 0;
+    }
+}
+.client-feedback-area .client-shape {
+    position: absolute !important;
+    top: -1px;
+    left: -1px;
+    z-index: -1;
+}
+
+.client-feedback-heading {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
+    width: 30%;
+    padding-right: 50px;
+    align-items: center;
+}
+@media only screen and (max-width: 767px) {
+    .client-feedback-heading {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 50px;
+        padding: 0;
+        justify-content: center;
+    }
+    .testimonial-arrows{
+        text-align: center !important;
+    }
+}
+.client-feedback-heading .pandai-usp {
+    max-width: 400px;
+    margin-left: auto;
+}
+
+.client-feedback-content {
+    position: relative;
+    z-index: 1;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 70%;
+    flex: 0 0 70%;
+    max-width: 70%;
+    width: 70%;
+}
+@media only screen and (max-width: 767px) {
+    .client-feedback-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+    .owl-carousel .owl-item{
+        padding: 8px !important; 
+    }
+}
+.feedback-card {
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    border: 1px solid #cacaca !important;
+    box-shadow: none !important;
+    height: 275px !important;
+}
+
+.p-0{
+    padding: 0 !important;
+}
+
+.feedback-card p {
+    font-size: 18px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .feedback-card p {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .feedback-card p {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,12 @@
+0000.039 (R) [notice] Looking for db archive: file name: backup_2023-10-26-1008_FundedX_e522bdfb8943-db.gz
+0000.040 (R) [notice] Archive is expected to be size: 1366.3 KB: OK
+0000.040 (R) [notice] Looking for plugins archive: file name: backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins.zip
+0000.040 (R) [notice] Archive is expected to be size: 26368.7 KB: OK
+0000.040 (R) [notice] Looking for plugins archive: file name: backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins2.zip
+0000.041 (R) [notice] Archive is expected to be size: 23353.3 KB: OK
+0000.041 (R) [notice] Looking for plugins archive: file name: backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins3.zip
+0000.041 (R) [notice] Archive is expected to be size: 25433.9 KB: OK
+0000.041 (R) [notice] Looking for plugins archive: file name: backup_2023-10-26-1008_FundedX_e522bdfb8943-plugins4.zip
+0000.041 (R) [notice] Archive is expected to be size: 2848 KB: OK
+0000.043 (R) [warning] Error: Existing unremoved folders from a previous restore exist (please use the "Delete old folders" button to delete them before trying again): /Users/akramtello/Local Sites/fundedn/app/public/wp-content/updraft/plugins-old
+0000.045 (R) [notice] Restore failed...

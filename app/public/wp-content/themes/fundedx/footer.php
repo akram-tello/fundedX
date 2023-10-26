@@ -22,6 +22,11 @@
 
   if ($hide_top_footer !== true):
 ?>
+
+<?php
+if ( ! is_checkout() ) :  // Check if it's not the checkout page
+?>
+
 <section id="top-footer" class="footer footer--top">
   
   <div class="wrapper">
@@ -74,7 +79,13 @@
 
 
 <?php endif; ?>
+<?php
+endif;
+?>
 
+<?php
+if ( ! is_checkout() ) :  // Check if it's not the checkout page
+?>
 <footer id="colophon" class="site-footer" style="background: black">
 		<div class="footer-main">
 			<div class="wrapper- text-white">
@@ -190,6 +201,10 @@
         </ul>
     </div>
 </div>
+
+<?php
+endif;
+?>
 
 <script>
  document.addEventListener('DOMContentLoaded', () => {

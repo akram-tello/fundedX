@@ -192,9 +192,13 @@ function redirect_shop_page(){
   }
 
    // Redirect Single Product Pages
-   if (is_product()) {
-    wp_safe_redirect(home_url('/#take-the-challenge')); // Redirects to specified URL
-    exit();
+    if (is_product()) {
+        wp_safe_redirect(home_url('/#take-the-challenge')); // Redirects to specified URL
+        exit();
     }
-
 }
+
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+   add_theme_support( 'woocommerce' );
+}   

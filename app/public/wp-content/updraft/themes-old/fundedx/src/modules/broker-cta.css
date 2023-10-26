@@ -1,0 +1,114 @@
+.partner-logo {
+    a {
+        max-width: 133px;
+        display: block;
+        margin-bottom: 10px;
+        /* transition: all .3s ease-in-out; */
+        /* transform: scale(1); */
+
+        /* &:hover {
+            transform: scale(1.05);
+        } */
+    }
+}
+
+.module-broker-title {
+    max-width: 14.375rem;
+    padding-left: 1rem;
+
+    img {
+        max-width: 218px;
+        margin: 15px 0;
+    }
+
+    h2{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    p {
+        color: #141414;
+        margin-bottom: 0;
+        font-size: 1rem;
+        font-weight: 600;
+
+        &.small {
+            font-weight: normal;
+            font-size: 1rem;
+            color: #212930;
+        }
+    }
+}
+
+.partner-logo {
+    a {
+        max-width: 8.3125rem;
+        display: block;
+        margin-bottom: 0.625rem;
+        /* transition: all .3s ease-in-out; */
+        /* transform: scale(1); */
+
+        /* &:hover {
+            transform: scale(1.05);
+        } */
+    }
+}
+
+@media (max-width: 767px) {
+
+    .module--broker-content {
+        flex-direction: column;
+        margin-top: 24rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bracket-center {
+        display: none;
+    }
+
+    .module-broker-title {
+        max-width: 100%;
+        padding-left: 0rem;
+
+        h2{
+            font-size: 28px;
+        }
+
+        img {
+            margin: auto;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            text-align: center;
+
+            &.small {
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    .partner-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        a {
+            margin-bottom: 10px !important;
+            max-width: 100%;
+        }
+    }
+}
+
+@media (min-width: 641px) {
+    .module--broker-content {
+        flex-direction: row;
+    }
+
+    .partner-logo a {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}

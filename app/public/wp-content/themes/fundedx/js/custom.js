@@ -182,6 +182,9 @@ $('.card--carousel')
         ]
     });
  
+    if (window.location.pathname === '/') {
+
+        console.log('home page');
 // update progress bar
 $('.card--carousel').on('afterChange', (event, slick, currentSlide) => {
     updateProgressBar(slick, currentSlide);
@@ -237,7 +240,6 @@ const updateProgressBar = (slick, currentSlide) => {
 
 updateProgressBar($('.card--carousel').slick('getSlick'), $('.card--carousel').slick('slickCurrentSlide'));
 
-
+    }
 
 })();
-

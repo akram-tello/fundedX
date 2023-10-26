@@ -1,0 +1,71 @@
+.btn {
+    @apply inline-block py-15px px-30px transition font-semibold text-16px uppercase text-white;
+    border-radius: 5px;
+
+    &:hover {
+        @apply text-white;
+    }
+
+    svg {
+        @apply inline-block ml-5px;
+    }
+
+    &--primary {
+        @apply bg-primary; 
+
+        &:hover {
+            @apply bg-gray;
+        }
+    }
+
+    &--gray {
+        @apply bg-gray;
+
+        &:hover {
+            @apply bg-darkgray;
+        }
+    }
+
+    &--light {
+        @apply bg-lightgray text-primary;
+
+        svg {
+            path {
+                fill: #141414;
+            }
+        }
+
+        &:hover {
+            @apply bg-gray;
+
+            svg {
+                path {
+                    fill: white;
+                }
+            }
+        }
+    }
+}
+
+
+.main-btn{
+    background: #141414 0% 0% no-repeat padding-box; 
+    color: #ffff;
+    border-radius: 5px;
+
+    &:hover {
+        background: #858585 0% 0% no-repeat padding-box;
+        color: #ffff;
+    }
+}
+
+.secondary-btn{
+    background: #858585 0% 0% no-repeat padding-box;
+    color: #ffff;
+    border-radius: 5px;
+
+    &:hover {
+        background: #4B4A4A 0% 0% no-repeat padding-box;
+        color: #ffff;
+    }
+}

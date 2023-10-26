@@ -1,0 +1,53 @@
+/* Converted to Tailwind CSS */
+.site-header {
+    @apply sticky top-0 left-0 w-full bg-white z-50;
+}
+
+.header-main {
+    @apply flex flex-wrap justify-between items-center py-1;
+}
+
+.header-logo img {
+    @apply max-w-[100px] md:max-w-[200px];
+}
+
+.sticky-header {
+    @apply fixed top-0 left-0 w-full z-50;
+    transition: all 0.4s ease-in-out;
+}
+
+.custom-tooltip {
+    @apply min-w-[max-content] top-[3.2em] left-[-1em];
+}
+
+.tooltip-inner {
+    padding: 0.5em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.tooltip-inner::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid white;
+    transform: translate(150%, -100%);
+    content: '';
+}
+
+.news-tab {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+}
+

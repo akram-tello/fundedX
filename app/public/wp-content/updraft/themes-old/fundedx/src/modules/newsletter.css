@@ -1,0 +1,11 @@
+.module--newsletter {
+    @apply py-40px md:py-80px relative;
+
+    .bg {
+        @apply absolute top-0 left-0 w-full h-full object-cover;
+    }
+
+    .wrapper {
+        @apply relative z-[1];
+    }
+}
